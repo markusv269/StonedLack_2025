@@ -1,0 +1,9 @@
+streamlit
+matplotlib
+pandas
+seaborn
+pyarrow
+sleeper-api-wrapper
+graphviz
+feedparser
+st-link-analysis
