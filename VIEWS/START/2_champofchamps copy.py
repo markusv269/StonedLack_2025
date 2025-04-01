@@ -46,8 +46,11 @@ for pos in ['QB', 'RB', 'WR', 'TE']:
     df_wc_teams[f"{pos}_Points"] = df_wc_teams[pos].map(lambda x: player_name_to_id.get(x, {}).get('points', 0))
 
 df_wc_teams['Wildcard Points'] = df_wc_teams[[f"{pos}_Points" for pos in ['QB', 'RB', 'WR', 'TE']]].sum(axis=1)
-
-st.dataframe(df_wc_teams[['Tipper', 'Wildcard Points', 'Valid_Tip']].sort_values(by=['Wildcard Points'], ascending=[False]), hide_index=True)
+st.write("## Wild Card Weekend")
+st.write("### Tippbild")
+st.image("Pictures/2024/CoC/WC.jfif", width=500)
+st.write("### Tippergebnisse")
+st.dataframe(df_wc_teams[['Tipper', 'Wildcard Points']].sort_values(by=['Wildcard Points'], ascending=[False]), hide_index=True)
 
 
 # Umkehr-Mapping von Namen zu Spieler-IDs
@@ -89,7 +92,23 @@ for pos in ['QB', 'RB', 'WR', 'TE']:
 
 df_dr_teams['Divisional Points'] = df_dr_teams[[f"{pos}_Points" for pos in ['QB', 'RB', 'WR', 'TE']]].sum(axis=1)
 
-st.dataframe(df_dr_teams[['Tipper', 'Divisional Points', 'Valid_Tip']].sort_values(by=['Divisional Points'], ascending=[False]), hide_index=True)
+
+st.write("## Divisional Round")
+st.write("### Tippbild")
+st.image("Pictures/2024/CoC/DR.png", width=500)
+st.write("### Tippergebnisse")
+st.dataframe(df_dr_teams[['Tipper', 'Divisional Points']].sort_values(by=['Divisional Points'], ascending=[False]), hide_index=True)
+
+st.write("## Conference Finals")
+st.write("### Tippbild")
+st.image("Pictures/2024/CoC/CC.jfif", width=500)
+
+st.write("## Super Bowl LIX")
+st.write("### Tippbild")
+st.image("Pictures/2024/CoC/SB.jfif", width=500)
+
+st.write("## Gesamtergebnis (noch nicht vollständig)")
+
 
 df_teams_total = df_dr_teams[["Tipper", "Divisional Points"]].merge(df_wc_teams[["Tipper", "Wildcard Points"]], on="Tipper")
 df_teams_total["Total"] = df_teams_total["Wildcard Points"] + df_teams_total["Divisional Points"]
