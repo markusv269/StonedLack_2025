@@ -35,14 +35,15 @@ for league_id in league_ids:
         draft_data = draft.get_specific_draft()
         status = draft_data["status"]
         draft_season = draft_data["season"]
-        if status == "complete" and draft_season == nfl_season:
-            all_picks = draft.get_all_picks()
+        # if status == "complete" and draft_season == nfl_season:
+        if draft_season == nfl_season:
+            # all_picks = draft.get_all_picks()
             
             # JSON-Dateien speichern
             os.makedirs(drafts_dir.format(nfl_season), exist_ok=True)
             with open(f"{drafts_dir.format(nfl_season)}/{draft_id}.json", "w", encoding="utf-8") as draft_file:
                 json.dump(draft_data, draft_file, indent=4)
 
-            os.makedirs(picks_dir.format(nfl_season), exist_ok=True)
-            with open(f"{picks_dir.format(nfl_season)}/{draft_id}.json", "w", encoding="utf-8") as pick_file:
-                json.dump(all_picks, pick_file, indent=4)
+            # os.makedirs(picks_dir.format(nfl_season), exist_ok=True)
+            # with open(f"{picks_dir.format(nfl_season)}/{draft_id}.json", "w", encoding="utf-8") as pick_file:
+            #     json.dump(all_picks, pick_file, indent=4)
