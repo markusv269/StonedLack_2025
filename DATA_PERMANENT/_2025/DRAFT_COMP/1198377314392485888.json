@@ -1,0 +1,73 @@
+{
+    "created": 1740077925815,
+    "creators": [
+        "979461434767654912",
+        "1130163665224830976"
+    ],
+    "draft_id": "1198377314392485888",
+    "draft_order": {
+        "1090777376264441856": 9,
+        "1129655183757299712": 12,
+        "1130163665224830976": 2,
+        "1178500282260856832": 4,
+        "572175676813488128": 3,
+        "810531997922504704": 8,
+        "873296312697774080": 11,
+        "918634755867009024": 1,
+        "977746984348012544": 5,
+        "979461434767654912": 7,
+        "979721317920407552": 10,
+        "989544359940902912": 6
+    },
+    "last_message_id": "1198377314392485888",
+    "last_message_time": 1740077925815,
+    "last_picked": 1740239530457,
+    "league_id": "1198377313197117440",
+    "metadata": {
+        "description": "",
+        "name": "Stoned Lack Dynasty 31",
+        "scoring_type": "dynasty_ppr"
+    },
+    "season": "2025",
+    "season_type": "regular",
+    "settings": {
+        "alpha_sort": 0,
+        "autopause_enabled": 1,
+        "autopause_end_time": 360,
+        "autopause_start_time": 1260,
+        "autostart": 0,
+        "cpu_autopick": 1,
+        "enforce_position_limits": 1,
+        "nomination_timer": 60,
+        "pick_timer": 28800,
+        "player_type": 2,
+        "reversal_round": 0,
+        "rounds": 29,
+        "slots_bn": 15,
+        "slots_flex": 3,
+        "slots_k": 1,
+        "slots_qb": 1,
+        "slots_rb": 2,
+        "slots_te": 1,
+        "slots_wr": 2,
+        "teams": 12
+    },
+    "slot_to_roster_id": {
+        "1": 4,
+        "10": 1,
+        "11": 6,
+        "12": 9,
+        "2": 2,
+        "3": 8,
+        "4": 5,
+        "5": 12,
+        "6": 7,
+        "7": 3,
+        "8": 11,
+        "9": 10
+    },
+    "sport": "nfl",
+    "start_time": 1746201600000,
+    "status": "pre_draft",
+    "type": "snake"
+}
