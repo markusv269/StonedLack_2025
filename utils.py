@@ -116,6 +116,8 @@ def display_drafts(league_ids):
                 st.write("Draft-URL")
             with col4:
                 st.write(f"https://sleeper.com/draft/nfl/{draft_id}")
+            
+            st.components.v1.iframe(f"https://sleeper.com/draft/nfl/{draft_id}", width=800, height=600)
 
             with st.expander("Draftdetails anzeigen"):
                 col5, col6 = st.columns([1, 4])
