@@ -113,6 +113,21 @@ loser_graph = build_bracket_graph(loser_bracket_data, league_id, matchups_df)
 winner_graph.graph_attr.update({'rankdir': 'LR'})
 loser_graph.graph_attr.update({'rankdir': 'LR'})
 st.title("Playoff Picture")
+st.write(
+    '''
+Das Playoff-Picture liest sich recht intuitiv. 
+Gewinner (mehr Punkte im Matchup) kommen in die nächste Runde und spielen weiter um die Championship.
+Verlierer scheiden aus dem Rennen um den Titel aus und spielen maximal noch Platzierungsspiele.
+'''
+)
 st.graphviz_chart(winner_graph)
 st.title("Toilet Bowl")
+st.write(
+    '''
+Das Toiletbowl-Picture lässt sich eigentlich genauso lesen wie das Playoff-Picture.
+Der Unterschied ist, dass der 'Winner', der in die nächste Runde einzieht, der/diejenige ist, der weniger Punkte im Matchup erzielt.
+Schließlich geht es um den Toilet Bowl (Platz 1 im Toilet Bowl gleicht Platz 12 in der Liga, Platz 2 im Toilet Bowl Platz 11 in der Liga usw.). 
+Spiel um Platz 1 ist also das Spiel um den letzten Platz, wobei der mit weniger Punkten den Toilet Bowl gewinnt (letzter Platz der Saison).
+Spiel um Platz 5 im Toilet Bowl ist bspw. das Spiel um Platz 8 in der Liga (weniger Punkte: 8. Platz in der Liga, Team mit mehr Punkten wird 7. in der Liga)'''
+)
 st.graphviz_chart(loser_graph)
