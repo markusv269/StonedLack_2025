@@ -4,7 +4,7 @@ import numpy as np
 import streamlit as st
 
 def load_matchups():
-    matchups = pd.read_parquet('DATA_PERMANENT/_2024/MATCHUPS/matchups.parquet', engine='pyarrow')
+    matchups = pd.read_parquet('DATA/_2024/MATCHUPS/matchups.parquet', engine='pyarrow')
     matchups['starters'] = matchups['starters'].apply(lambda x: x.tolist() if isinstance(x, np.ndarray) else x)
     matchups['players'] = matchups['players'].apply(lambda x: x.tolist() if isinstance(x, np.ndarray) else x)
     matchups['bench'] = matchups.apply(lambda row: [p for p in row['players'] if p not in row['starters']], axis=1)
@@ -12,7 +12,7 @@ def load_matchups():
     return matchups
 
 def load_rosters():
-    rosters = pd.read_parquet('DATA_PERMANENT/_2024/ROSTERS/rosters.parquet', engine='pyarrow')
+    rosters = pd.read_parquet('DATA/_2024/ROSTERS/rosters.parquet', engine='pyarrow')
     settings = rosters['settings'].apply(pd.Series)
     rosters = rosters.drop(columns=['settings']).join(settings)
     rosters['fpts'] = round(rosters['fpts'] + rosters['fpts_decimal'] / 100,2)
@@ -22,11 +22,11 @@ def load_rosters():
     return rosters
 
 def load_users():
-    users = pd.read_parquet('data_changeable/users.parquet', engine='pyarrow')
+    users = pd.read_parquet('DATA/sleeper_user/users.parquet', engine='pyarrow')
     return users
 
 def load_players():
-    players = pd.read_json('data_changeable/players.json')
+    players = pd.read_json('DATA/nfl_player/players.json')
     players = players.T.reset_index(drop=True)
     players["full_name"] = players["full_name"].fillna(players["last_name"])
     player_dict = players.set_index("player_id")["full_name"].to_dict()
