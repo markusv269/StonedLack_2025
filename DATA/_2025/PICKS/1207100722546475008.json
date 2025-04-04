@@ -3274,5 +3274,83 @@
         "reactions": null,
         "roster_id": 9,
         "round": 11
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cedric",
+            "injury_status": "",
+            "last_name": "Tillman",
+            "news_updated": "1735668624669",
+            "number": "19",
+            "player_id": "10444",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 127,
+        "picked_by": "1172543741350166528",
+        "player_id": "10444",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 11
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Wan'Dale",
+            "injury_status": "",
+            "last_name": "Robinson",
+            "news_updated": "1736167207229",
+            "number": "17",
+            "player_id": "8126",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 128,
+        "picked_by": "902310121592586240",
+        "player_id": "8126",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 11
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Evan",
+            "injury_status": "",
+            "last_name": "Engram",
+            "news_updated": "1743568818249",
+            "number": "1",
+            "player_id": "4066",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 129,
+        "picked_by": "1130163665224830976",
+        "player_id": "4066",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 11
     }
 ]
