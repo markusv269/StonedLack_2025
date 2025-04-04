@@ -2988,5 +2988,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 10
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Rico",
+            "injury_status": "",
+            "last_name": "Dowdle",
+            "news_updated": "1741823115902",
+            "number": "23",
+            "player_id": "7021",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 116,
+        "picked_by": "430760855328526336",
+        "player_id": "7021",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 10
     }
 ]
