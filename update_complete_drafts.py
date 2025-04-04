@@ -7,10 +7,10 @@ from config import REDLEAGUES, DYNLEAGUES
 
 league_ids = REDLEAGUES + DYNLEAGUES
 
-drafts_dir = "DATA_PERMANENT/_{}/DRAFT_COMP"
-# matchup_dir = "DATA_PERMANENT/_{}/MATCHUPS/{}"
-picks_dir = "DATA_PERMANENT/_{}/PICKS"
-# roster_dir = "DATA_PERMANENT/_{}/ROSTERS/{}"
+drafts_dir = "DATA/_{}/DRAFT_COMP"
+# matchup_dir = "DATA/_{}/MATCHUPS/{}"
+picks_dir = "DATA/_{}/PICKS"
+# roster_dir = "DATA/_{}/ROSTERS/{}"
 
 # get NFL-State
 state_url = "https://api.sleeper.app/v1/state/nfl"
@@ -35,10 +35,7 @@ for league_id in league_ids:
         draft_data = draft.get_specific_draft()
         status = draft_data["status"]
         draft_season = draft_data["season"]
-        if status == "complete" and draft_season == nfl_season:
-        # if draft_season == nfl_season:
-            # all_picks = draft.get_all_picks()
-            
+        if draft_season == nfl_season:
             # JSON-Dateien speichern
             os.makedirs(drafts_dir.format(nfl_season), exist_ok=True)
             with open(f"{drafts_dir.format(nfl_season)}/{draft_id}.json", "w", encoding="utf-8") as draft_file:
@@ -47,3 +44,4 @@ for league_id in league_ids:
             os.makedirs(picks_dir.format(nfl_season), exist_ok=True)
             with open(f"{picks_dir.format(nfl_season)}/{draft_id}.json", "w", encoding="utf-8") as pick_file:
                 json.dump(all_picks, pick_file, indent=4)
+        
