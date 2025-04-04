@@ -3352,5 +3352,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 11
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Anthony",
+            "injury_status": "",
+            "last_name": "Richardson",
+            "news_updated": "1743484534559",
+            "number": "5",
+            "player_id": "9229",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 130,
+        "picked_by": "1127245381764501504",
+        "player_id": "9229",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 11
     }
 ]
