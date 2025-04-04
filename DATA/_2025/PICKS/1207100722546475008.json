@@ -3170,5 +3170,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 11
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyler",
+            "injury_status": "",
+            "last_name": "Allgeier",
+            "news_updated": "1736126140931",
+            "number": "25",
+            "player_id": "8132",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 123,
+        "picked_by": "1205981976327114752",
+        "player_id": "8132",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 11
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Quentin",
+            "injury_status": "",
+            "last_name": "Johnston",
+            "news_updated": "1736648152137",
+            "number": "1",
+            "player_id": "9754",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 124,
+        "picked_by": "1106948236515962880",
+        "player_id": "9754",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 11
     }
 ]
