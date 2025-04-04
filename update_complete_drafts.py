@@ -42,7 +42,7 @@ for league_id in league_ids:
                 json.dump(draft_data, draft_file, indent=4)
 
             all_picks = draft.get_all_picks()
-            if all_picks:
+            if all_picks is not None:
                 os.makedirs(picks_dir.format(nfl_season), exist_ok=True)
                 with open(f"{picks_dir.format(nfl_season)}/{draft_id}.json", "w", encoding="utf-8") as pick_file:
                     json.dump(all_picks, pick_file, indent=4)
