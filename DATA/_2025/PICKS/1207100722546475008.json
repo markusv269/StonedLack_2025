@@ -3222,5 +3222,31 @@
         "reactions": null,
         "roster_id": 6,
         "round": 11
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ja'Tavion",
+            "injury_status": "",
+            "last_name": "Sanders",
+            "news_updated": "1736122240301",
+            "number": "0",
+            "player_id": "11600",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 125,
+        "picked_by": "430760855328526336",
+        "player_id": "11600",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 11
     }
 ]
