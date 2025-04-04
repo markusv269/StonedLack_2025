@@ -3378,5 +3378,83 @@
         "reactions": null,
         "roster_id": 8,
         "round": 11
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Christian",
+            "injury_status": "",
+            "last_name": "Kirk",
+            "news_updated": "1742822454731",
+            "number": "13",
+            "player_id": "4950",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 131,
+        "picked_by": "740271047152128000",
+        "player_id": "4950",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 11
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Sam",
+            "injury_status": "",
+            "last_name": "Darnold",
+            "news_updated": "1742183757463",
+            "number": "14",
+            "player_id": "4943",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 132,
+        "picked_by": "1002304558338502656",
+        "player_id": "4943",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 11
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jonathon",
+            "injury_status": "",
+            "last_name": "Brooks",
+            "news_updated": "1739418309730",
+            "number": "24",
+            "player_id": "11583",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 133,
+        "picked_by": "1002304558338502656",
+        "player_id": "11583",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 12
     }
 ]
