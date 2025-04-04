@@ -3456,5 +3456,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 12
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tucker",
+            "injury_status": "",
+            "last_name": "Kraft",
+            "news_updated": "1736734858045",
+            "number": "85",
+            "player_id": "9484",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 134,
+        "picked_by": "740271047152128000",
+        "player_id": "9484",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 12
     }
 ]
