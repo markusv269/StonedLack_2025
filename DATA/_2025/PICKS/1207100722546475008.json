@@ -3482,5 +3482,83 @@
         "reactions": null,
         "roster_id": 2,
         "round": 12
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Hollywood",
+            "injury_status": "",
+            "last_name": "Brown",
+            "news_updated": "1742927154371",
+            "number": "5",
+            "player_id": "5848",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 135,
+        "picked_by": "1127245381764501504",
+        "player_id": "5848",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 12
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tua",
+            "injury_status": "",
+            "last_name": "Tagovailoa",
+            "news_updated": "1736286310979",
+            "number": "1",
+            "player_id": "6768",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 136,
+        "picked_by": "1130163665224830976",
+        "player_id": "6768",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 12
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaylen",
+            "injury_status": "",
+            "last_name": "Wright",
+            "news_updated": "1736361317328",
+            "number": "25",
+            "player_id": "11643",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 137,
+        "picked_by": "902310121592586240",
+        "player_id": "11643",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 12
     }
 ]
