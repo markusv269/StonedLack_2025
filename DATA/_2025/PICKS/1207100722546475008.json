@@ -3846,5 +3846,83 @@
         "reactions": null,
         "roster_id": 6,
         "round": 13
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jordan",
+            "injury_status": "",
+            "last_name": "Whittington",
+            "news_updated": "1737407405521",
+            "number": "88",
+            "player_id": "11623",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 149,
+        "picked_by": "430760855328526336",
+        "player_id": "11623",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 13
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dontayvion",
+            "injury_status": "",
+            "last_name": "Wicks",
+            "news_updated": "1736734558070",
+            "number": "13",
+            "player_id": "9486",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 150,
+        "picked_by": "1125118563532058624",
+        "player_id": "9486",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 13
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brenton",
+            "injury_status": "",
+            "last_name": "Strange",
+            "news_updated": "1740554719881",
+            "number": "85",
+            "player_id": "9480",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 151,
+        "picked_by": "1172543741350166528",
+        "player_id": "9480",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 13
     }
 ]
