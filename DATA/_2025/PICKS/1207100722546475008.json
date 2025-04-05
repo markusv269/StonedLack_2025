@@ -3924,5 +3924,57 @@
         "reactions": null,
         "roster_id": 11,
         "round": 13
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ja'Lynn",
+            "injury_status": "",
+            "last_name": "Polk",
+            "news_updated": "1743485734503",
+            "number": "1",
+            "player_id": "11619",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 152,
+        "picked_by": "902310121592586240",
+        "player_id": "11619",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 13
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cole",
+            "injury_status": "",
+            "last_name": "Kmet",
+            "news_updated": "1736178306600",
+            "number": "85",
+            "player_id": "6826",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 153,
+        "picked_by": "1130163665224830976",
+        "player_id": "6826",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 13
     }
 ]
