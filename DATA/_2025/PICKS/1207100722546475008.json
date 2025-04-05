@@ -3560,5 +3560,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 12
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Adam",
+            "injury_status": "",
+            "last_name": "Thielen",
+            "news_updated": "1741845618187",
+            "number": "19",
+            "player_id": "1689",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "12"
+        },
+        "pick_no": 138,
+        "picked_by": "1172543741350166528",
+        "player_id": "1689",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 12
     }
 ]
