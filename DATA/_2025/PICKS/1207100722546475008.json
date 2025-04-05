@@ -3976,5 +3976,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 13
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ray",
+            "injury_status": "",
+            "last_name": "Davis",
+            "news_updated": "1738003235508",
+            "number": "22",
+            "player_id": "11575",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 154,
+        "picked_by": "1127245381764501504",
+        "player_id": "11575",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 13
     }
 ]
