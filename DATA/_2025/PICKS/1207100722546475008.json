@@ -4106,5 +4106,57 @@
         "reactions": null,
         "roster_id": 2,
         "round": 14
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Travis",
+            "injury_status": "",
+            "last_name": "Kelce",
+            "news_updated": "1740696657308",
+            "number": "87",
+            "player_id": "1466",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "12"
+        },
+        "pick_no": 159,
+        "picked_by": "1127245381764501504",
+        "player_id": "1466",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 14
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Michael",
+            "injury_status": "",
+            "last_name": "Wilson",
+            "news_updated": "1736108439620",
+            "number": "14",
+            "player_id": "10232",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 160,
+        "picked_by": "1130163665224830976",
+        "player_id": "10232",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 14
     }
 ]
