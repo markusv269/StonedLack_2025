@@ -4158,5 +4158,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 14
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Joe",
+            "injury_status": "",
+            "last_name": "Milton",
+            "news_updated": "1743690027570",
+            "number": "19",
+            "player_id": "11557",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 161,
+        "picked_by": "430760855328526336",
+        "player_id": "11557",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 14
     }
 ]
