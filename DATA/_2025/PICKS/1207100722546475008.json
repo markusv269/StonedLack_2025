@@ -3820,5 +3820,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 13
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Pat",
+            "injury_status": "",
+            "last_name": "Freiermuth",
+            "news_updated": "1736661052729",
+            "number": "88",
+            "player_id": "7600",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 148,
+        "picked_by": "1106948236515962880",
+        "player_id": "7600",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 13
     }
 ]
