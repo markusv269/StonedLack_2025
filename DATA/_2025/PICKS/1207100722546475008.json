@@ -4288,5 +4288,57 @@
         "reactions": null,
         "roster_id": 6,
         "round": 14
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Austin",
+            "injury_status": "",
+            "last_name": "Ekeler",
+            "news_updated": "1738870249676",
+            "number": "30",
+            "player_id": "4663",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 166,
+        "picked_by": "1205981976327114752",
+        "player_id": "4663",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 14
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "J.K.",
+            "injury_status": "",
+            "last_name": "Dobbins",
+            "news_updated": "1736656551448",
+            "number": "27",
+            "player_id": "6806",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 167,
+        "picked_by": "1129655183757299712",
+        "player_id": "6806",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 14
     }
 ]
