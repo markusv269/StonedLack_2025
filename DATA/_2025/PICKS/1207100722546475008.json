@@ -4704,5 +4704,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 16
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Alec",
+            "injury_status": "",
+            "last_name": "Pierce",
+            "news_updated": "1736148604998",
+            "number": "14",
+            "player_id": "8142",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 182,
+        "picked_by": "740271047152128000",
+        "player_id": "8142",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 16
     }
 ]
