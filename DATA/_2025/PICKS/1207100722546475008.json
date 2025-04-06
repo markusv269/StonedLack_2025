@@ -4808,5 +4808,57 @@
         "reactions": null,
         "roster_id": 12,
         "round": 16
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Zach",
+            "injury_status": "",
+            "last_name": "Ertz",
+            "news_updated": "1741518658322",
+            "number": "86",
+            "player_id": "1339",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "12"
+        },
+        "pick_no": 186,
+        "picked_by": "1172543741350166528",
+        "player_id": "1339",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 16
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Daniel",
+            "injury_status": "",
+            "last_name": "Jones",
+            "news_updated": "1743565217967",
+            "number": "17",
+            "player_id": "5870",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 187,
+        "picked_by": "1125118563532058624",
+        "player_id": "5870",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 16
     }
 ]
