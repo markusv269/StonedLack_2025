@@ -4184,5 +4184,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 14
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Mike",
+            "injury_status": "",
+            "last_name": "Williams",
+            "news_updated": "1741844118734",
+            "number": "81",
+            "player_id": "4068",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 162,
+        "picked_by": "1172543741350166528",
+        "player_id": "4068",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 14
     }
 ]
