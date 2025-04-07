@@ -5224,5 +5224,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 17
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dyami",
+            "injury_status": "",
+            "last_name": "Brown",
+            "news_updated": "1741634708607",
+            "number": "2",
+            "player_id": "7587",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 202,
+        "picked_by": "1127245381764501504",
+        "player_id": "7587",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 17
     }
 ]
