@@ -4860,5 +4860,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 16
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Philadelphia",
+            "injury_status": "",
+            "last_name": "Eagles",
+            "news_updated": "",
+            "number": "",
+            "player_id": "PHI",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 188,
+        "picked_by": "430760855328526336",
+        "player_id": "PHI",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 16
     }
 ]
