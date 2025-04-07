@@ -5042,5 +5042,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 17
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Tolbert",
+            "news_updated": "1736150404613",
+            "number": "1",
+            "player_id": "8117",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 195,
+        "picked_by": "1205981976327114752",
+        "player_id": "8117",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 17
     }
 ]
