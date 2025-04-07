@@ -5094,5 +5094,31 @@
         "reactions": null,
         "roster_id": 6,
         "round": 17
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Luke",
+            "injury_status": "",
+            "last_name": "McCaffrey",
+            "news_updated": "1738077041432",
+            "number": "12",
+            "player_id": "11650",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 197,
+        "picked_by": "430760855328526336",
+        "player_id": "11650",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 17
     }
 ]
