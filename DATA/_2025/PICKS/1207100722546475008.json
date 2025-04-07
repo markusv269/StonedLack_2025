@@ -5250,5 +5250,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 17
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Justice",
+            "injury_status": "",
+            "last_name": "Hill",
+            "news_updated": "1737489614012",
+            "number": "43",
+            "player_id": "5995",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 203,
+        "picked_by": "740271047152128000",
+        "player_id": "5995",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 17
     }
 ]
