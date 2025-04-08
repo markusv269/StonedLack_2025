@@ -5718,5 +5718,31 @@
         "reactions": null,
         "roster_id": 6,
         "round": 19
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Antonio",
+            "injury_status": "",
+            "last_name": "Gibson",
+            "news_updated": "1736129741540",
+            "number": "4",
+            "player_id": "6945",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 221,
+        "picked_by": "430760855328526336",
+        "player_id": "6945",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 19
     }
 ]
