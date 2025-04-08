@@ -5484,5 +5484,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 18
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Sean",
+            "injury_status": "",
+            "last_name": "Tucker",
+            "news_updated": "1736828152427",
+            "number": "44",
+            "player_id": "9506",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 212,
+        "picked_by": "430760855328526336",
+        "player_id": "9506",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 18
     }
 ]
