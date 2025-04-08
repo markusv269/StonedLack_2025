@@ -5640,5 +5640,83 @@
         "reactions": null,
         "roster_id": 7,
         "round": 19
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "AJ",
+            "injury_status": "",
+            "last_name": "Barner",
+            "news_updated": "1737158134494",
+            "number": "88",
+            "player_id": "11603",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 218,
+        "picked_by": "1129655183757299712",
+        "player_id": "11603",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 19
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyler",
+            "injury_status": "",
+            "last_name": "Lockett",
+            "news_updated": "1741373147832",
+            "number": "16",
+            "player_id": "2374",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "10"
+        },
+        "pick_no": 219,
+        "picked_by": "1205981976327114752",
+        "player_id": "2374",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 19
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Khalil",
+            "injury_status": "",
+            "last_name": "Herbert",
+            "news_updated": "1741822516909",
+            "number": "26",
+            "player_id": "7608",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 220,
+        "picked_by": "1106948236515962880",
+        "player_id": "7608",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 19
     }
 ]
