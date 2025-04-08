@@ -5510,5 +5510,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 18
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Evan",
+            "injury_status": "",
+            "last_name": "McPherson",
+            "news_updated": "1739818240531",
+            "number": "2",
+            "player_id": "7839",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 213,
+        "picked_by": "1106948236515962880",
+        "player_id": "7839",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 18
     }
 ]
