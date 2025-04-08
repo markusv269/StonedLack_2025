@@ -5536,5 +5536,31 @@
         "reactions": null,
         "roster_id": 6,
         "round": 18
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jake",
+            "injury_status": "",
+            "last_name": "Bates",
+            "news_updated": "1737307552847",
+            "number": "39",
+            "player_id": "11539",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 214,
+        "picked_by": "1205981976327114752",
+        "player_id": "11539",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 18
     }
 ]
