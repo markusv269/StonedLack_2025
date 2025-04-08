@@ -5588,5 +5588,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 18
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Noah",
+            "injury_status": "",
+            "last_name": "Gray",
+            "news_updated": "1736272210886",
+            "number": "83",
+            "player_id": "7828",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 216,
+        "picked_by": "999807017533378560",
+        "player_id": "7828",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 18
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dalton",
+            "injury_status": "",
+            "last_name": "Schultz",
+            "news_updated": "1737250245616",
+            "number": "86",
+            "player_id": "5001",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 217,
+        "picked_by": "999807017533378560",
+        "player_id": "5001",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 19
     }
 ]
