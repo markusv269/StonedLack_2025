@@ -6056,5 +6056,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 20
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyler",
+            "injury_status": "",
+            "last_name": "Conklin",
+            "news_updated": "1742610637054",
+            "number": "83",
+            "player_id": "5133",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 234,
+        "picked_by": "1172543741350166528",
+        "player_id": "5133",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 20
     }
 ]
