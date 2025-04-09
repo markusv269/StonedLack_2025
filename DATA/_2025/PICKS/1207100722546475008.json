@@ -6134,5 +6134,57 @@
         "reactions": null,
         "roster_id": 12,
         "round": 20
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Baltimore",
+            "injury_status": "",
+            "last_name": "Ravens",
+            "news_updated": "",
+            "number": "",
+            "player_id": "BAL",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 237,
+        "picked_by": "1106948236515962880",
+        "player_id": "BAL",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 20
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Pittsburgh",
+            "injury_status": "",
+            "last_name": "Steelers",
+            "news_updated": "",
+            "number": "",
+            "player_id": "PIT",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 238,
+        "picked_by": "1205981976327114752",
+        "player_id": "PIT",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 20
     }
 ]
