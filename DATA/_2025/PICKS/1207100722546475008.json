@@ -5952,5 +5952,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 20
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Devaughn",
+            "injury_status": "",
+            "last_name": "Vele",
+            "news_updated": "1736871903823",
+            "number": "17",
+            "player_id": "11834",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 230,
+        "picked_by": "740271047152128000",
+        "player_id": "11834",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 20
     }
 ]
