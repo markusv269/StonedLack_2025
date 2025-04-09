@@ -6082,5 +6082,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 20
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Los Angeles",
+            "injury_status": "",
+            "last_name": "Chargers",
+            "news_updated": "",
+            "number": "",
+            "player_id": "LAC",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 235,
+        "picked_by": "1125118563532058624",
+        "player_id": "LAC",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 20
     }
 ]
