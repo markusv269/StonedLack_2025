@@ -6108,5 +6108,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 20
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Houston",
+            "injury_status": "",
+            "last_name": "Texans",
+            "news_updated": "",
+            "number": "",
+            "player_id": "HOU",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 236,
+        "picked_by": "430760855328526336",
+        "player_id": "HOU",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 20
     }
 ]
