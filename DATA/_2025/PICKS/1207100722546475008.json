@@ -5744,5 +5744,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 19
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Luke",
+            "injury_status": "",
+            "last_name": "Musgrave",
+            "news_updated": "1738125046303",
+            "number": "88",
+            "player_id": "9481",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 222,
+        "picked_by": "1125118563532058624",
+        "player_id": "9481",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 19
     }
 ]
