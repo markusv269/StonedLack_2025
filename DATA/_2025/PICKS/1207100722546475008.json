@@ -5770,5 +5770,83 @@
         "reactions": null,
         "roster_id": 9,
         "round": 19
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Devin",
+            "injury_status": "",
+            "last_name": "Singletary",
+            "news_updated": "1736187305920",
+            "number": "26",
+            "player_id": "6130",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 223,
+        "picked_by": "1172543741350166528",
+        "player_id": "6130",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 19
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Isaiah",
+            "injury_status": "",
+            "last_name": "Davis",
+            "news_updated": "1736451939822",
+            "number": "32",
+            "player_id": "11571",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 224,
+        "picked_by": "902310121592586240",
+        "player_id": "11571",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 19
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Miles",
+            "injury_status": "",
+            "last_name": "Sanders",
+            "news_updated": "1741926930495",
+            "number": "27",
+            "player_id": "6151",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 225,
+        "picked_by": "1130163665224830976",
+        "player_id": "6151",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 19
     }
 ]
