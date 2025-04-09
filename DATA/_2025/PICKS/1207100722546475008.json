@@ -5848,5 +5848,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 19
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Elijah",
+            "injury_status": "",
+            "last_name": "Moore",
+            "news_updated": "1736042732288",
+            "number": "8",
+            "player_id": "7596",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 226,
+        "picked_by": "1127245381764501504",
+        "player_id": "7596",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 19
     }
 ]
