@@ -5874,5 +5874,83 @@
         "reactions": null,
         "roster_id": 8,
         "round": 19
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jermaine",
+            "injury_status": "",
+            "last_name": "Burton",
+            "news_updated": "1739597421525",
+            "number": "81",
+            "player_id": "11640",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 227,
+        "picked_by": "740271047152128000",
+        "player_id": "11640",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 19
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "John",
+            "injury_status": "",
+            "last_name": "Metchie",
+            "news_updated": "1739813739995",
+            "number": "8",
+            "player_id": "8147",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 228,
+        "picked_by": "1002304558338502656",
+        "player_id": "8147",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 19
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jake",
+            "injury_status": "",
+            "last_name": "Elliott",
+            "news_updated": "1739166303353",
+            "number": "4",
+            "player_id": "4195",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 229,
+        "picked_by": "1002304558338502656",
+        "player_id": "4195",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 20
     }
 ]
