@@ -6186,5 +6186,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 20
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Detroit",
+            "injury_status": "",
+            "last_name": "Lions",
+            "news_updated": "",
+            "number": "",
+            "player_id": "DET",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 239,
+        "picked_by": "1129655183757299712",
+        "player_id": "DET",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 20
     }
 ]
