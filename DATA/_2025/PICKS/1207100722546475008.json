@@ -6212,5 +6212,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 20
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Javon",
+            "injury_status": "",
+            "last_name": "Baker",
+            "news_updated": "1736784040587",
+            "number": "6",
+            "player_id": "11645",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 240,
+        "picked_by": "999807017533378560",
+        "player_id": "11645",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 20
     }
 ]
