@@ -6680,5 +6680,57 @@
         "reactions": null,
         "roster_id": 3,
         "round": 22
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Miami",
+            "injury_status": "",
+            "last_name": "Dolphins",
+            "news_updated": "",
+            "number": "",
+            "player_id": "MIA",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 258,
+        "picked_by": "1172543741350166528",
+        "player_id": "MIA",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 22
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "New England",
+            "injury_status": "",
+            "last_name": "Patriots",
+            "news_updated": "",
+            "number": "",
+            "player_id": "NE",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 259,
+        "picked_by": "1125118563532058624",
+        "player_id": "NE",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 22
     }
 ]
