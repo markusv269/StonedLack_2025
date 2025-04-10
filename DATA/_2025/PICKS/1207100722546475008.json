@@ -6940,5 +6940,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 23
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Atlanta",
+            "injury_status": "",
+            "last_name": "Falcons",
+            "news_updated": "",
+            "number": "",
+            "player_id": "ATL",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 268,
+        "picked_by": "1106948236515962880",
+        "player_id": "ATL",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 23
     }
 ]
