@@ -6862,5 +6862,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 22
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cleveland",
+            "injury_status": "",
+            "last_name": "Browns",
+            "news_updated": "",
+            "number": "",
+            "player_id": "CLE",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 265,
+        "picked_by": "999807017533378560",
+        "player_id": "CLE",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 23
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Mike",
+            "injury_status": "",
+            "last_name": "Gesicki",
+            "news_updated": "1741501558129",
+            "number": "88",
+            "player_id": "4993",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 266,
+        "picked_by": "1129655183757299712",
+        "player_id": "4993",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 23
     }
 ]
