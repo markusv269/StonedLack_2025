@@ -6264,5 +6264,83 @@
         "reactions": null,
         "roster_id": 7,
         "round": 21
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "San Francisco",
+            "injury_status": "",
+            "last_name": "49ers",
+            "news_updated": "",
+            "number": "",
+            "player_id": "SF",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 242,
+        "picked_by": "1172543741350166528",
+        "player_id": "SF",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 21
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dallas",
+            "injury_status": "",
+            "last_name": "Cowboys",
+            "news_updated": "",
+            "number": "",
+            "player_id": "DAL",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 243,
+        "picked_by": "902310121592586240",
+        "player_id": "DAL",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 21
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kansas City",
+            "injury_status": "",
+            "last_name": "Chiefs",
+            "news_updated": "",
+            "number": "",
+            "player_id": "KC",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 244,
+        "picked_by": "1106948236515962880",
+        "player_id": "KC",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 21
     }
 ]
