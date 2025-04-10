@@ -6420,5 +6420,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 21
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "New York",
+            "injury_status": "",
+            "last_name": "Jets",
+            "news_updated": "",
+            "number": "",
+            "player_id": "NYJ",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 248,
+        "picked_by": "1205981976327114752",
+        "player_id": "NYJ",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 21
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Seattle",
+            "injury_status": "",
+            "last_name": "Seahawks",
+            "news_updated": "",
+            "number": "",
+            "player_id": "SEA",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 249,
+        "picked_by": "1130163665224830976",
+        "player_id": "SEA",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 21
     }
 ]
