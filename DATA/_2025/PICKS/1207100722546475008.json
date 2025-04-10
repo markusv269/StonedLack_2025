@@ -6472,5 +6472,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 21
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Green Bay",
+            "injury_status": "",
+            "last_name": "Packers",
+            "news_updated": "",
+            "number": "",
+            "player_id": "GB",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 250,
+        "picked_by": "1127245381764501504",
+        "player_id": "GB",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 21
     }
 ]
