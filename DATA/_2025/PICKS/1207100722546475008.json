@@ -6732,5 +6732,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 22
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jahan",
+            "injury_status": "",
+            "last_name": "Dotson",
+            "news_updated": "1741299858286",
+            "number": "83",
+            "player_id": "8119",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 260,
+        "picked_by": "430760855328526336",
+        "player_id": "8119",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 22
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dameon",
+            "injury_status": "",
+            "last_name": "Pierce",
+            "news_updated": "1737298852021",
+            "number": "31",
+            "player_id": "8129",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 261,
+        "picked_by": "1106948236515962880",
+        "player_id": "8129",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 22
     }
 ]
