@@ -6368,5 +6368,57 @@
         "reactions": null,
         "roster_id": 12,
         "round": 21
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Chicago",
+            "injury_status": "",
+            "last_name": "Bears",
+            "news_updated": "",
+            "number": "",
+            "player_id": "CHI",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 246,
+        "picked_by": "1125118563532058624",
+        "player_id": "CHI",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 21
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Los Angeles",
+            "injury_status": "",
+            "last_name": "Rams",
+            "news_updated": "",
+            "number": "",
+            "player_id": "LAR",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 247,
+        "picked_by": "1129655183757299712",
+        "player_id": "LAR",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 21
     }
 ]
