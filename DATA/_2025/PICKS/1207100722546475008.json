@@ -6238,5 +6238,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 20
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Buffalo",
+            "injury_status": "",
+            "last_name": "Bills",
+            "news_updated": "",
+            "number": "",
+            "player_id": "BUF",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 241,
+        "picked_by": "999807017533378560",
+        "player_id": "BUF",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 21
     }
 ]
