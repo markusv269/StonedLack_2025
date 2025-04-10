@@ -6784,5 +6784,31 @@
         "reactions": null,
         "roster_id": 6,
         "round": 22
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cam",
+            "injury_status": "",
+            "last_name": "Akers",
+            "news_updated": "1737341156711",
+            "number": "27",
+            "player_id": "6938",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 262,
+        "picked_by": "1205981976327114752",
+        "player_id": "6938",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 22
     }
 ]
