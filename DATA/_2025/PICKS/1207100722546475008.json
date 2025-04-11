@@ -7226,5 +7226,57 @@
         "reactions": null,
         "roster_id": 2,
         "round": 24
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tennessee",
+            "injury_status": "",
+            "last_name": "Titans",
+            "news_updated": "",
+            "number": "",
+            "player_id": "TEN",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 279,
+        "picked_by": "1127245381764501504",
+        "player_id": "TEN",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 24
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cairo",
+            "injury_status": "",
+            "last_name": "Santos",
+            "news_updated": "1736178906959",
+            "number": "8",
+            "player_id": "2020",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "11"
+        },
+        "pick_no": 280,
+        "picked_by": "1130163665224830976",
+        "player_id": "2020",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 24
     }
 ]
