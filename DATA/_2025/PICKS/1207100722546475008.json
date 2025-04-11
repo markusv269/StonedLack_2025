@@ -7200,5 +7200,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 24
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "New Orleans",
+            "injury_status": "",
+            "last_name": "Saints",
+            "news_updated": "",
+            "number": "",
+            "player_id": "NO",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 278,
+        "picked_by": "740271047152128000",
+        "player_id": "NO",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 24
     }
 ]
