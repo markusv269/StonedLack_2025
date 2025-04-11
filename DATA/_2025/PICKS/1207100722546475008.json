@@ -6992,5 +6992,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 23
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Bub",
+            "injury_status": "",
+            "last_name": "Means",
+            "news_updated": "1738876553190",
+            "number": "16",
+            "player_id": "11748",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 270,
+        "picked_by": "1125118563532058624",
+        "player_id": "11748",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 23
     }
 ]
