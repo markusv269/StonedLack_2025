@@ -7122,5 +7122,83 @@
         "reactions": null,
         "roster_id": 8,
         "round": 23
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Chris",
+            "injury_status": "",
+            "last_name": "Boswell",
+            "news_updated": "1736972716413",
+            "number": "9",
+            "player_id": "1945",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "11"
+        },
+        "pick_no": 275,
+        "picked_by": "740271047152128000",
+        "player_id": "1945",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 23
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Younghoe",
+            "injury_status": "",
+            "last_name": "Koo",
+            "news_updated": "1738199151568",
+            "number": "6",
+            "player_id": "4666",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 276,
+        "picked_by": "1002304558338502656",
+        "player_id": "4666",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 23
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jacksonville",
+            "injury_status": "",
+            "last_name": "Jaguars",
+            "news_updated": "",
+            "number": "",
+            "player_id": "JAX",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 277,
+        "picked_by": "1002304558338502656",
+        "player_id": "JAX",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 24
     }
 ]
