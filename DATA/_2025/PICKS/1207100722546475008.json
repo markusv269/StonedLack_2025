@@ -7018,5 +7018,83 @@
         "reactions": null,
         "roster_id": 9,
         "round": 23
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Las Vegas",
+            "injury_status": "",
+            "last_name": "Raiders",
+            "news_updated": "",
+            "number": "",
+            "player_id": "LV",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 271,
+        "picked_by": "1172543741350166528",
+        "player_id": "LV",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 23
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ray-Ray",
+            "injury_status": "",
+            "last_name": "McCloud",
+            "news_updated": "1736136639884",
+            "number": "34",
+            "player_id": "5096",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 272,
+        "picked_by": "902310121592586240",
+        "player_id": "5096",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 23
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jonathan",
+            "injury_status": "",
+            "last_name": "Mingo",
+            "news_updated": "1736182505732",
+            "number": "81",
+            "player_id": "10225",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 273,
+        "picked_by": "1130163665224830976",
+        "player_id": "10225",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 23
     }
 ]
