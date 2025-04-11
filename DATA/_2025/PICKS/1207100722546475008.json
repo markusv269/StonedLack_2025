@@ -7382,5 +7382,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 24
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Trey",
+            "injury_status": "",
+            "last_name": "Palmer",
+            "news_updated": "1737601528456",
+            "number": "10",
+            "player_id": "9492",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 285,
+        "picked_by": "1106948236515962880",
+        "player_id": "9492",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 24
     }
 ]
