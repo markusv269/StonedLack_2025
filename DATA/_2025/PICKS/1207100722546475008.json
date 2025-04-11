@@ -7304,5 +7304,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 24
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Rondale",
+            "injury_status": "",
+            "last_name": "Moore",
+            "news_updated": "1742430025538",
+            "number": "14",
+            "player_id": "7601",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 282,
+        "picked_by": "1172543741350166528",
+        "player_id": "7601",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 24
     }
 ]
