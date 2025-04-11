@@ -7096,5 +7096,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 23
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Darius",
+            "injury_status": "",
+            "last_name": "Slayton",
+            "news_updated": "1741651858769",
+            "number": "86",
+            "player_id": "6149",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 274,
+        "picked_by": "1127245381764501504",
+        "player_id": "6149",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 23
     }
 ]
