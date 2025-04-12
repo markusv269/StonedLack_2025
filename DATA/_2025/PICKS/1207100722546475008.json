@@ -7460,5 +7460,83 @@
         "reactions": null,
         "roster_id": 5,
         "round": 24
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Carolina",
+            "injury_status": "",
+            "last_name": "Panthers",
+            "news_updated": "",
+            "number": "",
+            "player_id": "CAR",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 288,
+        "picked_by": "999807017533378560",
+        "player_id": "CAR",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 24
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Spencer",
+            "injury_status": "",
+            "last_name": "Rattler",
+            "news_updated": "1736118040116",
+            "number": "18",
+            "player_id": "11562",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 289,
+        "picked_by": "999807017533378560",
+        "player_id": "11562",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 25
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cincinnati",
+            "injury_status": "",
+            "last_name": "Bengals",
+            "news_updated": "",
+            "number": "",
+            "player_id": "CIN",
+            "position": "DEF",
+            "sport": "nfl",
+            "status": "",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": ""
+        },
+        "pick_no": 290,
+        "picked_by": "1129655183757299712",
+        "player_id": "CIN",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 25
     }
 ]
