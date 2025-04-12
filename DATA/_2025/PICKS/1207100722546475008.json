@@ -7772,5 +7772,57 @@
         "reactions": null,
         "roster_id": 2,
         "round": 25
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Michael",
+            "injury_status": "",
+            "last_name": "Mayer",
+            "news_updated": "1740864907860",
+            "number": "87",
+            "player_id": "9482",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 300,
+        "picked_by": "1002304558338502656",
+        "player_id": "9482",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 25
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Israel",
+            "injury_status": "",
+            "last_name": "Abanikanda",
+            "news_updated": "1736108438553",
+            "number": "20",
+            "player_id": "9227",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 301,
+        "picked_by": "1002304558338502656",
+        "player_id": "9227",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 26
     }
 ]
