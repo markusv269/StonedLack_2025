@@ -7824,5 +7824,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 26
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Demarcus",
+            "injury_status": "",
+            "last_name": "Robinson",
+            "news_updated": "1741741811514",
+            "number": "15",
+            "player_id": "3286",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "9"
+        },
+        "pick_no": 302,
+        "picked_by": "740271047152128000",
+        "player_id": "3286",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 26
     }
 ]
