@@ -7408,5 +7408,57 @@
         "reactions": null,
         "roster_id": 6,
         "round": 24
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Emanuel",
+            "injury_status": "",
+            "last_name": "Wilson",
+            "news_updated": "1736878805006",
+            "number": "31",
+            "player_id": "11435",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 286,
+        "picked_by": "1205981976327114752",
+        "player_id": "11435",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 24
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cam",
+            "injury_status": "",
+            "last_name": "Little",
+            "news_updated": "1736200806698",
+            "number": "39",
+            "player_id": "11786",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 287,
+        "picked_by": "1129655183757299712",
+        "player_id": "11786",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 24
     }
 ]
