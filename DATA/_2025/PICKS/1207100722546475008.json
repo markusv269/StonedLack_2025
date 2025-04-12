@@ -7746,5 +7746,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 25
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Elijah",
+            "injury_status": "",
+            "last_name": "Mitchell",
+            "news_updated": "1741626006702",
+            "number": "25",
+            "player_id": "7561",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 299,
+        "picked_by": "740271047152128000",
+        "player_id": "7561",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 25
     }
 ]
