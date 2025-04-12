@@ -7538,5 +7538,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 25
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Greg",
+            "injury_status": "",
+            "last_name": "Dortch",
+            "news_updated": "1741833020684",
+            "number": "4",
+            "player_id": "5970",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 291,
+        "picked_by": "1205981976327114752",
+        "player_id": "5970",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 25
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ka'imi",
+            "injury_status": "",
+            "last_name": "Fairbairn",
+            "news_updated": "1737299451754",
+            "number": "15",
+            "player_id": "3451",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "9"
+        },
+        "pick_no": 292,
+        "picked_by": "1106948236515962880",
+        "player_id": "3451",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 25
     }
 ]
