@@ -8084,5 +8084,83 @@
         "reactions": null,
         "roster_id": 5,
         "round": 26
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Treylon",
+            "injury_status": "",
+            "last_name": "Burks",
+            "news_updated": "1743485734553",
+            "number": "16",
+            "player_id": "8135",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 312,
+        "picked_by": "999807017533378560",
+        "player_id": "8135",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 26
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Eric",
+            "injury_status": "",
+            "last_name": "Gray",
+            "news_updated": "1736920809665",
+            "number": "20",
+            "player_id": "10223",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 313,
+        "picked_by": "999807017533378560",
+        "player_id": "10223",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 27
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Derius",
+            "injury_status": "",
+            "last_name": "Davis",
+            "news_updated": "1739821840793",
+            "number": "12",
+            "player_id": "10234",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 314,
+        "picked_by": "1129655183757299712",
+        "player_id": "10234",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 27
     }
 ]
