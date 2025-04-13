@@ -7954,5 +7954,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 26
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Bo",
+            "injury_status": "",
+            "last_name": "Melton",
+            "news_updated": "1736749558720",
+            "number": "80",
+            "player_id": "8204",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 307,
+        "picked_by": "1125118563532058624",
+        "player_id": "8204",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 26
     }
 ]
