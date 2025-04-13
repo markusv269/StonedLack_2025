@@ -8058,5 +8058,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 26
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Joshua",
+            "injury_status": "",
+            "last_name": "Karty",
+            "news_updated": "1736200507332",
+            "number": "16",
+            "player_id": "11789",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 311,
+        "picked_by": "1129655183757299712",
+        "player_id": "11789",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 26
     }
 ]
