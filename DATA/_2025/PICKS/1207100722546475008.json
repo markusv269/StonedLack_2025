@@ -7876,5 +7876,57 @@
         "reactions": null,
         "roster_id": 8,
         "round": 26
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jamari",
+            "injury_status": "",
+            "last_name": "Thrash",
+            "news_updated": "1736091636922",
+            "number": "80",
+            "player_id": "11633",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 304,
+        "picked_by": "1130163665224830976",
+        "player_id": "11633",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 26
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Frank",
+            "injury_status": "",
+            "last_name": "Gore",
+            "news_updated": "1738014036557",
+            "number": "20",
+            "player_id": "11573",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 305,
+        "picked_by": "902310121592586240",
+        "player_id": "11573",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 26
     }
 ]
