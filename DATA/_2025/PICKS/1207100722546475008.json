@@ -8188,5 +8188,83 @@
         "reactions": null,
         "roster_id": 4,
         "round": 27
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Luke",
+            "injury_status": "",
+            "last_name": "Schoonmaker",
+            "news_updated": "1736791841242",
+            "number": "86",
+            "player_id": "10871",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 316,
+        "picked_by": "1106948236515962880",
+        "player_id": "10871",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 27
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brenden",
+            "injury_status": "",
+            "last_name": "Rice",
+            "news_updated": "1739823041133",
+            "number": "82",
+            "player_id": "11621",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 317,
+        "picked_by": "430760855328526336",
+        "player_id": "11621",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 27
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Daniel",
+            "injury_status": "",
+            "last_name": "Bellinger",
+            "news_updated": "1736190006666",
+            "number": "82",
+            "player_id": "8225",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 318,
+        "picked_by": "1125118563532058624",
+        "player_id": "8225",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 27
     }
 ]
