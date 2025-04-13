@@ -7850,5 +7850,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 26
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Curtis",
+            "injury_status": "",
+            "last_name": "Samuel",
+            "news_updated": "1738011636249",
+            "number": "1",
+            "player_id": "4082",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 303,
+        "picked_by": "1127245381764501504",
+        "player_id": "4082",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 26
     }
 ]

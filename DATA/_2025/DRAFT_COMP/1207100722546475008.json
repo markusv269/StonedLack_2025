@@ -19,13 +19,12 @@
         "902310121592586240": 8,
         "999807017533378560": 1
     },
-    "last_message_id": "1216889607430352896",
-    "last_message_time": 1744491600429,
-    "last_picked": 1744486638261,
+    "last_message_id": "1216955901471109120",
+    "last_message_time": 1744507406159,
+    "last_picked": 1744507406151,
     "league_id": "1207100721535655936",
     "metadata": {
         "description": "",
-        "elapsed_pick_timer": "4962131",
         "is_autopaused": "true",
         "name": "Stoned Lack Dynasty 32",
         "scoring_type": "dynasty_ppr"
