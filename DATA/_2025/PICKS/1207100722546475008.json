@@ -8162,5 +8162,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 27
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Hendon",
+            "injury_status": "",
+            "last_name": "Hooker",
+            "news_updated": "1737953131828",
+            "number": "2",
+            "player_id": "9998",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 315,
+        "picked_by": "1205981976327114752",
+        "player_id": "9998",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 27
     }
 ]
