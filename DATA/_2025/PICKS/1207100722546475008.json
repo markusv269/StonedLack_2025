@@ -8344,5 +8344,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 27
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Emari",
+            "injury_status": "",
+            "last_name": "Demercado",
+            "news_updated": "1739854843643",
+            "number": "31",
+            "player_id": "11199",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 322,
+        "picked_by": "1127245381764501504",
+        "player_id": "11199",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 27
     }
 ]
