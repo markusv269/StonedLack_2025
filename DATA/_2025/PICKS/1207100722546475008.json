@@ -8448,5 +8448,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 28
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Aaron",
+            "injury_status": "",
+            "last_name": "Rodgers",
+            "news_updated": "1743530738352",
+            "number": "8",
+            "player_id": "96",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "20"
+        },
+        "pick_no": 326,
+        "picked_by": "740271047152128000",
+        "player_id": "96",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 28
     }
 ]
