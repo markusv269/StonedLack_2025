@@ -8318,5 +8318,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 27
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jake",
+            "injury_status": "",
+            "last_name": "Bobo",
+            "news_updated": "1736445338640",
+            "number": "19",
+            "player_id": "10867",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 321,
+        "picked_by": "1130163665224830976",
+        "player_id": "10867",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 27
     }
 ]
