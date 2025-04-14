@@ -8396,5 +8396,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 27
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Deuce",
+            "injury_status": "",
+            "last_name": "Vaughn",
+            "news_updated": "1736181905768",
+            "number": "42",
+            "player_id": "9505",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 324,
+        "picked_by": "1002304558338502656",
+        "player_id": "9505",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 27
     }
 ]
