@@ -8266,5 +8266,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 27
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jake",
+            "injury_status": "",
+            "last_name": "Moody",
+            "news_updated": "1743612322536",
+            "number": "4",
+            "player_id": "10937",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 319,
+        "picked_by": "1172543741350166528",
+        "player_id": "10937",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 27
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Allen",
+            "injury_status": "",
+            "last_name": "Lazard",
+            "news_updated": "1744319753338",
+            "number": "10",
+            "player_id": "5185",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 320,
+        "picked_by": "902310121592586240",
+        "player_id": "5185",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 27
     }
 ]
