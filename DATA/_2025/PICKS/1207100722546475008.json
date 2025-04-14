@@ -8552,5 +8552,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 28
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Joe",
+            "injury_status": "",
+            "last_name": "Flacco",
+            "news_updated": "1744381218092",
+            "number": "15",
+            "player_id": "19",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "17"
+        },
+        "pick_no": 330,
+        "picked_by": "1172543741350166528",
+        "player_id": "19",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 28
     }
 ]
