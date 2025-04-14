@@ -8578,5 +8578,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 28
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Aidan",
+            "injury_status": "",
+            "last_name": "O'Connell",
+            "news_updated": "1741892128366",
+            "number": "12",
+            "player_id": "10866",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 331,
+        "picked_by": "1125118563532058624",
+        "player_id": "10866",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 28
     }
 ]
