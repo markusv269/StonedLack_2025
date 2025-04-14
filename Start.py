@@ -6,7 +6,7 @@ from tools.methods import (
 from config import SCORINGSETTINGS
 
 # Session State Initialisierung
-@st.cache_data
+@st.cache_data(ttl=3600)
 def initialize_data():
     return {
         "userdf": load_users(),
