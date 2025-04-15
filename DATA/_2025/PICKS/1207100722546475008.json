@@ -8604,5 +8604,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 28
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Devontez",
+            "injury_status": "",
+            "last_name": "Walker",
+            "news_updated": "1739592620367",
+            "number": "81",
+            "player_id": "11629",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 332,
+        "picked_by": "430760855328526336",
+        "player_id": "11629",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 28
     }
 ]
