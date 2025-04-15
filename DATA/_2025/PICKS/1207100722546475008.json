@@ -8812,5 +8812,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 29
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Colby",
+            "injury_status": "",
+            "last_name": "Parkinson",
+            "news_updated": "1737418505444",
+            "number": "86",
+            "player_id": "6865",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 340,
+        "picked_by": "1106948236515962880",
+        "player_id": "6865",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 29
     }
 ]
