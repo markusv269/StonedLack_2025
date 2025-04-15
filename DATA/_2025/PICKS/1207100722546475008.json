@@ -8942,5 +8942,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 29
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Taysom",
+            "injury_status": "",
+            "last_name": "Hill",
+            "news_updated": "1740719459261",
+            "number": "7",
+            "player_id": "4381",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 345,
+        "picked_by": "1130163665224830976",
+        "player_id": "4381",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 29
     }
 ]
