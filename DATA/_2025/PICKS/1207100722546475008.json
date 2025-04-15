@@ -8994,5 +8994,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 29
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Sincere",
+            "injury_status": "",
+            "last_name": "McCormick",
+            "news_updated": "1734548134731",
+            "number": "28",
+            "player_id": "8220",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 347,
+        "picked_by": "740271047152128000",
+        "player_id": "8220",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 29
     }
 ]
