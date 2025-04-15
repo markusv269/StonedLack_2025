@@ -8786,5 +8786,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 29
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ty",
+            "injury_status": "",
+            "last_name": "Johnson",
+            "news_updated": "1741734609326",
+            "number": "26",
+            "player_id": "6039",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 339,
+        "picked_by": "1205981976327114752",
+        "player_id": "6039",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 29
     }
 ]
