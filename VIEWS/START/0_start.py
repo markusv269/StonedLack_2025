@@ -7,7 +7,18 @@ st.write('''
     ''')
 
 with st.expander("StonedLack News", icon=":material/news:", expanded=True):
-    st.write('''   
+    st.write(''' 
+    #### Community-Mock-Draft am 21.04.2025 ab 21:30 Uhr
+    Der NFL-Draft steht an, doch kurz vor dem Großereignis in Green Bay steht im Stoned Lack Universum der Community Mock Draft an.
+    Im [Discord](https://discord.com/channels/793571503681175573/1357360178978361555/1357361110923346184) kann man sich dazu noch anmelden.
+             
+    Im Mock Draft werden die Zuschauer live in die Show geholt und dürfen für "ihre" Franchise den First Round Pick tätigen. 
+    Gut die Hälfte der Teams stehen noch zur Wahl, also zwar noch genug Zeit, sich ein Team auszusuchen. Wer jedoch sein für Lieblingsteam picken möchte, sollte sich ranhalten.
+             
+    Der Community Mock Draft ist jedes Jahr ein Highlight der Offseason (wenn nicht sogar der ganzen Saison), also macht mit und pickt den nächsten Superstar für Eure NFL-Franchise!
+             
+    ---
+    
     #### Erster Dynasty-Draft 2025 läuft
     In der neu gegründeten Stoned Lack Dynasty 32 läuft gerade der Verteran Draft. Alle Picks können hier auf der Seite unter Dynasty -> Drafts oder auf sleeper (https://sleeper.com/draft/nfl/1207100722546475008) abgerufen werden.            
              
