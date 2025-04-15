@@ -8968,5 +8968,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 29
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Gus",
+            "injury_status": "",
+            "last_name": "Edwards",
+            "news_updated": "1741418752564",
+            "number": "4",
+            "player_id": "5248",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 346,
+        "picked_by": "1127245381764501504",
+        "player_id": "5248",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 29
     }
 ]
