@@ -9540,5 +9540,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 31
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Larry",
+            "injury_status": "",
+            "last_name": "Fitzgerald",
+            "news_updated": "1649276454719",
+            "number": "11",
+            "player_id": "223",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Inactive",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "18"
+        },
+        "pick_no": 368,
+        "picked_by": "902310121592586240",
+        "player_id": "223",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 31
     }
 ]
