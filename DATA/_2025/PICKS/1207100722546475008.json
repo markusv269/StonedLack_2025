@@ -9020,5 +9020,57 @@
         "reactions": null,
         "roster_id": 2,
         "round": 29
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dawson",
+            "injury_status": "",
+            "last_name": "Knox",
+            "news_updated": "1738015836666",
+            "number": "88",
+            "player_id": "5906",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 348,
+        "picked_by": "1002304558338502656",
+        "player_id": "5906",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 29
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Sam",
+            "injury_status": "",
+            "last_name": "Howell",
+            "news_updated": "1736445038563",
+            "number": "6",
+            "player_id": "8162",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 349,
+        "picked_by": "1002304558338502656",
+        "player_id": "8162",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 30
     }
 ]
