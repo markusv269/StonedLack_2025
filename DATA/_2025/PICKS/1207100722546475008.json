@@ -9514,5 +9514,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 31
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cade",
+            "injury_status": "",
+            "last_name": "York",
+            "news_updated": "1736099737664",
+            "number": "3",
+            "player_id": "8258",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 367,
+        "picked_by": "1172543741350166528",
+        "player_id": "8258",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 31
     }
 ]
