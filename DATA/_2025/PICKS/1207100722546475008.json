@@ -9176,5 +9176,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 30
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Josh",
+            "injury_status": "",
+            "last_name": "Reynolds",
+            "news_updated": "1743102043650",
+            "number": "83",
+            "player_id": "4171",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 354,
+        "picked_by": "1172543741350166528",
+        "player_id": "4171",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 30
     }
 ]
