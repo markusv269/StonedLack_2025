@@ -9254,5 +9254,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 30
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Blake",
+            "injury_status": "",
+            "last_name": "Grupe",
+            "news_updated": "1736133341745",
+            "number": "19",
+            "player_id": "11058",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 357,
+        "picked_by": "1106948236515962880",
+        "player_id": "11058",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 30
     }
 ]
