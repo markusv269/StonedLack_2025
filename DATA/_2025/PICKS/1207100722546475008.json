@@ -9566,5 +9566,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 31
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tom",
+            "injury_status": "",
+            "last_name": "Brady",
+            "news_updated": "1736815542351",
+            "number": "12",
+            "player_id": "167",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "23"
+        },
+        "pick_no": 369,
+        "picked_by": "1130163665224830976",
+        "player_id": "167",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 31
     }
 ]
