@@ -9202,5 +9202,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 30
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Louis",
+            "injury_status": "",
+            "last_name": "Rees-Zammit",
+            "news_updated": "1739825141189",
+            "number": "89",
+            "player_id": "11652",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 355,
+        "picked_by": "1125118563532058624",
+        "player_id": "11652",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 30
     }
 ]
