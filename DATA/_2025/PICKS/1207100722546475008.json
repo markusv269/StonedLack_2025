@@ -9228,5 +9228,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 30
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jordan",
+            "injury_status": "",
+            "last_name": "Travis",
+            "news_updated": "1732726861118",
+            "number": "3",
+            "player_id": "11567",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 356,
+        "picked_by": "430760855328526336",
+        "player_id": "11567",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 30
     }
 ]
