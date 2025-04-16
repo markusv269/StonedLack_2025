@@ -9592,5 +9592,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 31
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jha'Quan",
+            "injury_status": "",
+            "last_name": "Jackson",
+            "news_updated": "1739914813298",
+            "number": "19",
+            "player_id": "11808",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 370,
+        "picked_by": "1127245381764501504",
+        "player_id": "11808",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 31
     }
 ]
