@@ -5,6 +5,12 @@ st.set_page_config(layout="wide")
 # )
 from config import SCORINGSETTINGS
 
+def load_css(file_path):
+    with open(file_path) as f:
+        st.html(f"<style>{f.read()}</style>")
+# Load custom CSS
+load_css("assets/styles.css")
+
 # # Session State Initialisierung
 @st.cache_data(ttl=3600)
 def initialize_data():
