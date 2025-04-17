@@ -9644,5 +9644,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 31
+    },
+    {
+        "draft_id": "1207100722546475008",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Odell",
+            "injury_status": "",
+            "last_name": "Beckham",
+            "news_updated": "1734395108576",
+            "number": "3",
+            "player_id": "2078",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "10"
+        },
+        "pick_no": 372,
+        "picked_by": "1002304558338502656",
+        "player_id": "2078",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 31
     }
 ]
