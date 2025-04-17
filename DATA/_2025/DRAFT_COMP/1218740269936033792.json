@@ -16,7 +16,8 @@
         "1205981976327114752": 10,
         "430760855328526336": 8,
         "740271047152128000": 2,
-        "902310121592586240": 5
+        "902310121592586240": 5,
+        "999807017533378560": 12
     },
     "last_message_id": "1218740269936033792",
     "last_message_time": 1744932832755,
@@ -41,7 +42,7 @@
         "pick_timer": 14400,
         "player_type": 1,
         "reversal_round": 0,
-        "rounds": 5,
+        "rounds": 4,
         "slots_bn": 20,
         "slots_def": 1,
         "slots_flex": 3,
@@ -67,7 +68,7 @@
         "9": 6
     },
     "sport": "nfl",
-    "start_time": null,
+    "start_time": 1753999200000,
     "status": "pre_draft",
     "type": "snake"
 }
