@@ -17,6 +17,7 @@ def load_json(file_path):
             return json.load(file)
     return None
 
+@st.cache_data(ttl=900)
 def display_drafts(league_ids):
     st.write("### Draftübersicht")
     st.write('''Die Draftübersicht wurde auf die neue Saison 2025 umgestellt. 

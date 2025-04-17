@@ -7,3 +7,5 @@ sleeper-api-wrapper
 graphviz
 feedparser
 st-link-analysis
+bs4
+selenium

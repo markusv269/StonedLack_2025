@@ -3,7 +3,7 @@ import pandas as pd
 
 st.write(
     '''
-    # Die Stoned Lack Redraft Ligen 2024
+    # Die Stoned Lack Redraft Ligen
     ## Settings
     ### Roster uns sonstige Einstellungen
     Die SLR Ligen werden mit 12 Managern gespielt. Jedes Team besteht aus 15 Spielern.
@@ -78,6 +78,8 @@ descriptions = {
     "pts_allow_21_27": "Gegnerische Punkte: 21-27",
     "pts_allow_28_34": "Gegnerische Punkte: 28-34",
     "pts_allow_35p": "Gegnerische Punkte: 35+",
+    "kr_yd": "Kick Return Yards (pro Yard)",
+    "pr_yd": "Punt Return Yards (pro Yard)"
 }
 
 # Daten für die Tabelle sammeln
