@@ -1142,5 +1142,83 @@
         "reactions": null,
         "roster_id": 7,
         "round": 4
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kenneth",
+            "injury_status": "",
+            "last_name": "Walker",
+            "news_updated": "1737157534939",
+            "number": "9",
+            "player_id": "8151",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 45,
+        "picked_by": "720386675821338624",
+        "player_id": "8151",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 4
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Derrick",
+            "injury_status": "",
+            "last_name": "Henry",
+            "news_updated": "1743562817722",
+            "number": "22",
+            "player_id": "3198",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "9"
+        },
+        "pick_no": 46,
+        "picked_by": "989544359940902912",
+        "player_id": "3198",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 4
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Alvin",
+            "injury_status": "",
+            "last_name": "Kamara",
+            "news_updated": "1743573320330",
+            "number": "41",
+            "player_id": "4035",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 47,
+        "picked_by": "701502788793884672",
+        "player_id": "4035",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 4
     }
 ]
