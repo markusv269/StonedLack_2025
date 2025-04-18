@@ -1347,7 +1347,11 @@
         "pick_no": 52,
         "picked_by": "720386675821338624",
         "player_id": "7526",
-        "reactions": null,
+        "reactions": {
+            "1031891383537303552": [
+                "like"
+            ]
+        },
         "roster_id": 12,
         "round": 5
     }
