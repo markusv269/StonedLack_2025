@@ -856,5 +856,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 3
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Bucky",
+            "injury_status": "",
+            "last_name": "Irving",
+            "news_updated": "1736742658845",
+            "number": "7",
+            "player_id": "11584",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 34,
+        "picked_by": "873296312697774080",
+        "player_id": "11584",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 3
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Travis",
+            "injury_status": "",
+            "last_name": "Etienne",
+            "news_updated": "1736147404580",
+            "number": "1",
+            "player_id": "7543",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 35,
+        "picked_by": "1031891383537303552",
+        "player_id": "7543",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 3
     }
 ]
