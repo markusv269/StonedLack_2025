@@ -1536,5 +1536,83 @@
         "reactions": null,
         "roster_id": 10,
         "round": 5
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "David",
+            "injury_status": "",
+            "last_name": "Montgomery",
+            "news_updated": "1737265847789",
+            "number": "5",
+            "player_id": "5892",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 60,
+        "picked_by": "1134245276002304000",
+        "player_id": "5892",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 5
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Davante",
+            "injury_status": "",
+            "last_name": "Adams",
+            "news_updated": "1741563060817",
+            "number": "17",
+            "player_id": "2133",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "11"
+        },
+        "pick_no": 61,
+        "picked_by": "1134245276002304000",
+        "player_id": "2133",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 6
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Deebo",
+            "injury_status": "",
+            "last_name": "Samuel",
+            "news_updated": "1742587835502",
+            "number": "1",
+            "player_id": "5872",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 62,
+        "picked_by": "1031891383537303552",
+        "player_id": "5872",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 6
     }
 ]
