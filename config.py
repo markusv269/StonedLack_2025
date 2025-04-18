@@ -32,6 +32,7 @@ DYNLEAGUES = [
         "1198377313197117440",
         "1109910972271075328",# IDP only
         "1207100721535655936",# Stoned Lack Dynasty 32
+        "1208531949958742016",# Stoned Lack Dynasty IDP 33
     ]     
 
 REDLEAGUES = [
