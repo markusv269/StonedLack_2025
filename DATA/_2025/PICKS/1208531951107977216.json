@@ -1614,5 +1614,57 @@
         "reactions": null,
         "roster_id": 10,
         "round": 6
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyrone",
+            "injury_status": "",
+            "last_name": "Tracy",
+            "news_updated": "1736167207769",
+            "number": "29",
+            "player_id": "11655",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 63,
+        "picked_by": "873296312697774080",
+        "player_id": "11655",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 6
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "C.J.",
+            "injury_status": "",
+            "last_name": "Stroud",
+            "news_updated": "1737248745534",
+            "number": "7",
+            "player_id": "9758",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 64,
+        "picked_by": "990318951781490688",
+        "player_id": "9758",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 6
     }
 ]
