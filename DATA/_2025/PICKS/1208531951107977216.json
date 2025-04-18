@@ -1116,5 +1116,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 4
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "DeVonta",
+            "injury_status": "",
+            "last_name": "Smith",
+            "news_updated": "1739159703198",
+            "number": "6",
+            "player_id": "7525",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 44,
+        "picked_by": "740271047152128000",
+        "player_id": "7525",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 4
     }
 ]
