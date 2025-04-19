@@ -1692,5 +1692,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 6
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "James",
+            "injury_status": "",
+            "last_name": "Conner",
+            "news_updated": "1735783833559",
+            "number": "6",
+            "player_id": "4137",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 66,
+        "picked_by": "1129655183757299712",
+        "player_id": "4137",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 6
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Bo",
+            "injury_status": "",
+            "last_name": "Nix",
+            "news_updated": "1740516622965",
+            "number": "10",
+            "player_id": "11563",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 67,
+        "picked_by": "701502788793884672",
+        "player_id": "11563",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 6
     }
 ]
