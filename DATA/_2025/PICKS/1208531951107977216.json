@@ -1822,5 +1822,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 6
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Mike",
+            "injury_status": "",
+            "last_name": "Evans",
+            "news_updated": "1743623421396",
+            "number": "13",
+            "player_id": "2216",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "11"
+        },
+        "pick_no": 71,
+        "picked_by": "701502788793884672",
+        "player_id": "2216",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 6
     }
 ]
