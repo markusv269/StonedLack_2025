@@ -1744,5 +1744,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 6
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Zaire",
+            "injury_status": "",
+            "last_name": "Franklin",
+            "news_updated": "1737411005630",
+            "number": "44",
+            "player_id": "5346",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 68,
+        "picked_by": "740271047152128000",
+        "player_id": "5346",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 6
     }
 ]
