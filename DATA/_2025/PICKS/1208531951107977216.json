@@ -1952,5 +1952,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 7
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "George",
+            "injury_status": "",
+            "last_name": "Kittle",
+            "news_updated": "1740638708410",
+            "number": "85",
+            "player_id": "4217",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 76,
+        "picked_by": "720386675821338624",
+        "player_id": "4217",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 7
     }
 ]
