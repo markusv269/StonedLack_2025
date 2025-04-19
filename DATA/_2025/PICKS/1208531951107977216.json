@@ -1900,5 +1900,57 @@
         "reactions": null,
         "roster_id": 4,
         "round": 7
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jameson",
+            "injury_status": "",
+            "last_name": "Williams",
+            "news_updated": "1743447354028",
+            "number": "1",
+            "player_id": "8148",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 74,
+        "picked_by": "701502788793884672",
+        "player_id": "8148",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 7
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kyle",
+            "injury_status": "",
+            "last_name": "Pitts",
+            "news_updated": "1736287213476",
+            "number": "8",
+            "player_id": "7553",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 75,
+        "picked_by": "989544359940902912",
+        "player_id": "7553",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 7
     }
 ]
