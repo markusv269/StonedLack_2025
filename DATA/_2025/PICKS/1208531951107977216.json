@@ -1978,5 +1978,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 7
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Aidan",
+            "injury_status": "",
+            "last_name": "Hutchinson",
+            "news_updated": "1740638108293",
+            "number": "97",
+            "player_id": "8289",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 77,
+        "picked_by": "740271047152128000",
+        "player_id": "8289",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 7
     }
 ]
