@@ -2316,5 +2316,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 8
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brian",
+            "injury_status": "",
+            "last_name": "Branch",
+            "news_updated": "1737954932145",
+            "number": "32",
+            "player_id": "10905",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 90,
+        "picked_by": "1129655183757299712",
+        "player_id": "10905",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 8
     }
 ]
