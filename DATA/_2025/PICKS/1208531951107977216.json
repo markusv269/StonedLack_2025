@@ -2550,5 +2550,57 @@
         "reactions": null,
         "roster_id": 8,
         "round": 9
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kyle",
+            "injury_status": "",
+            "last_name": "Hamilton",
+            "news_updated": "1737673236594",
+            "number": "14",
+            "player_id": "8339",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 99,
+        "picked_by": "989544359940902912",
+        "player_id": "8339",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 9
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Calvin",
+            "injury_status": "",
+            "last_name": "Ridley",
+            "news_updated": "1736133942313",
+            "number": "0",
+            "player_id": "4981",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 100,
+        "picked_by": "720386675821338624",
+        "player_id": "4981",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 9
     }
 ]
