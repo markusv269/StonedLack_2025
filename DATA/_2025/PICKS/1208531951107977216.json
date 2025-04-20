@@ -2446,5 +2446,83 @@
         "reactions": null,
         "roster_id": 11,
         "round": 8
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Nick",
+            "injury_status": "",
+            "last_name": "Bosa",
+            "news_updated": "1737153634494",
+            "number": "97",
+            "player_id": "5816",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 95,
+        "picked_by": "740271047152128000",
+        "player_id": "5816",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 8
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kayvon",
+            "injury_status": "",
+            "last_name": "Thibodeaux",
+            "news_updated": "1736479541502",
+            "number": "5",
+            "player_id": "8355",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 96,
+        "picked_by": "1130163665224830976",
+        "player_id": "8355",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 8
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Zack",
+            "injury_status": "",
+            "last_name": "Baun",
+            "news_updated": "1741213820997",
+            "number": "53",
+            "player_id": "6815",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 97,
+        "picked_by": "1130163665224830976",
+        "player_id": "6815",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 9
     }
 ]
