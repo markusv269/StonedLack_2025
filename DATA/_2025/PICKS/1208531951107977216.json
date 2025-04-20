@@ -2394,5 +2394,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 8
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Rhamondre",
+            "injury_status": "",
+            "last_name": "Stevenson",
+            "news_updated": "1743483934469",
+            "number": "38",
+            "player_id": "7611",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 93,
+        "picked_by": "720386675821338624",
+        "player_id": "7611",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 8
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brian",
+            "injury_status": "",
+            "last_name": "Robinson",
+            "news_updated": "1737943530798",
+            "number": "8",
+            "player_id": "8154",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 94,
+        "picked_by": "465127136819146752",
+        "player_id": "8154",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 8
     }
 ]
