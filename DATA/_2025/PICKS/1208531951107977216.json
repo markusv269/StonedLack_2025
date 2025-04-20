@@ -2524,5 +2524,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 9
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Nick",
+            "injury_status": "",
+            "last_name": "Bolton",
+            "news_updated": "1741585803898",
+            "number": "32",
+            "player_id": "7648",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 98,
+        "picked_by": "701502788793884672",
+        "player_id": "7648",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 9
     }
 ]
