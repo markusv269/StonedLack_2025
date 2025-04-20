@@ -2368,5 +2368,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 8
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Aaron",
+            "injury_status": "",
+            "last_name": "Jones",
+            "news_updated": "1744043728560",
+            "number": "33",
+            "player_id": "4199",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 92,
+        "picked_by": "740271047152128000",
+        "player_id": "4199",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 8
     }
 ]
