@@ -2784,5 +2784,57 @@
         "reactions": null,
         "roster_id": 10,
         "round": 9
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyjae",
+            "injury_status": "",
+            "last_name": "Spears",
+            "news_updated": "1735933522894",
+            "number": "2",
+            "player_id": "9508",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 108,
+        "picked_by": "1134245276002304000",
+        "player_id": "9508",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 9
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ricky",
+            "injury_status": "",
+            "last_name": "Pearsall",
+            "news_updated": "1736172906785",
+            "number": "1",
+            "player_id": "11638",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 109,
+        "picked_by": "1134245276002304000",
+        "player_id": "11638",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 10
     }
 ]
