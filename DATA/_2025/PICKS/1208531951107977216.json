@@ -2628,5 +2628,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 9
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "T.J.",
+            "injury_status": "",
+            "last_name": "Edwards",
+            "news_updated": "1744864248410",
+            "number": "53",
+            "player_id": "5960",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 102,
+        "picked_by": "465127136819146752",
+        "player_id": "5960",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 9
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Travon",
+            "injury_status": "",
+            "last_name": "Walker",
+            "news_updated": "1744051229694",
+            "number": "44",
+            "player_id": "8265",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 103,
+        "picked_by": "1129655183757299712",
+        "player_id": "8265",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 9
     }
 ]
