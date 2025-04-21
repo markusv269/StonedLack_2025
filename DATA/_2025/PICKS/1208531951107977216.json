@@ -2680,5 +2680,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 9
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ernest",
+            "injury_status": "",
+            "last_name": "Jones",
+            "news_updated": "1741586404289",
+            "number": "13",
+            "player_id": "7672",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 104,
+        "picked_by": "1129824623715110912",
+        "player_id": "7672",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 9
     }
 ]
