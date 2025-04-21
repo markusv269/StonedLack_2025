@@ -3174,5 +3174,57 @@
         "reactions": null,
         "roster_id": 8,
         "round": 11
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jessie",
+            "injury_status": "",
+            "last_name": "Bates",
+            "news_updated": "1737234043345",
+            "number": "3",
+            "player_id": "5017",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 123,
+        "picked_by": "989544359940902912",
+        "player_id": "5017",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 11
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Derwin",
+            "injury_status": "",
+            "last_name": "James",
+            "news_updated": "1737590127219",
+            "number": "3",
+            "player_id": "4971",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 124,
+        "picked_by": "720386675821338624",
+        "player_id": "4971",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 11
     }
 ]
