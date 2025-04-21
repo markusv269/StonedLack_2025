@@ -83,7 +83,7 @@ pg = st.navigation(
             # st.Page(page="VIEWS/START/2_champofchamps copy.py", title="Champ of Champs", icon=":material/trophy:"),
             # st.Page(page="VIEWS/START/3_coc_spiel.py", title="CoC Tippabgabe", icon=":material/casino:"),
             st.Page(page="VIEWS/START/5_sleeper_ecke.py", title="sleeper.com-Ecke", icon=":material/bedtime:"),
-            # st.Page(page="VIEWS/START/7_Community_Mock_Draft.py", title="Community Mock Draft 2025", icon=":material/bedtime:")
+            st.Page(page="VIEWS/START/7_Community_Mock_Draft.py", title="Community Mock Draft 2025", icon=":material/tv:")
         ],
         "Redraft allgemein": [
             # st.Page(page="VIEWS/REDRAFT/RED_slr2025.py", title="SLR2025 Anmeldung", icon=":material/login:"),

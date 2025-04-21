@@ -20,8 +20,8 @@ with st.expander("StonedLack News", icon=":material/news:", expanded=True):
     ---
     
     #### Erster Dynasty-Draft 2025 läuft
-    In der neu gegründeten Stoned Lack Dynasty 32 läuft gerade der Verteran Draft. Alle Picks können hier auf der Seite unter Dynasty -> Drafts oder auf sleeper (https://sleeper.com/draft/nfl/1207100722546475008) abgerufen werden.            
-             
+    In der neu gegründeten Stoned Lack Dynasty 32 läuft gerade der Verteran Draft. Alle Picks können hier auf der Seite unter Dynasty -> Drafts oder auf sleeper (https://sleeper.com/draft/nfl/1207100722546475008) abgerufen werden.                 
+    
     ---
 
     #### Stoned Lack bei der American Football Madness in Düsseldorf dabei
