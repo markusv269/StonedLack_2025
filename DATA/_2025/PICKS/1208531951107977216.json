@@ -2836,5 +2836,57 @@
         "reactions": null,
         "roster_id": 6,
         "round": 10
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Josh",
+            "injury_status": "",
+            "last_name": "Hines-Allen",
+            "news_updated": "1736021428406",
+            "number": "41",
+            "player_id": "5840",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 110,
+        "picked_by": "465127136819146752",
+        "player_id": "5840",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 10
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brian",
+            "injury_status": "",
+            "last_name": "Burns",
+            "news_updated": "1736305213645",
+            "number": "0",
+            "player_id": "5862",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 111,
+        "picked_by": "873296312697774080",
+        "player_id": "5862",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 10
     }
 ]
