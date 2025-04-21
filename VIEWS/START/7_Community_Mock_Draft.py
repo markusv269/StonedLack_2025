@@ -7,7 +7,7 @@ Der Community Mock Draft 2025 ist Geschichte.
 Für jedes Team wurden Mitglieder aus der Community aufgerufen, ihre Picks für die Franchise abzugeben.
 Das Ergebnis der ersten Draftrunde gemäß der StonedLack-Community seht ihr im unten stehenden Bild.  
 
-Mit dem in der Nacht von Donnerstag auf Freitag verlaufendem der 2025er-Draftklasse wird sich zeigen, welche Picks der Realität entsprechen. 
+Mit dem in der Nacht von Donnerstag auf Freitag verlaufendem Draft der 2025er-Klasse wird sich zeigen, welche Picks der Realität entsprechen. 
 ''')
 
 st.image("Pictures/pff_mock_results.png")
