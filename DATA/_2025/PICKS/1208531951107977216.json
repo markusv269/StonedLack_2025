@@ -2992,5 +2992,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 10
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Terrel",
+            "injury_status": "",
+            "last_name": "Bernard",
+            "news_updated": "1741415452372",
+            "number": "8",
+            "player_id": "8311",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 116,
+        "picked_by": "740271047152128000",
+        "player_id": "8311",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 10
     }
 ]
