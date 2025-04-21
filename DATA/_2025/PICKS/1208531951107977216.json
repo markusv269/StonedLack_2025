@@ -3096,5 +3096,83 @@
         "reactions": null,
         "roster_id": 8,
         "round": 10
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "E.J.",
+            "injury_status": "",
+            "last_name": "Speed",
+            "news_updated": "1743270354636",
+            "number": "45",
+            "player_id": "6218",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 120,
+        "picked_by": "1130163665224830976",
+        "player_id": "6218",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 10
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Harold",
+            "injury_status": "",
+            "last_name": "Landry",
+            "news_updated": "1741586704313",
+            "number": "2",
+            "player_id": "5030",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 121,
+        "picked_by": "1130163665224830976",
+        "player_id": "5030",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 11
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Laiatu",
+            "injury_status": "",
+            "last_name": "Latu",
+            "news_updated": "1736121340297",
+            "number": "97",
+            "player_id": "11669",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 122,
+        "picked_by": "701502788793884672",
+        "player_id": "11669",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 11
     }
 ]
