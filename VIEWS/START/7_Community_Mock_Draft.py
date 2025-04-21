@@ -19,11 +19,11 @@ Dass ganze 7 Running Backs in der ersten Runde vom Board gehen, ist auch eher un
 Dennoch war es wieder ein großes Spektakel und ein riesen Spaß.  
          
 Achso, zum Schluss noch meine Top 5 der deutschen Städte:
-- Leipzig (easy #1:smile:, grüner Gürtel, JS Bach, Leipzig Lions GFL2 let's fuuucking gooo!)
-- Hamburg (zweite Heimat, HSV, Planten&Bloomen, St. Pauli + Schanzenviertel, GoldenPudelClub)*  
-- Münster (Fahrradstadt, grün, See in der Stadt, AfD stabil unter 5% :fist:)
-- München (fast schon gruselig ordentlich + schön, NFL International Game)
-- Dresden (wäre höher, wenn es nicht Dresden wäre)
+- **Leipzig** (easy #1:smile:, grüner Gürtel, JS Bach, Leipzig Lions GFL2 let's fuuucking gooo!)
+- **Hamburg** (zweite Heimat, HSV, Planten&Bloomen, St. Pauli + Schanzenviertel, GoldenPudelClub)*  
+- **Münster** (Fahrradstadt, grün, See in der Stadt, AfD stabil unter 5% :fist:)
+- **München** (fast schon gruselig ordentlich + schön, NFL International Game)
+- **Dresden** (wäre höher, wenn es nicht Dresden wäre)
          
 
 \* _Der Grund warum hier Menschen gern leben  
