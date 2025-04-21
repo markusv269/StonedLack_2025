@@ -2706,5 +2706,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 9
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jack",
+            "injury_status": "",
+            "last_name": "Campbell",
+            "news_updated": "1737954632187",
+            "number": "46",
+            "player_id": "10880",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 105,
+        "picked_by": "990318951781490688",
+        "player_id": "10880",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 9
     }
 ]
