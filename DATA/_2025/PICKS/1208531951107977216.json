@@ -3226,5 +3226,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 11
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Antoine",
+            "injury_status": "",
+            "last_name": "Winfield",
+            "news_updated": "1743708329189",
+            "number": "31",
+            "player_id": "6888",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 125,
+        "picked_by": "740271047152128000",
+        "player_id": "6888",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 11
     }
 ]
