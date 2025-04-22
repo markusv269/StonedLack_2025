@@ -3720,5 +3720,83 @@
         "reactions": null,
         "roster_id": 8,
         "round": 12
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Braden",
+            "injury_status": "",
+            "last_name": "Fiske",
+            "news_updated": "1737672036333",
+            "number": "55",
+            "player_id": "11677",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 144,
+        "picked_by": "1130163665224830976",
+        "player_id": "11677",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 12
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Micah",
+            "injury_status": "",
+            "last_name": "McFadden",
+            "news_updated": "1735933825062",
+            "number": "41",
+            "player_id": "8396",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 145,
+        "picked_by": "1130163665224830976",
+        "player_id": "8396",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 13
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jonathan",
+            "injury_status": "",
+            "last_name": "Greenard",
+            "news_updated": "1737435007692",
+            "number": "58",
+            "player_id": "6900",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 146,
+        "picked_by": "701502788793884672",
+        "player_id": "6900",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 13
     }
 ]
