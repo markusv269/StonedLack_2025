@@ -3252,5 +3252,83 @@
         "reactions": null,
         "roster_id": 7,
         "round": 11
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Xavier",
+            "injury_status": "",
+            "last_name": "McKinney",
+            "news_updated": "1737424506200",
+            "number": "29",
+            "player_id": "6788",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 126,
+        "picked_by": "465127136819146752",
+        "player_id": "6788",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 11
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "George",
+            "injury_status": "",
+            "last_name": "Karlaftis",
+            "news_updated": "1739495112479",
+            "number": "56",
+            "player_id": "8385",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 127,
+        "picked_by": "1129655183757299712",
+        "player_id": "8385",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 11
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Pat",
+            "injury_status": "",
+            "last_name": "Surtain",
+            "news_updated": "1738895154563",
+            "number": "2",
+            "player_id": "7641",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 128,
+        "picked_by": "1129824623715110912",
+        "player_id": "7641",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 11
     }
 ]
