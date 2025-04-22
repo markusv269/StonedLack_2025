@@ -3512,5 +3512,57 @@
         "reactions": null,
         "roster_id": 3,
         "round": 12
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Josh",
+            "injury_status": "",
+            "last_name": "Downs",
+            "news_updated": "1736148605056",
+            "number": "1",
+            "player_id": "9500",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 136,
+        "picked_by": "990318951781490688",
+        "player_id": "9500",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 12
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Khalil",
+            "injury_status": "",
+            "last_name": "Shakir",
+            "news_updated": "1740506418657",
+            "number": "10",
+            "player_id": "8134",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 137,
+        "picked_by": "1129824623715110912",
+        "player_id": "8134",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 12
     }
 ]
