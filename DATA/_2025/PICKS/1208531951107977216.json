@@ -3902,5 +3902,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 13
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kobie",
+            "injury_status": "",
+            "last_name": "Turner",
+            "news_updated": "1738284058781",
+            "number": "91",
+            "player_id": "10916",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 151,
+        "picked_by": "1129655183757299712",
+        "player_id": "10916",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 13
     }
 ]
