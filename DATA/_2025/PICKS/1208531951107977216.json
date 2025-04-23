@@ -3980,5 +3980,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 13
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Marvin",
+            "injury_status": "",
+            "last_name": "Mims",
+            "news_updated": "1736723157686",
+            "number": "19",
+            "player_id": "9494",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 154,
+        "picked_by": "873296312697774080",
+        "player_id": "9494",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 13
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Frankie",
+            "injury_status": "",
+            "last_name": "Luvu",
+            "news_updated": "1738350604206",
+            "number": "4",
+            "player_id": "5580",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 155,
+        "picked_by": "989544359940902912",
+        "player_id": "5580",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 13
     }
 ]
