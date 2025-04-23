@@ -4266,5 +4266,83 @@
         "reactions": null,
         "roster_id": 7,
         "round": 14
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Logan",
+            "injury_status": "",
+            "last_name": "Wilson",
+            "news_updated": "1733517636368",
+            "number": "55",
+            "player_id": "6880",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 165,
+        "picked_by": "720386675821338624",
+        "player_id": "6880",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 14
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cam",
+            "injury_status": "",
+            "last_name": "Bynum",
+            "news_updated": "1741674061364",
+            "number": "27",
+            "player_id": "7715",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 166,
+        "picked_by": "989544359940902912",
+        "player_id": "7715",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 14
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Xavier",
+            "injury_status": "",
+            "last_name": "Legette",
+            "news_updated": "1743573920436",
+            "number": "17",
+            "player_id": "11626",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 167,
+        "picked_by": "701502788793884672",
+        "player_id": "11626",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 14
     }
 ]
