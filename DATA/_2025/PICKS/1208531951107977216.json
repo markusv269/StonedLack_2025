@@ -4240,5 +4240,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 14
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Christian",
+            "injury_status": "",
+            "last_name": "Kirk",
+            "news_updated": "1742822454731",
+            "number": "13",
+            "player_id": "4950",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 164,
+        "picked_by": "740271047152128000",
+        "player_id": "4950",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 14
     }
 ]
