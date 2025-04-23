@@ -3928,5 +3928,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 13
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Zach",
+            "injury_status": "",
+            "last_name": "Charbonnet",
+            "news_updated": "1736180707087",
+            "number": "26",
+            "player_id": "9753",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 152,
+        "picked_by": "1129824623715110912",
+        "player_id": "9753",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 13
     }
 ]
