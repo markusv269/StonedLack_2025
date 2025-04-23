@@ -4110,5 +4110,57 @@
         "reactions": null,
         "roster_id": 10,
         "round": 14
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Nakobe",
+            "injury_status": "",
+            "last_name": "Dean",
+            "news_updated": "1736903108189",
+            "number": "17",
+            "player_id": "8267",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 159,
+        "picked_by": "873296312697774080",
+        "player_id": "8267",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 14
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Zach",
+            "injury_status": "",
+            "last_name": "Allen",
+            "news_updated": "1737585025965",
+            "number": "99",
+            "player_id": "5871",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 160,
+        "picked_by": "990318951781490688",
+        "player_id": "5871",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 14
     }
 ]
