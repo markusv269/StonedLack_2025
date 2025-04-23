@@ -4162,5 +4162,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 14
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Trent",
+            "injury_status": "",
+            "last_name": "McDuffie",
+            "news_updated": "1739490911985",
+            "number": "22",
+            "player_id": "8364",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 161,
+        "picked_by": "1129824623715110912",
+        "player_id": "8364",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 14
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "DeMarvion",
+            "injury_status": "",
+            "last_name": "Overshown",
+            "news_updated": "1744207543614",
+            "number": "0",
+            "player_id": "10933",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 162,
+        "picked_by": "1129655183757299712",
+        "player_id": "10933",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 14
     }
 ]
