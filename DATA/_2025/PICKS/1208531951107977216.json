@@ -3954,5 +3954,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 13
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Daiyan",
+            "injury_status": "",
+            "last_name": "Henley",
+            "news_updated": "1744788052160",
+            "number": "0",
+            "player_id": "10914",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 153,
+        "picked_by": "990318951781490688",
+        "player_id": "10914",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 13
     }
 ]
