@@ -4526,5 +4526,57 @@
         "reactions": null,
         "roster_id": 2,
         "round": 15
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Stefon",
+            "injury_status": "",
+            "last_name": "Diggs",
+            "news_updated": "1744787752448",
+            "number": "8",
+            "player_id": "2449",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "10"
+        },
+        "pick_no": 175,
+        "picked_by": "1129655183757299712",
+        "player_id": "2449",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 15
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jonnu",
+            "injury_status": "",
+            "last_name": "Smith",
+            "news_updated": "1736178004465",
+            "number": "9",
+            "player_id": "4144",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 176,
+        "picked_by": "1129824623715110912",
+        "player_id": "4144",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 15
     }
 ]
