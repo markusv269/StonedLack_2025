@@ -4500,5 +4500,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 15
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Nnamdi",
+            "injury_status": "",
+            "last_name": "Madubuike",
+            "news_updated": "1737679512978",
+            "number": "92",
+            "player_id": "6818",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 174,
+        "picked_by": "989544359940902912",
+        "player_id": "6818",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 15
     }
 ]
