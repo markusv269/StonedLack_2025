@@ -5254,5 +5254,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 17
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Bryce",
+            "injury_status": "",
+            "last_name": "Young",
+            "news_updated": "1736120141058",
+            "number": "9",
+            "player_id": "9228",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 203,
+        "picked_by": "989544359940902912",
+        "player_id": "9228",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 17
     }
 ]
