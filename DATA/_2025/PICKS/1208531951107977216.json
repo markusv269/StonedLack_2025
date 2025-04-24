@@ -4786,5 +4786,83 @@
         "reactions": null,
         "roster_id": 5,
         "round": 16
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jeffery",
+            "injury_status": "",
+            "last_name": "Simmons",
+            "news_updated": "1736751959160",
+            "number": "98",
+            "player_id": "6125",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 185,
+        "picked_by": "1129824623715110912",
+        "player_id": "6125",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 16
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Chop",
+            "injury_status": "",
+            "last_name": "Robinson",
+            "news_updated": "1737079819175",
+            "number": "44",
+            "player_id": "11663",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 186,
+        "picked_by": "1129655183757299712",
+        "player_id": "11663",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 16
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kyler",
+            "injury_status": "",
+            "last_name": "Murray",
+            "news_updated": "1744233344899",
+            "number": "1",
+            "player_id": "5849",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 187,
+        "picked_by": "1031891383537303552",
+        "player_id": "5849",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 16
     }
 ]
