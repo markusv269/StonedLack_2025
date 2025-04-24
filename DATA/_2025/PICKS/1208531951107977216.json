@@ -5228,5 +5228,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 17
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Baker",
+            "injury_status": "",
+            "last_name": "Mayfield",
+            "news_updated": "1743723360261",
+            "number": "6",
+            "player_id": "4892",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 202,
+        "picked_by": "873296312697774080",
+        "player_id": "4892",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 17
     }
 ]
