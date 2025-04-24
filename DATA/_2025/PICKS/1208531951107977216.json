@@ -5384,5 +5384,83 @@
         "reactions": null,
         "roster_id": 2,
         "round": 18
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Darnell",
+            "injury_status": "",
+            "last_name": "Mooney",
+            "news_updated": "1736096135635",
+            "number": "1",
+            "player_id": "7090",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 208,
+        "picked_by": "990318951781490688",
+        "player_id": "7090",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 18
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Rashid",
+            "injury_status": "",
+            "last_name": "Shaheed",
+            "news_updated": "1729197641895",
+            "number": "22",
+            "player_id": "8676",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 209,
+        "picked_by": "1129824623715110912",
+        "player_id": "8676",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 18
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "J.J.",
+            "injury_status": "",
+            "last_name": "McCarthy",
+            "news_updated": "1745306103941",
+            "number": "9",
+            "player_id": "11565",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 210,
+        "picked_by": "1129655183757299712",
+        "player_id": "11565",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 18
     }
 ]
