@@ -5722,5 +5722,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 19
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Rashod",
+            "injury_status": "",
+            "last_name": "Bateman",
+            "news_updated": "1737343256889",
+            "number": "7",
+            "player_id": "7571",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 221,
+        "picked_by": "740271047152128000",
+        "player_id": "7571",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 19
     }
 ]
