@@ -5457,10 +5457,10 @@
             "years_exp": "1"
         },
         "pick_no": 210,
-        "picked_by": "1129655183757299712",
+        "picked_by": "701502788793884672",
         "player_id": "11565",
         "reactions": null,
-        "roster_id": 1,
+        "roster_id": 8,
         "round": 18
     },
     {
@@ -5587,10 +5587,10 @@
             "years_exp": "1"
         },
         "pick_no": 215,
-        "picked_by": "701502788793884672",
+        "picked_by": "1129655183757299712",
         "player_id": "11559",
         "reactions": null,
-        "roster_id": 8,
+        "roster_id": 1,
         "round": 18
     }
 ]
