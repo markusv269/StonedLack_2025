@@ -60,7 +60,7 @@ picks = {
         "MIA": {"name": "K. Grant", "pos": ["DT"]},
         "IND": {"name": "T. Warren", "pos": ["TE"]},
         "ATL": {"name": "J. Walker", "pos": ["LB"]},
-        # "ARI": {"name": "", "pos": []},
+        "ARI": {"name": "W. Nolen", "pos": ["DT"]},
         # "CIN": {"name": "", "pos": []},
         # "SEA": {"name": "", "pos": []},
         # "TB": {"name": "", "pos": []},
@@ -118,6 +118,8 @@ st.markdown('''
         ''')
 counter = count_positions(picks)
 st.write(f"DEF-Players: {counter['def']}, OFF-Players: {counter['off']}")
+pick = 1
 for team, items in picks.items():
-        st.write(f"**{team}:** {items['name']} ({'/'.join(items['pos'])}) {items.get('marks','')}")
+        st.write(f"**#{pick} {team}:** {items['name']} ({'/'.join(items['pos'])}) {items.get('marks','')}")
+        pick += 1
         
