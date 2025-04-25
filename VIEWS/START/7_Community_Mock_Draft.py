@@ -59,29 +59,29 @@ picks = {
         "DAL": {"name": "T. Booker", "pos": ["G"]},
         "MIA": {"name": "K. Grant", "pos": ["DT"]},
         "IND": {"name": "T. Warren", "pos": ["TE"]},
-        "ATL": {"name": "", "pos": []},
-        "ARI": {"name": "", "pos": []},
-        "CIN": {"name": "", "pos": []},
-        "SEA": {"name": "", "pos": []},
-        "TB": {"name": "", "pos": []},
-        "DEN": {"name": "", "pos": []},
-        "PIT": {"name": "", "pos": []},
-        "LAC": {"name": "", "pos": []},
-        "GB": {"name": "", "pos": []},
-        "MIN": {"name": "", "pos": []},
-        "HOU": {"name": "", "pos": []},
-        "LAR": {"name": "", "pos": []},
-        "BAL": {"name": "", "pos": []},
-        "DET": {"name": "", "pos": []},
-        "WAS": {"name": "", "pos": []},
-        "BUF": {"name": "", "pos": []},
-        "KC": {"name": "", "pos": []},
-        "PHI": {"name": "", "pos": []},
+        "ATL": {"name": "J. Walker", "pos": ["LB"]},
+        # "ARI": {"name": "", "pos": []},
+        # "CIN": {"name": "", "pos": []},
+        # "SEA": {"name": "", "pos": []},
+        # "TB": {"name": "", "pos": []},
+        # "DEN": {"name": "", "pos": []},
+        # "PIT": {"name": "", "pos": []},
+        # "LAC": {"name": "", "pos": []},
+        # "GB": {"name": "", "pos": []},
+        # "MIN": {"name": "", "pos": []},
+        # "HOU": {"name": "", "pos": []},
+        # "LAR": {"name": "", "pos": []},
+        # "BAL": {"name": "", "pos": []},
+        # "DET": {"name": "", "pos": []},
+        # "WAS": {"name": "", "pos": []},
+        # "BUF": {"name": "", "pos": []},
+        # "KC": {"name": "", "pos": []},
+        # "PHI": {"name": "", "pos": []},
 }
 
 def count_positions(picks):
     offense_positions = {"QB", "RB", "WR", "TE", "T", "G", "C"}
-    defense_positions = {"DT", "ED", "CB", "S", "LB"}
+    defense_positions = {"DT", "ED", "CB", "S", "LB", "DE"}
 
     offense_count = 0
     defense_count = 0
