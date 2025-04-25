@@ -5670,5 +5670,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 19
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Bradley",
+            "injury_status": "",
+            "last_name": "Chubb",
+            "news_updated": "1741240224934",
+            "number": "2",
+            "player_id": "4967",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 219,
+        "picked_by": "989544359940902912",
+        "player_id": "4967",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 19
     }
 ]
