@@ -5696,5 +5696,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 19
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Minkah",
+            "injury_status": "",
+            "last_name": "Fitzpatrick",
+            "news_updated": "1737499214789",
+            "number": "39",
+            "player_id": "4963",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 220,
+        "picked_by": "720386675821338624",
+        "player_id": "4963",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 19
     }
 ]
