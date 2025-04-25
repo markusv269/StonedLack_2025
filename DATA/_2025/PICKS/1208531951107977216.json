@@ -5748,5 +5748,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 19
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaylen",
+            "injury_status": "",
+            "last_name": "Wright",
+            "news_updated": "1736361317328",
+            "number": "25",
+            "player_id": "11643",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 222,
+        "picked_by": "465127136819146752",
+        "player_id": "11643",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 19
     }
 ]
