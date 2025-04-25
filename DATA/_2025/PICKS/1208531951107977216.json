@@ -5774,5 +5774,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 19
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Derek",
+            "injury_status": "",
+            "last_name": "Stingley",
+            "news_updated": "1742227229842",
+            "number": "24",
+            "player_id": "8308",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 223,
+        "picked_by": "701502788793884672",
+        "player_id": "8308",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 19
     }
 ]
