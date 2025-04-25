@@ -5592,5 +5592,83 @@
         "reactions": null,
         "roster_id": 1,
         "round": 18
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaleel",
+            "injury_status": "",
+            "last_name": "McLaughlin",
+            "news_updated": "1736868004007",
+            "number": "38",
+            "player_id": "11439",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 216,
+        "picked_by": "1130163665224830976",
+        "player_id": "11439",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 18
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tre",
+            "injury_status": "",
+            "last_name": "Tucker",
+            "news_updated": "1736144704081",
+            "number": "1",
+            "player_id": "10213",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 217,
+        "picked_by": "1130163665224830976",
+        "player_id": "10213",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 19
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Mark",
+            "injury_status": "",
+            "last_name": "Andrews",
+            "news_updated": "1745011213883",
+            "number": "89",
+            "player_id": "5012",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 218,
+        "picked_by": "1129655183757299712",
+        "player_id": "5012",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 19
     }
 ]
