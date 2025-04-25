@@ -5514,5 +5514,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 18
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Devon",
+            "injury_status": "",
+            "last_name": "Witherspoon",
+            "news_updated": "1737158734706",
+            "number": "21",
+            "player_id": "10891",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 213,
+        "picked_by": "720386675821338624",
+        "player_id": "10891",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 18
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Trey",
+            "injury_status": "",
+            "last_name": "Benson",
+            "news_updated": "1735697426730",
+            "number": "33",
+            "player_id": "11589",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 214,
+        "picked_by": "989544359940902912",
+        "player_id": "11589",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 18
     }
 ]
