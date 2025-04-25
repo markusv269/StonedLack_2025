@@ -5566,5 +5566,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 18
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Michael",
+            "injury_status": "",
+            "last_name": "Penix",
+            "news_updated": "1736123441069",
+            "number": "9",
+            "player_id": "11559",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 215,
+        "picked_by": "701502788793884672",
+        "player_id": "11559",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 18
     }
 ]
