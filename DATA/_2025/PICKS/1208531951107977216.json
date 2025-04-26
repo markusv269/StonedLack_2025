@@ -5982,5 +5982,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 20
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jared",
+            "injury_status": "",
+            "last_name": "Goff",
+            "news_updated": "1739890846478",
+            "number": "16",
+            "player_id": "3163",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "9"
+        },
+        "pick_no": 231,
+        "picked_by": "873296312697774080",
+        "player_id": "3163",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 20
     }
 ]
