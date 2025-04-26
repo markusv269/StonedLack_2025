@@ -5956,5 +5956,31 @@
         "reactions": null,
         "roster_id": 6,
         "round": 20
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Alex",
+            "injury_status": "",
+            "last_name": "Highsmith",
+            "news_updated": "1737513317330",
+            "number": "56",
+            "player_id": "7113",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 230,
+        "picked_by": "1031891383537303552",
+        "player_id": "7113",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 20
     }
 ]
