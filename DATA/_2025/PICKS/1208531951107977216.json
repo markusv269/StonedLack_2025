@@ -6112,5 +6112,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 20
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Blake",
+            "injury_status": "",
+            "last_name": "Cashman",
+            "news_updated": "1737431407131",
+            "number": "51",
+            "player_id": "6217",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 236,
+        "picked_by": "740271047152128000",
+        "player_id": "6217",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 20
     }
 ]
