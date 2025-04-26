@@ -58,29 +58,29 @@ picks = {
         "SF": {"name": "M. Williams", "pos": ["ED"]},
         "DAL": {"name": "T. Booker", "pos": ["G"]},
         "MIA": {"name": "K. Grant", "pos": ["DT"]},
-        "IND": {"name": "T. Warren", "pos": ["TE"]},
+        "IND": {"name": "T. Warren", "pos": ["TE"], "marks": ":fire:"},
         "ATL": {"name": "J. Walker", "pos": ["LB"]},
         "ARI": {"name": "W. Nolen", "pos": ["DT"]},
-        # "CIN": {"name": "", "pos": []},
-        # "SEA": {"name": "", "pos": []},
-        # "TB": {"name": "", "pos": []},
-        # "DEN": {"name": "", "pos": []},
-        # "PIT": {"name": "", "pos": []},
-        # "LAC": {"name": "", "pos": []},
-        # "GB": {"name": "", "pos": []},
-        # "MIN": {"name": "", "pos": []},
-        # "HOU": {"name": "", "pos": []},
-        # "LAR": {"name": "", "pos": []},
-        # "BAL": {"name": "", "pos": []},
-        # "DET": {"name": "", "pos": []},
-        # "WAS": {"name": "", "pos": []},
-        # "BUF": {"name": "", "pos": []},
-        # "KC": {"name": "", "pos": []},
-        # "PHI": {"name": "", "pos": []},
+        "CIN": {"name": "S. Stewart", "pos": ["ED"]},
+        "SEA": {"name": "G. Zabel", "pos": ["OT"]},
+        "TB": {"name": "E. Egbuka", "pos": ["WR"], "marks": ":fire:"},
+        "DEN": {"name": "J. Barron", "pos": ["CB"]},
+        "PIT": {"name": "D. Harmon", "pos": ["DT"]},
+        "LAR": {"name": "O. Hampton", "pos": ["RB"], "marks": ":fire:"},
+        "GB": {"name": "M. Golden", "pos": ["WR"], "marks": ":fire:"},
+        "MIN": {"name": "D. Jackson", "pos": ["OG"]},
+        "NYG (2)": {"name": "J. Dart", "pos": ["QB"], "marks": ":fire: :arrow_double_up: _HOU_"},
+        "ATL (2)": {"name": "J. Pearce Jr.", "pos": ["ED"], "marks": ":arrow_double_up: _LAR_"}, 
+        "BAL": {"name": "M. Starks", "pos": ["S"]},
+        "DET": {"name": "T. Williams", "pos": ["DT"]},
+        "WAS": {"name": "J. Cornerly Jr.", "pos": ["OT"]},
+        "BUF": {"name": "M. Hairston", "pos": ["CB"]},
+        "PHI": {"name": "J. Campbell", "pos": ["LB"], "marks": ":arrow_double_up: _KC #32_"},
+        "KC": {"name": "J. Simmons", "pos": ["OT"], "marks": ":arrow_double_down: _PHI #31_"},
 }
 
 def count_positions(picks):
-    offense_positions = {"QB", "RB", "WR", "TE", "T", "G", "C"}
+    offense_positions = {"QB", "RB", "WR", "TE", "T", "G", "C", "OT", "OG"}
     defense_positions = {"DT", "ED", "CB", "S", "LB", "DE"}
 
     offense_count = 0
@@ -111,7 +111,7 @@ st.markdown('''
         :white_check_mark:: richtiger Community Pick  
         :arrow_double_up:: traded up  
         :arrow_double_down:: traded down  
-        :fire:: Fantasy Gold
+        :fire:: Fantasy-Relevanz
                                     
         ---
 
