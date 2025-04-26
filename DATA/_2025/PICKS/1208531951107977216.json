@@ -5878,5 +5878,83 @@
         "reactions": null,
         "roster_id": 3,
         "round": 19
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kaden",
+            "injury_status": "",
+            "last_name": "Elliss",
+            "news_updated": "1737233443276",
+            "number": "55",
+            "player_id": "6302",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 227,
+        "picked_by": "1031891383537303552",
+        "player_id": "6302",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 19
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jeremy",
+            "injury_status": "",
+            "last_name": "Chinn",
+            "news_updated": "1741672561085",
+            "number": "11",
+            "player_id": "7016",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 228,
+        "picked_by": "1134245276002304000",
+        "player_id": "7016",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 19
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Isaac",
+            "injury_status": "",
+            "last_name": "Guerendo",
+            "news_updated": "1742327426922",
+            "number": "31",
+            "player_id": "11651",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 229,
+        "picked_by": "1134245276002304000",
+        "player_id": "11651",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 20
     }
 ]
