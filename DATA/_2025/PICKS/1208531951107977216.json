@@ -5800,5 +5800,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 19
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kam",
+            "injury_status": "",
+            "last_name": "Curl",
+            "news_updated": "1738281958349",
+            "number": "3",
+            "player_id": "7136",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 224,
+        "picked_by": "1129824623715110912",
+        "player_id": "7136",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 19
     }
 ]
