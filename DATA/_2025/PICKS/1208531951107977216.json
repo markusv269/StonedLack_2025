@@ -6216,5 +6216,57 @@
         "reactions": null,
         "roster_id": 8,
         "round": 20
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Michael",
+            "injury_status": "",
+            "last_name": "Wilson",
+            "news_updated": "1736108439620",
+            "number": "14",
+            "player_id": "10232",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 240,
+        "picked_by": "1130163665224830976",
+        "player_id": "10232",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 20
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Alex",
+            "injury_status": "",
+            "last_name": "Anzalone",
+            "news_updated": "1737955831950",
+            "number": "34",
+            "player_id": "4118",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 241,
+        "picked_by": "1130163665224830976",
+        "player_id": "4118",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 21
     }
 ]
