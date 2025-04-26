@@ -6138,5 +6138,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 20
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ja'Tavion",
+            "injury_status": "",
+            "last_name": "Sanders",
+            "news_updated": "1736122240301",
+            "number": "0",
+            "player_id": "11600",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 237,
+        "picked_by": "720386675821338624",
+        "player_id": "11600",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 20
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jordan",
+            "injury_status": "",
+            "last_name": "Mason",
+            "news_updated": "1744036228297",
+            "number": "27",
+            "player_id": "8408",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 238,
+        "picked_by": "989544359940902912",
+        "player_id": "8408",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 20
     }
 ]
