@@ -6346,5 +6346,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 21
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Grant",
+            "injury_status": "",
+            "last_name": "Delpit",
+            "news_updated": "1736473541416",
+            "number": "9",
+            "player_id": "6799",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 245,
+        "picked_by": "740271047152128000",
+        "player_id": "6799",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 21
     }
 ]
