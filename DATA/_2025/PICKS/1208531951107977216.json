@@ -6658,5 +6658,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 22
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kenneth",
+            "injury_status": "",
+            "last_name": "Murray",
+            "news_updated": "1741815616683",
+            "number": "59",
+            "player_id": "6811",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 257,
+        "picked_by": "1129824623715110912",
+        "player_id": "6811",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 22
     }
 ]
