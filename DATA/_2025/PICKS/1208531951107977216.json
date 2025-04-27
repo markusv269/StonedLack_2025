@@ -6268,5 +6268,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 21
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "J.K.",
+            "injury_status": "",
+            "last_name": "Dobbins",
+            "news_updated": "1736656551448",
+            "number": "27",
+            "player_id": "6806",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 242,
+        "picked_by": "740271047152128000",
+        "player_id": "6806",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 21
     }
 ]
