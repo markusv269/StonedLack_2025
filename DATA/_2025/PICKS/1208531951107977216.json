@@ -6294,5 +6294,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 21
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Yaya",
+            "injury_status": "",
+            "last_name": "Diaby",
+            "news_updated": "1737658534701",
+            "number": "0",
+            "player_id": "10921",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 243,
+        "picked_by": "989544359940902912",
+        "player_id": "10921",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 21
     }
 ]
