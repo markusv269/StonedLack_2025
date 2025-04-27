@@ -6320,5 +6320,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 21
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Roschon",
+            "injury_status": "",
+            "last_name": "Johnson",
+            "news_updated": "1736177706454",
+            "number": "23",
+            "player_id": "10235",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 244,
+        "picked_by": "720386675821338624",
+        "player_id": "10235",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 21
     }
 ]
