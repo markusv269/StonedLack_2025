@@ -6944,5 +6944,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 23
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Odafe",
+            "injury_status": "",
+            "last_name": "Oweh",
+            "news_updated": "1737681312720",
+            "number": "99",
+            "player_id": "7626",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 268,
+        "picked_by": "720386675821338624",
+        "player_id": "7626",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 23
     }
 ]
