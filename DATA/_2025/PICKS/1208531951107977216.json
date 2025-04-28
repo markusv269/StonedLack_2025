@@ -6970,5 +6970,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 23
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dallas",
+            "injury_status": "",
+            "last_name": "Goedert",
+            "news_updated": "1745739330134",
+            "number": "88",
+            "player_id": "5022",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 269,
+        "picked_by": "740271047152128000",
+        "player_id": "5022",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 23
     }
 ]
