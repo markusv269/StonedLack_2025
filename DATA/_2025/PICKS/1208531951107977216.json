@@ -6710,5 +6710,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 22
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Blake",
+            "injury_status": "",
+            "last_name": "Corum",
+            "news_updated": "1736352017892",
+            "number": "22",
+            "player_id": "11586",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 259,
+        "picked_by": "465127136819146752",
+        "player_id": "11586",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 22
     }
 ]
