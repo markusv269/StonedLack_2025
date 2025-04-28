@@ -6996,5 +6996,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 23
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cedric",
+            "injury_status": "",
+            "last_name": "Tillman",
+            "news_updated": "1735668624669",
+            "number": "19",
+            "player_id": "10444",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 270,
+        "picked_by": "465127136819146752",
+        "player_id": "10444",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 23
     }
 ]
