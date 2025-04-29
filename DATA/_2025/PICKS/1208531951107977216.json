@@ -7594,5 +7594,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 25
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jordan",
+            "injury_status": "",
+            "last_name": "Battle",
+            "news_updated": "1736451339425",
+            "number": "27",
+            "player_id": "10927",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 293,
+        "picked_by": "740271047152128000",
+        "player_id": "10927",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 25
     }
 ]
