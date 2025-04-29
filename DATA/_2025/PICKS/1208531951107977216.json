@@ -7568,5 +7568,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 25
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Darius",
+            "injury_status": "",
+            "last_name": "Robinson",
+            "news_updated": "1734728435310",
+            "number": "56",
+            "player_id": "11658",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 292,
+        "picked_by": "720386675821338624",
+        "player_id": "11658",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 25
     }
 ]
