@@ -1,10 +1,6 @@
 import streamlit as st
 from sleeper_wrapper import League, User, Drafts
 import urllib.parse
-# Query-Parameter auslesen
-query_params = st.query_params
-league_id = query_params.get("league_id")
-roster_id = query_params.get("roster_id")
 
 def showleague_info(league_id, roster_id):
     try:
@@ -22,7 +18,7 @@ def showleague_info(league_id, roster_id):
         return
 
     if roster_info:
-        st.write(f"#### League Info: {league_data.get('name')} ({league_data.get('season')})")
+        st.write(f"**League Info: {league_data.get('name')} ({league_data.get('season')})**")
         st.write(f"**Roster ID {roster_id} Details:**")
         st.json(roster_info)
     else:
@@ -38,7 +34,7 @@ st.title("Sleeper League Roster Viewer")
 
 # Anzeige oder Eingabe
 if league_id and roster_id:
-    st.success(f"Liga: {league_id}, Roster: {roster_id}")
+    # st.success(f"Liga: {league_id}, Roster: {roster_id}")
     showleague_info(league_id, roster_id)
 else:
     league_id_input = st.text_input("League ID")
@@ -48,16 +44,13 @@ else:
             # Query-Parameter setzen (Seite wird neu geladen)
             st.query_params.league_id = league_id_input
             st.query_params.roster_id = roster_id_input
+            showleague_info(league_id_input, roster_id_input)
         else:
             st.error("Bitte beide Felder ausfüllen.")
 
-# Teilen-Link generieren
-if league_id and roster_id:
-    query_string = urllib.parse.urlencode({
-        "league_id": league_id,
-        "roster_id": roster_id
-    })
-    share_url = f"https://stonedlack-2025.streamlit.app/{query_string}"
-    if st.button("Share Link"):
-        st.text_input("Teilen-Link", value=share_url, label_visibility="collapsed")
-        st.success("Link zum Teilen generiert.")
+        query_string = urllib.parse.urlencode({
+            "league_id": league_id_input,
+            "roster_id": roster_id_input
+        })
+        share_url = f"https://stonedlack-2025.streamlit.app/showleague?{query_string}"
+        st.success(f"Teile diese Seite: {share_url}")
