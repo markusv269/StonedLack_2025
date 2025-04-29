@@ -7308,5 +7308,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 24
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Junior",
+            "injury_status": "",
+            "last_name": "Colson",
+            "news_updated": "1737600328280",
+            "number": "25",
+            "player_id": "11701",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 282,
+        "picked_by": "1129655183757299712",
+        "player_id": "11701",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 24
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jamien",
+            "injury_status": "",
+            "last_name": "Sherwood",
+            "news_updated": "1741586704294",
+            "number": "44",
+            "player_id": "7841",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 283,
+        "picked_by": "465127136819146752",
+        "player_id": "7841",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 24
     }
 ]
