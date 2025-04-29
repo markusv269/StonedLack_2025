@@ -7412,5 +7412,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 24
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Joshua",
+            "injury_status": "",
+            "last_name": "Palmer",
+            "news_updated": "1741634708632",
+            "number": "5",
+            "player_id": "7670",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 286,
+        "picked_by": "989544359940902912",
+        "player_id": "7670",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 24
     }
 ]
