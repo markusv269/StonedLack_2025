@@ -7152,5 +7152,57 @@
         "reactions": null,
         "roster_id": 10,
         "round": 23
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Joey",
+            "injury_status": "",
+            "last_name": "Bosa",
+            "news_updated": "1741764313027",
+            "number": "97",
+            "player_id": "3156",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "9"
+        },
+        "pick_no": 276,
+        "picked_by": "1134245276002304000",
+        "player_id": "3156",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 23
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jev\u00f3n",
+            "injury_status": "",
+            "last_name": "Holland",
+            "news_updated": "1741699202176",
+            "number": "8",
+            "player_id": "7666",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 277,
+        "picked_by": "1134245276002304000",
+        "player_id": "7666",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 24
     }
 ]
