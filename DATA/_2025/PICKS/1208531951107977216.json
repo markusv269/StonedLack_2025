@@ -7516,5 +7516,57 @@
         "reactions": null,
         "roster_id": 4,
         "round": 25
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Arnold",
+            "injury_status": "",
+            "last_name": "Ebiketie",
+            "news_updated": "1736315714030",
+            "number": "17",
+            "player_id": "8325",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 290,
+        "picked_by": "701502788793884672",
+        "player_id": "8325",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 25
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Malik",
+            "injury_status": "",
+            "last_name": "Washington",
+            "news_updated": "1736195706587",
+            "number": "6",
+            "player_id": "11610",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 291,
+        "picked_by": "989544359940902912",
+        "player_id": "11610",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 25
     }
 ]
