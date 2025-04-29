@@ -7386,5 +7386,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 24
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Khalil",
+            "injury_status": "",
+            "last_name": "Mack",
+            "news_updated": "1741623606772",
+            "number": "52",
+            "player_id": "2036",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "11"
+        },
+        "pick_no": 285,
+        "picked_by": "720386675821338624",
+        "player_id": "2036",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 24
     }
 ]
