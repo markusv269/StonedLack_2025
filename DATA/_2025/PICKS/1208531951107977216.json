@@ -7230,5 +7230,83 @@
         "reactions": null,
         "roster_id": 10,
         "round": 24
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "DaRon",
+            "injury_status": "",
+            "last_name": "Bland",
+            "news_updated": "1736307613727",
+            "number": "26",
+            "player_id": "8476",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 279,
+        "picked_by": "873296312697774080",
+        "player_id": "8476",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 24
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Keisean",
+            "injury_status": "",
+            "last_name": "Nixon",
+            "news_updated": "1737424206296",
+            "number": "25",
+            "player_id": "6333",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 280,
+        "picked_by": "990318951781490688",
+        "player_id": "6333",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 24
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Boye",
+            "injury_status": "",
+            "last_name": "Mafe",
+            "news_updated": "1736387136239",
+            "number": "53",
+            "player_id": "8343",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 281,
+        "picked_by": "1129824623715110912",
+        "player_id": "8343",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 24
     }
 ]
