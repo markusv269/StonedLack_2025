@@ -7126,5 +7126,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 23
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Raheem",
+            "injury_status": "",
+            "last_name": "Mostert",
+            "news_updated": "1745859638124",
+            "number": "31",
+            "player_id": "2749",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "10"
+        },
+        "pick_no": 275,
+        "picked_by": "1031891383537303552",
+        "player_id": "2749",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 23
     }
 ]
