@@ -7464,5 +7464,57 @@
         "reactions": null,
         "roster_id": 8,
         "round": 24
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tremaine",
+            "injury_status": "",
+            "last_name": "Edmunds",
+            "news_updated": "1736205607366",
+            "number": "49",
+            "player_id": "4968",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 288,
+        "picked_by": "1130163665224830976",
+        "player_id": "4968",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 24
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Zach",
+            "injury_status": "",
+            "last_name": "Ertz",
+            "news_updated": "1741518658322",
+            "number": "86",
+            "player_id": "1339",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "12"
+        },
+        "pick_no": 289,
+        "picked_by": "1130163665224830976",
+        "player_id": "1339",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 25
     }
 ]
