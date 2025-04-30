@@ -8166,5 +8166,57 @@
         "reactions": null,
         "roster_id": 8,
         "round": 27
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jonathon",
+            "injury_status": "",
+            "last_name": "Cooper",
+            "news_updated": "1737585326068",
+            "number": "0",
+            "player_id": "7765",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 315,
+        "picked_by": "989544359940902912",
+        "player_id": "7765",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 27
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tutu",
+            "injury_status": "",
+            "last_name": "Atwell",
+            "news_updated": "1743636622249",
+            "number": "5",
+            "player_id": "7562",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 316,
+        "picked_by": "720386675821338624",
+        "player_id": "7562",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 27
     }
 ]
