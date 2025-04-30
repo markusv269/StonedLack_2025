@@ -8244,5 +8244,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 27
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Thompson",
+            "news_updated": "1740064830810",
+            "number": "34",
+            "player_id": "6711",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 318,
+        "picked_by": "465127136819146752",
+        "player_id": "6711",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 27
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Bryan",
+            "injury_status": "",
+            "last_name": "Bresee",
+            "news_updated": "1736770559779",
+            "number": "90",
+            "player_id": "10874",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 319,
+        "picked_by": "1129655183757299712",
+        "player_id": "10874",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 27
     }
 ]
