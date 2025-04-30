@@ -7672,5 +7672,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 25
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Payton",
+            "injury_status": "",
+            "last_name": "Wilson",
+            "news_updated": "1737506116047",
+            "number": "41",
+            "player_id": "11727",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 296,
+        "picked_by": "1129824623715110912",
+        "player_id": "11727",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 25
     }
 ]
