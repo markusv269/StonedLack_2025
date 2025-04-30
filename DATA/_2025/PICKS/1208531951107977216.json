@@ -7776,5 +7776,83 @@
         "reactions": null,
         "roster_id": 10,
         "round": 25
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyler",
+            "injury_status": "",
+            "last_name": "Lockett",
+            "news_updated": "1745521237082",
+            "number": "16",
+            "player_id": "2374",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "10"
+        },
+        "pick_no": 300,
+        "picked_by": "1134245276002304000",
+        "player_id": "2374",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 25
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Rico",
+            "injury_status": "",
+            "last_name": "Dowdle",
+            "news_updated": "1741823115902",
+            "number": "23",
+            "player_id": "7021",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 301,
+        "picked_by": "1134245276002304000",
+        "player_id": "7021",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 26
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Matt",
+            "injury_status": "",
+            "last_name": "Milano",
+            "news_updated": "1742327426963",
+            "number": "58",
+            "player_id": "4191",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 302,
+        "picked_by": "1031891383537303552",
+        "player_id": "4191",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 26
     }
 ]
