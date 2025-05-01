@@ -9154,5 +9154,83 @@
         "reactions": null,
         "roster_id": 5,
         "round": 30
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Zach",
+            "injury_status": "",
+            "last_name": "Sieler",
+            "news_updated": "1737396002927",
+            "number": "92",
+            "player_id": "5297",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 353,
+        "picked_by": "1129824623715110912",
+        "player_id": "5297",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 30
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Marlon",
+            "injury_status": "",
+            "last_name": "Humphrey",
+            "news_updated": "1741930232728",
+            "number": "44",
+            "player_id": "4071",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 354,
+        "picked_by": "1129655183757299712",
+        "player_id": "4071",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 30
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jadeveon",
+            "injury_status": "",
+            "last_name": "Clowney",
+            "news_updated": "1736375134759",
+            "number": "7",
+            "player_id": "1947",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "11"
+        },
+        "pick_no": 355,
+        "picked_by": "465127136819146752",
+        "player_id": "1947",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 30
     }
 ]
