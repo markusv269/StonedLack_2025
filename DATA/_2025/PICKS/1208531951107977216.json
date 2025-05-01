@@ -9466,5 +9466,83 @@
         "reactions": null,
         "roster_id": 12,
         "round": 31
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Elandon",
+            "injury_status": "",
+            "last_name": "Roberts",
+            "news_updated": "1741679461734",
+            "number": "52",
+            "player_id": "3369",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "9"
+        },
+        "pick_no": 365,
+        "picked_by": "740271047152128000",
+        "player_id": "3369",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 31
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Quinyon",
+            "injury_status": "",
+            "last_name": "Mitchell",
+            "news_updated": "1739749234164",
+            "number": "27",
+            "player_id": "11662",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 366,
+        "picked_by": "465127136819146752",
+        "player_id": "11662",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 31
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dorian",
+            "injury_status": "",
+            "last_name": "Williams",
+            "news_updated": "",
+            "number": "42",
+            "player_id": "10923",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 367,
+        "picked_by": "1129655183757299712",
+        "player_id": "10923",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 31
     }
 ]
