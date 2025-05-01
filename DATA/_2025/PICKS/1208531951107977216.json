@@ -8608,5 +8608,83 @@
         "reactions": null,
         "roster_id": 11,
         "round": 28
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Josh",
+            "injury_status": "",
+            "last_name": "Sweat",
+            "news_updated": "1741658438751",
+            "number": "19",
+            "player_id": "4999",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 332,
+        "picked_by": "740271047152128000",
+        "player_id": "4999",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 28
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Geno",
+            "injury_status": "",
+            "last_name": "Smith",
+            "news_updated": "1744136136421",
+            "number": "7",
+            "player_id": "1373",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "12"
+        },
+        "pick_no": 333,
+        "picked_by": "720386675821338624",
+        "player_id": "1373",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 28
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Christian",
+            "injury_status": "",
+            "last_name": "Harris",
+            "news_updated": "1737946830733",
+            "number": "48",
+            "player_id": "8278",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 334,
+        "picked_by": "989544359940902912",
+        "player_id": "8278",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 28
     }
 ]
