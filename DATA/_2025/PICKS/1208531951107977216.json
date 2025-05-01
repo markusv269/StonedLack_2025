@@ -8842,5 +8842,83 @@
         "reactions": null,
         "roster_id": 12,
         "round": 29
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Divine",
+            "injury_status": "",
+            "last_name": "Deablo",
+            "news_updated": "1741702502589",
+            "number": "5",
+            "player_id": "7677",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 341,
+        "picked_by": "740271047152128000",
+        "player_id": "7677",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 29
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Christian",
+            "injury_status": "Questionable",
+            "last_name": "Barmore",
+            "news_updated": "1743483934421",
+            "number": "90",
+            "player_id": "7664",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 342,
+        "picked_by": "465127136819146752",
+        "player_id": "7664",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 29
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kool-Aid",
+            "injury_status": "",
+            "last_name": "McKinstry",
+            "news_updated": "1736365218186",
+            "number": "14",
+            "player_id": "11675",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 343,
+        "picked_by": "1129655183757299712",
+        "player_id": "11675",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 29
     }
 ]
