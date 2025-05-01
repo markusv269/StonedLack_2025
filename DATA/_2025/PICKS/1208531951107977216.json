@@ -8790,5 +8790,57 @@
         "reactions": null,
         "roster_id": 8,
         "round": 29
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Justice",
+            "injury_status": "",
+            "last_name": "Hill",
+            "news_updated": "1737489614012",
+            "number": "43",
+            "player_id": "5995",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 339,
+        "picked_by": "989544359940902912",
+        "player_id": "5995",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 29
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Will",
+            "injury_status": "",
+            "last_name": "Shipley",
+            "news_updated": "1741295669413",
+            "number": "28",
+            "player_id": "11577",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 340,
+        "picked_by": "720386675821338624",
+        "player_id": "11577",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 29
     }
 ]
