@@ -8686,5 +8686,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 28
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Matthew",
+            "injury_status": "",
+            "last_name": "Stafford",
+            "news_updated": "1741043145337",
+            "number": "9",
+            "player_id": "421",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "16"
+        },
+        "pick_no": 335,
+        "picked_by": "701502788793884672",
+        "player_id": "421",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 28
     }
 ]
