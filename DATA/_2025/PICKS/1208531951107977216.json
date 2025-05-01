@@ -8530,5 +8530,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 28
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Taylor",
+            "injury_status": "",
+            "last_name": "Rapp",
+            "news_updated": "1738702835684",
+            "number": "9",
+            "player_id": "5882",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 329,
+        "picked_by": "1129824623715110912",
+        "player_id": "5882",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 28
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Christian",
+            "injury_status": "",
+            "last_name": "Watson",
+            "news_updated": "1740518429596",
+            "number": "9",
+            "player_id": "8167",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 330,
+        "picked_by": "1129655183757299712",
+        "player_id": "8167",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 28
     }
 ]
