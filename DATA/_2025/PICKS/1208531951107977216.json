@@ -8712,5 +8712,83 @@
         "reactions": null,
         "roster_id": 8,
         "round": 28
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Carl",
+            "injury_status": "",
+            "last_name": "Granderson",
+            "news_updated": "1736361317323",
+            "number": "96",
+            "player_id": "5912",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 336,
+        "picked_by": "1130163665224830976",
+        "player_id": "5912",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 28
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Chris",
+            "injury_status": "",
+            "last_name": "Braswell",
+            "news_updated": "1737755715893",
+            "number": "43",
+            "player_id": "11679",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 337,
+        "picked_by": "1130163665224830976",
+        "player_id": "11679",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 29
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Nick",
+            "injury_status": "Questionable",
+            "last_name": "Chubb",
+            "news_updated": "1745464232545",
+            "number": "24",
+            "player_id": "4988",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 338,
+        "picked_by": "701502788793884672",
+        "player_id": "4988",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 29
     }
 ]
