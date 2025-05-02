@@ -9778,5 +9778,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 32
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cody",
+            "injury_status": "",
+            "last_name": "Barton",
+            "news_updated": "1741671361285",
+            "number": "50",
+            "player_id": "6065",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 377,
+        "picked_by": "1129824623715110912",
+        "player_id": "6065",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 32
     }
 ]
