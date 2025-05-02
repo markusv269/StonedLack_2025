@@ -9830,5 +9830,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 32
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "A.J.",
+            "injury_status": "",
+            "last_name": "Dillon",
+            "news_updated": "1741822215340",
+            "number": "29",
+            "player_id": "6828",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 379,
+        "picked_by": "465127136819146752",
+        "player_id": "6828",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 32
     }
 ]
