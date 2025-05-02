@@ -180,5 +180,57 @@
         "reactions": null,
         "roster_id": 3,
         "round": 1
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Puka",
+            "injury_status": "",
+            "last_name": "Nacua",
+            "news_updated": "1742881252151",
+            "number": "12",
+            "player_id": "9493",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 8,
+        "picked_by": "810531997922504704",
+        "player_id": "9493",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 1
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "De'Von",
+            "injury_status": "",
+            "last_name": "Achane",
+            "news_updated": "1736135141899",
+            "number": "28",
+            "player_id": "9226",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 9,
+        "picked_by": "1090777376264441856",
+        "player_id": "9226",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 1
     }
 ]
