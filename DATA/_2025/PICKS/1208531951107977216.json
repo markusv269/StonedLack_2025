@@ -10038,5 +10038,57 @@
         "reactions": null,
         "roster_id": 8,
         "round": 33
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Marshawn",
+            "injury_status": "",
+            "last_name": "Kneeland",
+            "news_updated": "1733443828581",
+            "number": "94",
+            "player_id": "11694",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 387,
+        "picked_by": "989544359940902912",
+        "player_id": "11694",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 33
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Sione",
+            "injury_status": "",
+            "last_name": "Vaki",
+            "news_updated": "1737379861175",
+            "number": "33",
+            "player_id": "11729",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 388,
+        "picked_by": "720386675821338624",
+        "player_id": "11729",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 33
     }
 ]
