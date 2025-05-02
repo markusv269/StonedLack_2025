@@ -10584,5 +10584,57 @@
         "reactions": null,
         "roster_id": 8,
         "round": 34
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kenny",
+            "injury_status": "",
+            "last_name": "Pickett",
+            "news_updated": "1745916030587",
+            "number": "7",
+            "player_id": "8160",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 408,
+        "picked_by": "1130163665224830976",
+        "player_id": "8160",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 34
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Tolbert",
+            "news_updated": "1736150404613",
+            "number": "1",
+            "player_id": "8117",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 409,
+        "picked_by": "1130163665224830976",
+        "player_id": "8117",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 35
     }
 ]

@@ -154,5 +154,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 1
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Saquon",
+            "injury_status": "",
+            "last_name": "Barkley",
+            "news_updated": "1741116938505",
+            "number": "26",
+            "player_id": "4866",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 7,
+        "picked_by": "1131734599341682688",
+        "player_id": "4866",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 1
     }
 ]
