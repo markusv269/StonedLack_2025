@@ -10090,5 +10090,83 @@
         "reactions": null,
         "roster_id": 12,
         "round": 33
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaylon",
+            "injury_status": "",
+            "last_name": "Carlies",
+            "news_updated": "1737227142376",
+            "number": "57",
+            "player_id": "11777",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 389,
+        "picked_by": "740271047152128000",
+        "player_id": "11777",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 33
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Roman",
+            "injury_status": "",
+            "last_name": "Wilson",
+            "news_updated": "1740516022992",
+            "number": "10",
+            "player_id": "11630",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 390,
+        "picked_by": "465127136819146752",
+        "player_id": "11630",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 33
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jarvis",
+            "injury_status": "",
+            "last_name": "Brownlee",
+            "news_updated": "1738872652875",
+            "number": "29",
+            "player_id": "11766",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 391,
+        "picked_by": "1129655183757299712",
+        "player_id": "11766",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 33
     }
 ]
