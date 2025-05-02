@@ -10636,5 +10636,57 @@
         "reactions": null,
         "roster_id": 4,
         "round": 35
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Curtis",
+            "injury_status": "",
+            "last_name": "Samuel",
+            "news_updated": "1738011636249",
+            "number": "1",
+            "player_id": "4082",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 410,
+        "picked_by": "701502788793884672",
+        "player_id": "4082",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 35
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jonah",
+            "injury_status": "Questionable",
+            "last_name": "Elliss",
+            "news_updated": "1737161435277",
+            "number": "52",
+            "player_id": "11714",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 411,
+        "picked_by": "989544359940902912",
+        "player_id": "11714",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 35
     }
 ]
