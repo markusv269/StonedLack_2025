@@ -10532,5 +10532,57 @@
         "reactions": null,
         "roster_id": 12,
         "round": 34
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tarheeb",
+            "injury_status": "",
+            "last_name": "Still",
+            "news_updated": "1737591026825",
+            "number": "29",
+            "player_id": "11779",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 406,
+        "picked_by": "989544359940902912",
+        "player_id": "11779",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 34
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cole",
+            "injury_status": "",
+            "last_name": "Bishop",
+            "news_updated": "1738706436261",
+            "number": "24",
+            "player_id": "11682",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 407,
+        "picked_by": "701502788793884672",
+        "player_id": "11682",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 34
     }
 ]
