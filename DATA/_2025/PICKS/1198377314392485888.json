@@ -50,5 +50,83 @@
         "reactions": null,
         "roster_id": 12,
         "round": 1
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Malik",
+            "injury_status": "",
+            "last_name": "Nabers",
+            "news_updated": "1736167207276",
+            "number": "1",
+            "player_id": "11632",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 3,
+        "picked_by": "572175676813488128",
+        "player_id": "11632",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 1
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Bijan",
+            "injury_status": "",
+            "last_name": "Robinson",
+            "news_updated": "1736123441046",
+            "number": "7",
+            "player_id": "9509",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 4,
+        "picked_by": "1178500282260856832",
+        "player_id": "9509",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 1
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jahmyr",
+            "injury_status": "",
+            "last_name": "Gibbs",
+            "news_updated": "1737264048057",
+            "number": "0",
+            "player_id": "9221",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 5,
+        "picked_by": "977746984348012544",
+        "player_id": "9221",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 1
     }
 ]
