@@ -9960,5 +9960,83 @@
         "reactions": null,
         "roster_id": 8,
         "round": 32
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tre'von",
+            "injury_status": "",
+            "last_name": "Moehrig",
+            "news_updated": "1741631707229",
+            "number": "7",
+            "player_id": "7659",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 384,
+        "picked_by": "1130163665224830976",
+        "player_id": "7659",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 32
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Parker",
+            "injury_status": "",
+            "last_name": "Washington",
+            "news_updated": "1736200206659",
+            "number": "11",
+            "player_id": "9487",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 385,
+        "picked_by": "1130163665224830976",
+        "player_id": "9487",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 33
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Trenton",
+            "injury_status": "",
+            "last_name": "Simpson",
+            "news_updated": "1737675036799",
+            "number": "23",
+            "player_id": "10935",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 386,
+        "picked_by": "701502788793884672",
+        "player_id": "10935",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 33
     }
 ]
