@@ -74,91 +74,79 @@ def get_players():
 # --------------------------------------------------
 # st.set_page_config(layout="wide")
 st.title("🏈 Fantasy League Übersicht")
-
+st.markdown("""
+    <style>
+    div[data-testid="metric-container"] {
+        font-size: 12px;
+    }
+    div[data-testid="metric-container"] > label {
+        font-size: 4px;
+    }
+    </style>
+""", unsafe_allow_html=True)
 # Eingabe
 params = st.query_params
 league_id = params.get("league_id")
 roster_id = params.get("roster_id")
 
-# Anzeige oder Eingabe
-if league_id and roster_id:
-    league = get_league_info(league_id)
-    rosters = get_rosters(league_id)
-    players = get_players()
+# Eingabe für League ID
+league_id = st.text_input("Gib die League ID ein")
 
-    # Ligaeinstellungen anzeigen
+if league_id:
+    # Liga-Daten laden
+    league = get_league_info(league_id)
     st.subheader("🔧 Ligaeinstellungen")
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.metric("Name", league.get("name"))
+        st.metric("Name", league.get("name"), border=True)
     with col2:
-        st.metric("Typ", league.get("settings", {}).get("type", "Standard"))
+        def typ_to_word(typ):
+            return "Redraft" if typ == 0 else "Dynasty" if typ == 2 else "Keeper" if typ == 1 else "kA"
+        st.metric("Typ", typ_to_word(league.get("settings", {}).get("type", "Standard")), border=True)
+        # st.metric("Typ", league.get("settings", {}).get("type", "Standard"), border=True)
     with col3:
-        st.metric("Teams", league.get("settings", {}).get("num_teams", "n/a"))
+        st.metric("Teams", league.get("settings", {}).get("num_teams", "n/a"), border=True)
 
     # Dropdown für Teamwahl
+    rosters = get_rosters(league_id)
     options = {r["roster_id"]: f"Roster {r['roster_id']}" for r in rosters}
-    selected_roster = st.selectbox("Roster auswählen", options.keys(), format_func=lambda x: options[x])
+    selected_roster = st.selectbox("Wähle ein Roster", options.keys(), format_func=lambda x: options[x])
 
-    # Roster anzeigen
-    st.subheader(f"📋 Roster {selected_roster}")
-    selected = next((r for r in rosters if r["roster_id"] == selected_roster), None)
+    if selected_roster:
+        selected = next((r for r in rosters if r["roster_id"] == selected_roster), None)
 
-    if selected:
-        starters = selected.get("starters", [])
-        bench = [p for p in selected.get("players", []) if p not in starters]
+        if selected:
+            starters = selected.get("starters", [])
+            bench = [p for p in selected.get("players", []) if p not in starters]
 
-        def format_player(p_id):
-            p = players.get(p_id, {})
-            team = p.get("team")
-            return {
-                "Name": p.get("full_name", p_id),
-                "Pos": p.get("position", "—"),
-                "Team": TEAM_INFO.get(team, {}).get("name", team),
-                "Logo": get_team_logo(team),
-                "Headshot": f"https://sleepercdn.com/content/nfl/players/{p_id}.jpg"
-            }
+            def format_player(p_id):
+                players = get_players()
+                p = players.get(p_id, {})
+                team = p.get("team")
+                return {
+                    "Name": p.get("full_name", p_id),
+                    "Pos": p.get("position", "—"),
+                    "Team": TEAM_INFO.get(team, {}).get("name", team),
+                    "Logo": f"https://static.www.nfl.com/t_q-best/league/api/clubs/logos/{team}.svg",
+                    "Headshot": f"https://sleepercdn.com/content/nfl/players/{p_id}.jpg"
+                }
 
-        st.markdown("### 🔥 Starter")
-        starter_data = [format_player(pid) for pid in starters if pid]
-        df_start = pd.DataFrame(starter_data)
-        for _, row in df_start.iterrows():
-            cols = st.columns([1, 1, 3, 1])
-            cols[0].image(row["Headshot"], width=40)     # 🧑‍🦱 Headshot
-            cols[1].image(row["Logo"], width=40)         # 🏈 Teamlogo
-            cols[2].markdown(f"**{row['Name']}**")       # 📛 Name
-            cols[3].markdown(row["Pos"])                 # 📌 Position
+            st.markdown("### Starter")
+            starter_data = [format_player(pid) for pid in starters if pid]
+            df_start = pd.DataFrame(starter_data)
+            for _, row in df_start.iterrows():
+                cols = st.columns([1, 1, 3, 1])
+                cols[0].image(row["Headshot"], width=80)     # 🧑‍🦱 Headshot
+                cols[1].image(row["Logo"], width=50)         # 🏈 Teamlogo
+                cols[2].markdown(f"**{row['Name']}**")       # 📛 Name
+                cols[3].markdown(row["Pos"])                 # 📌 Position
 
-        st.markdown("### 🧊 Bench")
-        bench_data = [format_player(pid) for pid in bench if pid]
-        df_bench = pd.DataFrame(bench_data)
-        for _, row in df_bench.iterrows():
-            cols = st.columns([1, 1, 3, 1])
-            cols[0].image(row["Headshot"], width=40)     # 🧑‍🦱 Headshot
-            cols[1].image(row["Logo"], width=40)         # 🏈 Teamlogo
-            cols[2].markdown(f"**{row['Name']}**")       # 📛 Name
-            cols[3].markdown(row["Pos"])                 # 📌 Position
-
-        st.markdown("### 🧾 Draft Picks")
-        picks = selected.get("draft_picks", [])
-        if picks:
-            df_picks = pd.DataFrame(picks)
-            st.dataframe(df_picks)
-        else:
-            st.info("Keine Draft Picks gefunden.")
-
-else:
-    league_id_input = st.text_input("League ID")
-    roster_id_input = st.text_input("Roster ID")
-    if st.button("Lade Roster"):
-        if league_id_input and roster_id_input:
-            # Query-Parameter setzen (Seite wird neu geladen)
-            query_string = urllib.parse.urlencode({
-                "league_id": league_id_input,
-                "roster_id": roster_id_input
-            })
-            share_url = f"https://stonedlack-2025.streamlit.app/showleague?{query_string}"
-            st.success(f"Teile diese Seite: {share_url}")
-            # st.rerun()  # Seite neu laden
-        else:
-            st.error("Bitte beide Felder ausfüllen.")
+            st.markdown("### Bench")
+            bench_data = [format_player(pid) for pid in bench if pid]
+            df_bench = pd.DataFrame(bench_data)
+            for _, row in df_bench.iterrows():
+                cols = st.columns([1, 1, 3, 1])
+                cols[0].image(row["Headshot"], width=40)     # 🧑‍🦱 Headshot
+                cols[1].image(row["Logo"], width=40)         # 🏈 Teamlogo
+                cols[2].markdown(f"**{row['Name']}**")       # 📛 Name
+                cols[3].markdown(row["Pos"])                 # 📌 Position
