@@ -544,5 +544,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 2
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tee",
+            "injury_status": "",
+            "last_name": "Higgins",
+            "news_updated": "1742183155805",
+            "number": "5",
+            "player_id": "6801",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 22,
+        "picked_by": "572175676813488128",
+        "player_id": "6801",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 2
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Rashee",
+            "injury_status": "Questionable",
+            "last_name": "Rice",
+            "news_updated": "1745431244056",
+            "number": "4",
+            "player_id": "10229",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 23,
+        "picked_by": "1130163665224830976",
+        "player_id": "10229",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 2
     }
 ]
