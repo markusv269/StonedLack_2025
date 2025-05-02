@@ -9856,5 +9856,83 @@
         "reactions": null,
         "roster_id": 11,
         "round": 32
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "KaVontae",
+            "injury_status": "",
+            "last_name": "Turpin",
+            "news_updated": "1741716903074",
+            "number": "9",
+            "player_id": "8917",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 380,
+        "picked_by": "740271047152128000",
+        "player_id": "8917",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 32
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kayshon",
+            "injury_status": "",
+            "last_name": "Boutte",
+            "news_updated": "1736783161218",
+            "number": "9",
+            "player_id": "9504",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 381,
+        "picked_by": "720386675821338624",
+        "player_id": "9504",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 32
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Alontae",
+            "injury_status": "",
+            "last_name": "Taylor",
+            "news_updated": "1736770259800",
+            "number": "1",
+            "player_id": "8333",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 382,
+        "picked_by": "989544359940902912",
+        "player_id": "8333",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 32
     }
 ]
