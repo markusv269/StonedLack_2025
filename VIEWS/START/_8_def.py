@@ -1,5 +1,6 @@
 import streamlit as st
-from sleeper_wrapper import League
+from sleeper_wrapper import League, Drafts
+import pandas as pd
 from collections import Counter
 
 def scoring_settings(scoring):
@@ -128,3 +129,44 @@ def showleague_info(league_id, roster_id):
         st.json(roster_info)
     else:
         st.warning("Roster nicht gefunden.")
+
+
+def get_picks(league_id):
+    # Initialize league and draft info
+    league = League(league_id)
+    league_data = league.get_league()
+    season0 = int(league_data['season'])
+    draft_id = league_data['draft_id']
+    draft = Drafts(draft_id)
+    draft_settings = draft.get_specific_draft()['settings']
+
+    # Build seasons and rounds
+    seasons = list(range(season0, season0 + 3))
+    rounds = list(range(1, draft_settings['rounds'] + 1))
+
+    # Map rosters to owners
+    # users = {u['user_id']: u for u in league.get_users()}
+    roster_map = league.map_rosterid_to_ownerid(league.get_rosters())
+    owners = list(roster_map.keys())
+
+    # Create full grid of picks via Cartesian product
+    idx = pd.MultiIndex.from_product([seasons, rounds, owners], names=['season', 'round', 'roster_id'])
+    df_all = pd.DataFrame(index=idx).reset_index()
+    # Default owner_id is the roster_id
+    df_all['owner_id'] = df_all['roster_id']
+
+    # Fetch and apply traded picks
+    traded = pd.DataFrame(league.get_traded_picks(), dtype=int)
+    # Merge on season, round, roster_id
+    df_all = df_all.merge(
+        traded[['season', 'round', 'roster_id', 'owner_id']], 
+        on=['season', 'round', 'roster_id'], 
+        how='left', 
+        suffixes=('', '_new')
+    )
+    # Update owner_id where a trade exists
+    df_all['owner_id'] = df_all['owner_id_new'].fillna(df_all['owner_id'])
+    # Cleanup
+    df_all = df_all.drop(columns=['owner_id_new'])
+
+    return df_all

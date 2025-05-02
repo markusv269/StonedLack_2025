@@ -2,7 +2,6 @@ import streamlit as st
 import streamlit.components.v1 as components
 import requests
 import pandas as pd
-import urllib.parse
 
 # --------------------------------------------------
 # Caching: Logos
@@ -52,7 +51,7 @@ TEAM_INFO = {
 }
 
 # --------------------------------------------------
-# API Funktionen
+# Beispiel: Sleeper API
 # --------------------------------------------------
 @st.cache_data
 def get_league_info(league_id):
@@ -72,21 +71,17 @@ def get_players():
 # --------------------------------------------------
 # Streamlit Layout
 # --------------------------------------------------
-# st.set_page_config(layout="wide")
+st.set_page_config(layout="wide")
 st.title("🏈 Fantasy League Übersicht")
 
 # Eingabe
-params = st.query_params
-league_id = params.get("league_id")
-roster_id = params.get("roster_id")
+league_id = st.text_input("League ID eingeben", value="918604146346729472")
 
-# Anzeige oder Eingabe
-if league_id and roster_id:
+if league_id:
     league = get_league_info(league_id)
     rosters = get_rosters(league_id)
     players = get_players()
 
-    # Ligaeinstellungen anzeigen
     st.subheader("🔧 Ligaeinstellungen")
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -128,6 +123,7 @@ if league_id and roster_id:
             cols[1].image(row["Logo"], width=40)         # 🏈 Teamlogo
             cols[2].markdown(f"**{row['Name']}**")       # 📛 Name
             cols[3].markdown(row["Pos"])                 # 📌 Position
+            # cols[4].markdown(row["Team"])                # 🏟️ Teamname
 
         st.markdown("### 🧊 Bench")
         bench_data = [format_player(pid) for pid in bench if pid]
@@ -138,6 +134,7 @@ if league_id and roster_id:
             cols[1].image(row["Logo"], width=40)         # 🏈 Teamlogo
             cols[2].markdown(f"**{row['Name']}**")       # 📛 Name
             cols[3].markdown(row["Pos"])                 # 📌 Position
+            # cols[4].markdown(row["Team"])                # 🏟️ Teamname
 
         st.markdown("### 🧾 Draft Picks")
         picks = selected.get("draft_picks", [])
@@ -147,18 +144,106 @@ if league_id and roster_id:
         else:
             st.info("Keine Draft Picks gefunden.")
 
-else:
-    league_id_input = st.text_input("League ID")
-    roster_id_input = st.text_input("Roster ID")
-    if st.button("Lade Roster"):
-        if league_id_input and roster_id_input:
-            # Query-Parameter setzen (Seite wird neu geladen)
-            query_string = urllib.parse.urlencode({
-                "league_id": league_id_input,
-                "roster_id": roster_id_input
-            })
-            share_url = f"https://stonedlack-2025.streamlit.app/showleague?{query_string}"
-            st.success(f"Teile diese Seite: {share_url}")
-            # st.rerun()  # Seite neu laden
-        else:
-            st.error("Bitte beide Felder ausfüllen.")
+def render_player_table(player_list):
+    # Erstelle HTML-Struktur für die Tabelle
+    html = """
+    <style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 1rem;
+    }
+    th, td {
+        padding: 8px 10px;
+        border-bottom: 1px solid #ccc;
+        text-align: left;
+        vertical-align: middle;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    img {
+        border-radius: 8px;
+    }
+    </style>
+    <table>
+        <thead>
+            <tr>
+                <th>Headshot</th>
+                <th>Team</th>
+                <th>Name</th>
+                <th>Position</th>
+            </tr>
+        </thead>
+        <tbody>
+    """
+
+    # Tabelle mit Spielern füllen
+    for p in player_list:
+        html += f"""
+        <tr>
+            <td><img src="{p['Headshot']}" width="40"></td>
+            <td><img src="{p['Logo']}" width="30"></td>
+            <td>{p['Name']}</td>
+            <td>{p['Pos']}</td>
+        </tr>
+        """
+
+    html += "</tbody></table>"
+
+    # HTML direkt an Streamlit übergeben
+    st.write(html, unsafe_allow_html=True)
+
+def render_player_table(player_list):
+    # Erstelle HTML-Struktur für die Tabelle
+    html = """
+    <style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 1rem;
+    }
+    th, td {
+        padding: 8px 10px;
+        border-bottom: 1px solid #ccc;
+        text-align: center;
+        vertical-align: middle;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    img {
+        border-radius: 8px;
+    }
+    </style>
+    <table>
+        <thead>
+            <tr>
+                <th>Headshot</th>
+                <th>Team</th>
+                <th>Name</th>
+                <th>Position</th>
+            </tr>
+        </thead>
+        <tbody>
+    """
+
+    # Tabelle mit Spielern füllen
+    for p in player_list:
+        html += f"""
+        <tr>
+            <td><img src="{p['Headshot']}" width="80"></td>
+            <td><img src="{p['Logo']}" width="50"></td>
+            <td>{p['Name']}</td>
+            <td>{p['Pos']}</td>
+        </tr>
+        """
+
+    html += "</tbody></table>"
+
+    # HTML direkt an Streamlit übergeben
+    components.html(html, height=1200)
+
+# Beispiel: Darstellung
+st.markdown("## 🔥 Starter")
+render_player_table([format_player(pid) for pid in starters if pid])
