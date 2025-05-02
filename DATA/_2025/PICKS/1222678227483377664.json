@@ -76,5 +76,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 1
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Malik",
+            "injury_status": "",
+            "last_name": "Nabers",
+            "news_updated": "1736167207276",
+            "number": "1",
+            "player_id": "11632",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 4,
+        "picked_by": "998653052653563904",
+        "player_id": "11632",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 1
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "CeeDee",
+            "injury_status": "",
+            "last_name": "Lamb",
+            "news_updated": "1741117239252",
+            "number": "88",
+            "player_id": "6786",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 5,
+        "picked_by": "608400368761659392",
+        "player_id": "6786",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 1
     }
 ]

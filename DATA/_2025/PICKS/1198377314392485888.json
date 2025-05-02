@@ -1,1 +1,28 @@
-[]
+[
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Justin",
+            "injury_status": "",
+            "last_name": "Jefferson",
+            "news_updated": "1736831751089",
+            "number": "18",
+            "player_id": "6794",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 1,
+        "picked_by": "918634755867009024",
+        "player_id": "6794",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 1
+    }
+]

@@ -10480,5 +10480,57 @@
         "reactions": null,
         "roster_id": 11,
         "round": 34
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Azeez",
+            "injury_status": "",
+            "last_name": "Ojulari",
+            "news_updated": "1742254503354",
+            "number": "51",
+            "player_id": "7653",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 404,
+        "picked_by": "740271047152128000",
+        "player_id": "7653",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 34
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ed",
+            "injury_status": "",
+            "last_name": "Oliver",
+            "news_updated": "1738708236638",
+            "number": "91",
+            "player_id": "5841",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 405,
+        "picked_by": "720386675821338624",
+        "player_id": "5841",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 34
     }
 ]
