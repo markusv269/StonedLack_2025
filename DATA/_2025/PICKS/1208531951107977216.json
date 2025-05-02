@@ -10168,5 +10168,83 @@
         "reactions": null,
         "roster_id": 1,
         "round": 33
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Greg",
+            "injury_status": "",
+            "last_name": "Dortch",
+            "news_updated": "1745040661080",
+            "number": "4",
+            "player_id": "5970",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 392,
+        "picked_by": "1129824623715110912",
+        "player_id": "5970",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 33
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Miles",
+            "injury_status": "",
+            "last_name": "Sanders",
+            "news_updated": "1741926930495",
+            "number": "27",
+            "player_id": "6151",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 393,
+        "picked_by": "990318951781490688",
+        "player_id": "6151",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 33
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Paulson",
+            "injury_status": "",
+            "last_name": "Adebo",
+            "news_updated": "1741628107641",
+            "number": "29",
+            "player_id": "7669",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 394,
+        "picked_by": "873296312697774080",
+        "player_id": "7669",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 33
     }
 ]
