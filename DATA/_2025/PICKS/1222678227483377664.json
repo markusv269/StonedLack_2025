@@ -1,1 +1,54 @@
-[]
+[
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Justin",
+            "injury_status": "",
+            "last_name": "Jefferson",
+            "news_updated": "1736831751089",
+            "number": "18",
+            "player_id": "6794",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 1,
+        "picked_by": "867544786272460800",
+        "player_id": "6794",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 1
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ja'Marr",
+            "injury_status": "",
+            "last_name": "Chase",
+            "news_updated": "1742181657670",
+            "number": "1",
+            "player_id": "7564",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 2,
+        "picked_by": "1129824623715110912",
+        "player_id": "7564",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 1
+    }
+]

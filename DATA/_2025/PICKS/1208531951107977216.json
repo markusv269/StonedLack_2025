@@ -10428,5 +10428,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 34
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyrice",
+            "injury_status": "",
+            "last_name": "Knight",
+            "news_updated": "1737168036323",
+            "number": "48",
+            "player_id": "11734",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 402,
+        "picked_by": "1129655183757299712",
+        "player_id": "11734",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 34
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Elijah",
+            "injury_status": "",
+            "last_name": "Mitchell",
+            "news_updated": "1741626006702",
+            "number": "25",
+            "player_id": "7561",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 403,
+        "picked_by": "465127136819146752",
+        "player_id": "7561",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 34
     }
 ]
