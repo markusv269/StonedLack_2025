@@ -24,5 +24,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 1
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ja'Marr",
+            "injury_status": "",
+            "last_name": "Chase",
+            "news_updated": "1742181657670",
+            "number": "1",
+            "player_id": "7564",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 2,
+        "picked_by": "977746984348012544",
+        "player_id": "7564",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 1
     }
 ]
