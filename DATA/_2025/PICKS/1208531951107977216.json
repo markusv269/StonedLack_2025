@@ -9804,5 +9804,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 32
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Daniel",
+            "injury_status": "",
+            "last_name": "Jones",
+            "news_updated": "1745342735791",
+            "number": "17",
+            "player_id": "5870",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 378,
+        "picked_by": "1129655183757299712",
+        "player_id": "5870",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 32
     }
 ]
