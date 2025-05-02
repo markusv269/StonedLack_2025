@@ -50,5 +50,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 1
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Bijan",
+            "injury_status": "",
+            "last_name": "Robinson",
+            "news_updated": "1736123441046",
+            "number": "7",
+            "player_id": "9509",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 3,
+        "picked_by": "1124785744695943168",
+        "player_id": "9509",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 1
     }
 ]
