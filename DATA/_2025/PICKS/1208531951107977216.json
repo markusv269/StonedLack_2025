@@ -9934,5 +9934,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 32
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Isaiah",
+            "injury_status": "",
+            "last_name": "Simmons",
+            "news_updated": "1745968833320",
+            "number": "28",
+            "player_id": "6781",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 383,
+        "picked_by": "701502788793884672",
+        "player_id": "6781",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 32
     }
 ]
