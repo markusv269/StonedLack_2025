@@ -10688,5 +10688,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 35
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Michael",
+            "injury_status": "",
+            "last_name": "Mayer",
+            "news_updated": "1740864907860",
+            "number": "87",
+            "player_id": "9482",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 412,
+        "picked_by": "720386675821338624",
+        "player_id": "9482",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 35
     }
 ]
