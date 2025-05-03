@@ -804,5 +804,57 @@
         "reactions": null,
         "roster_id": 3,
         "round": 3
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Christian",
+            "injury_status": "",
+            "last_name": "McCaffrey",
+            "news_updated": "1745420444566",
+            "number": "23",
+            "player_id": "4034",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 32,
+        "picked_by": "810531997922504704",
+        "player_id": "4034",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 3
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Josh",
+            "injury_status": "",
+            "last_name": "Jacobs",
+            "news_updated": "1738809343743",
+            "number": "8",
+            "player_id": "5850",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 33,
+        "picked_by": "1090777376264441856",
+        "player_id": "5850",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 3
     }
 ]
