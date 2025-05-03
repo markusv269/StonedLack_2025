@@ -10714,5 +10714,83 @@
         "reactions": null,
         "roster_id": 12,
         "round": 35
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Russell",
+            "injury_status": "",
+            "last_name": "Wilson",
+            "news_updated": "1745599844838",
+            "number": "3",
+            "player_id": "1234",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "13"
+        },
+        "pick_no": 413,
+        "picked_by": "740271047152128000",
+        "player_id": "1234",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 35
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Khalil",
+            "injury_status": "",
+            "last_name": "Herbert",
+            "news_updated": "1741822516909",
+            "number": "26",
+            "player_id": "7608",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 414,
+        "picked_by": "465127136819146752",
+        "player_id": "7608",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 35
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Trevin",
+            "injury_status": "Questionable",
+            "last_name": "Wallace",
+            "news_updated": "1740517822315",
+            "number": "56",
+            "player_id": "11724",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 415,
+        "picked_by": "1129655183757299712",
+        "player_id": "11724",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 35
     }
 ]
