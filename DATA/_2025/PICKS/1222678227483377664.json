@@ -986,5 +986,57 @@
         "reactions": null,
         "roster_id": 1,
         "round": 4
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "DeVonta",
+            "injury_status": "",
+            "last_name": "Smith",
+            "news_updated": "1739159703198",
+            "number": "6",
+            "player_id": "7525",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 39,
+        "picked_by": "1178500282260856832",
+        "player_id": "7525",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 4
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Alvin",
+            "injury_status": "Questionable",
+            "last_name": "Kamara",
+            "news_updated": "1743573320330",
+            "number": "41",
+            "player_id": "4035",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 40,
+        "picked_by": "996570764344270848",
+        "player_id": "4035",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 4
     }
 ]
