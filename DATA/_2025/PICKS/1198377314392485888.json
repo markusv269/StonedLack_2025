@@ -674,5 +674,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 3
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Breece",
+            "injury_status": "",
+            "last_name": "Hall",
+            "news_updated": "1743485135097",
+            "number": "20",
+            "player_id": "8155",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 27,
+        "picked_by": "572175676813488128",
+        "player_id": "8155",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 3
     }
 ]
