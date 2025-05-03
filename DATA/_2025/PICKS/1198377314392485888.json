@@ -856,5 +856,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 3
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Lamar",
+            "injury_status": "",
+            "last_name": "Jackson",
+            "news_updated": "1743485135112",
+            "number": "8",
+            "player_id": "4881",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 34,
+        "picked_by": "979721317920407552",
+        "player_id": "4881",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 3
     }
 ]
