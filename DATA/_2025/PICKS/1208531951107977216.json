@@ -10792,5 +10792,57 @@
         "reactions": null,
         "roster_id": 1,
         "round": 35
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Trey",
+            "injury_status": "",
+            "last_name": "Palmer",
+            "news_updated": "1737601528456",
+            "number": "10",
+            "player_id": "9492",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 416,
+        "picked_by": "1129824623715110912",
+        "player_id": "9492",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 35
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "DJ",
+            "injury_status": "Questionable",
+            "last_name": "Turner",
+            "news_updated": "1736470840571",
+            "number": "20",
+            "player_id": "10894",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 417,
+        "picked_by": "990318951781490688",
+        "player_id": "10894",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 35
     }
 ]
