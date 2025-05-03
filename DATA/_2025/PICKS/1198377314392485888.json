@@ -1038,5 +1038,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 4
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Patrick",
+            "injury_status": "",
+            "last_name": "Mahomes",
+            "news_updated": "1745435713219",
+            "number": "15",
+            "player_id": "4046",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 41,
+        "picked_by": "810531997922504704",
+        "player_id": "4046",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 4
     }
 ]
