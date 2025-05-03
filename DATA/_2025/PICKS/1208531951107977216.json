@@ -10896,5 +10896,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 35
+    },
+    {
+        "draft_id": "1208531951107977216",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Ramsey",
+            "news_updated": "1746127540093",
+            "number": "5",
+            "player_id": "3160",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "9"
+        },
+        "pick_no": 420,
+        "picked_by": "1134245276002304000",
+        "player_id": "3160",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 35
     }
 ]

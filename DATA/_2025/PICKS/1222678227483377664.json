@@ -180,5 +180,57 @@
         "reactions": null,
         "roster_id": 11,
         "round": 1
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Amon-Ra",
+            "injury_status": "",
+            "last_name": "St. Brown",
+            "news_updated": "1737264647903",
+            "number": "14",
+            "player_id": "7547",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 8,
+        "picked_by": "1130163665224830976",
+        "player_id": "7547",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 1
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Josh",
+            "injury_status": "",
+            "last_name": "Allen",
+            "news_updated": "1741564501012",
+            "number": "17",
+            "player_id": "4984",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 9,
+        "picked_by": "996570764344270848",
+        "player_id": "4984",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 1
     }
 ]
