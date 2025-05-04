@@ -1948,5 +1948,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 7
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Chris",
+            "injury_status": "Questionable",
+            "last_name": "Godwin",
+            "news_updated": "1745599844850",
+            "number": "14",
+            "player_id": "4037",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 76,
+        "picked_by": "1178500282260856832",
+        "player_id": "4037",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 7
     }
 ]
