@@ -1116,5 +1116,83 @@
         "reactions": null,
         "roster_id": 7,
         "round": 4
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Isiah",
+            "injury_status": "",
+            "last_name": "Pacheco",
+            "news_updated": "1739161503180",
+            "number": "10",
+            "player_id": "8205",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 44,
+        "picked_by": "1130163665224830976",
+        "player_id": "8205",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 4
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Terry",
+            "injury_status": "",
+            "last_name": "McLaurin",
+            "news_updated": "1743564617997",
+            "number": "17",
+            "player_id": "5927",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 45,
+        "picked_by": "1178500282260856832",
+        "player_id": "5927",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 4
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "George",
+            "injury_status": "",
+            "last_name": "Kittle",
+            "news_updated": "1745946924535",
+            "number": "85",
+            "player_id": "4217",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 46,
+        "picked_by": "572175676813488128",
+        "player_id": "4217",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 4
     }
 ]
