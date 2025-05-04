@@ -1792,5 +1792,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 6
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyreek",
+            "injury_status": "Questionable",
+            "last_name": "Hill",
+            "news_updated": "1744787752427",
+            "number": "10",
+            "player_id": "3321",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "9"
+        },
+        "pick_no": 70,
+        "picked_by": "572175676813488128",
+        "player_id": "3321",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 6
     }
 ]
