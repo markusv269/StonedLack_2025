@@ -1402,5 +1402,57 @@
         "reactions": null,
         "roster_id": 2,
         "round": 5
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "C.J.",
+            "injury_status": "",
+            "last_name": "Stroud",
+            "news_updated": "1737248745534",
+            "number": "7",
+            "player_id": "9758",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 55,
+        "picked_by": "1131734599341682688",
+        "player_id": "9758",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 5
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jordan",
+            "injury_status": "",
+            "last_name": "Addison",
+            "news_updated": "1739300416588",
+            "number": "3",
+            "player_id": "9756",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 56,
+        "picked_by": "1130163665224830976",
+        "player_id": "9756",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 5
     }
 ]
