@@ -1974,5 +1974,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 7
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brandon",
+            "injury_status": "Questionable",
+            "last_name": "Aiyuk",
+            "news_updated": "1743484534526",
+            "number": "11",
+            "player_id": "6803",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 77,
+        "picked_by": "977746984348012544",
+        "player_id": "6803",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 7
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Keon",
+            "injury_status": "",
+            "last_name": "Coleman",
+            "news_updated": "1740720658850",
+            "number": "0",
+            "player_id": "11637",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 78,
+        "picked_by": "989544359940902912",
+        "player_id": "11637",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 7
     }
 ]
