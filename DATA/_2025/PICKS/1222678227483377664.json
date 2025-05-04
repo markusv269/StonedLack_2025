@@ -1974,5 +1974,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 7
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Trey",
+            "injury_status": "Questionable",
+            "last_name": "Benson",
+            "news_updated": "1735697426730",
+            "number": "33",
+            "player_id": "11589",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 77,
+        "picked_by": "608400368761659392",
+        "player_id": "11589",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 7
     }
 ]
