@@ -1220,5 +1220,83 @@
         "reactions": null,
         "roster_id": 2,
         "round": 4
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyjae",
+            "injury_status": "Questionable",
+            "last_name": "Spears",
+            "news_updated": "1735933522894",
+            "number": "2",
+            "player_id": "9508",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 48,
+        "picked_by": "918634755867009024",
+        "player_id": "9508",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 4
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "T.J.",
+            "injury_status": "",
+            "last_name": "Hockenson",
+            "news_updated": "1736834151140",
+            "number": "87",
+            "player_id": "5844",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 49,
+        "picked_by": "918634755867009024",
+        "player_id": "5844",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 5
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "D'Andre",
+            "injury_status": "",
+            "last_name": "Swift",
+            "news_updated": "1742328026793",
+            "number": "4",
+            "player_id": "6790",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 50,
+        "picked_by": "1130163665224830976",
+        "player_id": "6790",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 5
     }
 ]
