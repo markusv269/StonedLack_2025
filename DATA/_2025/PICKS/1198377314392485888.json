@@ -1740,5 +1740,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 6
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "David",
+            "injury_status": "",
+            "last_name": "Montgomery",
+            "news_updated": "1737265847789",
+            "number": "5",
+            "player_id": "5892",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 68,
+        "picked_by": "977746984348012544",
+        "player_id": "5892",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 6
     }
 ]
