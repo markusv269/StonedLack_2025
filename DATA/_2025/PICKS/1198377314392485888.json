@@ -1922,5 +1922,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 7
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tony",
+            "injury_status": "",
+            "last_name": "Pollard",
+            "news_updated": "1740515423191",
+            "number": "20",
+            "player_id": "5967",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 75,
+        "picked_by": "572175676813488128",
+        "player_id": "5967",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 7
     }
 ]
