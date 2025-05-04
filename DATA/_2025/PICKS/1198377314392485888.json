@@ -1532,5 +1532,57 @@
         "reactions": null,
         "roster_id": 6,
         "round": 5
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jerry",
+            "injury_status": "",
+            "last_name": "Jeudy",
+            "news_updated": "1736045430939",
+            "number": "3",
+            "player_id": "6783",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 60,
+        "picked_by": "1129655183757299712",
+        "player_id": "6783",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 5
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jauan",
+            "injury_status": "",
+            "last_name": "Jennings",
+            "news_updated": "1742324424767",
+            "number": "15",
+            "player_id": "7049",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 61,
+        "picked_by": "1129655183757299712",
+        "player_id": "7049",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 6
     }
 ]
