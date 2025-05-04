@@ -2026,5 +2026,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 7
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brandon",
+            "injury_status": "Questionable",
+            "last_name": "Aiyuk",
+            "news_updated": "1743484534526",
+            "number": "11",
+            "player_id": "6803",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 79,
+        "picked_by": "1131734599341682688",
+        "player_id": "6803",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 7
     }
 ]
