@@ -2780,5 +2780,83 @@
         "reactions": null,
         "roster_id": 6,
         "round": 9
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Michael",
+            "injury_status": "",
+            "last_name": "Penix",
+            "news_updated": "1736123441069",
+            "number": "9",
+            "player_id": "11559",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 108,
+        "picked_by": "1129655183757299712",
+        "player_id": "11559",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 9
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Isaac",
+            "injury_status": "Questionable",
+            "last_name": "Guerendo",
+            "news_updated": "1742327426922",
+            "number": "31",
+            "player_id": "11651",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 109,
+        "picked_by": "1129655183757299712",
+        "player_id": "11651",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 10
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jake",
+            "injury_status": "",
+            "last_name": "Ferguson",
+            "news_updated": "1736182805808",
+            "number": "87",
+            "player_id": "8110",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 110,
+        "picked_by": "873296312697774080",
+        "player_id": "8110",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 10
     }
 ]
