@@ -2676,5 +2676,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 9
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jordan",
+            "injury_status": "",
+            "last_name": "Love",
+            "news_updated": "1736733657640",
+            "number": "10",
+            "player_id": "6804",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 104,
+        "picked_by": "810531997922504704",
+        "player_id": "6804",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 9
     }
 ]
