@@ -2546,5 +2546,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 9
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Coker",
+            "news_updated": "1736124340428",
+            "number": "18",
+            "player_id": "11646",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 99,
+        "picked_by": "572175676813488128",
+        "player_id": "11646",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 9
     }
 ]
