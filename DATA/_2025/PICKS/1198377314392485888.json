@@ -3014,5 +3014,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 10
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Xavier",
+            "injury_status": "Questionable",
+            "last_name": "Legette",
+            "news_updated": "1743573920436",
+            "number": "17",
+            "player_id": "11626",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 117,
+        "picked_by": "1178500282260856832",
+        "player_id": "11626",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 10
     }
 ]
