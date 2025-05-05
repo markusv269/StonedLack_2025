@@ -2364,5 +2364,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 8
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Calvin",
+            "injury_status": "",
+            "last_name": "Ridley",
+            "news_updated": "1736133942313",
+            "number": "0",
+            "player_id": "4981",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 92,
+        "picked_by": "977746984348012544",
+        "player_id": "4981",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 8
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "David",
+            "injury_status": "Questionable",
+            "last_name": "Njoku",
+            "news_updated": "1745863533787",
+            "number": "85",
+            "player_id": "4033",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 93,
+        "picked_by": "1178500282260856832",
+        "player_id": "4033",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 8
     }
 ]

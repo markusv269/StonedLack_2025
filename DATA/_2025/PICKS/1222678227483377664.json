@@ -2364,5 +2364,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 8
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jayden",
+            "injury_status": "Questionable",
+            "last_name": "Reed",
+            "news_updated": "1736802642563",
+            "number": "11",
+            "player_id": "10222",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 92,
+        "picked_by": "608400368761659392",
+        "player_id": "10222",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 8
     }
 ]
