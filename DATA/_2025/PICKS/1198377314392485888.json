@@ -2416,5 +2416,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 8
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Deebo",
+            "injury_status": "",
+            "last_name": "Samuel",
+            "news_updated": "1742587835502",
+            "number": "1",
+            "player_id": "5872",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 94,
+        "picked_by": "572175676813488128",
+        "player_id": "5872",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 8
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Darnell",
+            "injury_status": "Questionable",
+            "last_name": "Mooney",
+            "news_updated": "1736096135635",
+            "number": "1",
+            "player_id": "7090",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 95,
+        "picked_by": "1130163665224830976",
+        "player_id": "7090",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 8
     }
 ]
