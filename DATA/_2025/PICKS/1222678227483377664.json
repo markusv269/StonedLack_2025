@@ -2624,5 +2624,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 9
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Stefon",
+            "injury_status": "Questionable",
+            "last_name": "Diggs",
+            "news_updated": "1744787752448",
+            "number": "8",
+            "player_id": "2449",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "10"
+        },
+        "pick_no": 102,
+        "picked_by": "1002228490156064768",
+        "player_id": "2449",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 9
     }
 ]
