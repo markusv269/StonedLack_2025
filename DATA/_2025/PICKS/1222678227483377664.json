@@ -2572,5 +2572,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 9
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyjae",
+            "injury_status": "Questionable",
+            "last_name": "Spears",
+            "news_updated": "1735933522894",
+            "number": "2",
+            "player_id": "9508",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 100,
+        "picked_by": "998653052653563904",
+        "player_id": "9508",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 9
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "J.J.",
+            "injury_status": "",
+            "last_name": "McCarthy",
+            "news_updated": "1745306103941",
+            "number": "9",
+            "player_id": "11565",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 101,
+        "picked_by": "608400368761659392",
+        "player_id": "11565",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 9
     }
 ]
