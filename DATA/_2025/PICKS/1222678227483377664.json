@@ -2338,5 +2338,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 8
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Mark",
+            "injury_status": "",
+            "last_name": "Andrews",
+            "news_updated": "1745011213883",
+            "number": "89",
+            "player_id": "5012",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 91,
+        "picked_by": "1002228490156064768",
+        "player_id": "5012",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 8
     }
 ]
