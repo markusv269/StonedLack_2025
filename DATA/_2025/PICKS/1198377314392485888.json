@@ -2468,5 +2468,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 8
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kyler",
+            "injury_status": "",
+            "last_name": "Murray",
+            "news_updated": "1744233344899",
+            "number": "1",
+            "player_id": "5849",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 96,
+        "picked_by": "918634755867009024",
+        "player_id": "5849",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 8
     }
 ]
