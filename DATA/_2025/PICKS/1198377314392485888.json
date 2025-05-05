@@ -2702,5 +2702,57 @@
         "reactions": null,
         "roster_id": 11,
         "round": 9
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jonnu",
+            "injury_status": "",
+            "last_name": "Smith",
+            "news_updated": "1736178004465",
+            "number": "9",
+            "player_id": "4144",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 105,
+        "picked_by": "1090777376264441856",
+        "player_id": "4144",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 9
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Baker",
+            "injury_status": "",
+            "last_name": "Mayfield",
+            "news_updated": "1743723360261",
+            "number": "6",
+            "player_id": "4892",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 106,
+        "picked_by": "979721317920407552",
+        "player_id": "4892",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 9
     }
 ]
