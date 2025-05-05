@@ -2312,5 +2312,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 8
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "David",
+            "injury_status": "Questionable",
+            "last_name": "Njoku",
+            "news_updated": "1745863533787",
+            "number": "85",
+            "player_id": "4033",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 90,
+        "picked_by": "1131734599341682688",
+        "player_id": "4033",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 8
     }
 ]
