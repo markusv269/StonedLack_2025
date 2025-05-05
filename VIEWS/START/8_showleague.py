@@ -5,15 +5,6 @@ import pandas as pd
 import urllib.parse
 
 # --------------------------------------------------
-# Caching: Logos
-# --------------------------------------------------
-@st.cache_data
-def get_team_logo(team: str) -> str:
-    if team:
-        return f"https://static.www.nfl.com/t_q-best/league/api/clubs/logos/{team}.svg"
-    return "https://www.thesportsdb.com/images/media/league/badge/g85fqz1662057187.png"
-
-# --------------------------------------------------
 # Team Mapping: Kürzel → Name + Farbe
 # --------------------------------------------------
 TEAM_INFO = {
@@ -50,6 +41,16 @@ TEAM_INFO = {
     "TEN": {"name": "Tennessee Titans", "color": "#0C2340"},
     "WAS": {"name": "Washington Commanders", "color": "#5A1414"},
 }
+
+# --------------------------------------------------
+# Caching: Logos
+# --------------------------------------------------
+@st.cache_data
+def get_team_logo(team: str) -> str:
+    if team in TEAM_INFO:
+        return f"https://static.www.nfl.com/t_q-best/league/api/clubs/logos/{team}.svg"
+    else:
+        return "https://www.thesportsdb.com/images/media/league/badge/g85fqz1662057187.png"
 
 # --------------------------------------------------
 # API Funktionen
