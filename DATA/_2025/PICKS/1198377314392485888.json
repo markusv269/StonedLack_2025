@@ -2572,5 +2572,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 9
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cooper",
+            "injury_status": "",
+            "last_name": "Kupp",
+            "news_updated": "1741993236316",
+            "number": "10",
+            "player_id": "4039",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 100,
+        "picked_by": "1178500282260856832",
+        "player_id": "4039",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 9
     }
 ]
