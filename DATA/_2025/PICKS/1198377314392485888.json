@@ -2936,5 +2936,57 @@
         "reactions": null,
         "roster_id": 11,
         "round": 10
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dalton",
+            "injury_status": "",
+            "last_name": "Kincaid",
+            "news_updated": "1738000835436",
+            "number": "86",
+            "player_id": "10236",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 114,
+        "picked_by": "979461434767654912",
+        "player_id": "10236",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 10
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Evan",
+            "injury_status": "Questionable",
+            "last_name": "Engram",
+            "news_updated": "1744578357137",
+            "number": "1",
+            "player_id": "4066",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 115,
+        "picked_by": "989544359940902912",
+        "player_id": "4066",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 10
     }
 ]

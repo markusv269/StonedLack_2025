@@ -3040,5 +3040,57 @@
         "reactions": null,
         "roster_id": 8,
         "round": 10
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Baker",
+            "injury_status": "",
+            "last_name": "Mayfield",
+            "news_updated": "1743723360261",
+            "number": "6",
+            "player_id": "4892",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 118,
+        "picked_by": "1124785744695943168",
+        "player_id": "4892",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 10
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Trevor",
+            "injury_status": "Questionable",
+            "last_name": "Lawrence",
+            "news_updated": "1744243532087",
+            "number": "16",
+            "player_id": "7523",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 119,
+        "picked_by": "1129824623715110912",
+        "player_id": "7523",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 10
     }
 ]
