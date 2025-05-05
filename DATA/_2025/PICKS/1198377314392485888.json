@@ -2598,5 +2598,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 9
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Caleb",
+            "injury_status": "Questionable",
+            "last_name": "Williams",
+            "news_updated": "1737302752201",
+            "number": "18",
+            "player_id": "11560",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 101,
+        "picked_by": "977746984348012544",
+        "player_id": "11560",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 9
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "J.J.",
+            "injury_status": "",
+            "last_name": "McCarthy",
+            "news_updated": "1745306103941",
+            "number": "9",
+            "player_id": "11565",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 102,
+        "picked_by": "989544359940902912",
+        "player_id": "11565",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 9
     }
 ]
