@@ -2286,5 +2286,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 8
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jakobi",
+            "injury_status": "",
+            "last_name": "Meyers",
+            "news_updated": "1744739148320",
+            "number": "16",
+            "player_id": "5947",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 89,
+        "picked_by": "1130163665224830976",
+        "player_id": "5947",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 8
     }
 ]
