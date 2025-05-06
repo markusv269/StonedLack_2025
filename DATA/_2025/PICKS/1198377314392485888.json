@@ -3300,5 +3300,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 11
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Romeo",
+            "injury_status": "Questionable",
+            "last_name": "Doubs",
+            "news_updated": "1745860225089",
+            "number": "87",
+            "player_id": "8121",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 128,
+        "picked_by": "810531997922504704",
+        "player_id": "8121",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 11
     }
 ]
