@@ -882,5 +882,57 @@
         "reactions": null,
         "roster_id": 8,
         "round": 3
+    },
+    {
+        "draft_id": "1184247769674326017",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "LeQuint",
+            "injury_status": "",
+            "last_name": "Allen",
+            "news_updated": "1745706631759",
+            "number": "",
+            "player_id": "12544",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 35,
+        "picked_by": "696419424483233792",
+        "player_id": "12544",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 3
+    },
+    {
+        "draft_id": "1184247769674326017",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Will",
+            "injury_status": "",
+            "last_name": "Howard",
+            "news_updated": "1745698828298",
+            "number": "18",
+            "player_id": "12511",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 36,
+        "picked_by": "752644714649534464",
+        "player_id": "12511",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 3
     }
 ]

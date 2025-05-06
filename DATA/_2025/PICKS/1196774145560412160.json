@@ -310,5 +310,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 1
+    },
+    {
+        "draft_id": "1196774145560412160",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cameron",
+            "injury_status": "",
+            "last_name": "Ward",
+            "news_updated": "1745540739721",
+            "number": "1",
+            "player_id": "12522",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 13,
+        "picked_by": "979461434767654912",
+        "player_id": "12522",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 2
+    },
+    {
+        "draft_id": "1196774145560412160",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Colston",
+            "injury_status": "Questionable",
+            "last_name": "Loveland",
+            "news_updated": "1746080137234",
+            "number": "",
+            "player_id": "12517",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 14,
+        "picked_by": "742696879162290176",
+        "player_id": "12517",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 2
     }
 ]

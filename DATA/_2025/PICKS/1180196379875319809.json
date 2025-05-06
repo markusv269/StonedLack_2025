@@ -648,5 +648,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 3
+    },
+    {
+        "draft_id": "1180196379875319809",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaydon",
+            "injury_status": "",
+            "last_name": "Blue",
+            "news_updated": "1745692828855",
+            "number": "34",
+            "player_id": "12457",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 26,
+        "picked_by": "1130163665224830976",
+        "player_id": "12457",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 3
     }
 ]
