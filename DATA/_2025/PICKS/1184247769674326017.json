@@ -960,5 +960,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 4
+    },
+    {
+        "draft_id": "1184247769674326017",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Quinn",
+            "injury_status": "",
+            "last_name": "Ewers",
+            "news_updated": "1745706031019",
+            "number": "",
+            "player_id": "12500",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 38,
+        "picked_by": "955103305108197376",
+        "player_id": "12500",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 4
     }
 ]

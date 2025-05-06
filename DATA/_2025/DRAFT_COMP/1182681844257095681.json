@@ -18,12 +18,14 @@
         "842722009950560256": 1,
         "842723756987260928": 3
     },
-    "last_message_id": "1225530678137860096",
-    "last_message_time": 1746551792232,
+    "last_message_id": "1225571819025616896",
+    "last_message_time": 1746561600981,
     "last_picked": 1746551783461,
     "league_id": "1182681844257095680",
     "metadata": {
         "description": "",
+        "elapsed_pick_timer": "9817454",
+        "is_autopaused": "true",
         "name": "Sons of Rivers #SLL17",
         "scoring_type": "dynasty_ppr"
     },
@@ -66,6 +68,6 @@
     },
     "sport": "nfl",
     "start_time": 1746199198823,
-    "status": "drafting",
+    "status": "paused",
     "type": "linear"
 }
