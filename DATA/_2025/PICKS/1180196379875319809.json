@@ -544,5 +544,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 2
+    },
+    {
+        "draft_id": "1180196379875319809",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dylan",
+            "injury_status": "",
+            "last_name": "Sampson",
+            "news_updated": "1745688629833",
+            "number": "",
+            "player_id": "12469",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 22,
+        "picked_by": "700336883795857408",
+        "player_id": "12469",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 2
+    },
+    {
+        "draft_id": "1180196379875319809",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kyle",
+            "injury_status": "",
+            "last_name": "Williams",
+            "news_updated": "",
+            "number": "",
+            "player_id": "12547",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 23,
+        "picked_by": "998202792059727872",
+        "player_id": "12547",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 2
     }
 ]

@@ -414,5 +414,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 2
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cameron",
+            "injury_status": "",
+            "last_name": "Ward",
+            "news_updated": "1745540739721",
+            "number": "1",
+            "player_id": "12522",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 17,
+        "picked_by": "873296312697774080",
+        "player_id": "12522",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 2
     }
 ]
