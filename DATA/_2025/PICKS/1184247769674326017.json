@@ -700,5 +700,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 3
+    },
+    {
+        "draft_id": "1184247769674326017",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaydon",
+            "injury_status": "",
+            "last_name": "Blue",
+            "news_updated": "1745692828855",
+            "number": "34",
+            "player_id": "12457",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 28,
+        "picked_by": "831541428285976576",
+        "player_id": "12457",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 3
+    },
+    {
+        "draft_id": "1184247769674326017",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Isaac",
+            "injury_status": "",
+            "last_name": "TeSlaa",
+            "news_updated": "1745632522117",
+            "number": "",
+            "player_id": "12535",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 29,
+        "picked_by": "699702098496946176",
+        "player_id": "12535",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 3
     }
 ]
