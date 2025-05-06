@@ -3196,5 +3196,57 @@
         "reactions": null,
         "roster_id": 8,
         "round": 11
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tua",
+            "injury_status": "Questionable",
+            "last_name": "Tagovailoa",
+            "news_updated": "1736286310979",
+            "number": "1",
+            "player_id": "6768",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 124,
+        "picked_by": "1178500282260856832",
+        "player_id": "6768",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 11
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Rashid",
+            "injury_status": "Questionable",
+            "last_name": "Shaheed",
+            "news_updated": "1729197641895",
+            "number": "22",
+            "player_id": "8676",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 125,
+        "picked_by": "977746984348012544",
+        "player_id": "8676",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 11
     }
 ]

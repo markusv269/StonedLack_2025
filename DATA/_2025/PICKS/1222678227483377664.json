@@ -3482,5 +3482,57 @@
         "reactions": null,
         "roster_id": 1,
         "round": 12
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Rico",
+            "injury_status": "",
+            "last_name": "Dowdle",
+            "news_updated": "1741823115902",
+            "number": "23",
+            "player_id": "7021",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 135,
+        "picked_by": "1178500282260856832",
+        "player_id": "7021",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 12
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Isaiah",
+            "injury_status": "",
+            "last_name": "Likely",
+            "news_updated": "1737344457440",
+            "number": "80",
+            "player_id": "8131",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 136,
+        "picked_by": "608400368761659392",
+        "player_id": "8131",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 12
     }
 ]
