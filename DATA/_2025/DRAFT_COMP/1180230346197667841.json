@@ -1,0 +1,72 @@
+{
+    "created": 1735751351453,
+    "creators": [
+        "475337602711416832"
+    ],
+    "draft_id": "1180230346197667841",
+    "draft_order": {
+        "1062159225650008064": 11,
+        "475337602711416832": 8,
+        "589426711028862976": 1,
+        "607238564035493888": 7,
+        "685764901146263552": 2,
+        "690610419059986432": 4,
+        "698312182697365504": 10,
+        "698629748980531200": 9,
+        "698925157967814656": 6,
+        "699616901780836352": 5,
+        "699734595817537536": 12,
+        "779077630615035904": 3
+    },
+    "last_message_id": "1180230346197667841",
+    "last_message_time": 1735751351453,
+    "last_picked": null,
+    "league_id": "1180230346197667840",
+    "metadata": {
+        "description": "",
+        "name": "SLL 2 Dynasty",
+        "scoring_type": "dynasty_ppr"
+    },
+    "season": "2025",
+    "season_type": "regular",
+    "settings": {
+        "alpha_sort": 0,
+        "autopause_enabled": 0,
+        "autopause_end_time": 540,
+        "autopause_start_time": 1260,
+        "autostart": 0,
+        "cpu_autopick": 1,
+        "enforce_position_limits": 1,
+        "nomination_timer": 60,
+        "pick_timer": 86400,
+        "player_type": 1,
+        "reversal_round": 0,
+        "rounds": 4,
+        "slots_bn": 20,
+        "slots_flex": 3,
+        "slots_k": 1,
+        "slots_qb": 1,
+        "slots_rb": 2,
+        "slots_te": 1,
+        "slots_wr": 2,
+        "teams": 12
+    },
+    "slot_to_roster_id": {
+        "1": 8,
+        "10": 4,
+        "11": 7,
+        "12": 3,
+        "2": 1,
+        "3": 11,
+        "4": 2,
+        "5": 9,
+        "6": 6,
+        "7": 12,
+        "8": 5,
+        "9": 10
+    },
+    "sport": "nfl",
+    "start_time": 1747587600000,
+    "status": "pre_draft",
+    "type": "linear"
+}

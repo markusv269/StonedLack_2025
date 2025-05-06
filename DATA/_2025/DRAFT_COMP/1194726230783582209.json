@@ -1,0 +1,72 @@
+{
+    "created": 1739207439659,
+    "creators": [
+        "736369538890858496"
+    ],
+    "draft_id": "1194726230783582209",
+    "draft_order": {
+        "608094516360073216": 11,
+        "704447107985108992": 7,
+        "718748551068323840": 5,
+        "728805724368547840": 2,
+        "730776707656687616": 9,
+        "731510990612578304": 3,
+        "736369538890858496": 12,
+        "827691589873819648": 10,
+        "827848777703469056": 1,
+        "827862582584025088": 8,
+        "828250947351330816": 4,
+        "828268584009609216": 6
+    },
+    "last_message_id": "1194726230783582209",
+    "last_message_time": 1739207439659,
+    "last_picked": null,
+    "league_id": "1194726230783582208",
+    "metadata": {
+        "description": "",
+        "name": "SLL15",
+        "scoring_type": "dynasty_ppr"
+    },
+    "season": "2025",
+    "season_type": "regular",
+    "settings": {
+        "alpha_sort": 0,
+        "autopause_enabled": 1,
+        "autopause_end_time": 420,
+        "autopause_start_time": 1260,
+        "autostart": 1,
+        "cpu_autopick": 1,
+        "enforce_position_limits": 1,
+        "nomination_timer": 60,
+        "pick_timer": 14400,
+        "player_type": 1,
+        "reversal_round": 0,
+        "rounds": 4,
+        "slots_bn": 15,
+        "slots_flex": 3,
+        "slots_k": 1,
+        "slots_qb": 1,
+        "slots_rb": 2,
+        "slots_te": 1,
+        "slots_wr": 2,
+        "teams": 12
+    },
+    "slot_to_roster_id": {
+        "1": 7,
+        "10": 11,
+        "11": 3,
+        "12": 1,
+        "2": 12,
+        "3": 6,
+        "4": 9,
+        "5": 2,
+        "6": 10,
+        "7": 4,
+        "8": 8,
+        "9": 5
+    },
+    "sport": "nfl",
+    "start_time": 1748190000000,
+    "status": "pre_draft",
+    "type": "linear"
+}

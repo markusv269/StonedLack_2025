@@ -1,0 +1,70 @@
+{
+    "created": 1740860585082,
+    "creators": [
+        "751566194544381952"
+    ],
+    "draft_id": "1201660025236369408",
+    "draft_order": {
+        "1125118563532058624": 2,
+        "585928143039148032": 4,
+        "596107064812548096": 7,
+        "643774380593205248": 3,
+        "698069937704476672": 6,
+        "698187034254209024": 5,
+        "723576828790370304": 8,
+        "733727000669339648": 11,
+        "740271047152128000": 12,
+        "751566194544381952": 10,
+        "839949979090030592": 9,
+        "859916391497711616": 1
+    },
+    "last_message_id": "1201660025236369408",
+    "last_message_time": 1740860585082,
+    "last_picked": null,
+    "league_id": "1201660025227976704",
+    "metadata": {
+        "description": "",
+        "name": "Stoned Lack Dynasty IDP Only",
+        "scoring_type": "idp"
+    },
+    "season": "2025",
+    "season_type": "regular",
+    "settings": {
+        "alpha_sort": 0,
+        "autopause_enabled": 1,
+        "autopause_end_time": 300,
+        "autopause_start_time": 1260,
+        "autostart": 0,
+        "cpu_autopick": 1,
+        "enforce_position_limits": 1,
+        "nomination_timer": 60,
+        "pick_timer": 14400,
+        "player_type": 0,
+        "reversal_round": 3,
+        "rounds": 4,
+        "slots_bn": 16,
+        "slots_db": 3,
+        "slots_dl": 3,
+        "slots_idp_flex": 3,
+        "slots_lb": 3,
+        "teams": 12
+    },
+    "slot_to_roster_id": {
+        "1": 10,
+        "10": 3,
+        "11": 5,
+        "12": 6,
+        "2": 11,
+        "3": 9,
+        "4": 1,
+        "5": 2,
+        "6": 7,
+        "7": 8,
+        "8": 12,
+        "9": 4
+    },
+    "sport": "nfl",
+    "start_time": 1747065600000,
+    "status": "pre_draft",
+    "type": "snake"
+}

@@ -1,0 +1,73 @@
+{
+    "created": 1736438386574,
+    "creators": [
+        "740271047152128000",
+        "871161774752358400"
+    ],
+    "draft_id": "1183111980353396736",
+    "draft_order": {
+        "1075467550038765568": 7,
+        "1088233335052181504": 5,
+        "1090334686708056064": 9,
+        "430760855328526336": 12,
+        "609164029121851392": 10,
+        "698187034254209024": 8,
+        "740271047152128000": 11,
+        "839949979090030592": 1,
+        "871161774752358400": 3,
+        "958513813727293440": 2,
+        "978755352713879552": 4,
+        "988001858285252608": 6
+    },
+    "last_message_id": "1183111980353396736",
+    "last_message_time": 1736438386574,
+    "last_picked": 1742487771332,
+    "league_id": "1183111980349202432",
+    "metadata": {
+        "description": "",
+        "name": "Stoned Lack Dynasty 25",
+        "scoring_type": "dynasty_2qb"
+    },
+    "season": "2025",
+    "season_type": "regular",
+    "settings": {
+        "alpha_sort": 0,
+        "autopause_enabled": 1,
+        "autopause_end_time": 300,
+        "autopause_start_time": 1260,
+        "autostart": 0,
+        "cpu_autopick": 1,
+        "enforce_position_limits": 1,
+        "nomination_timer": 60,
+        "pick_timer": 28800,
+        "player_type": 1,
+        "reversal_round": 3,
+        "rounds": 4,
+        "slots_bn": 15,
+        "slots_flex": 3,
+        "slots_qb": 1,
+        "slots_rb": 2,
+        "slots_super_flex": 1,
+        "slots_te": 1,
+        "slots_wr": 2,
+        "teams": 12
+    },
+    "slot_to_roster_id": {
+        "1": 9,
+        "10": 1,
+        "11": 6,
+        "12": 3,
+        "2": 11,
+        "3": 5,
+        "4": 4,
+        "5": 7,
+        "6": 8,
+        "7": 2,
+        "8": 10,
+        "9": 12
+    },
+    "sport": "nfl",
+    "start_time": 1747303251000,
+    "status": "pre_draft",
+    "type": "linear"
+}

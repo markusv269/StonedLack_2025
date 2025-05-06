@@ -1,0 +1,59 @@
+{
+    "created": 1737203557639,
+    "creators": [
+        "989203503744593920"
+    ],
+    "draft_id": "1186321340412182529",
+    "draft_order": null,
+    "last_message_id": "1186321340412182529",
+    "last_message_time": 1737203557639,
+    "last_picked": null,
+    "league_id": "1186321340412182528",
+    "metadata": {
+        "description": "",
+        "name": "Stoned Lack Dynasty 22",
+        "scoring_type": "dynasty_ppr"
+    },
+    "season": "2025",
+    "season_type": "regular",
+    "settings": {
+        "alpha_sort": 0,
+        "autopause_enabled": 1,
+        "autopause_end_time": 360,
+        "autopause_start_time": 1140,
+        "autostart": 1,
+        "cpu_autopick": 1,
+        "enforce_position_limits": 1,
+        "nomination_timer": 60,
+        "pick_timer": 28800,
+        "player_type": 1,
+        "reversal_round": 0,
+        "rounds": 4,
+        "slots_bn": 15,
+        "slots_flex": 3,
+        "slots_k": 1,
+        "slots_qb": 1,
+        "slots_rb": 2,
+        "slots_te": 1,
+        "slots_wr": 2,
+        "teams": 12
+    },
+    "slot_to_roster_id": {
+        "1": 1,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9
+    },
+    "sport": "nfl",
+    "start_time": null,
+    "status": "pre_draft",
+    "type": "linear"
+}

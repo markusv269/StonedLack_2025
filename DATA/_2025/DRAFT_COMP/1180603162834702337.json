@@ -1,0 +1,72 @@
+{
+    "created": 1735840237867,
+    "creators": [
+        "699720820305489920"
+    ],
+    "draft_id": "1180603162834702337",
+    "draft_order": {
+        "1007360551133057024": 4,
+        "471619491206262784": 5,
+        "589723445122600960": 10,
+        "604326911455326208": 11,
+        "604620584139173888": 2,
+        "606757591007178752": 3,
+        "685160227418492928": 7,
+        "699600609426341888": 12,
+        "699718829424603136": 9,
+        "699720820305489920": 8,
+        "706049261900484608": 1,
+        "971456207850397696": 6
+    },
+    "last_message_id": "1180603162834702337",
+    "last_message_time": 1735840237867,
+    "last_picked": null,
+    "league_id": "1180603162834702336",
+    "metadata": {
+        "description": "",
+        "name": "Stoned Lack Dynasty League #9 (Let's Go!)",
+        "scoring_type": "dynasty_ppr"
+    },
+    "season": "2025",
+    "season_type": "regular",
+    "settings": {
+        "alpha_sort": 0,
+        "autopause_enabled": 0,
+        "autopause_end_time": 540,
+        "autopause_start_time": 1260,
+        "autostart": 0,
+        "cpu_autopick": 1,
+        "enforce_position_limits": 1,
+        "nomination_timer": 60,
+        "pick_timer": 86400,
+        "player_type": 1,
+        "reversal_round": 0,
+        "rounds": 3,
+        "slots_bn": 15,
+        "slots_flex": 3,
+        "slots_k": 1,
+        "slots_qb": 1,
+        "slots_rb": 2,
+        "slots_te": 1,
+        "slots_wr": 2,
+        "teams": 12
+    },
+    "slot_to_roster_id": {
+        "1": 10,
+        "10": 5,
+        "11": 9,
+        "12": 6,
+        "2": 11,
+        "3": 8,
+        "4": 2,
+        "5": 4,
+        "6": 12,
+        "7": 7,
+        "8": 1,
+        "9": 3
+    },
+    "sport": "nfl",
+    "start_time": 1754056829000,
+    "status": "pre_draft",
+    "type": "linear"
+}
