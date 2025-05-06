@@ -18,12 +18,14 @@
         "701502788793884672": 4,
         "740271047152128000": 2
     },
-    "last_message_id": "1225530120463200256",
-    "last_message_time": 1746551659273,
+    "last_message_id": "1225602016873558016",
+    "last_message_time": 1746568800708,
     "last_picked": 1746551640491,
     "league_id": "1182287035210129408",
     "metadata": {
         "description": "",
+        "elapsed_pick_timer": "17160147",
+        "is_autopaused": "true",
         "name": "SSL 11 IDP Dynasty",
         "scoring_type": "idp"
     },
@@ -71,6 +73,6 @@
     },
     "sport": "nfl",
     "start_time": 1746439222895,
-    "status": "drafting",
+    "status": "paused",
     "type": "linear"
 }
