@@ -310,5 +310,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 1
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Emeka",
+            "injury_status": "",
+            "last_name": "Egbuka",
+            "news_updated": "1745547640716",
+            "number": "",
+            "player_id": "12514",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 13,
+        "picked_by": "740271047152128000",
+        "player_id": "12514",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 2
     }
 ]
