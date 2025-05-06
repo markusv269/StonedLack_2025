@@ -3820,5 +3820,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 13
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Diontae",
+            "injury_status": "",
+            "last_name": "Johnson",
+            "news_updated": "1746552016453",
+            "number": "16",
+            "player_id": "5937",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 148,
+        "picked_by": "998653052653563904",
+        "player_id": "5937",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 13
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brenton",
+            "injury_status": "",
+            "last_name": "Strange",
+            "news_updated": "1740554719881",
+            "number": "85",
+            "player_id": "9480",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 149,
+        "picked_by": "608400368761659392",
+        "player_id": "9480",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 13
     }
 ]

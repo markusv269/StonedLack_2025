@@ -778,5 +778,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 3
+    },
+    {
+        "draft_id": "1180196379875319809",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Milroe",
+            "news_updated": "1745636725597",
+            "number": "6",
+            "player_id": "12510",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 31,
+        "picked_by": "700336883795857408",
+        "player_id": "12510",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 3
     }
 ]
