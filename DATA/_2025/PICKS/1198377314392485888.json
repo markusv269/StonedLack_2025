@@ -3248,5 +3248,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 11
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jordan",
+            "injury_status": "Questionable",
+            "last_name": "Mason",
+            "news_updated": "1744036228297",
+            "number": "27",
+            "player_id": "8408",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 126,
+        "picked_by": "989544359940902912",
+        "player_id": "8408",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 11
     }
 ]

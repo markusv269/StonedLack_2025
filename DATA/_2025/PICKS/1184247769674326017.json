@@ -856,5 +856,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 3
+    },
+    {
+        "draft_id": "1184247769674326017",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ollie",
+            "injury_status": "",
+            "last_name": "Gordon",
+            "news_updated": "1745697937705",
+            "number": "",
+            "player_id": "12495",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 34,
+        "picked_by": "965605746056417280",
+        "player_id": "12495",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 3
     }
 ]
