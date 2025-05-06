@@ -232,5 +232,57 @@
         "reactions": null,
         "roster_id": 11,
         "round": 1
+    },
+    {
+        "draft_id": "1196774145560412160",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kaleb",
+            "injury_status": "",
+            "last_name": "Johnson",
+            "news_updated": "1746080137197",
+            "number": "20",
+            "player_id": "12504",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 10,
+        "picked_by": "997129383221542912",
+        "player_id": "12504",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 1
+    },
+    {
+        "draft_id": "1196774145560412160",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "RJ",
+            "injury_status": "",
+            "last_name": "Harvey",
+            "news_updated": "1745630721507",
+            "number": "",
+            "player_id": "12489",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 11,
+        "picked_by": "979461434767654912",
+        "player_id": "12489",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 1
     }
 ]

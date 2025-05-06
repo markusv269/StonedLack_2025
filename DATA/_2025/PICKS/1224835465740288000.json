@@ -518,5 +518,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 2
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jayden",
+            "injury_status": "",
+            "last_name": "Higgins",
+            "news_updated": "1745623520335",
+            "number": "",
+            "player_id": "12484",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 21,
+        "picked_by": "990318951781490688",
+        "player_id": "12484",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 2
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Royals",
+            "news_updated": "1745690132359",
+            "number": "11",
+            "player_id": "12505",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 22,
+        "picked_by": "701502788793884672",
+        "player_id": "12505",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 2
     }
 ]

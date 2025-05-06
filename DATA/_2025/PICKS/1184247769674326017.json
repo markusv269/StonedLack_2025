@@ -804,5 +804,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 3
+    },
+    {
+        "draft_id": "1184247769674326017",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Terrance",
+            "injury_status": "",
+            "last_name": "Ferguson",
+            "news_updated": "1745626821565",
+            "number": "",
+            "player_id": "12487",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 32,
+        "picked_by": "752644714649534464",
+        "player_id": "12487",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 3
+    },
+    {
+        "draft_id": "1184247769674326017",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Harold",
+            "injury_status": "",
+            "last_name": "Fannin",
+            "news_updated": "1745632221526",
+            "number": "",
+            "player_id": "12506",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 33,
+        "picked_by": "752644714649534464",
+        "player_id": "12506",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 3
     }
 ]
