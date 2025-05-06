@@ -3378,5 +3378,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 11
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Braelon",
+            "injury_status": "",
+            "last_name": "Allen",
+            "news_updated": "1736187906078",
+            "number": "0",
+            "player_id": "11576",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 131,
+        "picked_by": "873296312697774080",
+        "player_id": "11576",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 11
     }
 ]
