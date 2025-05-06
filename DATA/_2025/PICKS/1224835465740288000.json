@@ -466,5 +466,57 @@
         "reactions": null,
         "roster_id": 11,
         "round": 2
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Bhayshul",
+            "injury_status": "",
+            "last_name": "Tuten",
+            "news_updated": "1745684724830",
+            "number": "",
+            "player_id": "12490",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 19,
+        "picked_by": "1129655183757299712",
+        "player_id": "12490",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 2
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Mason",
+            "injury_status": "",
+            "last_name": "Taylor",
+            "news_updated": "1745625920667",
+            "number": "",
+            "player_id": "12498",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 20,
+        "picked_by": "1129824623715110912",
+        "player_id": "12498",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 2
     }
 ]
