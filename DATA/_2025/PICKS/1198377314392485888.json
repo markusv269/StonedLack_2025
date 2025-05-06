@@ -3144,5 +3144,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 11
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Quentin",
+            "injury_status": "",
+            "last_name": "Johnston",
+            "news_updated": "1745865332374",
+            "number": "1",
+            "player_id": "9754",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 122,
+        "picked_by": "1130163665224830976",
+        "player_id": "9754",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 11
     }
 ]
