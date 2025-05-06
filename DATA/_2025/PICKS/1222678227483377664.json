@@ -3638,5 +3638,83 @@
         "reactions": null,
         "roster_id": 4,
         "round": 12
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tua",
+            "injury_status": "Questionable",
+            "last_name": "Tagovailoa",
+            "news_updated": "1736286310979",
+            "number": "1",
+            "player_id": "6768",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 141,
+        "picked_by": "1129824623715110912",
+        "player_id": "6768",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 12
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Wan'Dale",
+            "injury_status": "",
+            "last_name": "Robinson",
+            "news_updated": "1736167207229",
+            "number": "17",
+            "player_id": "8126",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 142,
+        "picked_by": "1124785744695943168",
+        "player_id": "8126",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 12
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Romeo",
+            "injury_status": "Questionable",
+            "last_name": "Doubs",
+            "news_updated": "1745860225089",
+            "number": "87",
+            "player_id": "8121",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 143,
+        "picked_by": "1129824623715110912",
+        "player_id": "8121",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 12
     }
 ]
