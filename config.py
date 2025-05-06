@@ -1,7 +1,46 @@
-DYNLEAGUES = [
-        "1075126001023164416",
-        "1051603386442850304",
-        "1048238093331042304",
+DYNLEAGUES = [ # 2025
+    "1209233140317425664", # Stoned Lack Dynastie #1
+    "1180230346197667840", # SLL 2 Dynasty
+    "1195778937733513216", # Stoned Lack Dynastie 3
+    "1209607849928302592", # SLA DYNASTY 4
+    "1181844911174176768", # STONED LACK DYNASTY 5
+    "1180582953490542592", # StonedLack Dynasty Liga 6 🔥🔥🔥
+    "1181536975269736448", # Stoned Lack Dynasty 7
+    "1180311821918916608", # SLL 8 DYNASTY
+    "1180603162834702336", # Stoned Lack Dynasty League #9 (Let's Go!)
+    "1187105219732697088", # Stoned Lack Dynasty 10
+    "1182287035210129408", # SSL 11 IDP Dynasty
+    "1206707252904333312", # SLL 12 IDP Dynasty 
+    "1182673834217238528", # STONED LACK DYNASTY 13 IDP
+    "1210606508199383040", # SLL 14 Dynasty
+    "1194726230783582208", # SLL15
+    "1204157997916360704", # SLL #16 Dynasty
+    "1182681844257095680", # Sons of Rivers #SLL17
+    "1198654756378132480", # Stoned Lack Dynasty 18
+    "1184247769674326016", # SLL #19 Dynasty
+    "1186799276489707520", # Stoned Lack Dynastie #20 
+    "1206997313344520192", # Stoned Lack Dynasty 21
+    "1186321340412182528", # Stoned Lack Dynasty 22
+    "1204822524987195392", # Stoned Lack Dynasty 23
+    "1194741490742648832", # Stoned Lack Dynasty 24
+    "1183111980349202432", # Stoned Lack Dynasty 25
+    "1196774145552044032", # Stoned Lack Dynasty 26
+    "1180590776307220480", # Stoned Lack Dynasty 27
+    "1180196379875319808", # Stoned Lack Dynasty 28
+    "1205588222306947072", # Stoned Lack Dynasty 29
+    "1207817141764493312", # Stoned Lack Dynasty 30
+    "1198377313197117440", # Stoned Lack Dynasty 31
+    "1207100721535655936", # Stoned Lack Dynasty 32
+    "1208531949958742016", # Stoned Lack  IDP Dynasty 33
+    "1222678226208296960", # Stoned Lack Dynasty 34
+    "1201660025227976704", # Stoned Lack Dynasty IDP Only
+    "1196950328071704576", # Stoned Lack Bestball Dynasty
+]
+
+DYNLEAGUES_2024 = [
+        "1075126001023164416", # Stoned Lack Dynastie #1
+        "1051603386442850304", # SLL 2 Dynasty
+        "1048238093331042304", # Stoned Lack Dynastie 3
         "1076219332172095488",
         "1053143294668029952",
         "1048631053662920704",
