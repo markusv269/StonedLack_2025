@@ -3326,5 +3326,57 @@
         "reactions": null,
         "roster_id": 11,
         "round": 11
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaylen",
+            "injury_status": "",
+            "last_name": "Wright",
+            "news_updated": "1736361317328",
+            "number": "25",
+            "player_id": "11643",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 129,
+        "picked_by": "1090777376264441856",
+        "player_id": "11643",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 11
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Blake",
+            "injury_status": "Questionable",
+            "last_name": "Corum",
+            "news_updated": "1736352017892",
+            "number": "22",
+            "player_id": "11586",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 130,
+        "picked_by": "979721317920407552",
+        "player_id": "11586",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 11
     }
 ]
