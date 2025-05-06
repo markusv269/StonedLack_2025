@@ -18,14 +18,13 @@
         "955103305108197376": 2,
         "965605746056417280": 10
     },
-    "last_message_id": "1225514585247723520",
-    "last_message_time": 1746547955387,
-    "last_picked": 1746547919144,
+    "last_message_id": "1225523147290198016",
+    "last_message_time": 1746549996738,
+    "last_picked": 1746549970281,
     "league_id": "1184247769674326016",
     "metadata": {
         "description": "",
         "elapsed_pick_timer": "19224",
-        "is_autopaused": "false",
         "name": "SLL #19 Dynasty",
         "scoring_type": "dynasty_2qb"
     },
@@ -69,6 +68,6 @@
     },
     "sport": "nfl",
     "start_time": 1746205220444,
-    "status": "paused",
+    "status": "drafting",
     "type": "linear"
 }
