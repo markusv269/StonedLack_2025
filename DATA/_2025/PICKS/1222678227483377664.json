@@ -3300,5 +3300,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 11
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaleel",
+            "injury_status": "",
+            "last_name": "McLaughlin",
+            "news_updated": "1745859038141",
+            "number": "38",
+            "player_id": "11439",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 128,
+        "picked_by": "1130163665224830976",
+        "player_id": "11439",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 11
     }
 ]
