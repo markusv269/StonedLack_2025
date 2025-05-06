@@ -700,5 +700,83 @@
         "reactions": null,
         "roster_id": 10,
         "round": 3
+    },
+    {
+        "draft_id": "1180196379875319809",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Elic",
+            "injury_status": "",
+            "last_name": "Ayomanor",
+            "news_updated": "1745690433969",
+            "number": "5",
+            "player_id": "12499",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 28,
+        "picked_by": "990318951781490688",
+        "player_id": "12499",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 3
+    },
+    {
+        "draft_id": "1180196379875319809",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaylin",
+            "injury_status": "",
+            "last_name": "Noel",
+            "news_updated": "1745634622443",
+            "number": "",
+            "player_id": "12536",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 29,
+        "picked_by": "1125802874702880768",
+        "player_id": "12536",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 3
+    },
+    {
+        "draft_id": "1180196379875319809",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Royals",
+            "news_updated": "1745690132359",
+            "number": "11",
+            "player_id": "12505",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 30,
+        "picked_by": "585507399792627712",
+        "player_id": "12505",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 3
     }
 ]
