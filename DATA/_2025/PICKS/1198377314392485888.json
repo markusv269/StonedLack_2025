@@ -3092,5 +3092,57 @@
         "reactions": null,
         "roster_id": 2,
         "round": 10
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tank",
+            "injury_status": "",
+            "last_name": "Bigsby",
+            "news_updated": "1736147404549",
+            "number": "4",
+            "player_id": "9225",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 120,
+        "picked_by": "918634755867009024",
+        "player_id": "9225",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 10
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Rashod",
+            "injury_status": "",
+            "last_name": "Bateman",
+            "news_updated": "1737343256889",
+            "number": "7",
+            "player_id": "7571",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 121,
+        "picked_by": "918634755867009024",
+        "player_id": "7571",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 11
     }
 ]
