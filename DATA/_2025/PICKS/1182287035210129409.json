@@ -518,5 +518,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 2
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Royals",
+            "news_updated": "1745690132359",
+            "number": "11",
+            "player_id": "12505",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 21,
+        "picked_by": "701502788793884672",
+        "player_id": "12505",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 2
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cameron",
+            "injury_status": "",
+            "last_name": "Ward",
+            "news_updated": "1745540739721",
+            "number": "1",
+            "player_id": "12522",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 22,
+        "picked_by": "701502788793884672",
+        "player_id": "12522",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 2
     }
 ]
