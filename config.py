@@ -1,3 +1,6 @@
+import requests
+import pandas as pd
+
 DYNLEAGUES = [ # 2025
     "1209233140317425664", # Stoned Lack Dynastie #1
     "1180230346197667840", # SLL 2 Dynasty
@@ -160,3 +163,39 @@ SCORINGSETTINGS = {
         "pts_allow_7_13": 4,
         "st_ff": 1
     }
+
+
+def get_earliest_season(league_id):
+    seasons = []
+    current_league_id = league_id
+
+    while current_league_id:
+        url = f"https://api.sleeper.app/v1/league/{current_league_id}"
+        response = requests.get(url)
+        if response.status_code != 200:
+            print(f"Fehler beim Abrufen von {current_league_id}")
+            break
+
+        data = response.json()
+        seasons.append((data.get("season"), data.get("name"), data.get("league_id"), data.get("draft_id")))
+
+        previous_league_id = data.get("previous_league_id")
+        if previous_league_id and previous_league_id != "0":
+            current_league_id = previous_league_id
+        else:
+            break
+
+    return seasons if seasons else None
+
+# Ergebnis für alle Ligen:
+all_seasons = []
+for league_id in DYNLEAGUES:
+    earliest_season = get_earliest_season(league_id)
+    if earliest_season:
+        all_seasons.extend(earliest_season)
+    print(f"Früheste Saison für {league_id}: {earliest_season}")
+
+earliest_season_df = pd.DataFrame(all_seasons, columns=["season", "name", "league_id", "draft_id"])
+
+print(earliest_season_df)   
+earliest_season_df.to_csv("earliest_season.csv", index=False)
