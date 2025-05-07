@@ -856,5 +856,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 3
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaylin",
+            "injury_status": "",
+            "last_name": "Noel",
+            "news_updated": "1745634622443",
+            "number": "",
+            "player_id": "12536",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 34,
+        "picked_by": "589565582072918016",
+        "player_id": "12536",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 3
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Mason",
+            "injury_status": "",
+            "last_name": "Taylor",
+            "news_updated": "1745625920667",
+            "number": "",
+            "player_id": "12498",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 35,
+        "picked_by": "468676777514889216",
+        "player_id": "12498",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 3
     }
 ]

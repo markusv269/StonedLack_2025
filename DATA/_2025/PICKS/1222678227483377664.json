@@ -4522,5 +4522,83 @@
         "reactions": null,
         "roster_id": 2,
         "round": 15
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Andrei",
+            "injury_status": "",
+            "last_name": "Iosivas",
+            "news_updated": "1744398945381",
+            "number": "80",
+            "player_id": "10226",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 175,
+        "picked_by": "1131734599341682688",
+        "player_id": "10226",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 15
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Elijah",
+            "injury_status": "",
+            "last_name": "Moore",
+            "news_updated": "1746069336391",
+            "number": "18",
+            "player_id": "7596",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 176,
+        "picked_by": "1130163665224830976",
+        "player_id": "7596",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 15
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Zack",
+            "injury_status": "Questionable",
+            "last_name": "Moss",
+            "news_updated": "1745275860848",
+            "number": "31",
+            "player_id": "6845",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 177,
+        "picked_by": "996570764344270848",
+        "player_id": "6845",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 15
     }
 ]
