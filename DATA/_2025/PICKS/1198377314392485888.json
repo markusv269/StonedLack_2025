@@ -3950,5 +3950,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 13
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Diontae",
+            "injury_status": "",
+            "last_name": "Johnson",
+            "news_updated": "1746552016453",
+            "number": "16",
+            "player_id": "5937",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 153,
+        "picked_by": "1090777376264441856",
+        "player_id": "5937",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 13
     }
 ]
