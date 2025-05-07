@@ -1064,5 +1064,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 4
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Lathan",
+            "injury_status": "",
+            "last_name": "Ransom",
+            "news_updated": "1745688028952",
+            "number": "",
+            "player_id": "12611",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 42,
+        "picked_by": "701502788793884672",
+        "player_id": "12611",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 4
     }
 ]
