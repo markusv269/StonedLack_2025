@@ -752,5 +752,57 @@
         "reactions": null,
         "roster_id": 6,
         "round": 3
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Devin",
+            "injury_status": "",
+            "last_name": "Neal",
+            "news_updated": "1745698528022",
+            "number": "",
+            "player_id": "12476",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 30,
+        "picked_by": "675598189872627712",
+        "player_id": "12476",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 3
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Mike",
+            "injury_status": "",
+            "last_name": "Green",
+            "news_updated": "1745630121557",
+            "number": "45",
+            "player_id": "12571",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 31,
+        "picked_by": "589565582072918016",
+        "player_id": "12571",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 3
     }
 ]
