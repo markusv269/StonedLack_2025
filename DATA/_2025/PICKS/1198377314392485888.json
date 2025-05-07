@@ -3716,5 +3716,83 @@
         "reactions": null,
         "roster_id": 2,
         "round": 12
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dak",
+            "injury_status": "Questionable",
+            "last_name": "Prescott",
+            "news_updated": "1744737646320",
+            "number": "4",
+            "player_id": "3294",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "9"
+        },
+        "pick_no": 144,
+        "picked_by": "918634755867009024",
+        "player_id": "3294",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 12
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "DeMario",
+            "injury_status": "",
+            "last_name": "Douglas",
+            "news_updated": "1736184305863",
+            "number": "3",
+            "player_id": "9501",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 145,
+        "picked_by": "918634755867009024",
+        "player_id": "9501",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 13
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Chig",
+            "injury_status": "",
+            "last_name": "Okonkwo",
+            "news_updated": "1736182805782",
+            "number": "85",
+            "player_id": "8210",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 146,
+        "picked_by": "1130163665224830976",
+        "player_id": "8210",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 13
     }
 ]
