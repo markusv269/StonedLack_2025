@@ -752,5 +752,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 3
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "DJ",
+            "injury_status": "",
+            "last_name": "Giddens",
+            "news_updated": "1745693429365",
+            "number": "",
+            "player_id": "12471",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 30,
+        "picked_by": "1129655183757299712",
+        "player_id": "12471",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 3
     }
 ]

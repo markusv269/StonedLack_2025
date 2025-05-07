@@ -3404,5 +3404,57 @@
         "reactions": null,
         "roster_id": 6,
         "round": 11
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kyle",
+            "injury_status": "",
+            "last_name": "Pitts",
+            "news_updated": "1736287213476",
+            "number": "8",
+            "player_id": "7553",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 132,
+        "picked_by": "1129655183757299712",
+        "player_id": "7553",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 11
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jerome",
+            "injury_status": "",
+            "last_name": "Ford",
+            "news_updated": "1746213948413",
+            "number": "34",
+            "player_id": "8143",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 133,
+        "picked_by": "1129655183757299712",
+        "player_id": "8143",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 12
     }
 ]
