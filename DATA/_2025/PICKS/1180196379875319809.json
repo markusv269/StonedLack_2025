@@ -986,5 +986,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 4
+    },
+    {
+        "draft_id": "1180196379875319809",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Quinn",
+            "injury_status": "",
+            "last_name": "Ewers",
+            "news_updated": "1745706031019",
+            "number": "",
+            "player_id": "12500",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 39,
+        "picked_by": "597708418953830400",
+        "player_id": "12500",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 4
+    },
+    {
+        "draft_id": "1180196379875319809",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kyle",
+            "injury_status": "",
+            "last_name": "Monangai",
+            "news_updated": "1745706031019",
+            "number": "",
+            "player_id": "12534",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 40,
+        "picked_by": "990318951781490688",
+        "player_id": "12534",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 4
     }
 ]
