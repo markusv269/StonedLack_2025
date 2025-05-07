@@ -596,5 +596,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 2
+    },
+    {
+        "draft_id": "1196774145560412160",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dylan",
+            "injury_status": "",
+            "last_name": "Sampson",
+            "news_updated": "1745688629833",
+            "number": "22",
+            "player_id": "12469",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 24,
+        "picked_by": "979655298266816512",
+        "player_id": "12469",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 2
     }
 ]
