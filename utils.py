@@ -57,9 +57,7 @@ def display_drafts(league_ids):
                 draft_type = draft_data["settings"].get("player_type")
                 draft_mode = draft_data["type"]
 
-                if draft_type == 0:
-                    draft_typ = "Rookie + Veteran Draft"
-                elif draft_type == 1:
+                if draft_type == 1:
                     draft_typ = "Rookie Draft"
                 elif draft_type == 2:
                     draft_typ = "Veteran Draft"
@@ -72,7 +70,7 @@ def display_drafts(league_ids):
                     draft_time_mesz = draft_time_utc.astimezone(ZoneInfo("Europe/Berlin"))  # In MESZ umwandeln
                     draft_time_show = draft_time_mesz.strftime("%d.%m.%Y %H:%M")
                 else:
-                    draft_time_show = "--"
+                    draft_time_show = "TBD"
 
                 latest_pick = picks[-1] if picks else None
                 
@@ -89,35 +87,24 @@ def display_drafts(league_ids):
                 else:
                     pick_data = None
 
-                # col11, col12 = st.columns([1,4])
-                # with col11:
-                #     st.write("Draftmodus")
-                # with col12:
-                st.write(f"**{draft_typ} ({draft_mode}) {draft_data['season']}**")
+                st.write(f"**{draft_typ} {draft_data['season']}**")
 
-                col1, col1a, col2, col2a, col3, col3a = st.columns([1,2, 1,2, 1,2])
+                col1, col2, col3, col4 = st.columns([2,2,2,3])
                 with col1:
-                    st.write("**Draftstart**")
-                with col1a:
-                    st.write(draft_time_show)
+                    st.metric("Start", draft_time_show)
                 with col2:
-                    st.write("**Status**")
-                with col2a:
-                    if draft_data['status'] == "complete":
-                        st.success("Complete")
-                    elif draft_data['status'] == "pre_draft":
-                        st.error("Predraft")
+                    if draft_data["status"] == "complete":
+                        st.success("Draft abgeschlossen")
+                    elif draft_data["status"] == "pre_draft":   
+                        st.error("Draft noch nicht gestartet")
+                    elif draft_data["status"] == "drafting":   
+                        st.warning("Draft läuft")
                     else:
-                        st.warning(str(draft_data['status']))
+                        st.warning(draft_data["status"])
                 with col3:
-                    st.write("**Draftmodus**")
-                with col3a:
-                    st.write(draft_mode)
-                
-                st.metric("Start", draft_time_show)
-                st.metric("Status", draft_data['status'])
-                st.metric("Draftmodus", draft_mode)
-                st.metric("Drafttyp", draft_typ)             
+                    st.metric("Draftmodus", draft_mode)   
+                with col4: 
+                    st.metric("Draft-URL", f"https://sleeper.com/draft/nfl/{draft_id}")
                 # st.components.v1.iframe(f"https://sleeper.com/draft/nfl/{draft_id}", width=800, height=600)
 
                 with st.expander("Draftdetails anzeigen"):
