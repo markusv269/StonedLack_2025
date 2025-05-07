@@ -804,5 +804,57 @@
         "reactions": null,
         "roster_id": 12,
         "round": 3
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Mason",
+            "injury_status": "",
+            "last_name": "Graham",
+            "news_updated": "1745542539587",
+            "number": "94",
+            "player_id": "12573",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 32,
+        "picked_by": "467106851234770944",
+        "player_id": "12573",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 3
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dylan",
+            "injury_status": "",
+            "last_name": "Sampson",
+            "news_updated": "1745688629833",
+            "number": "22",
+            "player_id": "12469",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 33,
+        "picked_by": "442454469574127616",
+        "player_id": "12469",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 3
     }
 ]
