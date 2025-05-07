@@ -1350,5 +1350,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 5
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Shemar",
+            "injury_status": "",
+            "last_name": "Stewart",
+            "news_updated": "1745546739622",
+            "number": "97",
+            "player_id": "12560",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 53,
+        "picked_by": "1129824623715110912",
+        "player_id": "12560",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 5
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Shedeur",
+            "injury_status": "",
+            "last_name": "Sanders",
+            "news_updated": "1745692227310",
+            "number": "12",
+            "player_id": "12524",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 54,
+        "picked_by": "1129655183757299712",
+        "player_id": "12524",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 5
     }
 ]
