@@ -4470,5 +4470,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 15
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dak",
+            "injury_status": "Questionable",
+            "last_name": "Prescott",
+            "news_updated": "1744737646320",
+            "number": "4",
+            "player_id": "3294",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "9"
+        },
+        "pick_no": 173,
+        "picked_by": "608400368761659392",
+        "player_id": "3294",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 15
     }
 ]
