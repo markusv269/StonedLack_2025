@@ -30,3 +30,27 @@
   color: #12810e;
   text-decoration: none;
 }
+
+/* Target the metric container */
+div[data-testid="metric-container"] {
+  background-color: #f0f2f6;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-bottom: 1rem;
+}
+
+/* Optional: metric label */
+div[data-testid="metric-container"] > label {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+/* Optional: metric value */
+div[data-testid="metric-container"] > div {
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: #3366cc;
+}
