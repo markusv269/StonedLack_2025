@@ -4158,5 +4158,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 14
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Malik",
+            "injury_status": "",
+            "last_name": "Washington",
+            "news_updated": "1736195706587",
+            "number": "6",
+            "player_id": "11610",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 161,
+        "picked_by": "810531997922504704",
+        "player_id": "11610",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 14
     }
 ]
