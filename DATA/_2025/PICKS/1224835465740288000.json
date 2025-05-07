@@ -960,5 +960,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 4
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Mykel",
+            "injury_status": "",
+            "last_name": "Williams",
+            "news_updated": "1745544639440",
+            "number": "",
+            "player_id": "12602",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 38,
+        "picked_by": "701502788793884672",
+        "player_id": "12602",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 4
     }
 ]

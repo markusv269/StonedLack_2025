@@ -3664,5 +3664,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 12
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Bryce",
+            "injury_status": "",
+            "last_name": "Young",
+            "news_updated": "1736120141058",
+            "number": "9",
+            "player_id": "9228",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 142,
+        "picked_by": "572175676813488128",
+        "player_id": "9228",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 12
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brenton",
+            "injury_status": "",
+            "last_name": "Strange",
+            "news_updated": "1740554719881",
+            "number": "85",
+            "player_id": "9480",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 143,
+        "picked_by": "1130163665224830976",
+        "player_id": "9480",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 12
     }
 ]
