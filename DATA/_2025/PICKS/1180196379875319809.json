@@ -856,5 +856,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 3
+    },
+    {
+        "draft_id": "1180196379875319809",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jordan",
+            "injury_status": "",
+            "last_name": "James",
+            "news_updated": "1745692828852",
+            "number": "",
+            "player_id": "12467",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 34,
+        "picked_by": "700336883795857408",
+        "player_id": "12467",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 3
     }
 ]
