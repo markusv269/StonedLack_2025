@@ -3976,5 +3976,57 @@
         "reactions": null,
         "roster_id": 4,
         "round": 13
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Malik",
+            "injury_status": "",
+            "last_name": "Washington",
+            "news_updated": "1736195706587",
+            "number": "6",
+            "player_id": "11610",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 154,
+        "picked_by": "1178500282260856832",
+        "player_id": "11610",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 13
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jerome",
+            "injury_status": "",
+            "last_name": "Ford",
+            "news_updated": "1746213948413",
+            "number": "34",
+            "player_id": "8143",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 155,
+        "picked_by": "1129655183757299712",
+        "player_id": "8143",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 13
     }
 ]
