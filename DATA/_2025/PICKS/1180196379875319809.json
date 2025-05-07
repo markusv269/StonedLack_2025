@@ -1142,5 +1142,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 4
+    },
+    {
+        "draft_id": "1180196379875319809",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Isaiah",
+            "injury_status": "",
+            "last_name": "Bond",
+            "news_updated": "1740759361867",
+            "number": "",
+            "player_id": "12503",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 45,
+        "picked_by": "997922322638028800",
+        "player_id": "12503",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 4
     }
 ]

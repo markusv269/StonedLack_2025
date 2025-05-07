@@ -4496,5 +4496,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 15
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Sam",
+            "injury_status": "",
+            "last_name": "Darnold",
+            "news_updated": "1745957725628",
+            "number": "14",
+            "player_id": "4943",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 174,
+        "picked_by": "1002228490156064768",
+        "player_id": "4943",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 15
     }
 ]

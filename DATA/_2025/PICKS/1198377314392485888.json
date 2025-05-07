@@ -4106,5 +4106,57 @@
         "reactions": null,
         "roster_id": 6,
         "round": 14
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Troy",
+            "injury_status": "",
+            "last_name": "Franklin",
+            "news_updated": "1736723757089",
+            "number": "16",
+            "player_id": "11627",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 159,
+        "picked_by": "979721317920407552",
+        "player_id": "11627",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 14
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "MarShawn",
+            "injury_status": "Questionable",
+            "last_name": "Lloyd",
+            "news_updated": "1736369718249",
+            "number": "32",
+            "player_id": "11581",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 160,
+        "picked_by": "1090777376264441856",
+        "player_id": "11581",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 14
     }
 ]
