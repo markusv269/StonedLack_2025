@@ -105,22 +105,22 @@ def display_draft(league_id):
                 else:
                     st.write("--")
 
-            # Draftorder in einer Tabelle anzeigen
-            if draft_order:
-                draft_list = []
-                for user_id, draft_pos in draft_order.items():
-                    user = SleeperUser(user_id)
-                    user_name = user.get_user_info()['display_name']
-                    draft_list.append({"Draft Position": draft_pos, "Manager": user_name})
-                col9, col10 = st.columns([1,4])
-                with col9:
-                    st.write("Draftorder")
-                with col10:
-                    # Sortieren nach Draft-Position
-                    draft_df = pd.DataFrame(draft_list).sort_values(by="Draft Position")
-                    st.table(draft_df.set_index("Draft Position"))
-            else:
-                st.write("No draft order available.")
+            # # Draftorder in einer Tabelle anzeigen
+            # if draft_order:
+            #     draft_list = []
+            #     for user_id, draft_pos in draft_order.items():
+            #         user = SleeperUser(user_id)
+            #         user_name = user.get_user_info()['display_name']
+            #         draft_list.append({"Draft Position": draft_pos, "Manager": user_name})
+            #     col9, col10 = st.columns([1,4])
+            #     with col9:
+            #         st.write("Draftorder")
+            #     with col10:
+            #         # Sortieren nach Draft-Position
+            #         draft_df = pd.DataFrame(draft_list).sort_values(by="Draft Position")
+            #         st.table(draft_df.set_index("Draft Position"))
+            # else:
+            #     st.write("No draft order available.")
 
 BASE_ID = st.secrets["airtable"]["base_id"]
 AIRTABLE_API_KEY = st.secrets["airtable"]["api_key"]
