@@ -1402,5 +1402,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 5
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaylin",
+            "injury_status": "",
+            "last_name": "Noel",
+            "news_updated": "1745634622443",
+            "number": "",
+            "player_id": "12536",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 55,
+        "picked_by": "465127136819146752",
+        "player_id": "12536",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 5
     }
 ]

@@ -934,5 +934,31 @@
         "reactions": null,
         "roster_id": 6,
         "round": 3
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Nick",
+            "injury_status": "",
+            "last_name": "Emmanwori",
+            "news_updated": "1745623820463",
+            "number": "3",
+            "player_id": "12597",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 37,
+        "picked_by": "701502788793884672",
+        "player_id": "12597",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 4
     }
 ]
