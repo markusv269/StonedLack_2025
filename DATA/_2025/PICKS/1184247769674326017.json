@@ -1142,5 +1142,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 4
+    },
+    {
+        "draft_id": "1184247769674326017",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tory",
+            "injury_status": "",
+            "last_name": "Horton",
+            "news_updated": "1745695534923",
+            "number": "15",
+            "player_id": "12497",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 45,
+        "picked_by": "879337303884238848",
+        "player_id": "12497",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 4
     }
 ]
