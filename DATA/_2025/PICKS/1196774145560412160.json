@@ -544,5 +544,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 2
+    },
+    {
+        "draft_id": "1196774145560412160",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Elijah",
+            "injury_status": "",
+            "last_name": "Arroyo",
+            "news_updated": "1746228649049",
+            "number": "18",
+            "player_id": "12521",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 22,
+        "picked_by": "997129383221542912",
+        "player_id": "12521",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 2
     }
 ]

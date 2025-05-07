@@ -1090,5 +1090,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 4
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Chris",
+            "injury_status": "",
+            "last_name": "Paul",
+            "news_updated": "1745698527999",
+            "number": "",
+            "player_id": "12659",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 43,
+        "picked_by": "1129655183757299712",
+        "player_id": "12659",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 4
     }
 ]
