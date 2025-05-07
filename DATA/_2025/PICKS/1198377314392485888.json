@@ -3586,5 +3586,83 @@
         "reactions": null,
         "roster_id": 3,
         "round": 12
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cedric",
+            "injury_status": "Questionable",
+            "last_name": "Tillman",
+            "news_updated": "1735668624669",
+            "number": "19",
+            "player_id": "10444",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 139,
+        "picked_by": "989544359940902912",
+        "player_id": "10444",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 12
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Rachaad",
+            "injury_status": "",
+            "last_name": "White",
+            "news_updated": "1740549919794",
+            "number": "1",
+            "player_id": "8136",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 140,
+        "picked_by": "977746984348012544",
+        "player_id": "8136",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 12
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ray",
+            "injury_status": "",
+            "last_name": "Davis",
+            "news_updated": "1738003235508",
+            "number": "22",
+            "player_id": "11575",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 141,
+        "picked_by": "1178500282260856832",
+        "player_id": "11575",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 12
     }
 ]

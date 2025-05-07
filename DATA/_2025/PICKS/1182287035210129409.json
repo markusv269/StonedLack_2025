@@ -648,5 +648,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 3
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kyle",
+            "injury_status": "",
+            "last_name": "Williams",
+            "news_updated": "",
+            "number": "18",
+            "player_id": "12547",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 26,
+        "picked_by": "466715861671997440",
+        "player_id": "12547",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 3
     }
 ]
