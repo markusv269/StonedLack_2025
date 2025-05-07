@@ -3482,5 +3482,31 @@
         "reactions": null,
         "roster_id": 6,
         "round": 12
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tank",
+            "injury_status": "IR",
+            "last_name": "Dell",
+            "news_updated": "1746469209152",
+            "number": "3",
+            "player_id": "9502",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 135,
+        "picked_by": "979721317920407552",
+        "player_id": "9502",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 12
     }
 ]
