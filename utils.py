@@ -95,29 +95,29 @@ def display_drafts(league_ids):
                 # with col12:
                 st.write(f"**{draft_typ} ({draft_mode}) {draft_data['season']}**")
 
-                col7, col8 = st.columns([1,4])
-                with col7:
-                    st.write("Draftstart")
-                with col8:
-                    st.write(draft_time_show)
-
-                col1, col2 = st.columns([1, 4])
+                col1, col1a, col2, col2a, col3, col3a = st.columns([1,2, 1,2, 1,2])
                 with col1:
-                    st.write("Draftstatus")
+                    st.write("**Draftstart**")
+                with col1a:
+                    st.write(draft_time_show)
                 with col2:
+                    st.write("**Status**")
+                with col2a:
                     if draft_data['status'] == "complete":
                         st.success("Complete")
                     elif draft_data['status'] == "pre_draft":
                         st.error("Predraft")
                     else:
                         st.warning(str(draft_data['status']))
-
-                col3, col4 = st.columns([1, 4])
                 with col3:
-                    st.write("Draft-URL")
-                with col4:
-                    st.write(f"https://sleeper.com/draft/nfl/{draft_id}")
+                    st.write("**Draftmodus**")
+                with col3a:
+                    st.write(draft_mode)
                 
+                st.metric("Start", draft_time_show)
+                st.metric("Status", draft_data['status'])
+                st.metric("Draftmodus", draft_mode)
+                st.metric("Drafttyp", draft_typ)             
                 # st.components.v1.iframe(f"https://sleeper.com/draft/nfl/{draft_id}", width=800, height=600)
 
                 with st.expander("Draftdetails anzeigen"):
