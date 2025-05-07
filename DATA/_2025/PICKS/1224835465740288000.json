@@ -1428,5 +1428,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 5
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jarquez",
+            "injury_status": "",
+            "last_name": "Hunter",
+            "news_updated": "1745687428495",
+            "number": "",
+            "player_id": "11569",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 56,
+        "picked_by": "740271047152128000",
+        "player_id": "11569",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 5
     }
 ]
