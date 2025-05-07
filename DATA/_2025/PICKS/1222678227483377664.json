@@ -4158,5 +4158,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 14
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ben",
+            "injury_status": "",
+            "last_name": "Sinnott",
+            "news_updated": "1738078541773",
+            "number": "82",
+            "player_id": "11596",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 161,
+        "picked_by": "1130163665224830976",
+        "player_id": "11596",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 14
     }
 ]

@@ -66,7 +66,7 @@
         "9": 3
     },
     "sport": "nfl",
-    "start_time": null,
+    "start_time": 1746640802000,
     "status": "pre_draft",
     "type": "linear"
 }
