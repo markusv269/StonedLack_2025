@@ -48,6 +48,10 @@ class SleeperUser:
         self._user = requests.get("{}/{}".format(self._base_url, initial_user_input)).json()
         self._username = self._user["username"]
         self._user_id = self._user["user_id"]
+    
+    def get_user_info(self):
+        user_info = requests.get("{}/{}".format(self._base_url, self._user_id)).json()
+        return user_info
 
     def get_all_leagues(self, sport="nfl", season=None):
         user_leagues = requests.get("{}/{}/{}/{}/{}".format(self._base_url, self._user_id, "leagues", sport, season)).json()
