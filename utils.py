@@ -104,7 +104,21 @@ def display_drafts(league_ids):
                 with col3:
                     st.metric("Draftmodus", draft_mode)   
                 with col4: 
-                    st.metric("Draft-URL", f"https://sleeper.com/draft/nfl/{draft_id}")
+                    # st.metric("Draft-URL", f"https://sleeper.com/draft/nfl/{draft_id}")
+                    st.markdown(
+                        f"""
+                        <div class="metric-box">
+                            <div class="label">Draft-URL</div>  
+                            <div class="value">
+                                <a href="https://sleeper.com/draft/nfl/{draft_id}" target="_blank">
+                                    https://sleeper.com/draft/nfl/{draft_id}
+                                </a>
+                            </div>
+                        </div>
+                        """,
+                        unsafe_allow_html=True
+                    )
+                    
                 # st.components.v1.iframe(f"https://sleeper.com/draft/nfl/{draft_id}", width=800, height=600)
 
                 with st.expander("Draftdetails anzeigen"):
