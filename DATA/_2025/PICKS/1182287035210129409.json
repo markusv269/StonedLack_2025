@@ -700,5 +700,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 3
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Demetrius",
+            "injury_status": "",
+            "last_name": "Knight",
+            "news_updated": "1745631621481",
+            "number": "59",
+            "player_id": "12617",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 28,
+        "picked_by": "740271047152128000",
+        "player_id": "12617",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 3
     }
 ]
