@@ -93,17 +93,17 @@ def display_draft(league_id):
             metric_box("Draftmodus", draft_mode)   
         with col4: 
             metric_box("Draft-URL", f'https://sleeper.com/draft/nfl/{draft_id}')
-        with st.expander("Draftdetails anzeigen"):
-            col5, col6 = st.columns([1, 4])
-            with col5:
-                st.write("Latest Pick")
-            with col6:
-                if pick_data:
-                    user = SleeperUser(pick_data[6])
-                    user_name = user.get_user_info()['display_name']
-                    st.write(f"**{user_name}:** {pick_data[0]} {pick_data[1]} ({pick_data[2]}, {pick_data[3]}), Pick {pick_data[4]}.{pick_data[5]} ")
-                else:
-                    st.write("--")
+        # with st.expander("Draftdetails anzeigen"):
+        #     col5, col6 = st.columns([1, 4])
+        #     with col5:
+        #         st.write("Latest Pick")
+        #     with col6:
+        #         if pick_data:
+        #             user = SleeperUser(pick_data[6])
+        #             user_name = user.get_user_info()['display_name']
+        #             st.write(f"**{user_name}:** {pick_data[0]} {pick_data[1]} ({pick_data[2]}, {pick_data[3]}), Pick {pick_data[4]}.{pick_data[5]} ")
+        #         else:
+        #             st.write("--")
 
             # # Draftorder in einer Tabelle anzeigen
             # if draft_order:
