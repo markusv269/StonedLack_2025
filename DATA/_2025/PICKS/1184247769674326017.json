@@ -1168,5 +1168,83 @@
         "reactions": null,
         "roster_id": 10,
         "round": 4
+    },
+    {
+        "draft_id": "1184247769674326017",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Gunnar",
+            "injury_status": "",
+            "last_name": "Helm",
+            "news_updated": "1745687729165",
+            "number": "84",
+            "player_id": "12502",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 46,
+        "picked_by": "965605746056417280",
+        "player_id": "12502",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 4
+    },
+    {
+        "draft_id": "1184247769674326017",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kyle",
+            "injury_status": "",
+            "last_name": "Monangai",
+            "news_updated": "1745706031019",
+            "number": "",
+            "player_id": "12534",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 47,
+        "picked_by": "696419424483233792",
+        "player_id": "12534",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 4
+    },
+    {
+        "draft_id": "1184247769674326017",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tai",
+            "injury_status": "",
+            "last_name": "Felton",
+            "news_updated": "1745638821506",
+            "number": "13",
+            "player_id": "12496",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 48,
+        "picked_by": "955103305108197376",
+        "player_id": "12496",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 4
     }
 ]

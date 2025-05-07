@@ -4210,5 +4210,57 @@
         "reactions": null,
         "roster_id": 11,
         "round": 14
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Joshua",
+            "injury_status": "",
+            "last_name": "Palmer",
+            "news_updated": "1741634708632",
+            "number": "5",
+            "player_id": "7670",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 163,
+        "picked_by": "1002228490156064768",
+        "player_id": "7670",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 14
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kayshon",
+            "injury_status": "",
+            "last_name": "Boutte",
+            "news_updated": "1736783161218",
+            "number": "9",
+            "player_id": "9504",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 164,
+        "picked_by": "608400368761659392",
+        "player_id": "9504",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 14
     }
 ]
