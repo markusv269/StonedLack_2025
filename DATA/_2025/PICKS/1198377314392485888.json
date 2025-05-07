@@ -3846,5 +3846,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 13
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Adonai",
+            "injury_status": "",
+            "last_name": "Mitchell",
+            "news_updated": "1736296513132",
+            "number": "10",
+            "player_id": "11625",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 149,
+        "picked_by": "977746984348012544",
+        "player_id": "11625",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 13
     }
 ]
