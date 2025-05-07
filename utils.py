@@ -94,34 +94,34 @@ def display_draft(league_id):
             metric_box("Draftmodus", draft_mode)   
         with col4: 
             metric_box("Draft-URL", f'https://sleeper.com/draft/nfl/{draft_id}')
-    #         with st.expander("Draftdetails anzeigen"):
-    #             col5, col6 = st.columns([1, 4])
-    #             with col5:
-    #                 st.write("Latest Pick")
-    #             with col6:
-    #                 if pick_data:
-    #                     user = User(pick_data[6])
-    #                     user_name = user.get_display_name()
-    #                     st.write(f"**{user_name}:** {pick_data[0]} {pick_data[1]} ({pick_data[2]}, {pick_data[3]}), Pick {pick_data[4]}.{pick_data[5]} ")
-    #                 else:
-    #                     st.write("--")
+            with st.expander("Draftdetails anzeigen"):
+                col5, col6 = st.columns([1, 4])
+                with col5:
+                    st.write("Latest Pick")
+                with col6:
+                    if pick_data:
+                        user = User(pick_data[6])
+                        user_name = user.get_display_name()
+                        st.write(f"**{user_name}:** {pick_data[0]} {pick_data[1]} ({pick_data[2]}, {pick_data[3]}), Pick {pick_data[4]}.{pick_data[5]} ")
+                    else:
+                        st.write("--")
 
-    #             # Draftorder in einer Tabelle anzeigen
-    #             if draft_order:
-    #                 draft_list = []
-    #                 for user_id, draft_pos in draft_order.items():
-    #                     user = User(user_id)
-    #                     user_name = user.get_display_name()
-    #                     draft_list.append({"Draft Position": draft_pos, "Manager": user_name})
-    #                 col9, col10 = st.columns([1,4])
-    #                 with col9:
-    #                     st.write("Draftorder")
-    #                 with col10:
-    #                     # Sortieren nach Draft-Position
-    #                     draft_df = pd.DataFrame(draft_list).sort_values(by="Draft Position")
-    #                     st.table(draft_df.set_index("Draft Position"))
-    #             else:
-    #                 st.write("No draft order available.")
+                # Draftorder in einer Tabelle anzeigen
+                if draft_order:
+                    draft_list = []
+                    for user_id, draft_pos in draft_order.items():
+                        user = User(user_id)
+                        user_name = user.get_display_name()
+                        draft_list.append({"Draft Position": draft_pos, "Manager": user_name})
+                    col9, col10 = st.columns([1,4])
+                    with col9:
+                        st.write("Draftorder")
+                    with col10:
+                        # Sortieren nach Draft-Position
+                        draft_df = pd.DataFrame(draft_list).sort_values(by="Draft Position")
+                        st.table(draft_df.set_index("Draft Position"))
+                else:
+                    st.write("No draft order available.")
 
 BASE_ID = st.secrets["airtable"]["base_id"]
 AIRTABLE_API_KEY = st.secrets["airtable"]["api_key"]
