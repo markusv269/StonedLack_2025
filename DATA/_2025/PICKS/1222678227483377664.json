@@ -4392,5 +4392,83 @@
         "reactions": null,
         "roster_id": 3,
         "round": 15
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cade",
+            "injury_status": "",
+            "last_name": "Otton",
+            "news_updated": "1736744458700",
+            "number": "88",
+            "player_id": "8111",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 170,
+        "picked_by": "1129824623715110912",
+        "player_id": "8111",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 15
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Luke",
+            "injury_status": "",
+            "last_name": "McCaffrey",
+            "news_updated": "1738077041432",
+            "number": "12",
+            "player_id": "11650",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 171,
+        "picked_by": "1124785744695943168",
+        "player_id": "11650",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 15
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Anthony",
+            "injury_status": "Questionable",
+            "last_name": "Richardson",
+            "news_updated": "1745355039557",
+            "number": "5",
+            "player_id": "9229",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 172,
+        "picked_by": "998653052653563904",
+        "player_id": "9229",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 15
     }
 ]

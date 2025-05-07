@@ -518,5 +518,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 2
+    },
+    {
+        "draft_id": "1196774145560412160",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaxson",
+            "injury_status": "",
+            "last_name": "Dart",
+            "news_updated": "1745550340626",
+            "number": "",
+            "player_id": "12508",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 21,
+        "picked_by": "742696879162290176",
+        "player_id": "12508",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 2
     }
 ]
