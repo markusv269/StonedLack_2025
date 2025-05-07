@@ -362,5 +362,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 2
+    },
+    {
+        "draft_id": "1196774145560412160",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jayden",
+            "injury_status": "",
+            "last_name": "Higgins",
+            "news_updated": "1745623520335",
+            "number": "",
+            "player_id": "12484",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 15,
+        "picked_by": "997129383221542912",
+        "player_id": "12484",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 2
     }
 ]
