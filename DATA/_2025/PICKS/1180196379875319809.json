@@ -830,5 +830,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 3
+    },
+    {
+        "draft_id": "1180196379875319809",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Devin",
+            "injury_status": "",
+            "last_name": "Neal",
+            "news_updated": "1745698528022",
+            "number": "",
+            "player_id": "12476",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 33,
+        "picked_by": "997922322638028800",
+        "player_id": "12476",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 3
     }
 ]
