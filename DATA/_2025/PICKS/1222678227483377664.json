@@ -4756,5 +4756,31 @@
         "reactions": null,
         "roster_id": 6,
         "round": 16
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Keaton",
+            "injury_status": "",
+            "last_name": "Mitchell",
+            "news_updated": "1743483334348",
+            "number": "34",
+            "player_id": "9511",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 184,
+        "picked_by": "996570764344270848",
+        "player_id": "9511",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 16
     }
 ]
