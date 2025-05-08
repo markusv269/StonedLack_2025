@@ -4600,5 +4600,57 @@
         "reactions": null,
         "roster_id": 10,
         "round": 15
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Roschon",
+            "injury_status": "",
+            "last_name": "Johnson",
+            "news_updated": "1736177706454",
+            "number": "23",
+            "player_id": "10235",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 178,
+        "picked_by": "979721317920407552",
+        "player_id": "10235",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 15
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Keaton",
+            "injury_status": "",
+            "last_name": "Mitchell",
+            "news_updated": "1743483334348",
+            "number": "34",
+            "player_id": "9511",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 179,
+        "picked_by": "873296312697774080",
+        "player_id": "9511",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 15
     }
 ]

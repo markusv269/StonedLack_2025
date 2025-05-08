@@ -1038,5 +1038,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 4
+    },
+    {
+        "draft_id": "1196774145560412160",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Trevor",
+            "injury_status": "",
+            "last_name": "Etienne",
+            "news_updated": "1745686827358",
+            "number": "",
+            "player_id": "12531",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 41,
+        "picked_by": "966824737479393280",
+        "player_id": "12531",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 4
     }
 ]
