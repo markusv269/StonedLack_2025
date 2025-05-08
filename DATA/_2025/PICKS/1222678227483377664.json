@@ -5094,5 +5094,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 17
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "MarShawn",
+            "injury_status": "Questionable",
+            "last_name": "Lloyd",
+            "news_updated": "1736369718249",
+            "number": "32",
+            "player_id": "11581",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 197,
+        "picked_by": "608400368761659392",
+        "player_id": "11581",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 17
     }
 ]

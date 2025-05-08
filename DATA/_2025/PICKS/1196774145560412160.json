@@ -934,5 +934,57 @@
         "reactions": null,
         "roster_id": 6,
         "round": 3
+    },
+    {
+        "draft_id": "1196774145560412160",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ollie",
+            "injury_status": "",
+            "last_name": "Gordon",
+            "news_updated": "1745697937705",
+            "number": "",
+            "player_id": "12495",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 37,
+        "picked_by": "589723445122600960",
+        "player_id": "12495",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 4
+    },
+    {
+        "draft_id": "1196774145560412160",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Shedeur",
+            "injury_status": "",
+            "last_name": "Sanders",
+            "news_updated": "1745692227310",
+            "number": "12",
+            "player_id": "12524",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 38,
+        "picked_by": "589723445122600960",
+        "player_id": "12524",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 4
     }
 ]
