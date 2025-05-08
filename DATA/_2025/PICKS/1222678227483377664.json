@@ -4730,5 +4730,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 16
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kareem",
+            "injury_status": "",
+            "last_name": "Hunt",
+            "news_updated": "1741975236076",
+            "number": "29",
+            "player_id": "4098",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 183,
+        "picked_by": "1178500282260856832",
+        "player_id": "4098",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 16
     }
 ]
