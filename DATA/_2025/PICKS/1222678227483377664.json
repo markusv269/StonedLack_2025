@@ -5250,5 +5250,83 @@
         "reactions": null,
         "roster_id": 6,
         "round": 17
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cameron",
+            "injury_status": "",
+            "last_name": "Dicker",
+            "news_updated": "1739822441021",
+            "number": "11",
+            "player_id": "8259",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 203,
+        "picked_by": "1129655183757299712",
+        "player_id": "8259",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 17
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Luke",
+            "injury_status": "",
+            "last_name": "Musgrave",
+            "news_updated": "1738125046303",
+            "number": "88",
+            "player_id": "9481",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 204,
+        "picked_by": "585507399792627712",
+        "player_id": "9481",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 17
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Keenan",
+            "injury_status": "",
+            "last_name": "Allen",
+            "news_updated": "1743439508920",
+            "number": "13",
+            "player_id": "1479",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "12"
+        },
+        "pick_no": 205,
+        "picked_by": "867544786272460800",
+        "player_id": "1479",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 18
     }
 ]
