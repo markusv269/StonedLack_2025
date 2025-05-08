@@ -1064,5 +1064,31 @@
         "reactions": null,
         "roster_id": 6,
         "round": 4
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Shemar",
+            "injury_status": "",
+            "last_name": "Stewart",
+            "news_updated": "1745546739622",
+            "number": "97",
+            "player_id": "12560",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 42,
+        "picked_by": "589565582072918016",
+        "player_id": "12560",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 4
     }
 ]

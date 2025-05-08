@@ -5042,5 +5042,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 17
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Zamir",
+            "injury_status": "",
+            "last_name": "White",
+            "news_updated": "1745865332376",
+            "number": "3",
+            "player_id": "8139",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 195,
+        "picked_by": "1124785744695943168",
+        "player_id": "8139",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 17
     }
 ]
