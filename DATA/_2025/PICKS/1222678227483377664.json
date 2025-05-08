@@ -5458,5 +5458,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 18
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tutu",
+            "injury_status": "",
+            "last_name": "Atwell",
+            "news_updated": "1743636622249",
+            "number": "5",
+            "player_id": "7562",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 211,
+        "picked_by": "1002228490156064768",
+        "player_id": "7562",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 18
     }
 ]
