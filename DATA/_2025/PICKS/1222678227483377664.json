@@ -5328,5 +5328,83 @@
         "reactions": null,
         "roster_id": 12,
         "round": 18
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Geno",
+            "injury_status": "",
+            "last_name": "Smith",
+            "news_updated": "1744136136421",
+            "number": "7",
+            "player_id": "1373",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "12"
+        },
+        "pick_no": 206,
+        "picked_by": "1129655183757299712",
+        "player_id": "1373",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 18
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jason",
+            "injury_status": "",
+            "last_name": "Sanders",
+            "news_updated": "1740243327675",
+            "number": "7",
+            "player_id": "5119",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 207,
+        "picked_by": "1178500282260856832",
+        "player_id": "5119",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 18
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Will",
+            "injury_status": "",
+            "last_name": "Reichard",
+            "news_updated": "1736882405795",
+            "number": "16",
+            "player_id": "11792",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 208,
+        "picked_by": "996570764344270848",
+        "player_id": "11792",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 18
     }
 ]
