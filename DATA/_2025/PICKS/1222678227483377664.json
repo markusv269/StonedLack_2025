@@ -5406,5 +5406,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 18
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Allen",
+            "injury_status": "",
+            "last_name": "Lazard",
+            "news_updated": "1746628823800",
+            "number": "10",
+            "player_id": "5185",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 209,
+        "picked_by": "1130163665224830976",
+        "player_id": "5185",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 18
     }
 ]

@@ -4496,5 +4496,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 15
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brandon",
+            "injury_status": "Questionable",
+            "last_name": "Aubrey",
+            "news_updated": "1741134040465",
+            "number": "17",
+            "player_id": "11533",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 174,
+        "picked_by": "989544359940902912",
+        "player_id": "11533",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 15
     }
 ]
