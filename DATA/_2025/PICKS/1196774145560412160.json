@@ -830,5 +830,57 @@
         "reactions": null,
         "roster_id": 3,
         "round": 3
+    },
+    {
+        "draft_id": "1196774145560412160",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Elic",
+            "injury_status": "",
+            "last_name": "Ayomanor",
+            "news_updated": "1745690433969",
+            "number": "5",
+            "player_id": "12499",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 33,
+        "picked_by": "742696879162290176",
+        "player_id": "12499",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 3
+    },
+    {
+        "draft_id": "1196774145560412160",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Milroe",
+            "news_updated": "1745636725597",
+            "number": "6",
+            "player_id": "12510",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 34,
+        "picked_by": "979655298266816512",
+        "player_id": "12510",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 3
     }
 ]
