@@ -1610,5 +1610,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 6
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Nic",
+            "injury_status": "",
+            "last_name": "Scourton",
+            "news_updated": "1745628321429",
+            "number": "",
+            "player_id": "12562",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 63,
+        "picked_by": "989544359940902912",
+        "player_id": "12562",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 6
     }
 ]
