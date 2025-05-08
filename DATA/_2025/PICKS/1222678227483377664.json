@@ -4912,5 +4912,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 16
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dalton",
+            "injury_status": "",
+            "last_name": "Schultz",
+            "news_updated": "1737250245616",
+            "number": "86",
+            "player_id": "5001",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 190,
+        "picked_by": "1124785744695943168",
+        "player_id": "5001",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 16
     }
 ]
