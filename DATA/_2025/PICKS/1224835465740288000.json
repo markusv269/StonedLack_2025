@@ -1506,5 +1506,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 5
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Xavier",
+            "injury_status": "",
+            "last_name": "Restrepo",
+            "news_updated": "1745736329881",
+            "number": "",
+            "player_id": "12520",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 59,
+        "picked_by": "701502788793884672",
+        "player_id": "12520",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 5
     }
 ]
