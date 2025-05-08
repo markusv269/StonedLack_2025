@@ -1142,5 +1142,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 4
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Malaki",
+            "injury_status": "",
+            "last_name": "Starks",
+            "news_updated": "1745551240021",
+            "number": "24",
+            "player_id": "12567",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 45,
+        "picked_by": "442454469574127616",
+        "player_id": "12567",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 4
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Woody",
+            "injury_status": "",
+            "last_name": "Marks",
+            "news_updated": "1745687127948",
+            "number": "",
+            "player_id": "12474",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 46,
+        "picked_by": "468676777514889216",
+        "player_id": "12474",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 4
     }
 ]
