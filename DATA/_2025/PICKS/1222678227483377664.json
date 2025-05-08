@@ -4782,5 +4782,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 16
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Michael",
+            "injury_status": "Questionable",
+            "last_name": "Wilson",
+            "news_updated": "1736108439620",
+            "number": "14",
+            "player_id": "10232",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 185,
+        "picked_by": "1130163665224830976",
+        "player_id": "10232",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 16
     }
 ]
