@@ -1090,5 +1090,57 @@
         "reactions": null,
         "roster_id": 12,
         "round": 4
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaxson",
+            "injury_status": "",
+            "last_name": "Dart",
+            "news_updated": "1745550340626",
+            "number": "",
+            "player_id": "12508",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 43,
+        "picked_by": "596107064812548096",
+        "player_id": "12508",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 4
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Nick",
+            "injury_status": "",
+            "last_name": "Martin",
+            "news_updated": "",
+            "number": "",
+            "player_id": "12630",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 44,
+        "picked_by": "467106851234770944",
+        "player_id": "12630",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 4
     }
 ]

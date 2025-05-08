@@ -24,5 +24,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 1
+    },
+    {
+        "draft_id": "1181844911174176769",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Omarion",
+            "injury_status": "",
+            "last_name": "Hampton",
+            "news_updated": "1745549439484",
+            "number": "8",
+            "player_id": "12507",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 2,
+        "picked_by": "94706655497175040",
+        "player_id": "12507",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 1
     }
 ]
