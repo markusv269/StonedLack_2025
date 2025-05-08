@@ -1740,5 +1740,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 6
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Isaac",
+            "injury_status": "",
+            "last_name": "TeSlaa",
+            "news_updated": "1746717023206",
+            "number": "",
+            "player_id": "12535",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 68,
+        "picked_by": "1129824623715110912",
+        "player_id": "12535",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 6
     }
 ]
