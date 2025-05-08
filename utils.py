@@ -87,6 +87,13 @@ def display_draft(league_id):
                 st.error("Draft noch nicht gestartet")
             elif draft_data["status"] == "drafting":   
                 st.warning("Draft läuft")
+            elif draft_data["status"] == "paused":
+                st.warning(f"Draft pausiert (bis {int(draft_data['settings']['autopause_end_time']/60 +2)} Uhr)")
+    #             "settings": {
+    # "alpha_sort": 0,
+    # "autopause_enabled": 1,
+    # "autopause_end_time": 360,
+    # "autopause_start_time": 1260,
             else:
                 st.warning(draft_data["status"])
         with col3:
