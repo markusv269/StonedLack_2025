@@ -1220,5 +1220,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 4
+    },
+    {
+        "draft_id": "1180196379875319809",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Oronde",
+            "injury_status": "",
+            "last_name": "Gadsden",
+            "news_updated": "1745695835089",
+            "number": "86",
+            "player_id": "12493",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 48,
+        "picked_by": "740271047152128000",
+        "player_id": "12493",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 4
     }
 ]

@@ -1,1 +1,28 @@
-[]
+[
+    {
+        "draft_id": "1181844911174176769",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ashton",
+            "injury_status": "",
+            "last_name": "Jeanty",
+            "news_updated": "1745542540047",
+            "number": "2",
+            "player_id": "12527",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 1,
+        "picked_by": "699175378194870272",
+        "player_id": "12527",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 1
+    }
+]
