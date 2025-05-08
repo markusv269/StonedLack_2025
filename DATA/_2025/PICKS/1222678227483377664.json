@@ -5484,5 +5484,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 18
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ja'Lynn",
+            "injury_status": "Questionable",
+            "last_name": "Polk",
+            "news_updated": "1743485734503",
+            "number": "1",
+            "player_id": "11619",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 212,
+        "picked_by": "608400368761659392",
+        "player_id": "11619",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 18
     }
 ]
