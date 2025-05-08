@@ -1532,5 +1532,83 @@
         "reactions": null,
         "roster_id": 8,
         "round": 5
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Princely",
+            "injury_status": "",
+            "last_name": "Umanmielen",
+            "news_updated": "1745634022126",
+            "number": "",
+            "player_id": "12610",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 60,
+        "picked_by": "1130163665224830976",
+        "player_id": "12610",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 5
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kobe",
+            "injury_status": "",
+            "last_name": "King",
+            "news_updated": "1745705730606",
+            "number": "41",
+            "player_id": "12701",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 61,
+        "picked_by": "1130163665224830976",
+        "player_id": "12701",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 6
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Oronde",
+            "injury_status": "",
+            "last_name": "Gadsden",
+            "news_updated": "1745695835089",
+            "number": "86",
+            "player_id": "12493",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 62,
+        "picked_by": "873296312697774080",
+        "player_id": "12493",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 6
     }
 ]
