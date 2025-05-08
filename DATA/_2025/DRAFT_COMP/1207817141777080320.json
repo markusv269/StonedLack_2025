@@ -33,7 +33,7 @@
     "settings": {
         "alpha_sort": 0,
         "autopause_enabled": 1,
-        "autopause_end_time": 300,
+        "autopause_end_time": 360,
         "autopause_start_time": 1260,
         "autostart": 1,
         "cpu_autopick": 1,

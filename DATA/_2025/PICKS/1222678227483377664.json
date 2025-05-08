@@ -5432,5 +5432,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 18
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "DeAndre",
+            "injury_status": "",
+            "last_name": "Hopkins",
+            "news_updated": "1741735513316",
+            "number": "10",
+            "player_id": "1426",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "12"
+        },
+        "pick_no": 210,
+        "picked_by": "1131734599341682688",
+        "player_id": "1426",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 18
     }
 ]
