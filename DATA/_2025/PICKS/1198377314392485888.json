@@ -4288,5 +4288,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 14
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Audric",
+            "injury_status": "",
+            "last_name": "Estime",
+            "news_updated": "1736863203156",
+            "number": "23",
+            "player_id": "11579",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 166,
+        "picked_by": "572175676813488128",
+        "player_id": "11579",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 14
     }
 ]
