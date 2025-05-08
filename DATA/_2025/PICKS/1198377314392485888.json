@@ -4236,5 +4236,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 14
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Justin",
+            "injury_status": "",
+            "last_name": "Fields",
+            "news_updated": "1743367803188",
+            "number": "7",
+            "player_id": "7591",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 164,
+        "picked_by": "977746984348012544",
+        "player_id": "7591",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 14
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cole",
+            "injury_status": "",
+            "last_name": "Kmet",
+            "news_updated": "1745614819620",
+            "number": "85",
+            "player_id": "6826",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 165,
+        "picked_by": "1178500282260856832",
+        "player_id": "6826",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 14
     }
 ]
