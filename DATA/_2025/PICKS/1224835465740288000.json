@@ -1766,5 +1766,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 6
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Will",
+            "injury_status": "",
+            "last_name": "Johnson",
+            "news_updated": "",
+            "number": "0",
+            "player_id": "12565",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 69,
+        "picked_by": "990318951781490688",
+        "player_id": "12565",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 6
     }
 ]
