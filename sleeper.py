@@ -1,5 +1,8 @@
+import streamlit as st
 import requests
 from typing import Union
+from datetime import datetime, timezone, date
+from zoneinfo import ZoneInfo
 
 class SleeperLeague:
     def __init__(self, league_id):
@@ -56,3 +59,31 @@ class SleeperUser:
     def get_all_leagues(self, sport="nfl", season=None):
         user_leagues = requests.get("{}/{}/{}/{}/{}".format(self._base_url, self._user_id, "leagues", sport, season)).json()
         return user_leagues
+
+def get_draft_status(draft_data):
+    if draft_data["status"] == "complete":
+        st.success("Draft abgeschlossen")
+    elif draft_data["status"] == "pre_draft":   
+        st.error("Draft noch nicht gestartet")
+    elif draft_data["status"] == "drafting":   
+        st.warning("Draft läuft")
+    elif draft_data["status"] == "paused":
+        st.warning(f"Draft pausiert (bis {int(draft_data['settings']['autopause_end_time']/60 +2)} Uhr)")
+    else:
+        st.warning(draft_data["status"])
+
+def get_draft_time(draft_time):
+    draft_time /= 1000  # Millisekunden in Sekunden
+    draft_time_utc = datetime.fromtimestamp(draft_time, tz=timezone.utc)  # UTC-Zeit
+    draft_time_mesz = draft_time_utc.astimezone(ZoneInfo("Europe/Berlin"))  # In MESZ umwandeln
+    draft_time_show = draft_time_mesz.strftime("%d.%m.%Y %H:%M")
+    return draft_time_show
+
+def get_draft_type(draft_type):
+    if draft_type == 1:
+        draft_typ = "Rookie Draft"
+    elif draft_type == 2:
+        draft_typ = "Veteran Draft"
+    else:
+        draft_typ = "Draft"
+    return draft_typ
