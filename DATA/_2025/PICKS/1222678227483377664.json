@@ -5224,5 +5224,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 17
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kimani",
+            "injury_status": "",
+            "last_name": "Vidal",
+            "news_updated": "1736978417229",
+            "number": "30",
+            "player_id": "11647",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 202,
+        "picked_by": "1178500282260856832",
+        "player_id": "11647",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 17
     }
 ]
