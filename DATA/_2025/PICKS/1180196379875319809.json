@@ -1168,5 +1168,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 4
+    },
+    {
+        "draft_id": "1180196379875319809",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Chimere",
+            "injury_status": "",
+            "last_name": "Dike",
+            "news_updated": "1745684425246",
+            "number": "17",
+            "player_id": "12540",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 46,
+        "picked_by": "977746984348012544",
+        "player_id": "12540",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 4
     }
 ]
