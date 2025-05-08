@@ -18,13 +18,12 @@
         "701502788793884672": 4,
         "740271047152128000": 2
     },
-    "last_message_id": "1225964402788794368",
-    "last_message_time": 1746655200243,
-    "last_picked": 1746649703311,
+    "last_message_id": "1225995474335440896",
+    "last_message_time": 1746662608280,
+    "last_picked": 1746662584964,
     "league_id": "1182287035210129408",
     "metadata": {
         "description": "",
-        "elapsed_pick_timer": "5496863",
         "is_autopaused": "true",
         "name": "SSL 11 IDP Dynasty",
         "scoring_type": "idp"
