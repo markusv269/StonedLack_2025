@@ -5510,5 +5510,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 18
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Daniel",
+            "injury_status": "",
+            "last_name": "Carlson",
+            "news_updated": "1736350216375",
+            "number": "8",
+            "player_id": "5095",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 213,
+        "picked_by": "998653052653563904",
+        "player_id": "5095",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 18
     }
 ]

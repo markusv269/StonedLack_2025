@@ -4574,5 +4574,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 15
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cade",
+            "injury_status": "",
+            "last_name": "Otton",
+            "news_updated": "1736744458700",
+            "number": "88",
+            "player_id": "8111",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 177,
+        "picked_by": "1090777376264441856",
+        "player_id": "8111",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 15
     }
 ]
