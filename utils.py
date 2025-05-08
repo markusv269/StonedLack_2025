@@ -99,7 +99,7 @@ def display_draft(league_id):
         with col3:
             metric_box("Draftmodus", draft_mode)   
         with col4: 
-            metric_box("Draft-URL", f'https://sleeper.com/draft/nfl/{draft_id}')
+            metric_box("Draft-URL", f'<a href="https://sleeper.com/draft/nfl/{draft_id}" target="_blank">{draft_id}</a>')
         # with st.expander("Draftdetails anzeigen"):
         #     col5, col6 = st.columns([1, 4])
         #     with col5:

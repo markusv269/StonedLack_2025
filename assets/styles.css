@@ -24,12 +24,12 @@
   margin-bottom: 0.25rem;
 }
 
-.metric-box .value a {
+/* .metric-box .value a {
   font-size: 1.05rem;
   font-weight: bold;
   color: #12810e;
   text-decoration: none;
-}
+} */
 
 /* Target the metric container */
 div[data-testid="metric-container"] {
