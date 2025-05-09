@@ -5770,5 +5770,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 19
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Will",
+            "injury_status": "",
+            "last_name": "Shipley",
+            "news_updated": "1741295669413",
+            "number": "28",
+            "player_id": "11577",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 223,
+        "picked_by": "1131734599341682688",
+        "player_id": "11577",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 19
     }
 ]
