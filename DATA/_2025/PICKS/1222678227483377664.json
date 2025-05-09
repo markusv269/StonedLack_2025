@@ -5588,5 +5588,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 18
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyler",
+            "injury_status": "",
+            "last_name": "Lockett",
+            "news_updated": "1745521237082",
+            "number": "4",
+            "player_id": "2374",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "10"
+        },
+        "pick_no": 216,
+        "picked_by": "867544786272460800",
+        "player_id": "2374",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 18
     }
 ]
