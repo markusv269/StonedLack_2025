@@ -1246,5 +1246,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 4
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Harold",
+            "injury_status": "",
+            "last_name": "Fannin",
+            "news_updated": "1745632221526",
+            "number": "88",
+            "player_id": "12506",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 49,
+        "picked_by": "701502788793884672",
+        "player_id": "12506",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 5
     }
 ]
