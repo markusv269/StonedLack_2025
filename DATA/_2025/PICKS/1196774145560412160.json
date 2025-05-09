@@ -1064,5 +1064,57 @@
         "reactions": null,
         "roster_id": 12,
         "round": 4
+    },
+    {
+        "draft_id": "1196774145560412160",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tai",
+            "injury_status": "",
+            "last_name": "Felton",
+            "news_updated": "1745638821506",
+            "number": "13",
+            "player_id": "12496",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 42,
+        "picked_by": "859916391497711616",
+        "player_id": "12496",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 4
+    },
+    {
+        "draft_id": "1196774145560412160",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Woody",
+            "injury_status": "",
+            "last_name": "Marks",
+            "news_updated": "1745687127948",
+            "number": "",
+            "player_id": "12474",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 43,
+        "picked_by": "979655298266816512",
+        "player_id": "12474",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 4
     }
 ]
