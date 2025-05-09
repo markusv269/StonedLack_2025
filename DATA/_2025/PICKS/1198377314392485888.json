@@ -4652,5 +4652,57 @@
         "reactions": null,
         "roster_id": 6,
         "round": 15
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jordan",
+            "injury_status": "",
+            "last_name": "Whittington",
+            "news_updated": "1737407405521",
+            "number": "88",
+            "player_id": "11623",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 180,
+        "picked_by": "1129655183757299712",
+        "player_id": "11623",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 15
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Will",
+            "injury_status": "",
+            "last_name": "Reichard",
+            "news_updated": "1736882405795",
+            "number": "16",
+            "player_id": "11792",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 181,
+        "picked_by": "1129655183757299712",
+        "player_id": "11792",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 16
     }
 ]
