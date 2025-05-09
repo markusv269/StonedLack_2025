@@ -4886,5 +4886,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 16
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jason",
+            "injury_status": "",
+            "last_name": "Sanders",
+            "news_updated": "1740243327675",
+            "number": "7",
+            "player_id": "5119",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 189,
+        "picked_by": "1178500282260856832",
+        "player_id": "5119",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 16
     }
 ]

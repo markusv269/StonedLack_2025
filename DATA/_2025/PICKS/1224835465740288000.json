@@ -2130,5 +2130,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 7
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Marcus",
+            "injury_status": "",
+            "last_name": "Yarns",
+            "news_updated": "1745736929611",
+            "number": "34",
+            "player_id": "12546",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 83,
+        "picked_by": "701502788793884672",
+        "player_id": "12546",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 7
     }
 ]
