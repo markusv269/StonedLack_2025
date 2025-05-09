@@ -4912,5 +4912,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 16
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tre",
+            "injury_status": "",
+            "last_name": "Tucker",
+            "news_updated": "1736144704081",
+            "number": "1",
+            "player_id": "10213",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 190,
+        "picked_by": "572175676813488128",
+        "player_id": "10213",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 16
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Matthew",
+            "injury_status": "",
+            "last_name": "Stafford",
+            "news_updated": "1746469809925",
+            "number": "9",
+            "player_id": "421",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "16"
+        },
+        "pick_no": 191,
+        "picked_by": "1130163665224830976",
+        "player_id": "421",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 16
     }
 ]

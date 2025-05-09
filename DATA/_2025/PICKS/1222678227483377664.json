@@ -6056,5 +6056,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 20
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jermaine",
+            "injury_status": "",
+            "last_name": "Burton",
+            "news_updated": "1739597421525",
+            "number": "81",
+            "player_id": "11640",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 234,
+        "picked_by": "1131734599341682688",
+        "player_id": "11640",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 20
     }
 ]
