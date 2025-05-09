@@ -18,12 +18,14 @@
         "701181889934884864": 3,
         "94706655497175040": 2
     },
-    "last_message_id": "1226472428096466944",
-    "last_message_time": 1746776322919,
-    "last_picked": 1746713498865,
+    "last_message_id": "1226572349487198208",
+    "last_message_time": 1746800146032,
+    "last_picked": 1746800123664,
     "league_id": "1181844911174176768",
     "metadata": {
         "description": "",
+        "elapsed_pick_timer": "18227",
+        "is_autopaused": "false",
         "name": "STONED LACK DYNASTY 5",
         "scoring_type": "dynasty_ppr"
     },
@@ -67,6 +69,6 @@
     },
     "sport": "nfl",
     "start_time": 1746688588521,
-    "status": "drafting",
+    "status": "paused",
     "type": "linear"
 }

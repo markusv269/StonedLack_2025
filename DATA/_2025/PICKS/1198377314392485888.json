@@ -4730,5 +4730,57 @@
         "reactions": null,
         "roster_id": 6,
         "round": 16
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Chris",
+            "injury_status": "",
+            "last_name": "Boswell",
+            "news_updated": "1736972716413",
+            "number": "9",
+            "player_id": "1945",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "11"
+        },
+        "pick_no": 183,
+        "picked_by": "979721317920407552",
+        "player_id": "1945",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 16
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jake",
+            "injury_status": "",
+            "last_name": "Bates",
+            "news_updated": "1737307552847",
+            "number": "39",
+            "player_id": "11539",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 184,
+        "picked_by": "1090777376264441856",
+        "player_id": "11539",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 16
     }
 ]
