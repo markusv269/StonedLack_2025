@@ -5614,5 +5614,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 18
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Sam",
+            "injury_status": "",
+            "last_name": "Howell",
+            "news_updated": "1745693129980",
+            "number": "8",
+            "player_id": "8162",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 217,
+        "picked_by": "867544786272460800",
+        "player_id": "8162",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 19
     }
 ]
