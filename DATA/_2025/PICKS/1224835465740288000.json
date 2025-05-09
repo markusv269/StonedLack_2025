@@ -2052,5 +2052,57 @@
         "reactions": null,
         "roster_id": 11,
         "round": 7
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brashard",
+            "injury_status": "",
+            "last_name": "Smith",
+            "news_updated": "1746691221393",
+            "number": "30",
+            "player_id": "12455",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 80,
+        "picked_by": "740271047152128000",
+        "player_id": "12455",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 7
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kevin",
+            "injury_status": "",
+            "last_name": "Winston",
+            "news_updated": "1745634622443",
+            "number": "23",
+            "player_id": "12588",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 81,
+        "picked_by": "720386675821338624",
+        "player_id": "12588",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 7
     }
 ]
