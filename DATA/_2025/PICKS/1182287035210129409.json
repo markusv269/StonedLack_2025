@@ -1272,5 +1272,57 @@
         "reactions": null,
         "roster_id": 1,
         "round": 5
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Nic",
+            "injury_status": "",
+            "last_name": "Scourton",
+            "news_updated": "1745628321429",
+            "number": "",
+            "player_id": "12562",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 50,
+        "picked_by": "740271047152128000",
+        "player_id": "12562",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 5
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kenneth",
+            "injury_status": "",
+            "last_name": "Grant",
+            "news_updated": "1745545240450",
+            "number": "",
+            "player_id": "12564",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 51,
+        "picked_by": "607712641196048384",
+        "player_id": "12564",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 5
     }
 ]
