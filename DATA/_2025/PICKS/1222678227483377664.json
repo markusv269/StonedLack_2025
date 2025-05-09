@@ -5562,5 +5562,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 18
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dameon",
+            "injury_status": "",
+            "last_name": "Pierce",
+            "news_updated": "1737298852021",
+            "number": "31",
+            "player_id": "8129",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 215,
+        "picked_by": "1129824623715110912",
+        "player_id": "8129",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 18
     }
 ]
