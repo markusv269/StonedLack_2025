@@ -4704,5 +4704,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 16
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cameron",
+            "injury_status": "",
+            "last_name": "Dicker",
+            "news_updated": "1739822441021",
+            "number": "11",
+            "player_id": "8259",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 182,
+        "picked_by": "873296312697774080",
+        "player_id": "8259",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 16
     }
 ]
