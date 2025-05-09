@@ -4834,5 +4834,57 @@
         "reactions": null,
         "roster_id": 3,
         "round": 16
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Zack",
+            "injury_status": "Questionable",
+            "last_name": "Moss",
+            "news_updated": "1745275860848",
+            "number": "31",
+            "player_id": "6845",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 187,
+        "picked_by": "989544359940902912",
+        "player_id": "6845",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 16
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Michael",
+            "injury_status": "Questionable",
+            "last_name": "Wilson",
+            "news_updated": "1736108439620",
+            "number": "14",
+            "player_id": "10232",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 188,
+        "picked_by": "977746984348012544",
+        "player_id": "10232",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 16
     }
 ]
