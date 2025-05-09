@@ -5744,5 +5744,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 19
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Nailor",
+            "news_updated": "1737583225488",
+            "number": "1",
+            "player_id": "8180",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 222,
+        "picked_by": "1002228490156064768",
+        "player_id": "8180",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 19
     }
 ]
