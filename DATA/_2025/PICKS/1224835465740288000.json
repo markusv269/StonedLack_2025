@@ -1948,5 +1948,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 7
+    },
+    {
+        "draft_id": "1224835465740288000",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Barrett",
+            "injury_status": "",
+            "last_name": "Carter",
+            "news_updated": "1745691326331",
+            "number": "49",
+            "player_id": "12646",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 76,
+        "picked_by": "990318951781490688",
+        "player_id": "12646",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 7
     }
 ]
