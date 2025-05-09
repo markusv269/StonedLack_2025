@@ -5640,5 +5640,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 19
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tre",
+            "injury_status": "",
+            "last_name": "Tucker",
+            "news_updated": "1736144704081",
+            "number": "1",
+            "player_id": "10213",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 218,
+        "picked_by": "1129824623715110912",
+        "player_id": "10213",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 19
     }
 ]

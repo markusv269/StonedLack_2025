@@ -1324,5 +1324,57 @@
         "reactions": null,
         "roster_id": 3,
         "round": 5
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Elic",
+            "injury_status": "",
+            "last_name": "Ayomanor",
+            "news_updated": "1745690433969",
+            "number": "5",
+            "player_id": "12499",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 52,
+        "picked_by": "701502788793884672",
+        "player_id": "12499",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 5
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jarquez",
+            "injury_status": "",
+            "last_name": "Hunter",
+            "news_updated": "1745687428495",
+            "number": "",
+            "player_id": "11569",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 53,
+        "picked_by": "466715861671997440",
+        "player_id": "11569",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 5
     }
 ]
