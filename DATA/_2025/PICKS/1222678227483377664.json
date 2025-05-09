@@ -5666,5 +5666,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 19
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Aaron",
+            "injury_status": "",
+            "last_name": "Rodgers",
+            "news_updated": "1746718824054",
+            "number": "8",
+            "player_id": "96",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "20"
+        },
+        "pick_no": 219,
+        "picked_by": "1124785744695943168",
+        "player_id": "96",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 19
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Nick",
+            "injury_status": "Questionable",
+            "last_name": "Chubb",
+            "news_updated": "1745464232545",
+            "number": "24",
+            "player_id": "4988",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 220,
+        "picked_by": "998653052653563904",
+        "player_id": "4988",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 19
     }
 ]
