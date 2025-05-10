@@ -6342,5 +6342,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 21
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Chris",
+            "injury_status": "",
+            "last_name": "Boswell",
+            "news_updated": "1736972716413",
+            "number": "9",
+            "player_id": "1945",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "11"
+        },
+        "pick_no": 245,
+        "picked_by": "608400368761659392",
+        "player_id": "1945",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 21
     }
 ]
