@@ -5042,5 +5042,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 17
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyler",
+            "injury_status": "",
+            "last_name": "Bass",
+            "news_updated": "1737781516342",
+            "number": "2",
+            "player_id": "7042",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 195,
+        "picked_by": "572175676813488128",
+        "player_id": "7042",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 17
     }
 ]
