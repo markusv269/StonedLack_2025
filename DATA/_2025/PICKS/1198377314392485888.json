@@ -5666,5 +5666,57 @@
         "reactions": null,
         "roster_id": 2,
         "round": 19
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "KaVontae",
+            "injury_status": "",
+            "last_name": "Turpin",
+            "news_updated": "1741716903074",
+            "number": "9",
+            "player_id": "8917",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 219,
+        "picked_by": "572175676813488128",
+        "player_id": "8917",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 19
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Spencer",
+            "injury_status": "",
+            "last_name": "Rattler",
+            "news_updated": "1746891329675",
+            "number": "18",
+            "player_id": "11562",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 220,
+        "picked_by": "1178500282260856832",
+        "player_id": "11562",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 19
     }
 ]
