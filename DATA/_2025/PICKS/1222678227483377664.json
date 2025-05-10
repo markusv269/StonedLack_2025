@@ -6108,5 +6108,83 @@
         "reactions": null,
         "roster_id": 2,
         "round": 20
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cade",
+            "injury_status": "Questionable",
+            "last_name": "Stover",
+            "news_updated": "1736892606549",
+            "number": "87",
+            "player_id": "11599",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 236,
+        "picked_by": "608400368761659392",
+        "player_id": "11599",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 20
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Daniel",
+            "injury_status": "",
+            "last_name": "Jones",
+            "news_updated": "1745342735791",
+            "number": "17",
+            "player_id": "5870",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 237,
+        "picked_by": "998653052653563904",
+        "player_id": "5870",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 20
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "JuJu",
+            "injury_status": "",
+            "last_name": "Smith-Schuster",
+            "news_updated": "1742082043186",
+            "number": "9",
+            "player_id": "4040",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 238,
+        "picked_by": "1124785744695943168",
+        "player_id": "4040",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 20
     }
 ]
