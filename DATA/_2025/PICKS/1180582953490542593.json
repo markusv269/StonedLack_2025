@@ -24,5 +24,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 1
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Omarion",
+            "injury_status": "",
+            "last_name": "Hampton",
+            "news_updated": "1745549439484",
+            "number": "8",
+            "player_id": "12507",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 2,
+        "picked_by": "586498691490164736",
+        "player_id": "12507",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 1
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Travis",
+            "injury_status": "",
+            "last_name": "Hunter",
+            "news_updated": "1745610919885",
+            "number": "12",
+            "player_id": "12530",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 3,
+        "picked_by": "470366281862737920",
+        "player_id": "12530",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 1
     }
 ]
