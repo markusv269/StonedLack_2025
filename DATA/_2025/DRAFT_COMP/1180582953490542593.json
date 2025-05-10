@@ -9,7 +9,6 @@
         "470993054107430912": 9,
         "538699757910323200": 10,
         "580785056579100672": 1,
-        "580793419320827904": 4,
         "586498691490164736": 12,
         "652252439088537600": 7,
         "687104130224824320": 3,
@@ -18,12 +17,14 @@
         "701773654509285376": 8,
         "727924477291249664": 6
     },
-    "last_message_id": "1226864391987679232",
-    "last_message_time": 1746869774390,
+    "last_message_id": "1226921273309798400",
+    "last_message_time": 1746883335953,
     "last_picked": 1746869752106,
     "league_id": "1180582953490542592",
     "metadata": {
         "description": "",
+        "elapsed_pick_timer": "13583794",
+        "is_autopaused": "false",
         "name": "StonedLack Dynasty Liga 6 \ud83d\udd25\ud83d\udd25\ud83d\udd25",
         "scoring_type": "dynasty_ppr"
     },
@@ -67,6 +68,6 @@
     },
     "sport": "nfl",
     "start_time": 1746864021808,
-    "status": "drafting",
+    "status": "paused",
     "type": "linear"
 }
