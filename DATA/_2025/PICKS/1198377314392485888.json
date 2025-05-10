@@ -5640,5 +5640,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 19
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jason",
+            "injury_status": "",
+            "last_name": "Myers",
+            "news_updated": "1736445639215",
+            "number": "5",
+            "player_id": "2747",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "10"
+        },
+        "pick_no": 218,
+        "picked_by": "1130163665224830976",
+        "player_id": "2747",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 19
     }
 ]
