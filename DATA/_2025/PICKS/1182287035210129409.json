@@ -1454,5 +1454,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 5
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tai",
+            "injury_status": "",
+            "last_name": "Felton",
+            "news_updated": "1746811524453",
+            "number": "13",
+            "player_id": "12496",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 57,
+        "picked_by": "607712641196048384",
+        "player_id": "12496",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 5
     }
 ]
