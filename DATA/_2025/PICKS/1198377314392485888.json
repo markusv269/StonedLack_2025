@@ -5536,5 +5536,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 18
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Sean",
+            "injury_status": "",
+            "last_name": "Tucker",
+            "news_updated": "1736828152427",
+            "number": "44",
+            "player_id": "9506",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 214,
+        "picked_by": "572175676813488128",
+        "player_id": "9506",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 18
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Luke",
+            "injury_status": "",
+            "last_name": "McCaffrey",
+            "news_updated": "1738077041432",
+            "number": "12",
+            "player_id": "11650",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 215,
+        "picked_by": "1130163665224830976",
+        "player_id": "11650",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 18
     }
 ]
