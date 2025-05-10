@@ -4964,5 +4964,57 @@
         "reactions": null,
         "roster_id": 2,
         "round": 16
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Calvin",
+            "injury_status": "",
+            "last_name": "Austin",
+            "news_updated": "1746629424174",
+            "number": "19",
+            "player_id": "8125",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 192,
+        "picked_by": "918634755867009024",
+        "player_id": "8125",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 16
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Geno",
+            "injury_status": "",
+            "last_name": "Smith",
+            "news_updated": "1744136136421",
+            "number": "7",
+            "player_id": "1373",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "12"
+        },
+        "pick_no": 193,
+        "picked_by": "918634755867009024",
+        "player_id": "1373",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 17
     }
 ]
