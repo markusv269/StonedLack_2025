@@ -5276,5 +5276,83 @@
         "reactions": null,
         "roster_id": 6,
         "round": 17
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Russell",
+            "injury_status": "",
+            "last_name": "Wilson",
+            "news_updated": "1745599844838",
+            "number": "3",
+            "player_id": "1234",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "13"
+        },
+        "pick_no": 204,
+        "picked_by": "1129655183757299712",
+        "player_id": "1234",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 17
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Mike",
+            "injury_status": "",
+            "last_name": "Gesicki",
+            "news_updated": "1741501558129",
+            "number": "88",
+            "player_id": "4993",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 205,
+        "picked_by": "1129655183757299712",
+        "player_id": "4993",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 18
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dalton",
+            "injury_status": "",
+            "last_name": "Schultz",
+            "news_updated": "1737250245616",
+            "number": "86",
+            "player_id": "5001",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 206,
+        "picked_by": "873296312697774080",
+        "player_id": "5001",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 18
     }
 ]
