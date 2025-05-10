@@ -1584,5 +1584,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 6
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Gunnar",
+            "injury_status": "",
+            "last_name": "Helm",
+            "news_updated": "1745687729165",
+            "number": "84",
+            "player_id": "12502",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 62,
+        "picked_by": "442454469574127616",
+        "player_id": "12502",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 6
     }
 ]
