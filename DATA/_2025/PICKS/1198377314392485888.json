@@ -5172,5 +5172,83 @@
         "reactions": null,
         "roster_id": 3,
         "round": 17
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Zach",
+            "injury_status": "",
+            "last_name": "Ertz",
+            "news_updated": "1741518658322",
+            "number": "86",
+            "player_id": "1339",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "12"
+        },
+        "pick_no": 200,
+        "picked_by": "810531997922504704",
+        "player_id": "1339",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 17
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Theo",
+            "injury_status": "Questionable",
+            "last_name": "Johnson",
+            "news_updated": "1733335817795",
+            "number": "84",
+            "player_id": "11597",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 201,
+        "picked_by": "1090777376264441856",
+        "player_id": "11597",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 17
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dameon",
+            "injury_status": "",
+            "last_name": "Pierce",
+            "news_updated": "1737298852021",
+            "number": "31",
+            "player_id": "8129",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 202,
+        "picked_by": "979721317920407552",
+        "player_id": "8129",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 17
     }
 ]
