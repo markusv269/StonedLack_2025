@@ -6524,5 +6524,57 @@
         "reactions": null,
         "roster_id": 1,
         "round": 21
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Mike",
+            "injury_status": "",
+            "last_name": "Williams",
+            "news_updated": "1741844118734",
+            "number": "81",
+            "player_id": "4068",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 252,
+        "picked_by": "585507399792627712",
+        "player_id": "4068",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 21
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Chase",
+            "injury_status": "",
+            "last_name": "McLaughlin",
+            "news_updated": "1736226008644",
+            "number": "4",
+            "player_id": "6650",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 253,
+        "picked_by": "585507399792627712",
+        "player_id": "6650",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 22
     }
 ]
