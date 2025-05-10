@@ -6654,5 +6654,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 22
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brandin",
+            "injury_status": "",
+            "last_name": "Cooks",
+            "news_updated": "1743530138491",
+            "number": "10",
+            "player_id": "2197",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "11"
+        },
+        "pick_no": 257,
+        "picked_by": "1130163665224830976",
+        "player_id": "2197",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 22
     }
 ]

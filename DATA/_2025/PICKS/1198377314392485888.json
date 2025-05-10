@@ -5588,5 +5588,57 @@
         "reactions": null,
         "roster_id": 2,
         "round": 18
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cairo",
+            "injury_status": "",
+            "last_name": "Santos",
+            "news_updated": "1736178906959",
+            "number": "8",
+            "player_id": "2020",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "11"
+        },
+        "pick_no": 216,
+        "picked_by": "918634755867009024",
+        "player_id": "2020",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 18
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brandin",
+            "injury_status": "",
+            "last_name": "Cooks",
+            "news_updated": "1743530138491",
+            "number": "10",
+            "player_id": "2197",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "11"
+        },
+        "pick_no": 217,
+        "picked_by": "918634755867009024",
+        "player_id": "2197",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 19
     }
 ]
