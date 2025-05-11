@@ -6602,5 +6602,57 @@
         "reactions": null,
         "roster_id": 6,
         "round": 22
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Rondale",
+            "injury_status": "Questionable",
+            "last_name": "Moore",
+            "news_updated": "1742430025538",
+            "number": "4",
+            "player_id": "7601",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 255,
+        "picked_by": "979721317920407552",
+        "player_id": "7601",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 22
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Joshua",
+            "injury_status": "",
+            "last_name": "Dobbs",
+            "news_updated": "1741670760857",
+            "number": "11",
+            "player_id": "4179",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 256,
+        "picked_by": "1090777376264441856",
+        "player_id": "4179",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 22
     }
 ]
