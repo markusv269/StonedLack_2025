@@ -76,5 +76,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 1
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tetairoa",
+            "injury_status": "",
+            "last_name": "McMillan",
+            "news_updated": "1746812424896",
+            "number": "4",
+            "player_id": "12526",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 4,
+        "picked_by": "652252439088537600",
+        "player_id": "12526",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 1
     }
 ]

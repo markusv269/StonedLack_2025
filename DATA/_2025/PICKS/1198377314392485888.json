@@ -6524,5 +6524,83 @@
         "reactions": null,
         "roster_id": 6,
         "round": 21
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jake",
+            "injury_status": "",
+            "last_name": "Moody",
+            "news_updated": "1743612322536",
+            "number": "4",
+            "player_id": "10937",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 252,
+        "picked_by": "1129655183757299712",
+        "player_id": "10937",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 21
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Aaron",
+            "injury_status": "",
+            "last_name": "Rodgers",
+            "news_updated": "1746718824054",
+            "number": "8",
+            "player_id": "96",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "20"
+        },
+        "pick_no": 253,
+        "picked_by": "1129655183757299712",
+        "player_id": "96",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 22
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Chase",
+            "injury_status": "",
+            "last_name": "McLaughlin",
+            "news_updated": "1736226008644",
+            "number": "4",
+            "player_id": "6650",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 254,
+        "picked_by": "873296312697774080",
+        "player_id": "6650",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 22
     }
 ]
