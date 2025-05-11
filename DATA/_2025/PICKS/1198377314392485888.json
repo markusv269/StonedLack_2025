@@ -6056,5 +6056,83 @@
         "reactions": null,
         "roster_id": 11,
         "round": 20
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Raheem",
+            "injury_status": "",
+            "last_name": "Mostert",
+            "news_updated": "1745859638124",
+            "number": "31",
+            "player_id": "2749",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "10"
+        },
+        "pick_no": 234,
+        "picked_by": "979461434767654912",
+        "player_id": "2749",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 20
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyler",
+            "injury_status": "",
+            "last_name": "Conklin",
+            "news_updated": "1742610637054",
+            "number": "83",
+            "player_id": "5133",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 235,
+        "picked_by": "989544359940902912",
+        "player_id": "5133",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 20
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Miles",
+            "injury_status": "",
+            "last_name": "Sanders",
+            "news_updated": "1741926930495",
+            "number": "27",
+            "player_id": "6151",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 236,
+        "picked_by": "977746984348012544",
+        "player_id": "6151",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 20
     }
 ]
