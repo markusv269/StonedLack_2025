@@ -6264,5 +6264,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 21
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyler",
+            "injury_status": "",
+            "last_name": "Higbee",
+            "news_updated": "1745862330577",
+            "number": "89",
+            "player_id": "3271",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "9"
+        },
+        "pick_no": 242,
+        "picked_by": "1130163665224830976",
+        "player_id": "3271",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 21
     }
 ]
