@@ -50,5 +50,57 @@
         "reactions": null,
         "roster_id": 10,
         "round": 1
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Travis",
+            "injury_status": "",
+            "last_name": "Hunter",
+            "news_updated": "1746983445035",
+            "number": "12",
+            "player_id": "12530",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 3,
+        "picked_by": "1127245381764501504",
+        "player_id": "12530",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 1
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tetairoa",
+            "injury_status": "",
+            "last_name": "McMillan",
+            "news_updated": "1746812424896",
+            "number": "4",
+            "player_id": "12526",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 4,
+        "picked_by": "430760855328526336",
+        "player_id": "12526",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 1
     }
 ]
