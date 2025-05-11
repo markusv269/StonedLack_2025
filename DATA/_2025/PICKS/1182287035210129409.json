@@ -1922,5 +1922,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 7
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jeffrey",
+            "injury_status": "",
+            "last_name": "Bassa",
+            "news_updated": "1746691221411",
+            "number": "31",
+            "player_id": "12672",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 75,
+        "picked_by": "600647227223887872",
+        "player_id": "12672",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 7
     }
 ]
