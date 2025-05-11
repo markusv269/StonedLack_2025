@@ -5978,5 +5978,57 @@
         "reactions": null,
         "roster_id": 6,
         "round": 20
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jermaine",
+            "injury_status": "",
+            "last_name": "Burton",
+            "news_updated": "1739597421525",
+            "number": "81",
+            "player_id": "11640",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 231,
+        "picked_by": "979721317920407552",
+        "player_id": "11640",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 20
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Mac",
+            "injury_status": "",
+            "last_name": "Jones",
+            "news_updated": "1741843518669",
+            "number": "10",
+            "player_id": "7527",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 232,
+        "picked_by": "1090777376264441856",
+        "player_id": "7527",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 20
     }
 ]
