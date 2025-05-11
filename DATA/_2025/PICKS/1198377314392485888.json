@@ -5822,5 +5822,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 19
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Noah",
+            "injury_status": "",
+            "last_name": "Brown",
+            "news_updated": "1742438424215",
+            "number": "85",
+            "player_id": "4234",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 225,
+        "picked_by": "1090777376264441856",
+        "player_id": "4234",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 19
     }
 ]
