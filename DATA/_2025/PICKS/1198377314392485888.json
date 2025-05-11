@@ -6134,5 +6134,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 20
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Noah",
+            "injury_status": "",
+            "last_name": "Fant",
+            "news_updated": "1745840136403",
+            "number": "87",
+            "player_id": "5857",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 237,
+        "picked_by": "1178500282260856832",
+        "player_id": "5857",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 20
     }
 ]
