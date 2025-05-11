@@ -6160,5 +6160,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 20
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Juwan",
+            "injury_status": "",
+            "last_name": "Johnson",
+            "news_updated": "1741727108775",
+            "number": "83",
+            "player_id": "7002",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 238,
+        "picked_by": "572175676813488128",
+        "player_id": "7002",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 20
     }
 ]
