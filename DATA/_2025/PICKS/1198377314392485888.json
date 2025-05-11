@@ -5744,5 +5744,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 19
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "John",
+            "injury_status": "",
+            "last_name": "Metchie",
+            "news_updated": "1746079537119",
+            "number": "8",
+            "player_id": "8147",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 222,
+        "picked_by": "989544359940902912",
+        "player_id": "8147",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 19
     }
 ]
