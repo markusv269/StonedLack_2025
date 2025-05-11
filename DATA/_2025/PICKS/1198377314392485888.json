@@ -5718,5 +5718,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 19
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Malachi",
+            "injury_status": "",
+            "last_name": "Corley",
+            "news_updated": "1736452839221",
+            "number": "14",
+            "player_id": "11617",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 221,
+        "picked_by": "977746984348012544",
+        "player_id": "11617",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 19
     }
 ]
