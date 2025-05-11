@@ -2000,5 +2000,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 7
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Quinn",
+            "injury_status": "",
+            "last_name": "Ewers",
+            "news_updated": "1745706031019",
+            "number": "14",
+            "player_id": "12500",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 78,
+        "picked_by": "675598189872627712",
+        "player_id": "12500",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 7
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Princely",
+            "injury_status": "",
+            "last_name": "Umanmielen",
+            "news_updated": "1745634022126",
+            "number": "33",
+            "player_id": "12610",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 79,
+        "picked_by": "600647227223887872",
+        "player_id": "12610",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 7
     }
 ]
