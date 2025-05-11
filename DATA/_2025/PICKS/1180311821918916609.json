@@ -128,5 +128,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 1
+    },
+    {
+        "draft_id": "1180311821918916609",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Quinshon",
+            "injury_status": "",
+            "last_name": "Judkins",
+            "news_updated": "1745624420415",
+            "number": "10",
+            "player_id": "12512",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 6,
+        "picked_by": "535218404396433408",
+        "player_id": "12512",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 1
     }
 ]
