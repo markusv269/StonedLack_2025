@@ -6888,5 +6888,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 23
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jamari",
+            "injury_status": "",
+            "last_name": "Thrash",
+            "news_updated": "1736091636922",
+            "number": "80",
+            "player_id": "11633",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 266,
+        "picked_by": "1130163665224830976",
+        "player_id": "11633",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 23
     }
 ]
