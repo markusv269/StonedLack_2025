@@ -6992,5 +6992,57 @@
         "reactions": null,
         "roster_id": 10,
         "round": 23
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Matt",
+            "injury_status": "",
+            "last_name": "Gay",
+            "news_updated": "1745957727436",
+            "number": "16",
+            "player_id": "6083",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 270,
+        "picked_by": "1002228490156064768",
+        "player_id": "6083",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 23
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "John",
+            "injury_status": "",
+            "last_name": "Metchie",
+            "news_updated": "1746079537119",
+            "number": "8",
+            "player_id": "8147",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 271,
+        "picked_by": "1131734599341682688",
+        "player_id": "8147",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 23
     }
 ]

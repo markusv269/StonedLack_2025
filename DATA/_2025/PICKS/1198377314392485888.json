@@ -7018,5 +7018,83 @@
         "reactions": null,
         "roster_id": 7,
         "round": 23
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cam",
+            "injury_status": "",
+            "last_name": "Akers",
+            "news_updated": "1737341156711",
+            "number": "27",
+            "player_id": "6938",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 271,
+        "picked_by": "979461434767654912",
+        "player_id": "6938",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 23
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "A.J.",
+            "injury_status": "",
+            "last_name": "Dillon",
+            "news_updated": "1741822215340",
+            "number": "29",
+            "player_id": "6828",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 272,
+        "picked_by": "810531997922504704",
+        "player_id": "6828",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 23
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Emanuel",
+            "injury_status": "",
+            "last_name": "Wilson",
+            "news_updated": "1745998530538",
+            "number": "31",
+            "player_id": "11435",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 273,
+        "picked_by": "1090777376264441856",
+        "player_id": "11435",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 23
     }
 ]
