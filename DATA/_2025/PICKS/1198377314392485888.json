@@ -5848,5 +5848,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 19
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jahan",
+            "injury_status": "",
+            "last_name": "Dotson",
+            "news_updated": "1745475634905",
+            "number": "83",
+            "player_id": "8119",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 226,
+        "picked_by": "979721317920407552",
+        "player_id": "8119",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 19
     }
 ]
