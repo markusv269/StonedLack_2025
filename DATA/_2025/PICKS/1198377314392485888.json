@@ -6030,5 +6030,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 20
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Christian",
+            "injury_status": "IR",
+            "last_name": "Watson",
+            "news_updated": "1746430206648",
+            "number": "9",
+            "player_id": "8167",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 233,
+        "picked_by": "810531997922504704",
+        "player_id": "8167",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 20
     }
 ]
