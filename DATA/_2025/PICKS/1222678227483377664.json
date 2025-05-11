@@ -6732,5 +6732,83 @@
         "reactions": null,
         "roster_id": 2,
         "round": 22
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jamari",
+            "injury_status": "",
+            "last_name": "Thrash",
+            "news_updated": "1736091636922",
+            "number": "80",
+            "player_id": "11633",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 260,
+        "picked_by": "608400368761659392",
+        "player_id": "11633",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 22
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jonathan",
+            "injury_status": "",
+            "last_name": "Mingo",
+            "news_updated": "1736182505732",
+            "number": "81",
+            "player_id": "10225",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 261,
+        "picked_by": "998653052653563904",
+        "player_id": "10225",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 22
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cairo",
+            "injury_status": "",
+            "last_name": "Santos",
+            "news_updated": "1736178906959",
+            "number": "8",
+            "player_id": "2020",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "11"
+        },
+        "pick_no": 262,
+        "picked_by": "1124785744695943168",
+        "player_id": "2020",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 22
     }
 ]

@@ -1948,5 +1948,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 7
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Donovan",
+            "injury_status": "",
+            "last_name": "Edwards",
+            "news_updated": "1746080137222",
+            "number": "",
+            "player_id": "12515",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 76,
+        "picked_by": "701502788793884672",
+        "player_id": "12515",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 7
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Xavier",
+            "injury_status": "",
+            "last_name": "Watts",
+            "news_updated": "1745637325918",
+            "number": "31",
+            "player_id": "12591",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 77,
+        "picked_by": "442454469574127616",
+        "player_id": "12591",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 7
     }
 ]
