@@ -284,5 +284,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 1
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "RJ",
+            "injury_status": "",
+            "last_name": "Harvey",
+            "news_updated": "1745630721507",
+            "number": "37",
+            "player_id": "12489",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 12,
+        "picked_by": "999807017533378560",
+        "player_id": "12489",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 1
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Luther",
+            "injury_status": "",
+            "last_name": "Burden",
+            "news_updated": "1745625021351",
+            "number": "87",
+            "player_id": "12519",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 13,
+        "picked_by": "999807017533378560",
+        "player_id": "12519",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 2
     }
 ]
