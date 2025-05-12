@@ -180,5 +180,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 1
+    },
+    {
+        "draft_id": "1207817141777080320",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Colston",
+            "injury_status": "Questionable",
+            "last_name": "Loveland",
+            "news_updated": "1746983445003",
+            "number": "84",
+            "player_id": "12517",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 8,
+        "picked_by": "1130163665224830976",
+        "player_id": "12517",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 1
     }
 ]

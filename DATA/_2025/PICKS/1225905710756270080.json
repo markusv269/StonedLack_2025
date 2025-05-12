@@ -1974,5 +1974,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 7
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Myles",
+            "injury_status": "",
+            "last_name": "Garrett",
+            "news_updated": "1741540259499",
+            "number": "95",
+            "player_id": "3973",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 77,
+        "picked_by": "740271047152128000",
+        "player_id": "3973",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 7
     }
 ]
