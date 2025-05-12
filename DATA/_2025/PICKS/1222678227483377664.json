@@ -7330,5 +7330,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 24
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Stone",
+            "injury_status": "",
+            "last_name": "Smartt",
+            "news_updated": "1741914930998",
+            "number": "84",
+            "player_id": "8583",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 283,
+        "picked_by": "1002228490156064768",
+        "player_id": "8583",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 24
     }
 ]

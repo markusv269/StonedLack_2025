@@ -102,5 +102,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 1
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jihaad",
+            "injury_status": "Questionable",
+            "last_name": "Campbell",
+            "news_updated": "1746431406766",
+            "number": "30",
+            "player_id": "12566",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 5,
+        "picked_by": "698187034254209024",
+        "player_id": "12566",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 1
     }
 ]
