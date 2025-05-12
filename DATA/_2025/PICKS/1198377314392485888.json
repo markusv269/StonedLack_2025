@@ -7694,5 +7694,57 @@
         "reactions": null,
         "roster_id": 11,
         "round": 25
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Michael",
+            "injury_status": "",
+            "last_name": "Gallup",
+            "news_updated": "1742558435260",
+            "number": "12",
+            "player_id": "5038",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 297,
+        "picked_by": "1090777376264441856",
+        "player_id": "5038",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 25
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jake",
+            "injury_status": "",
+            "last_name": "Bobo",
+            "news_updated": "1736445338640",
+            "number": "19",
+            "player_id": "10867",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 298,
+        "picked_by": "979721317920407552",
+        "player_id": "10867",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 25
     }
 ]
