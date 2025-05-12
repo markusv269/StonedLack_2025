@@ -2390,5 +2390,57 @@
         "reactions": null,
         "roster_id": 2,
         "round": 8
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Nick",
+            "injury_status": "",
+            "last_name": "Bosa",
+            "news_updated": "1737153634494",
+            "number": "97",
+            "player_id": "5816",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 93,
+        "picked_by": "740271047152128000",
+        "player_id": "5816",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 8
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tucker",
+            "injury_status": "",
+            "last_name": "Kraft",
+            "news_updated": "1736734858045",
+            "number": "85",
+            "player_id": "9484",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 94,
+        "picked_by": "585507399792627712",
+        "player_id": "9484",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 8
     }
 ]
