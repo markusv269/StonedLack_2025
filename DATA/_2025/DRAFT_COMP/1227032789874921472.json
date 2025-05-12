@@ -30,7 +30,7 @@
         "player_type": 0,
         "reversal_round": 0,
         "rounds": 28,
-        "slots_bn": 15,
+        "slots_bn": 14,
         "slots_flex": 3,
         "slots_k": 1,
         "slots_qb": 1,
@@ -54,7 +54,7 @@
         "9": 9
     },
     "sport": "nfl",
-    "start_time": null,
+    "start_time": 1747411200000,
     "status": "pre_draft",
     "type": "snake"
 }
