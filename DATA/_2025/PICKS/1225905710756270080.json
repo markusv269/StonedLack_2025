@@ -2234,5 +2234,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 8
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Travon",
+            "injury_status": "",
+            "last_name": "Walker",
+            "news_updated": "1744051229694",
+            "number": "44",
+            "player_id": "8265",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 87,
+        "picked_by": "1129655183757299712",
+        "player_id": "8265",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 8
     }
 ]

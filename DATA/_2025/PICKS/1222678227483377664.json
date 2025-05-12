@@ -7226,5 +7226,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 24
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Israel",
+            "injury_status": "",
+            "last_name": "Abanikanda",
+            "news_updated": "1736108438553",
+            "number": "20",
+            "player_id": "9227",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 279,
+        "picked_by": "1178500282260856832",
+        "player_id": "9227",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 24
     }
 ]
