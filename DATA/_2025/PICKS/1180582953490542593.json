@@ -232,5 +232,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 1
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Matthew",
+            "injury_status": "",
+            "last_name": "Golden",
+            "news_updated": "1745549740612",
+            "number": "22",
+            "player_id": "12501",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 10,
+        "picked_by": "580785056579100672",
+        "player_id": "12501",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 1
     }
 ]

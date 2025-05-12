@@ -986,5 +986,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 4
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Quinshon",
+            "injury_status": "",
+            "last_name": "Judkins",
+            "news_updated": "1745624420415",
+            "number": "10",
+            "player_id": "12512",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 39,
+        "picked_by": "1134059965020426240",
+        "player_id": "12512",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 4
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Chase",
+            "injury_status": "Questionable",
+            "last_name": "Brown",
+            "news_updated": "1740518429845",
+            "number": "30",
+            "player_id": "9224",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 40,
+        "picked_by": "1134059965020426240",
+        "player_id": "9224",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 4
     }
 ]
