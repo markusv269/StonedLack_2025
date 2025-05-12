@@ -7408,5 +7408,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 24
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Nailor",
+            "news_updated": "1737583225488",
+            "number": "1",
+            "player_id": "8180",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 286,
+        "picked_by": "572175676813488128",
+        "player_id": "8180",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 24
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Luke",
+            "injury_status": "",
+            "last_name": "Schoonmaker",
+            "news_updated": "1736791841242",
+            "number": "86",
+            "player_id": "10871",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 287,
+        "picked_by": "1130163665224830976",
+        "player_id": "10871",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 24
     }
 ]

@@ -830,5 +830,83 @@
         "reactions": null,
         "roster_id": 1,
         "round": 3
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "A.J.",
+            "injury_status": "",
+            "last_name": "Brown",
+            "news_updated": "1739166003635",
+            "number": "11",
+            "player_id": "5859",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 33,
+        "picked_by": "1027973321809358848",
+        "player_id": "5859",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 3
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "TreVeyon",
+            "injury_status": "",
+            "last_name": "Henderson",
+            "news_updated": "1745916030564",
+            "number": "32",
+            "player_id": "12529",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 34,
+        "picked_by": "1027973321809358848",
+        "player_id": "12529",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 3
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "James",
+            "injury_status": "",
+            "last_name": "Cook",
+            "news_updated": "1745355038754",
+            "number": "4",
+            "player_id": "8138",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 35,
+        "picked_by": "992774066522116096",
+        "player_id": "8138",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 3
     }
 ]
