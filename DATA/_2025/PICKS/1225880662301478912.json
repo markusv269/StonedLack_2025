@@ -1038,5 +1038,57 @@
         "reactions": null,
         "roster_id": 11,
         "round": 4
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Sam",
+            "injury_status": "",
+            "last_name": "LaPorta",
+            "news_updated": "1737265547800",
+            "number": "87",
+            "player_id": "10859",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 41,
+        "picked_by": "1181005812495355904",
+        "player_id": "10859",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 4
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Caleb",
+            "injury_status": "Questionable",
+            "last_name": "Williams",
+            "news_updated": "1737302752201",
+            "number": "18",
+            "player_id": "11560",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 42,
+        "picked_by": "830428845684391936",
+        "player_id": "11560",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 4
     }
 ]
