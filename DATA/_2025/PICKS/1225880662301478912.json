@@ -752,5 +752,83 @@
         "reactions": null,
         "roster_id": 3,
         "round": 3
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Travis",
+            "injury_status": "",
+            "last_name": "Hunter",
+            "news_updated": "1746983445035",
+            "number": "12",
+            "player_id": "12530",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 30,
+        "picked_by": "1129857024952492032",
+        "player_id": "12530",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 3
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tetairoa",
+            "injury_status": "",
+            "last_name": "McMillan",
+            "news_updated": "1746812424896",
+            "number": "4",
+            "player_id": "12526",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 31,
+        "picked_by": "830428845684391936",
+        "player_id": "12526",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 3
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Hurts",
+            "news_updated": "1739165702695",
+            "number": "1",
+            "player_id": "6904",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 32,
+        "picked_by": "1181005812495355904",
+        "player_id": "6904",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 3
     }
 ]
