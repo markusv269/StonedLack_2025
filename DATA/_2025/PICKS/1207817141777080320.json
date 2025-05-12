@@ -492,5 +492,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 2
+    },
+    {
+        "draft_id": "1207817141777080320",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Elic",
+            "injury_status": "",
+            "last_name": "Ayomanor",
+            "news_updated": "1746811224781",
+            "number": "5",
+            "player_id": "12499",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 20,
+        "picked_by": "1130163665224830976",
+        "player_id": "12499",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 2
     }
 ]
