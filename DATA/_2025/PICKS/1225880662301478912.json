@@ -1220,5 +1220,83 @@
         "reactions": null,
         "roster_id": 4,
         "round": 4
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Matthew",
+            "injury_status": "",
+            "last_name": "Golden",
+            "news_updated": "1745549740612",
+            "number": "22",
+            "player_id": "12501",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 48,
+        "picked_by": "1120347032981520384",
+        "player_id": "12501",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 4
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kaleb",
+            "injury_status": "",
+            "last_name": "Johnson",
+            "news_updated": "1746984945245",
+            "number": "20",
+            "player_id": "12504",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 49,
+        "picked_by": "1120347032981520384",
+        "player_id": "12504",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 5
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Colston",
+            "injury_status": "Questionable",
+            "last_name": "Loveland",
+            "news_updated": "1746983445003",
+            "number": "84",
+            "player_id": "12517",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 50,
+        "picked_by": "1120347032981520384",
+        "player_id": "12517",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 5
     }
 ]

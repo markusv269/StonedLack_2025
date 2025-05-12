@@ -518,5 +518,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 2
+    },
+    {
+        "draft_id": "1207817141777080320",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Mason",
+            "injury_status": "",
+            "last_name": "Taylor",
+            "news_updated": "1746985545221",
+            "number": "85",
+            "player_id": "12498",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 21,
+        "picked_by": "477969841718816768",
+        "player_id": "12498",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 2
     }
 ]
