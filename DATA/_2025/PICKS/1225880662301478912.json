@@ -908,5 +908,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 3
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Drake",
+            "injury_status": "",
+            "last_name": "Maye",
+            "news_updated": "1738094144231",
+            "number": "10",
+            "player_id": "11564",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 36,
+        "picked_by": "1051260754831220736",
+        "player_id": "11564",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 3
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Josh",
+            "injury_status": "",
+            "last_name": "Jacobs",
+            "news_updated": "1738809343743",
+            "number": "8",
+            "player_id": "5850",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 37,
+        "picked_by": "1134500676417077248",
+        "player_id": "5850",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 4
     }
 ]

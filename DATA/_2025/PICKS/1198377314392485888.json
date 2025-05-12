@@ -7564,5 +7564,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 25
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Clyde",
+            "injury_status": "",
+            "last_name": "Edwards-Helaire",
+            "news_updated": "1739523315251",
+            "number": "23",
+            "player_id": "6820",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 292,
+        "picked_by": "1178500282260856832",
+        "player_id": "6820",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 25
     }
 ]
