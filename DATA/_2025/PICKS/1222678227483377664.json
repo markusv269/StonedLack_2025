@@ -7200,5 +7200,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 24
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Marquez",
+            "injury_status": "",
+            "last_name": "Valdes-Scantling",
+            "news_updated": "1741801515799",
+            "number": "1",
+            "player_id": "5086",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 278,
+        "picked_by": "1129655183757299712",
+        "player_id": "5086",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 24
     }
 ]
