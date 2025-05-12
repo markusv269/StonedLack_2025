@@ -2052,5 +2052,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 7
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Shemar",
+            "injury_status": "",
+            "last_name": "James",
+            "news_updated": "1745693429365",
+            "number": "50",
+            "player_id": "12614",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 80,
+        "picked_by": "607712641196048384",
+        "player_id": "12614",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 7
     }
 ]
