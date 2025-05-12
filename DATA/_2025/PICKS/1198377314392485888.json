@@ -7356,5 +7356,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 24
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Wil",
+            "injury_status": "",
+            "last_name": "Lutz",
+            "news_updated": "1738776640755",
+            "number": "3",
+            "player_id": "3678",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "9"
+        },
+        "pick_no": 284,
+        "picked_by": "977746984348012544",
+        "player_id": "3678",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 24
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tahj",
+            "injury_status": "Questionable",
+            "last_name": "Washington",
+            "news_updated": "1721840112744",
+            "number": "83",
+            "player_id": "11821",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 285,
+        "picked_by": "1178500282260856832",
+        "player_id": "11821",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 24
     }
 ]

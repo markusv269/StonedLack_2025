@@ -180,5 +180,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 1
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kaleb",
+            "injury_status": "",
+            "last_name": "Johnson",
+            "news_updated": "1746984945245",
+            "number": "20",
+            "player_id": "12504",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 8,
+        "picked_by": "701773654509285376",
+        "player_id": "12504",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 1
     }
 ]
