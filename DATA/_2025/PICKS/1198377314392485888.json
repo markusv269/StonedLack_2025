@@ -7148,5 +7148,57 @@
         "reactions": null,
         "roster_id": 6,
         "round": 23
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Erick",
+            "injury_status": "IR",
+            "last_name": "All",
+            "news_updated": "1738088444006",
+            "number": "83",
+            "player_id": "11592",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 276,
+        "picked_by": "1129655183757299712",
+        "player_id": "11592",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 23
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Joshua",
+            "injury_status": "",
+            "last_name": "Karty",
+            "news_updated": "1736200507332",
+            "number": "16",
+            "player_id": "11789",
+            "position": "K",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 277,
+        "picked_by": "1129655183757299712",
+        "player_id": "11789",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 24
     }
 ]
