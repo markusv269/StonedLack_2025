@@ -960,5 +960,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 4
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Rome",
+            "injury_status": "",
+            "last_name": "Odunze",
+            "news_updated": "1736178306632",
+            "number": "15",
+            "player_id": "11620",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 38,
+        "picked_by": "992774066522116096",
+        "player_id": "11620",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 4
     }
 ]

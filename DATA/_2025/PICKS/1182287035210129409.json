@@ -2156,5 +2156,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 7
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyler",
+            "injury_status": "",
+            "last_name": "Shough",
+            "news_updated": "1746982844873",
+            "number": "6",
+            "player_id": "12545",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 84,
+        "picked_by": "596107064812548096",
+        "player_id": "12545",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 7
     }
 ]
