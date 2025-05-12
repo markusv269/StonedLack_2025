@@ -414,5 +414,83 @@
         "reactions": null,
         "roster_id": 3,
         "round": 2
+    },
+    {
+        "draft_id": "1207817141777080320",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Bhayshul",
+            "injury_status": "",
+            "last_name": "Tuten",
+            "news_updated": "1745684724830",
+            "number": "33",
+            "player_id": "12490",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 17,
+        "picked_by": "996027773493809152",
+        "player_id": "12490",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 2
+    },
+    {
+        "draft_id": "1207817141777080320",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tre",
+            "injury_status": "",
+            "last_name": "Harris",
+            "news_updated": "1745628921201",
+            "number": "9",
+            "player_id": "12509",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 18,
+        "picked_by": "388753670600163328",
+        "player_id": "12509",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 2
+    },
+    {
+        "draft_id": "1207817141777080320",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jack",
+            "injury_status": "Questionable",
+            "last_name": "Bech",
+            "news_updated": "1746079537112",
+            "number": "18",
+            "player_id": "12483",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 19,
+        "picked_by": "1129655183757299712",
+        "player_id": "12483",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 2
     }
 ]
