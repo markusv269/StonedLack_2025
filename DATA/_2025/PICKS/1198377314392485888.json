@@ -7746,5 +7746,57 @@
         "reactions": null,
         "roster_id": 1,
         "round": 25
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Mason",
+            "injury_status": "",
+            "last_name": "Rudolph",
+            "news_updated": "1742405121516",
+            "number": "2",
+            "player_id": "4972",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 299,
+        "picked_by": "873296312697774080",
+        "player_id": "4972",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 25
+    },
+    {
+        "draft_id": "1198377314392485888",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Zach",
+            "injury_status": "",
+            "last_name": "Wilson",
+            "news_updated": "1741670160699",
+            "number": "0",
+            "player_id": "7538",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 300,
+        "picked_by": "1129655183757299712",
+        "player_id": "7538",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 25
     }
 ]
