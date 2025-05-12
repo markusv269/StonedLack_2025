@@ -1142,5 +1142,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 4
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Joe",
+            "injury_status": "",
+            "last_name": "Burrow",
+            "news_updated": "1738897253414",
+            "number": "9",
+            "player_id": "6770",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 45,
+        "picked_by": "608400368761659392",
+        "player_id": "6770",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 4
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Christian",
+            "injury_status": "",
+            "last_name": "McCaffrey",
+            "news_updated": "1746811824968",
+            "number": "23",
+            "player_id": "4034",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 46,
+        "picked_by": "950748196941250560",
+        "player_id": "4034",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 4
     }
 ]

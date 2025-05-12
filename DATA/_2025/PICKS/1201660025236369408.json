@@ -50,5 +50,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 1
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Carson",
+            "injury_status": "",
+            "last_name": "Schwesinger",
+            "news_updated": "1745623220289",
+            "number": "49",
+            "player_id": "12578",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 3,
+        "picked_by": "643774380593205248",
+        "player_id": "12578",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 1
     }
 ]
