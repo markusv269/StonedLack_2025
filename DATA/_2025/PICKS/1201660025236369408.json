@@ -76,5 +76,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 1
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "James",
+            "injury_status": "",
+            "last_name": "Pearce",
+            "news_updated": "1745550940048",
+            "number": "27",
+            "player_id": "12585",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 4,
+        "picked_by": "585928143039148032",
+        "player_id": "12585",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 1
     }
 ]
