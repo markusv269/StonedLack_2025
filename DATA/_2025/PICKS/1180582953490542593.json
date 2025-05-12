@@ -128,5 +128,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 1
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Quinshon",
+            "injury_status": "",
+            "last_name": "Judkins",
+            "news_updated": "1745624420415",
+            "number": "10",
+            "player_id": "12512",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 6,
+        "picked_by": "698817605703647232",
+        "player_id": "12512",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 1
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Emeka",
+            "injury_status": "",
+            "last_name": "Egbuka",
+            "news_updated": "1746810624776",
+            "number": "9",
+            "player_id": "12514",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 7,
+        "picked_by": "729315627453497344",
+        "player_id": "12514",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 1
     }
 ]
