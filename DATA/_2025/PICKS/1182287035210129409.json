@@ -2104,5 +2104,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 7
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cody",
+            "injury_status": "",
+            "last_name": "Simon",
+            "news_updated": "1745691326324",
+            "number": "50",
+            "player_id": "12648",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 82,
+        "picked_by": "589565582072918016",
+        "player_id": "12648",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 7
+    },
+    {
+        "draft_id": "1182287035210129409",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Landon",
+            "injury_status": "",
+            "last_name": "Jackson",
+            "news_updated": "1745632822032",
+            "number": "94",
+            "player_id": "12580",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 83,
+        "picked_by": "468676777514889216",
+        "player_id": "12580",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 7
     }
 ]
