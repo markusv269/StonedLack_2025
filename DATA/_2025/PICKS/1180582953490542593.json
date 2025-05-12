@@ -336,5 +336,31 @@
         "reactions": null,
         "roster_id": 6,
         "round": 2
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyler",
+            "injury_status": "",
+            "last_name": "Warren",
+            "news_updated": "1746810624789",
+            "number": "84",
+            "player_id": "12518",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 14,
+        "picked_by": "580785056579100672",
+        "player_id": "12518",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 2
     }
 ]
