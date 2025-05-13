@@ -206,5 +206,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 1
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Mike",
+            "injury_status": "",
+            "last_name": "Green",
+            "news_updated": "1745630121557",
+            "number": "45",
+            "player_id": "12571",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 9,
+        "picked_by": "839949979090030592",
+        "player_id": "12571",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 1
     }
 ]
