@@ -3092,5 +3092,57 @@
         "reactions": null,
         "roster_id": 3,
         "round": 10
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jordyn",
+            "injury_status": "Questionable",
+            "last_name": "Brooks",
+            "news_updated": "1738005634716",
+            "number": "20",
+            "player_id": "6949",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 120,
+        "picked_by": "1130163665224830976",
+        "player_id": "6949",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 10
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Robert",
+            "injury_status": "",
+            "last_name": "Spillane",
+            "news_updated": "1741646107852",
+            "number": "14",
+            "player_id": "5726",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 121,
+        "picked_by": "1130163665224830976",
+        "player_id": "5726",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 11
     }
 ]

@@ -76,5 +76,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 1
+    },
+    {
+        "draft_id": "1206707252912734208",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "TreVeyon",
+            "injury_status": "",
+            "last_name": "Henderson",
+            "news_updated": "1745916030564",
+            "number": "32",
+            "player_id": "12529",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 4,
+        "picked_by": "1083435844007976960",
+        "player_id": "12529",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 1
     }
 ]
