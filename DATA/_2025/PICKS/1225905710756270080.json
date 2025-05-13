@@ -3040,5 +3040,57 @@
         "reactions": null,
         "roster_id": 6,
         "round": 10
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Nick",
+            "injury_status": "",
+            "last_name": "Cross",
+            "news_updated": "1737411604897",
+            "number": "20",
+            "player_id": "8392",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 118,
+        "picked_by": "1051260754831220736",
+        "player_id": "8392",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 10
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Javonte",
+            "injury_status": "",
+            "last_name": "Williams",
+            "news_updated": "1741652458688",
+            "number": "33",
+            "player_id": "7588",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 119,
+        "picked_by": "990318951781490688",
+        "player_id": "7588",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 10
     }
 ]

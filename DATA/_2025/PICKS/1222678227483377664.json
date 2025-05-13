@@ -7460,5 +7460,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 24
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Erick",
+            "injury_status": "IR",
+            "last_name": "All",
+            "news_updated": "1738088444006",
+            "number": "83",
+            "player_id": "11592",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 288,
+        "picked_by": "867544786272460800",
+        "player_id": "11592",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 24
     }
 ]

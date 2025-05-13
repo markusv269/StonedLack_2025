@@ -1402,5 +1402,57 @@
         "reactions": null,
         "roster_id": 10,
         "round": 5
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Chuba",
+            "injury_status": "",
+            "last_name": "Hubbard",
+            "news_updated": "1741886427885",
+            "number": "30",
+            "player_id": "7594",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 55,
+        "picked_by": "830428845684391936",
+        "player_id": "7594",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 5
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "George",
+            "injury_status": "",
+            "last_name": "Pickens",
+            "news_updated": "1746718824042",
+            "number": "14",
+            "player_id": "8137",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 56,
+        "picked_by": "1181005812495355904",
+        "player_id": "8137",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 5
     }
 ]
