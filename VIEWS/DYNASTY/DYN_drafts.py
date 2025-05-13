@@ -99,7 +99,7 @@ def build_draftboard(picks):
     return df
 
 # --- Streamlit App ---
-st.title("📊 Konsolidiertes Dynasty Draftboard (Top 3 Runden)")
+st.title("Dynasty ADP Draftboard (Top 3 Runden)")
 with st.spinner("Lade alle Draftdaten..."):
     all_picks = fetch_all_drafts(DYNLEAGUES)
 top36 = build_draftboard(all_picks)
