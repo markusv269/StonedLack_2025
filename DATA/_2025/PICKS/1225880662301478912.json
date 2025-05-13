@@ -1324,5 +1324,57 @@
         "reactions": null,
         "roster_id": 12,
         "round": 5
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "DJ",
+            "injury_status": "",
+            "last_name": "Moore",
+            "news_updated": "1736178306653",
+            "number": "2",
+            "player_id": "4983",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 52,
+        "picked_by": "608400368761659392",
+        "player_id": "4983",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 5
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Zay",
+            "injury_status": "Questionable",
+            "last_name": "Flowers",
+            "news_updated": "1746383102135",
+            "number": "4",
+            "player_id": "9997",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 53,
+        "picked_by": "1134500676417077248",
+        "player_id": "9997",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 5
     }
 ]
