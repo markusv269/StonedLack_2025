@@ -24,5 +24,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 1
+    },
+    {
+        "draft_id": "1206707252912734208",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Travis",
+            "injury_status": "",
+            "last_name": "Hunter",
+            "news_updated": "1746983445035",
+            "number": "12",
+            "player_id": "12530",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 2,
+        "picked_by": "698638639181172736",
+        "player_id": "12530",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 1
     }
 ]

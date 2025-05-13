@@ -154,5 +154,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 1
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalon",
+            "injury_status": "",
+            "last_name": "Walker",
+            "news_updated": "1745546439480",
+            "number": "11",
+            "player_id": "12568",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 7,
+        "picked_by": "596107064812548096",
+        "player_id": "12568",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 1
     }
 ]
