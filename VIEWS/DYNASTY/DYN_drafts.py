@@ -28,6 +28,10 @@ def position_color(pos):
     }.get(pos.upper(), "#dddddd")
 
 def player_box(name, team, position, color, round, pick_in_round, count):
+    if count == 1:
+        picks = f"{count} Pick"
+    else:
+        picks = f"{count} Picks"
     return f"""
     <div style="
         font-size: 1.3em;
@@ -42,7 +46,7 @@ def player_box(name, team, position, color, round, pick_in_round, count):
     ">
         <div>{name}</div>
         <div style="font-size: 1em;">{round}.{pick_in_round}</div>
-        <div style="font-size: 0.8em;">{count} Picks</div>
+        <div style="font-size: 0.8em;">{picks}</div>
         <div style="font-size: 0.8em;">{team} • {position}</div>
     </div>
     """
