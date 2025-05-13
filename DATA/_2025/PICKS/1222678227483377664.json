@@ -7408,5 +7408,57 @@
         "reactions": null,
         "roster_id": 8,
         "round": 24
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kendrick",
+            "injury_status": "",
+            "last_name": "Bourne",
+            "news_updated": "1740244228068",
+            "number": "84",
+            "player_id": "4454",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 286,
+        "picked_by": "1124785744695943168",
+        "player_id": "4454",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 24
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Demarcus",
+            "injury_status": "",
+            "last_name": "Robinson",
+            "news_updated": "1741741811514",
+            "number": "5",
+            "player_id": "3286",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "9"
+        },
+        "pick_no": 287,
+        "picked_by": "1129824623715110912",
+        "player_id": "3286",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 24
     }
 ]

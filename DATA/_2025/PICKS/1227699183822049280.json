@@ -388,5 +388,57 @@
         "reactions": null,
         "roster_id": 3,
         "round": 2
+    },
+    {
+        "draft_id": "1227699183822049280",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Luther",
+            "injury_status": "",
+            "last_name": "Burden",
+            "news_updated": "1745625021351",
+            "number": "87",
+            "player_id": "12519",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 16,
+        "picked_by": "1178500282260856832",
+        "player_id": "12519",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 2
+    },
+    {
+        "draft_id": "1227699183822049280",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jayden",
+            "injury_status": "",
+            "last_name": "Higgins",
+            "news_updated": "1746984945192",
+            "number": "81",
+            "player_id": "12484",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 17,
+        "picked_by": "977746984348012544",
+        "player_id": "12484",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 2
     }
 ]

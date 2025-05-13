@@ -440,5 +440,57 @@
         "reactions": null,
         "roster_id": 3,
         "round": 2
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jayden",
+            "injury_status": "",
+            "last_name": "Higgins",
+            "news_updated": "1746984945192",
+            "number": "81",
+            "player_id": "12484",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 18,
+        "picked_by": "698817605703647232",
+        "player_id": "12484",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 2
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kyle",
+            "injury_status": "",
+            "last_name": "Williams",
+            "news_updated": "",
+            "number": "18",
+            "player_id": "12547",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 19,
+        "picked_by": "470993054107430912",
+        "player_id": "12547",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 2
     }
 ]

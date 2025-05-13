@@ -2910,5 +2910,57 @@
         "reactions": null,
         "roster_id": 12,
         "round": 10
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Andrew",
+            "injury_status": "",
+            "last_name": "Van Ginkel",
+            "news_updated": "1746033931781",
+            "number": "43",
+            "player_id": "6183",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 113,
+        "picked_by": "878382113794236416",
+        "player_id": "6183",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 10
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jessie",
+            "injury_status": "",
+            "last_name": "Bates",
+            "news_updated": "1737234043345",
+            "number": "3",
+            "player_id": "5017",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 114,
+        "picked_by": "1129824623715110912",
+        "player_id": "5017",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 10
     }
 ]
