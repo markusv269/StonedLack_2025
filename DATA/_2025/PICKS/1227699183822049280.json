@@ -440,5 +440,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 2
+    },
+    {
+        "draft_id": "1227699183822049280",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jack",
+            "injury_status": "Questionable",
+            "last_name": "Bech",
+            "news_updated": "1746079537112",
+            "number": "18",
+            "player_id": "12483",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 18,
+        "picked_by": "989544359940902912",
+        "player_id": "12483",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 2
     }
 ]
