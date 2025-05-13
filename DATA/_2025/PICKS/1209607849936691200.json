@@ -206,5 +206,31 @@
         "reactions": null,
         "roster_id": 6,
         "round": 1
+    },
+    {
+        "draft_id": "1209607849936691200",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "RJ",
+            "injury_status": "",
+            "last_name": "Harvey",
+            "news_updated": "1745630721507",
+            "number": "37",
+            "player_id": "12489",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 9,
+        "picked_by": "700017402770968576",
+        "player_id": "12489",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 1
     }
 ]
