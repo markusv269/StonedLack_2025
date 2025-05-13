@@ -128,5 +128,57 @@
         "reactions": null,
         "roster_id": 2,
         "round": 1
+    },
+    {
+        "draft_id": "1181844911174176769",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Quinshon",
+            "injury_status": "",
+            "last_name": "Judkins",
+            "news_updated": "1745624420415",
+            "number": "10",
+            "player_id": "12512",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 6,
+        "picked_by": "574341929997701120",
+        "player_id": "12512",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 1
+    },
+    {
+        "draft_id": "1181844911174176769",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "RJ",
+            "injury_status": "",
+            "last_name": "Harvey",
+            "news_updated": "1745630721507",
+            "number": "37",
+            "player_id": "12489",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 7,
+        "picked_by": "574341929997701120",
+        "player_id": "12489",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 1
     }
 ]

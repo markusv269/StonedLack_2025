@@ -1298,5 +1298,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 5
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kenneth",
+            "injury_status": "Questionable",
+            "last_name": "Walker",
+            "news_updated": "1737157534939",
+            "number": "9",
+            "player_id": "8151",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 51,
+        "picked_by": "950748196941250560",
+        "player_id": "8151",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 5
     }
 ]
