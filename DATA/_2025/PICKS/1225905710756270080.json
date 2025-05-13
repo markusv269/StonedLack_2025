@@ -3642,5 +3642,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 12
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Najee",
+            "injury_status": "",
+            "last_name": "Harris",
+            "news_updated": "1745589942707",
+            "number": "22",
+            "player_id": "7528",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 141,
+        "picked_by": "740271047152128000",
+        "player_id": "7528",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 12
     }
 ]
