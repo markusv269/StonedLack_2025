@@ -284,5 +284,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 1
+    },
+    {
+        "draft_id": "1209607849936691200",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Luther",
+            "injury_status": "",
+            "last_name": "Burden",
+            "news_updated": "1745625021351",
+            "number": "87",
+            "player_id": "12519",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 12,
+        "picked_by": "700264071232045056",
+        "player_id": "12519",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 1
+    },
+    {
+        "draft_id": "1209607849936691200",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tre",
+            "injury_status": "",
+            "last_name": "Harris",
+            "news_updated": "1745628921201",
+            "number": "9",
+            "player_id": "12509",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 13,
+        "picked_by": "700321628038451200",
+        "player_id": "12509",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 2
     }
 ]
