@@ -19,9 +19,11 @@
     "season": "2025",
     "season_type": "regular",
     "settings": {
+        "alpha_sort": 0,
         "autostart": 0,
         "cpu_autopick": 1,
         "pick_timer": 120,
+        "reversal_round": 0,
         "rounds": 29,
         "slots_bn": 20,
         "slots_flex": 2,

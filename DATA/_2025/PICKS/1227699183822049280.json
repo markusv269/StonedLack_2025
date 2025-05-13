@@ -518,5 +518,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 2
+    },
+    {
+        "draft_id": "1227699183822049280",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Bhayshul",
+            "injury_status": "",
+            "last_name": "Tuten",
+            "news_updated": "1745684724830",
+            "number": "33",
+            "player_id": "12490",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 21,
+        "picked_by": "1090777376264441856",
+        "player_id": "12490",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 2
     }
 ]

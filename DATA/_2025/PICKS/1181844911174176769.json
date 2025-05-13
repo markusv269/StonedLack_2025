@@ -310,5 +310,57 @@
         "reactions": null,
         "roster_id": 1,
         "round": 1
+    },
+    {
+        "draft_id": "1181844911174176769",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tre",
+            "injury_status": "",
+            "last_name": "Harris",
+            "news_updated": "1745628921201",
+            "number": "9",
+            "player_id": "12509",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 13,
+        "picked_by": "94706655497175040",
+        "player_id": "12509",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 2
+    },
+    {
+        "draft_id": "1181844911174176769",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jayden",
+            "injury_status": "",
+            "last_name": "Higgins",
+            "news_updated": "1746984945192",
+            "number": "81",
+            "player_id": "12484",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 14,
+        "picked_by": "94706655497175040",
+        "player_id": "12484",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 2
     }
 ]
