@@ -206,5 +206,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 1
+    },
+    {
+        "draft_id": "1181844911174176769",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Matthew",
+            "injury_status": "",
+            "last_name": "Golden",
+            "news_updated": "1745549740612",
+            "number": "22",
+            "player_id": "12501",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 9,
+        "picked_by": "298013498846220288",
+        "player_id": "12501",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 1
+    },
+    {
+        "draft_id": "1181844911174176769",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyler",
+            "injury_status": "",
+            "last_name": "Warren",
+            "news_updated": "1746810624789",
+            "number": "84",
+            "player_id": "12518",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 10,
+        "picked_by": "646519878408404992",
+        "player_id": "12518",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 1
     }
 ]
