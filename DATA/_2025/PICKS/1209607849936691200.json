@@ -128,5 +128,83 @@
         "reactions": null,
         "roster_id": 5,
         "round": 1
+    },
+    {
+        "draft_id": "1209607849936691200",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kaleb",
+            "injury_status": "",
+            "last_name": "Johnson",
+            "news_updated": "1746984945245",
+            "number": "20",
+            "player_id": "12504",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 6,
+        "picked_by": "454623132997644288",
+        "player_id": "12504",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 1
+    },
+    {
+        "draft_id": "1209607849936691200",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Quinshon",
+            "injury_status": "",
+            "last_name": "Judkins",
+            "news_updated": "1745624420415",
+            "number": "10",
+            "player_id": "12512",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 7,
+        "picked_by": "569915594298683392",
+        "player_id": "12512",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 1
+    },
+    {
+        "draft_id": "1209607849936691200",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Emeka",
+            "injury_status": "",
+            "last_name": "Egbuka",
+            "news_updated": "1746810624776",
+            "number": "9",
+            "player_id": "12514",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 8,
+        "picked_by": "700264071232045056",
+        "player_id": "12514",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 1
     }
 ]
