@@ -2572,5 +2572,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 9
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Foyesade",
+            "injury_status": "",
+            "last_name": "Oluokun",
+            "news_updated": "1736711756286",
+            "number": "23",
+            "player_id": "5332",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 100,
+        "picked_by": "740271047152128000",
+        "player_id": "5332",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 9
     }
 ]
