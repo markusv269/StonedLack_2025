@@ -128,5 +128,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 1
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Nick",
+            "injury_status": "",
+            "last_name": "Martin",
+            "news_updated": "",
+            "number": "45",
+            "player_id": "12630",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 6,
+        "picked_by": "698069937704476672",
+        "player_id": "12630",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 1
     }
 ]

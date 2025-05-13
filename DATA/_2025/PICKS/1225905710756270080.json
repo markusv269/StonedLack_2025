@@ -2598,5 +2598,31 @@
         "reactions": null,
         "roster_id": 6,
         "round": 9
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brian",
+            "injury_status": "",
+            "last_name": "Robinson",
+            "news_updated": "1737943530798",
+            "number": "8",
+            "player_id": "8154",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 101,
+        "picked_by": "1117256915224055808",
+        "player_id": "8154",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 9
     }
 ]
