@@ -1,15 +1,27 @@
 {
     "created": 1747074825381,
     "creators": [
-        "600075246535507968",
         "867544786272460800",
         "995355579444965376"
     ],
     "draft_id": "1227724438242349056",
-    "draft_order": null,
+    "draft_order": {
+        "1002228490156064768": 6,
+        "1117256915224055808": 3,
+        "1124785744695943168": 12,
+        "1127246321750052864": 8,
+        "1129655183757299712": 9,
+        "1129824623715110912": 11,
+        "1130163665224830976": 4,
+        "1134059965020426240": 10,
+        "585507399792627712": 5,
+        "740271047152128000": 2,
+        "867544786272460800": 1,
+        "995355579444965376": 7
+    },
     "last_message_id": "1227724438242349056",
     "last_message_time": 1747074825381,
-    "last_picked": null,
+    "last_picked": 1747154670081,
     "league_id": "1227724436963069952",
     "metadata": {
         "description": "",
@@ -20,9 +32,15 @@
     "season_type": "regular",
     "settings": {
         "alpha_sort": 0,
-        "autostart": 0,
+        "autopause_enabled": 1,
+        "autopause_end_time": 360,
+        "autopause_start_time": 1260,
+        "autostart": 1,
         "cpu_autopick": 1,
-        "pick_timer": 120,
+        "enforce_position_limits": 1,
+        "nomination_timer": 60,
+        "pick_timer": 43200,
+        "player_type": 2,
         "reversal_round": 0,
         "rounds": 29,
         "slots_bn": 20,
@@ -34,21 +52,21 @@
         "teams": 12
     },
     "slot_to_roster_id": {
-        "1": 1,
-        "10": 10,
-        "11": 11,
-        "12": 12,
-        "2": 2,
-        "3": 3,
+        "1": 11,
+        "10": 12,
+        "11": 7,
+        "12": 3,
+        "2": 6,
+        "3": 10,
         "4": 4,
-        "5": 5,
-        "6": 6,
-        "7": 7,
+        "5": 1,
+        "6": 5,
+        "7": 9,
         "8": 8,
-        "9": 9
+        "9": 2
     },
     "sport": "nfl",
-    "start_time": null,
+    "start_time": 1747157400000,
     "status": "pre_draft",
     "type": "snake"
 }
