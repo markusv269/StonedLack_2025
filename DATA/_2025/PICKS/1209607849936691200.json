@@ -388,5 +388,57 @@
         "reactions": null,
         "roster_id": 11,
         "round": 2
+    },
+    {
+        "draft_id": "1209607849936691200",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyler",
+            "injury_status": "",
+            "last_name": "Warren",
+            "news_updated": "1746810624789",
+            "number": "84",
+            "player_id": "12518",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 16,
+        "picked_by": "700017402770968576",
+        "player_id": "12518",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 2
+    },
+    {
+        "draft_id": "1209607849936691200",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kyle",
+            "injury_status": "",
+            "last_name": "Williams",
+            "news_updated": "",
+            "number": "18",
+            "player_id": "12547",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 17,
+        "picked_by": "460092006773813248",
+        "player_id": "12547",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 2
     }
 ]

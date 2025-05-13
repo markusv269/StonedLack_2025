@@ -102,5 +102,57 @@
         "reactions": null,
         "roster_id": 12,
         "round": 1
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "CeeDee",
+            "injury_status": "",
+            "last_name": "Lamb",
+            "news_updated": "1741117239252",
+            "number": "88",
+            "player_id": "6786",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 5,
+        "picked_by": "1027973321809358848",
+        "player_id": "6786",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 1
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jahmyr",
+            "injury_status": "",
+            "last_name": "Gibbs",
+            "news_updated": "1737264048057",
+            "number": "0",
+            "player_id": "9221",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 6,
+        "picked_by": "1129824623715110912",
+        "player_id": "9221",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 1
     }
 ]
