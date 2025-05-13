@@ -336,5 +336,57 @@
         "reactions": null,
         "roster_id": 8,
         "round": 2
+    },
+    {
+        "draft_id": "1209607849936691200",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jack",
+            "injury_status": "Questionable",
+            "last_name": "Bech",
+            "news_updated": "1746079537112",
+            "number": "18",
+            "player_id": "12483",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 14,
+        "picked_by": "646516826129522688",
+        "player_id": "12483",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 2
+    },
+    {
+        "draft_id": "1209607849936691200",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Colston",
+            "injury_status": "Questionable",
+            "last_name": "Loveland",
+            "news_updated": "1746983445003",
+            "number": "84",
+            "player_id": "12517",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 15,
+        "picked_by": "446374629984956416",
+        "player_id": "12517",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 2
     }
 ]

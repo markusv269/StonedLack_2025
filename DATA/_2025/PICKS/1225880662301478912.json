@@ -1610,5 +1610,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 6
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaylen",
+            "injury_status": "",
+            "last_name": "Waddle",
+            "news_updated": "1736136941470",
+            "number": "17",
+            "player_id": "7526",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 63,
+        "picked_by": "1134059965020426240",
+        "player_id": "7526",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 6
     }
 ]

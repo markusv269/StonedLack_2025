@@ -518,5 +518,57 @@
         "reactions": null,
         "roster_id": 12,
         "round": 2
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dylan",
+            "injury_status": "",
+            "last_name": "Sampson",
+            "news_updated": "1746984945216",
+            "number": "22",
+            "player_id": "12469",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 21,
+        "picked_by": "580785056579100672",
+        "player_id": "12469",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 2
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Elijah",
+            "injury_status": "",
+            "last_name": "Arroyo",
+            "news_updated": "1746228649049",
+            "number": "18",
+            "player_id": "12521",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 22,
+        "picked_by": "538699757910323200",
+        "player_id": "12521",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 2
     }
 ]
