@@ -648,5 +648,31 @@
         "reactions": null,
         "roster_id": 6,
         "round": 3
+    },
+    {
+        "draft_id": "1207817141777080320",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Pat",
+            "injury_status": "",
+            "last_name": "Bryant",
+            "news_updated": "1746717623066",
+            "number": "13",
+            "player_id": "12492",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 26,
+        "picked_by": "1129655183757299712",
+        "player_id": "12492",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 3
     }
 ]
