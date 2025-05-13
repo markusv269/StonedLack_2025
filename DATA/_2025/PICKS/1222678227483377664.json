@@ -7356,5 +7356,57 @@
         "reactions": null,
         "roster_id": 2,
         "round": 24
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Johnny",
+            "injury_status": "",
+            "last_name": "Wilson",
+            "news_updated": "1734295255963",
+            "number": "89",
+            "player_id": "11636",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 284,
+        "picked_by": "608400368761659392",
+        "player_id": "11636",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 24
+    },
+    {
+        "draft_id": "1222678227483377664",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Rondale",
+            "injury_status": "Questionable",
+            "last_name": "Moore",
+            "news_updated": "1742430025538",
+            "number": "4",
+            "player_id": "7601",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 285,
+        "picked_by": "998653052653563904",
+        "player_id": "7601",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 24
     }
 ]
