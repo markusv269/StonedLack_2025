@@ -30,7 +30,7 @@ def position_color(pos):
 def player_box(name, team, position, color, round, pick_in_round):
     return f"""
     <div style="
-        font-size: 0.8em;
+        font-size: 1.3em;
         background-color: {color};
         padding: 2px;
         border-radius: 5px;
@@ -41,8 +41,8 @@ def player_box(name, team, position, color, round, pick_in_round):
         min-height: 90px;
     ">
         <div>{name}</div>
-        <div style="font-size: 0.7em;">{round}.{pick_in_round}</div>
-        <div style="font-size: 0.6em;">{team} • {position}</div>
+        <div style="font-size: 1em;">{round}.{pick_in_round}</div>
+        <div style="font-size: 0.8em;">{team} • {position}</div>
     </div>
     """
 
