@@ -90,15 +90,13 @@ def build_draftboard(picks):
             "avg_pick": avg_pick,
             "name": f"{meta.get('first_name', '')[:1]}. {meta.get('last_name', '')}",
             "position": meta.get("position", ""),
-            "team": meta.get("team", "")
+            "team": meta.get("team", ""),
+            "count": data["count"]
         })
     
     df = pd.DataFrame(records)
     df = df.sort_values("avg_pick").reset_index(drop=True)
-    top_36 = df.head(36).copy()
-    top_36["round"] = top_36.index // 12 + 1
-    top_36["pick_in_round"] = top_36.index % 12 + 1
-    return top_36
+    return df
 
 # --- Streamlit App ---
 st.title("📊 Konsolidiertes Dynasty Draftboard (Top 3 Runden)")
@@ -106,10 +104,32 @@ with st.spinner("Lade alle Draftdaten..."):
     all_picks = fetch_all_drafts(DYNLEAGUES)
 top36 = build_draftboard(all_picks)
 
+col1, col2 = st.columns(2)
+with col1:
+    select_playerpicks = st.selectbox("Min. Anzahl Picks", list(range(1,16)), index=0)
+with col2: 
+    select_playerpool = st.selectbox("Spielerpool", ["All", "Ohne IDP", "Nur IDP"], index=0)
+
+if select_playerpicks:
+    top36 = top36[top36["count"] >= select_playerpicks]
+
+if select_playerpool == "All":
+    top36 = top36
+elif select_playerpool == "Ohne IDP":
+    top36 = top36[~top36["position"].isin(["DL", "LB", "DB"])]
+elif select_playerpool == "Nur IDP":
+    top36 = top36[top36["position"].isin(["DL", "LB", "DB"])]
+top36 = top36.sort_values("avg_pick").reset_index(drop=True)
+
+top36["round"] = top36.index // 12 + 1
+top36["pick_in_round"] = top36.index % 12 + 1
+
+show = top36[top36["round"] <= 3]
 # Darstellung als Board mit farbigen Kästchen
 for r in range(1, 4):
     # st.subheader(f"🏈 Runde {r}")
-    round_picks = top36[top36["round"] == r]
+    round_picks = show[show["round"] == r]
+
     cols = st.columns(12)
     for _, row in round_picks.iterrows():
         with cols[row["pick_in_round"] - 1]:
