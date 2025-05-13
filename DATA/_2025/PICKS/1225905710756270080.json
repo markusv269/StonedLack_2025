@@ -3274,5 +3274,57 @@
         "reactions": null,
         "roster_id": 1,
         "round": 11
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brian",
+            "injury_status": "",
+            "last_name": "Burns",
+            "news_updated": "1736305213645",
+            "number": "0",
+            "player_id": "5862",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 127,
+        "picked_by": "1129824623715110912",
+        "player_id": "5862",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 11
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jayden",
+            "injury_status": "Questionable",
+            "last_name": "Reed",
+            "news_updated": "1736802642563",
+            "number": "11",
+            "player_id": "10222",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 128,
+        "picked_by": "878382113794236416",
+        "player_id": "10222",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 11
     }
 ]
