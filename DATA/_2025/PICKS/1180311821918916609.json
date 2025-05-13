@@ -336,5 +336,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 2
+    },
+    {
+        "draft_id": "1180311821918916609",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tre",
+            "injury_status": "",
+            "last_name": "Harris",
+            "news_updated": "1745628921201",
+            "number": "9",
+            "player_id": "12509",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 14,
+        "picked_by": "607158015849746432",
+        "player_id": "12509",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 2
     }
 ]

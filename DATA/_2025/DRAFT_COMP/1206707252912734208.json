@@ -18,12 +18,14 @@
         "700135870413500416": 7,
         "866002949745360896": 4
     },
-    "last_message_id": "1228060706960592896",
-    "last_message_time": 1747154998105,
+    "last_message_id": "1228108532121866240",
+    "last_message_time": 1747166400513,
     "last_picked": 1747154998098,
     "league_id": "1206707252904333312",
     "metadata": {
         "description": "",
+        "elapsed_pick_timer": "11402350",
+        "is_autopaused": "true",
         "name": "SLL 12 IDP Dynasty ",
         "scoring_type": "idp"
     },
@@ -71,6 +73,6 @@
     },
     "sport": "nfl",
     "start_time": 1747072820106,
-    "status": "drafting",
+    "status": "paused",
     "type": "linear"
 }
