@@ -284,5 +284,57 @@
         "reactions": null,
         "roster_id": 10,
         "round": 1
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Nick",
+            "injury_status": "",
+            "last_name": "Emmanwori",
+            "news_updated": "1745623820463",
+            "number": "3",
+            "player_id": "12597",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 12,
+        "picked_by": "740271047152128000",
+        "player_id": "12597",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 1
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Donovan",
+            "injury_status": "",
+            "last_name": "Ezeiruaku",
+            "news_updated": "1745626520842",
+            "number": "41",
+            "player_id": "12556",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 13,
+        "picked_by": "859916391497711616",
+        "player_id": "12556",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 2
     }
 ]

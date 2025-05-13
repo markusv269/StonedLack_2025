@@ -1636,5 +1636,57 @@
         "reactions": null,
         "roster_id": 11,
         "round": 6
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Emeka",
+            "injury_status": "",
+            "last_name": "Egbuka",
+            "news_updated": "1746810624776",
+            "number": "9",
+            "player_id": "12514",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 64,
+        "picked_by": "1027973321809358848",
+        "player_id": "12514",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 6
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Travis",
+            "injury_status": "",
+            "last_name": "Etienne",
+            "news_updated": "1736147404580",
+            "number": "1",
+            "player_id": "7543",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 65,
+        "picked_by": "1181005812495355904",
+        "player_id": "7543",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 6
     }
 ]
