@@ -1688,5 +1688,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 6
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Chris",
+            "injury_status": "Questionable",
+            "last_name": "Olave",
+            "news_updated": "1745475634915",
+            "number": "12",
+            "player_id": "8144",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 66,
+        "picked_by": "830428845684391936",
+        "player_id": "8144",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 6
     }
 ]

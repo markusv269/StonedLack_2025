@@ -3404,5 +3404,61 @@
         "reactions": null,
         "roster_id": 7,
         "round": 11
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Xavier",
+            "injury_status": "",
+            "last_name": "McKinney",
+            "news_updated": "1737424506200",
+            "number": "29",
+            "player_id": "6788",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 132,
+        "picked_by": "585507399792627712",
+        "player_id": "6788",
+        "reactions": {
+            "585507399792627712": [
+                "smart"
+            ]
+        },
+        "roster_id": 4,
+        "round": 11
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dallas",
+            "injury_status": "",
+            "last_name": "Turner",
+            "news_updated": "1737483013395",
+            "number": "15",
+            "player_id": "11667",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 133,
+        "picked_by": "740271047152128000",
+        "player_id": "11667",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 12
     }
 ]

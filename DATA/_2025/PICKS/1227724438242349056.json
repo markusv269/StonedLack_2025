@@ -76,5 +76,57 @@
         "reactions": null,
         "roster_id": 10,
         "round": 1
+    },
+    {
+        "draft_id": "1227724438242349056",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jahmyr",
+            "injury_status": "",
+            "last_name": "Gibbs",
+            "news_updated": "1737264048057",
+            "number": "0",
+            "player_id": "9221",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 4,
+        "picked_by": "1130163665224830976",
+        "player_id": "9221",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 1
+    },
+    {
+        "draft_id": "1227724438242349056",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brian",
+            "injury_status": "",
+            "last_name": "Thomas",
+            "news_updated": "1740517823391",
+            "number": "7",
+            "player_id": "11631",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 5,
+        "picked_by": "585507399792627712",
+        "player_id": "11631",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 1
     }
 ]
