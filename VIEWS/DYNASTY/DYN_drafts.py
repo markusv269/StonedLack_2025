@@ -27,7 +27,7 @@ def position_color(pos):
         "DB": "#999999"
     }.get(pos.upper(), "#dddddd")
 
-def player_box(name, team, position, color, round, pick_in_round):
+def player_box(name, team, position, color, round, pick_in_round, count):
     return f"""
     <div style="
         font-size: 1.3em;
@@ -42,6 +42,7 @@ def player_box(name, team, position, color, round, pick_in_round):
     ">
         <div>{name}</div>
         <div style="font-size: 1em;">{round}.{pick_in_round}</div>
+        <div style="font-size: 0.8em;">{count} Picks</div>
         <div style="font-size: 0.8em;">{team} • {position}</div>
     </div>
     """
@@ -134,5 +135,5 @@ for r in range(1, 4):
     for _, row in round_picks.iterrows():
         with cols[row["pick_in_round"] - 1]:
             color = position_color(row["position"])
-            html = player_box(row["name"], row["team"], row["position"], color, row["round"], row["pick_in_round"])
+            html = player_box(row["name"], row["team"], row["position"], color, row["round"], row["pick_in_round"], row["count"])
             st.markdown(html, unsafe_allow_html=True)
