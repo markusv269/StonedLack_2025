@@ -108,7 +108,7 @@ top36 = build_draftboard(all_picks)
 
 # Darstellung als Board mit farbigen Kästchen
 for r in range(1, 4):
-    st.subheader(f"🏈 Runde {r}")
+    # st.subheader(f"🏈 Runde {r}")
     round_picks = top36[top36["round"] == r]
     cols = st.columns(12)
     for _, row in round_picks.iterrows():

@@ -2,7 +2,7 @@ import streamlit as st
 from sleeper import SleeperLeague, SleeperDraft, get_draft_status, get_draft_time, get_draft_type
 from styles import metric_box
 
-@st.cache_data(ttl=900)
+@st.cache_data(show_spinner="Lade Draft ...", ttl=900)
 def display_draft(league_id):
     league = SleeperLeague(league_id)
     league_data = league.get_league_info()
