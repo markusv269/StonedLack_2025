@@ -778,5 +778,57 @@
         "reactions": null,
         "roster_id": 2,
         "round": 3
+    },
+    {
+        "draft_id": "1207817141777080320",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Royals",
+            "news_updated": "1745690132359",
+            "number": "11",
+            "player_id": "12505",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 31,
+        "picked_by": "978755352713879552",
+        "player_id": "12505",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 3
+    },
+    {
+        "draft_id": "1207817141777080320",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Xavier",
+            "injury_status": "",
+            "last_name": "Restrepo",
+            "news_updated": "1745736329881",
+            "number": "87",
+            "player_id": "12520",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 32,
+        "picked_by": "1130163665224830976",
+        "player_id": "12520",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 3
     }
 ]
