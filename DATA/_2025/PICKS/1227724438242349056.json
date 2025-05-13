@@ -154,5 +154,31 @@
         "reactions": null,
         "roster_id": 5,
         "round": 1
+    },
+    {
+        "draft_id": "1227724438242349056",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jayden",
+            "injury_status": "",
+            "last_name": "Daniels",
+            "news_updated": "1738894854831",
+            "number": "5",
+            "player_id": "11566",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 7,
+        "picked_by": "995355579444965376",
+        "player_id": "11566",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 1
     }
 ]
