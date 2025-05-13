@@ -2858,5 +2858,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 10
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Carter",
+            "news_updated": "1739749234202",
+            "number": "98",
+            "player_id": "10888",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 111,
+        "picked_by": "1129655183757299712",
+        "player_id": "10888",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 10
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Derwin",
+            "injury_status": "",
+            "last_name": "James",
+            "news_updated": "1737590127219",
+            "number": "3",
+            "player_id": "4971",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 112,
+        "picked_by": "977069450056794112",
+        "player_id": "4971",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 10
     }
 ]
