@@ -3196,5 +3196,57 @@
         "reactions": null,
         "roster_id": 8,
         "round": 11
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Davante",
+            "injury_status": "",
+            "last_name": "Adams",
+            "news_updated": "1741563060817",
+            "number": "17",
+            "player_id": "2133",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "11"
+        },
+        "pick_no": 124,
+        "picked_by": "740271047152128000",
+        "player_id": "2133",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 11
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cam",
+            "injury_status": "",
+            "last_name": "Bynum",
+            "news_updated": "1741674061364",
+            "number": "0",
+            "player_id": "7715",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 125,
+        "picked_by": "1117256915224055808",
+        "player_id": "7715",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 11
     }
 ]

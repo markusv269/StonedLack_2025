@@ -1584,5 +1584,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 6
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "T.J.",
+            "injury_status": "",
+            "last_name": "Hockenson",
+            "news_updated": "1736834151140",
+            "number": "87",
+            "player_id": "5844",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 62,
+        "picked_by": "992774066522116096",
+        "player_id": "5844",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 6
     }
 ]
