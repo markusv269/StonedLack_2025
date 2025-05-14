@@ -414,5 +414,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 2
+    },
+    {
+        "draft_id": "1206707252912734208",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Luther",
+            "injury_status": "",
+            "last_name": "Burden",
+            "news_updated": "1745625021351",
+            "number": "87",
+            "player_id": "12519",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 17,
+        "picked_by": "599597328059392000",
+        "player_id": "12519",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 2
     }
 ]
