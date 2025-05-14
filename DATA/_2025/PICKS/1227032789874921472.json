@@ -1142,5 +1142,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 4
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "DK",
+            "injury_status": "",
+            "last_name": "Metcalf",
+            "news_updated": "1741566302966",
+            "number": "4",
+            "player_id": "5846",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 45,
+        "picked_by": "1120108718089244672",
+        "player_id": "5846",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 4
     }
 ]
