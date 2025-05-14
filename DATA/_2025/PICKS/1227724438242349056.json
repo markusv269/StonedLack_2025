@@ -414,5 +414,57 @@
         "reactions": null,
         "roster_id": 2,
         "round": 2
+    },
+    {
+        "draft_id": "1227724438242349056",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Drake",
+            "injury_status": "",
+            "last_name": "London",
+            "news_updated": "1746028232784",
+            "number": "5",
+            "player_id": "8112",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ATL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 17,
+        "picked_by": "1134059965020426240",
+        "player_id": "8112",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 2
+    },
+    {
+        "draft_id": "1227724438242349056",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ladd",
+            "injury_status": "",
+            "last_name": "McConkey",
+            "news_updated": "1736646052263",
+            "number": "15",
+            "player_id": "11635",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 18,
+        "picked_by": "995355579444965376",
+        "player_id": "11635",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 2
     }
 ]

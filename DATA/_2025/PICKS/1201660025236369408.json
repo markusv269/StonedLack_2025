@@ -440,5 +440,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 2
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Malaki",
+            "injury_status": "",
+            "last_name": "Starks",
+            "news_updated": "1745551240021",
+            "number": "24",
+            "player_id": "12567",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 18,
+        "picked_by": "698069937704476672",
+        "player_id": "12567",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 2
     }
 ]
