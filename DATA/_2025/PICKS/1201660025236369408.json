@@ -700,5 +700,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 3
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jack",
+            "injury_status": "",
+            "last_name": "Sawyer",
+            "news_updated": "1745688330263",
+            "number": "33",
+            "player_id": "12593",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 28,
+        "picked_by": "585928143039148032",
+        "player_id": "12593",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 3
     }
 ]

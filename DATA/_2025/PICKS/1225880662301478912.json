@@ -2208,5 +2208,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 8
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kyler",
+            "injury_status": "",
+            "last_name": "Murray",
+            "news_updated": "1744233344899",
+            "number": "1",
+            "player_id": "5849",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 86,
+        "picked_by": "992774066522116096",
+        "player_id": "5849",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 8
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "J.J.",
+            "injury_status": "",
+            "last_name": "McCarthy",
+            "news_updated": "1746717623099",
+            "number": "9",
+            "player_id": "11565",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 87,
+        "picked_by": "1134059965020426240",
+        "player_id": "11565",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 8
     }
 ]
