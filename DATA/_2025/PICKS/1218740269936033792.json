@@ -1168,5 +1168,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 4
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Will",
+            "injury_status": "",
+            "last_name": "Howard",
+            "news_updated": "1745698828298",
+            "number": "18",
+            "player_id": "12511",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 46,
+        "picked_by": "902310121592586240",
+        "player_id": "12511",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 4
     }
 ]

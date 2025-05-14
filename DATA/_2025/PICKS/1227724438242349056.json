@@ -466,5 +466,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 2
+    },
+    {
+        "draft_id": "1227724438242349056",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Saquon",
+            "injury_status": "",
+            "last_name": "Barkley",
+            "news_updated": "1741116938505",
+            "number": "26",
+            "player_id": "4866",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 19,
+        "picked_by": "1002228490156064768",
+        "player_id": "4866",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 2
+    },
+    {
+        "draft_id": "1227724438242349056",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Marvin",
+            "injury_status": "",
+            "last_name": "Harrison",
+            "news_updated": "1736133341795",
+            "number": "18",
+            "player_id": "11628",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 20,
+        "picked_by": "585507399792627712",
+        "player_id": "11628",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 2
     }
 ]
