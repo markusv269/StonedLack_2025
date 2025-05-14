@@ -19,13 +19,12 @@
         "979721317920407552": 3,
         "989544359940902912": 7
     },
-    "last_message_id": "1228216100819320832",
-    "last_message_time": 1747192046891,
-    "last_picked": 1747191942066,
+    "last_message_id": "1228269071586312192",
+    "last_message_time": 1747204676107,
+    "last_picked": 1747204654909,
     "league_id": "1198377313197117440",
     "metadata": {
         "description": "",
-        "is_autopaused": "true",
         "name": "Stoned Lack Dynasty 31",
         "scoring_type": "dynasty_ppr"
     },
@@ -69,6 +68,6 @@
     },
     "sport": "nfl",
     "start_time": 1747072937116,
-    "status": "paused",
+    "status": "drafting",
     "type": "snake"
 }

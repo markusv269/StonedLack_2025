@@ -19,13 +19,12 @@
         "867544786272460800": 1,
         "995355579444965376": 7
     },
-    "last_message_id": "1228249093856305152",
-    "last_message_time": 1747199913045,
-    "last_picked": 1747199892455,
+    "last_message_id": "1228264685963317248",
+    "last_message_time": 1747203630492,
+    "last_picked": 1747203606933,
     "league_id": "1227724436963069952",
     "metadata": {
         "description": "",
-        "is_autopaused": "true",
         "name": "Stoned Lack Bestball 2",
         "scoring_type": "dynasty_ppr"
     },
@@ -68,6 +67,6 @@
     },
     "sport": "nfl",
     "start_time": 1747157419270,
-    "status": "paused",
+    "status": "drafting",
     "type": "snake"
 }
