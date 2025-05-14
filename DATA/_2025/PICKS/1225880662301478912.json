@@ -2000,5 +2000,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 7
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jameson",
+            "injury_status": "",
+            "last_name": "Williams",
+            "news_updated": "1747163451720",
+            "number": "1",
+            "player_id": "8148",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 78,
+        "picked_by": "1129857024952492032",
+        "player_id": "8148",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 7
     }
 ]

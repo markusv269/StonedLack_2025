@@ -856,5 +856,83 @@
         "reactions": null,
         "roster_id": 6,
         "round": 3
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "DJ",
+            "injury_status": "",
+            "last_name": "Giddens",
+            "news_updated": "1745693429365",
+            "number": "21",
+            "player_id": "12471",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 34,
+        "picked_by": "1205981976327114752",
+        "player_id": "12471",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 3
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jarquez",
+            "injury_status": "",
+            "last_name": "Hunter",
+            "news_updated": "1745687428495",
+            "number": "35",
+            "player_id": "11569",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 35,
+        "picked_by": "1129655183757299712",
+        "player_id": "11569",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 3
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Harold",
+            "injury_status": "",
+            "last_name": "Fannin",
+            "news_updated": "1745632221526",
+            "number": "88",
+            "player_id": "12506",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 36,
+        "picked_by": "902310121592586240",
+        "player_id": "12506",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 3
     }
 ]

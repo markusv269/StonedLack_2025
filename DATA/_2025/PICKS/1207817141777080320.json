@@ -934,5 +934,83 @@
         "reactions": null,
         "roster_id": 7,
         "round": 3
+    },
+    {
+        "draft_id": "1207817141777080320",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Milroe",
+            "news_updated": "1745636725597",
+            "number": "6",
+            "player_id": "12510",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 37,
+        "picked_by": "720258767786143744",
+        "player_id": "12510",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 4
+    },
+    {
+        "draft_id": "1207817141777080320",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaxson",
+            "injury_status": "",
+            "last_name": "Dart",
+            "news_updated": "1745550340626",
+            "number": "6",
+            "player_id": "12508",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 38,
+        "picked_by": "1129655183757299712",
+        "player_id": "12508",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 4
+    },
+    {
+        "draft_id": "1207817141777080320",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tory",
+            "injury_status": "",
+            "last_name": "Horton",
+            "news_updated": "1747160151973",
+            "number": "15",
+            "player_id": "12497",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 39,
+        "picked_by": "585507399792627712",
+        "player_id": "12497",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 4
     }
 ]
