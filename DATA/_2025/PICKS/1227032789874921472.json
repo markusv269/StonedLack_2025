@@ -362,5 +362,57 @@
         "reactions": null,
         "roster_id": 10,
         "round": 2
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Marvin",
+            "injury_status": "",
+            "last_name": "Harrison",
+            "news_updated": "1736133341795",
+            "number": "18",
+            "player_id": "11628",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 15,
+        "picked_by": "1131734599341682688",
+        "player_id": "11628",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 2
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Nico",
+            "injury_status": "",
+            "last_name": "Collins",
+            "news_updated": "1741196144900",
+            "number": "12",
+            "player_id": "7569",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 16,
+        "picked_by": "1210022333993988096",
+        "player_id": "7569",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 2
     }
 ]
