@@ -726,5 +726,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 3
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jahdae",
+            "injury_status": "",
+            "last_name": "Barron",
+            "news_updated": "1745548241431",
+            "number": "12",
+            "player_id": "12557",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 29,
+        "picked_by": "698187034254209024",
+        "player_id": "12557",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 3
     }
 ]
