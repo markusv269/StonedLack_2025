@@ -3798,5 +3798,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 13
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Joshua",
+            "injury_status": "",
+            "last_name": "Metellus",
+            "news_updated": "1737431707198",
+            "number": "44",
+            "player_id": "6901",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 147,
+        "picked_by": "1051260754831220736",
+        "player_id": "6901",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 13
     }
 ]

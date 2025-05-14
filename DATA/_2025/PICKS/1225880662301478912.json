@@ -1922,5 +1922,57 @@
         "reactions": null,
         "roster_id": 4,
         "round": 7
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Derrick",
+            "injury_status": "",
+            "last_name": "Henry",
+            "news_updated": "1743562817722",
+            "number": "22",
+            "player_id": "3198",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "9"
+        },
+        "pick_no": 75,
+        "picked_by": "950748196941250560",
+        "player_id": "3198",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 7
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Courtland",
+            "injury_status": "",
+            "last_name": "Sutton",
+            "news_updated": "1744739148351",
+            "number": "14",
+            "player_id": "5045",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 76,
+        "picked_by": "608400368761659392",
+        "player_id": "5045",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 7
     }
 ]
