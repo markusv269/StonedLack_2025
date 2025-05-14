@@ -726,5 +726,57 @@
         "reactions": null,
         "roster_id": 3,
         "round": 3
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "DJ",
+            "injury_status": "",
+            "last_name": "Giddens",
+            "news_updated": "1745693429365",
+            "number": "21",
+            "player_id": "12471",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 29,
+        "picked_by": "700451561750487040",
+        "player_id": "12471",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 3
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jarquez",
+            "injury_status": "",
+            "last_name": "Hunter",
+            "news_updated": "1745687428495",
+            "number": "35",
+            "player_id": "11569",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 30,
+        "picked_by": "586498691490164736",
+        "player_id": "11569",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 3
     }
 ]

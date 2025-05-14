@@ -1064,5 +1064,57 @@
         "reactions": null,
         "roster_id": 12,
         "round": 4
+    },
+    {
+        "draft_id": "1227699183822049280",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Shedeur",
+            "injury_status": "",
+            "last_name": "Sanders",
+            "news_updated": "1745692227310",
+            "number": "12",
+            "player_id": "12524",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 42,
+        "picked_by": "989544359940902912",
+        "player_id": "12524",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 4
+    },
+    {
+        "draft_id": "1227699183822049280",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Trevor",
+            "injury_status": "",
+            "last_name": "Etienne",
+            "news_updated": "1747160151942",
+            "number": "23",
+            "player_id": "12531",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 43,
+        "picked_by": "979461434767654912",
+        "player_id": "12531",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 4
     }
 ]
