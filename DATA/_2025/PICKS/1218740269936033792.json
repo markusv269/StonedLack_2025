@@ -1194,5 +1194,57 @@
         "reactions": null,
         "roster_id": 3,
         "round": 4
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tahj",
+            "injury_status": "",
+            "last_name": "Brooks",
+            "news_updated": "1746812424877",
+            "number": "25",
+            "player_id": "12543",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 47,
+        "picked_by": "430760855328526336",
+        "player_id": "12543",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 4
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tyler",
+            "injury_status": "",
+            "last_name": "Shough",
+            "news_updated": "1746982844873",
+            "number": "6",
+            "player_id": "12545",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 48,
+        "picked_by": "1002304558338502656",
+        "player_id": "12545",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 4
     }
 ]

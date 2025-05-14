@@ -1038,5 +1038,57 @@
         "reactions": null,
         "roster_id": 3,
         "round": 4
+    },
+    {
+        "draft_id": "1207817141777080320",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Gunnar",
+            "injury_status": "",
+            "last_name": "Helm",
+            "news_updated": "1745687729165",
+            "number": "84",
+            "player_id": "12502",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 41,
+        "picked_by": "996027773493809152",
+        "player_id": "12502",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 4
+    },
+    {
+        "draft_id": "1207817141777080320",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Shedeur",
+            "injury_status": "",
+            "last_name": "Sanders",
+            "news_updated": "1745692227310",
+            "number": "12",
+            "player_id": "12524",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 42,
+        "picked_by": "388753670600163328",
+        "player_id": "12524",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 4
     }
 ]

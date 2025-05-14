@@ -908,5 +908,83 @@
         "reactions": null,
         "roster_id": 10,
         "round": 3
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Terry",
+            "injury_status": "",
+            "last_name": "McLaurin",
+            "news_updated": "1743564617997",
+            "number": "17",
+            "player_id": "5927",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 36,
+        "picked_by": "1124417910476275712",
+        "player_id": "5927",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 3
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Hurts",
+            "news_updated": "1739165702695",
+            "number": "1",
+            "player_id": "6904",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 37,
+        "picked_by": "1124417910476275712",
+        "player_id": "6904",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 4
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Joe",
+            "injury_status": "",
+            "last_name": "Burrow",
+            "news_updated": "1738897253414",
+            "number": "9",
+            "player_id": "6770",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 38,
+        "picked_by": "1226533497133355008",
+        "player_id": "6770",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 4
     }
 ]
