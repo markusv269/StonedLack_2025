@@ -518,5 +518,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 2
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "JT",
+            "injury_status": "",
+            "last_name": "Tuimoloau",
+            "news_updated": "1745626520834",
+            "number": "91",
+            "player_id": "12594",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "IND",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 21,
+        "picked_by": "839949979090030592",
+        "player_id": "12594",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 2
     }
 ]
