@@ -1090,5 +1090,31 @@
         "reactions": null,
         "roster_id": 11,
         "round": 4
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kyle",
+            "injury_status": "",
+            "last_name": "Monangai",
+            "news_updated": "1746812124776",
+            "number": "25",
+            "player_id": "12534",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 43,
+        "picked_by": "727924477291249664",
+        "player_id": "12534",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 4
     }
 ]
