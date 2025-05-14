@@ -752,5 +752,83 @@
         "reactions": null,
         "roster_id": 10,
         "round": 3
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Elijah",
+            "injury_status": "",
+            "last_name": "Arroyo",
+            "news_updated": "1746228649049",
+            "number": "18",
+            "player_id": "12521",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 30,
+        "picked_by": "1172543741350166528",
+        "player_id": "12521",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 3
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Terrance",
+            "injury_status": "",
+            "last_name": "Ferguson",
+            "news_updated": "1745626821565",
+            "number": "18",
+            "player_id": "12487",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 31,
+        "picked_by": "1127245381764501504",
+        "player_id": "12487",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 3
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Elic",
+            "injury_status": "",
+            "last_name": "Ayomanor",
+            "news_updated": "1746811224781",
+            "number": "5",
+            "player_id": "12499",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 32,
+        "picked_by": "1130163665224830976",
+        "player_id": "12499",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 3
     }
 ]

@@ -3694,5 +3694,83 @@
         "reactions": null,
         "roster_id": 5,
         "round": 12
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "C.J.",
+            "injury_status": "",
+            "last_name": "Stroud",
+            "news_updated": "1737248745534",
+            "number": "7",
+            "player_id": "9758",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 143,
+        "picked_by": "990318951781490688",
+        "player_id": "9758",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 12
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Frankie",
+            "injury_status": "",
+            "last_name": "Luvu",
+            "news_updated": "1738350604206",
+            "number": "4",
+            "player_id": "5580",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "WAS",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 144,
+        "picked_by": "1130163665224830976",
+        "player_id": "5580",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 12
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Marvin",
+            "injury_status": "",
+            "last_name": "Mims",
+            "news_updated": "1736723157686",
+            "number": "19",
+            "player_id": "9494",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DEN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 145,
+        "picked_by": "1130163665224830976",
+        "player_id": "9494",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 13
     }
 ]

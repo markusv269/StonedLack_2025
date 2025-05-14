@@ -1142,5 +1142,57 @@
         "reactions": null,
         "roster_id": 11,
         "round": 4
+    },
+    {
+        "draft_id": "1227699183822049280",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tai",
+            "injury_status": "",
+            "last_name": "Felton",
+            "news_updated": "1746811524453",
+            "number": "13",
+            "player_id": "12496",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 45,
+        "picked_by": "1090777376264441856",
+        "player_id": "12496",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 4
+    },
+    {
+        "draft_id": "1227699183822049280",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Isaac",
+            "injury_status": "",
+            "last_name": "TeSlaa",
+            "news_updated": "1746717023206",
+            "number": "18",
+            "player_id": "12535",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 46,
+        "picked_by": "979721317920407552",
+        "player_id": "12535",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 4
     }
 ]
