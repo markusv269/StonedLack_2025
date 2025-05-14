@@ -648,5 +648,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 3
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Aeneas",
+            "injury_status": "",
+            "last_name": "Peebles",
+            "news_updated": "1745705730617",
+            "number": "93",
+            "player_id": "12696",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 26,
+        "picked_by": "1125118563532058624",
+        "player_id": "12696",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 3
     }
 ]

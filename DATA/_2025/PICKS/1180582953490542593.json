@@ -1064,5 +1064,31 @@
         "reactions": null,
         "roster_id": 9,
         "round": 4
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brashard",
+            "injury_status": "",
+            "last_name": "Smith",
+            "news_updated": "1746691221393",
+            "number": "30",
+            "player_id": "12455",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 42,
+        "picked_by": "586498691490164736",
+        "player_id": "12455",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 4
     }
 ]

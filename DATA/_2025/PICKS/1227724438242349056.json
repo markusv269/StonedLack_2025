@@ -700,5 +700,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 3
+    },
+    {
+        "draft_id": "1227724438242349056",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "DJ",
+            "injury_status": "",
+            "last_name": "Moore",
+            "news_updated": "1736178306653",
+            "number": "2",
+            "player_id": "4983",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 28,
+        "picked_by": "1130163665224830976",
+        "player_id": "4983",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 3
     }
 ]

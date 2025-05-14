@@ -1090,5 +1090,31 @@
         "reactions": null,
         "roster_id": 6,
         "round": 4
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Zay",
+            "injury_status": "Questionable",
+            "last_name": "Flowers",
+            "news_updated": "1746383102135",
+            "number": "4",
+            "player_id": "9997",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 43,
+        "picked_by": "1129824623715110912",
+        "player_id": "9997",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 4
     }
 ]
