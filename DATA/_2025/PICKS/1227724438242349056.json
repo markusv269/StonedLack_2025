@@ -180,5 +180,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 1
+    },
+    {
+        "draft_id": "1227724438242349056",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Malik",
+            "injury_status": "",
+            "last_name": "Nabers",
+            "news_updated": "1736167207276",
+            "number": "1",
+            "player_id": "11632",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 8,
+        "picked_by": "1134059965020426240",
+        "player_id": "11632",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 1
+    },
+    {
+        "draft_id": "1227724438242349056",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Amon-Ra",
+            "injury_status": "",
+            "last_name": "St. Brown",
+            "news_updated": "1737264647903",
+            "number": "14",
+            "player_id": "7547",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 9,
+        "picked_by": "1129655183757299712",
+        "player_id": "7547",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 1
     }
 ]
