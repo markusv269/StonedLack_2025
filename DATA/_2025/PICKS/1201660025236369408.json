@@ -492,5 +492,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 2
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Walter",
+            "injury_status": "",
+            "last_name": "Nolen",
+            "news_updated": "1745546440396",
+            "number": "97",
+            "player_id": "12552",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "ARI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 20,
+        "picked_by": "723576828790370304",
+        "player_id": "12552",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 2
     }
 ]
