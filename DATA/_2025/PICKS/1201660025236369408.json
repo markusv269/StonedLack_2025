@@ -544,5 +544,83 @@
         "reactions": null,
         "roster_id": 4,
         "round": 2
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Chris",
+            "injury_status": "",
+            "last_name": "Paul",
+            "news_updated": "1745698527999",
+            "number": "54",
+            "player_id": "12659",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 22,
+        "picked_by": "859916391497711616",
+        "player_id": "12659",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 2
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Princely",
+            "injury_status": "",
+            "last_name": "Umanmielen",
+            "news_updated": "1745634022126",
+            "number": "33",
+            "player_id": "12610",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 23,
+        "picked_by": "859916391497711616",
+        "player_id": "12610",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 2
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jeffrey",
+            "injury_status": "",
+            "last_name": "Bassa",
+            "news_updated": "1746691221411",
+            "number": "31",
+            "player_id": "12672",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 24,
+        "picked_by": "859916391497711616",
+        "player_id": "12672",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 2
     }
 ]

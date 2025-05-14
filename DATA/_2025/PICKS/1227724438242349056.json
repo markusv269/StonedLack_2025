@@ -544,5 +544,57 @@
         "reactions": null,
         "roster_id": 4,
         "round": 2
+    },
+    {
+        "draft_id": "1227724438242349056",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaxon",
+            "injury_status": "",
+            "last_name": "Smith-Njigba",
+            "news_updated": "1741440652622",
+            "number": "11",
+            "player_id": "9488",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 22,
+        "picked_by": "1117256915224055808",
+        "player_id": "9488",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 2
+    },
+    {
+        "draft_id": "1227724438242349056",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Garrett",
+            "injury_status": "",
+            "last_name": "Wilson",
+            "news_updated": "1746041133808",
+            "number": "5",
+            "player_id": "8146",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 23,
+        "picked_by": "740271047152128000",
+        "player_id": "8146",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 2
     }
 ]
