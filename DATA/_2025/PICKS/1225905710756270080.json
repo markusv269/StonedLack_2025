@@ -4136,5 +4136,57 @@
         "reactions": null,
         "roster_id": 10,
         "round": 14
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Justin",
+            "injury_status": "",
+            "last_name": "Herbert",
+            "news_updated": "1736656551444",
+            "number": "10",
+            "player_id": "6797",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 160,
+        "picked_by": "977069450056794112",
+        "player_id": "6797",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 14
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Rhamondre",
+            "injury_status": "",
+            "last_name": "Stevenson",
+            "news_updated": "1746049233709",
+            "number": "38",
+            "player_id": "7611",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "4"
+        },
+        "pick_no": 161,
+        "picked_by": "878382113794236416",
+        "player_id": "7611",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 14
     }
 ]
