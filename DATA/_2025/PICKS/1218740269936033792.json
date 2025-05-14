@@ -1142,5 +1142,31 @@
         "reactions": null,
         "roster_id": 3,
         "round": 4
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Damien",
+            "injury_status": "",
+            "last_name": "Martinez",
+            "news_updated": "1747160151961",
+            "number": "22",
+            "player_id": "12462",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 45,
+        "picked_by": "1130163665224830976",
+        "player_id": "12462",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 4
     }
 ]

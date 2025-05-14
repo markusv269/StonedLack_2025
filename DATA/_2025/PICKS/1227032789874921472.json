@@ -726,5 +726,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 3
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kyren",
+            "injury_status": "",
+            "last_name": "Williams",
+            "news_updated": "1743452731311",
+            "number": "23",
+            "player_id": "8150",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 29,
+        "picked_by": "1027973321809358848",
+        "player_id": "8150",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 3
     }
 ]
