@@ -929,10 +929,10 @@
             "years_exp": "0"
         },
         "pick_no": 36,
-        "picked_by": "902310121592586240",
+        "picked_by": "1125118563532058624",
         "player_id": "12506",
         "reactions": null,
-        "roster_id": 3,
+        "roster_id": 9,
         "round": 3
     },
     {
@@ -1063,6 +1063,84 @@
         "player_id": "12495",
         "reactions": null,
         "roster_id": 12,
+        "round": 4
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Royals",
+            "news_updated": "1745690132359",
+            "number": "11",
+            "player_id": "12505",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 42,
+        "picked_by": "1127245381764501504",
+        "player_id": "12505",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 4
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Isaac",
+            "injury_status": "",
+            "last_name": "TeSlaa",
+            "news_updated": "1746717023206",
+            "number": "18",
+            "player_id": "12535",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 43,
+        "picked_by": "1172543741350166528",
+        "player_id": "12535",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 4
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tai",
+            "injury_status": "",
+            "last_name": "Felton",
+            "news_updated": "1746811524453",
+            "number": "13",
+            "player_id": "12496",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 44,
+        "picked_by": "902310121592586240",
+        "player_id": "12496",
+        "reactions": null,
+        "roster_id": 3,
         "round": 4
     }
 ]

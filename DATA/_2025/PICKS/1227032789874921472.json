@@ -674,5 +674,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 3
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Lamar",
+            "injury_status": "",
+            "last_name": "Jackson",
+            "news_updated": "1743485135112",
+            "number": "8",
+            "player_id": "4881",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 27,
+        "picked_by": "1134059965020426240",
+        "player_id": "4881",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 3
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Breece",
+            "injury_status": "",
+            "last_name": "Hall",
+            "news_updated": "1743485135097",
+            "number": "20",
+            "player_id": "8155",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 28,
+        "picked_by": "1120108718089244672",
+        "player_id": "8155",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 3
     }
 ]

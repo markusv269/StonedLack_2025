@@ -466,5 +466,31 @@
         "reactions": null,
         "roster_id": 7,
         "round": 2
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Danny",
+            "injury_status": "",
+            "last_name": "Stutsman",
+            "news_updated": "1745691326307",
+            "number": "47",
+            "player_id": "12650",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NO",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 19,
+        "picked_by": "596107064812548096",
+        "player_id": "12650",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 2
     }
 ]

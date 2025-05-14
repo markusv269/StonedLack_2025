@@ -3980,5 +3980,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 13
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Julian",
+            "injury_status": "",
+            "last_name": "Love",
+            "news_updated": "1737158734704",
+            "number": "20",
+            "player_id": "5876",
+            "position": "DB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "6"
+        },
+        "pick_no": 154,
+        "picked_by": "1129655183757299712",
+        "player_id": "5876",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 13
     }
 ]
