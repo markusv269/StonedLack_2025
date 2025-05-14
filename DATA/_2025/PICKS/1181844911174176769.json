@@ -440,5 +440,57 @@
         "reactions": null,
         "roster_id": 2,
         "round": 2
+    },
+    {
+        "draft_id": "1181844911174176769",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jack",
+            "injury_status": "Questionable",
+            "last_name": "Bech",
+            "news_updated": "1746079537112",
+            "number": "18",
+            "player_id": "12483",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 18,
+        "picked_by": "94706655497175040",
+        "player_id": "12483",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 2
+    },
+    {
+        "draft_id": "1181844911174176769",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Mason",
+            "injury_status": "",
+            "last_name": "Taylor",
+            "news_updated": "1746985545221",
+            "number": "85",
+            "player_id": "12498",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 19,
+        "picked_by": "94706655497175040",
+        "player_id": "12498",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 2
     }
 ]
