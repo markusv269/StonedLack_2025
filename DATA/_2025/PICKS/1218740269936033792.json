@@ -934,5 +934,57 @@
         "reactions": null,
         "roster_id": 3,
         "round": 3
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Savion",
+            "injury_status": "",
+            "last_name": "Williams",
+            "news_updated": "1746430807009",
+            "number": "83",
+            "player_id": "12482",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 37,
+        "picked_by": "1125118563532058624",
+        "player_id": "12482",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 4
+    },
+    {
+        "draft_id": "1218740269936033792",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tory",
+            "injury_status": "",
+            "last_name": "Horton",
+            "news_updated": "1747160151973",
+            "number": "15",
+            "player_id": "12497",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 38,
+        "picked_by": "1129655183757299712",
+        "player_id": "12497",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 4
     }
 ]

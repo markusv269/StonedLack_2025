@@ -388,5 +388,57 @@
         "reactions": null,
         "roster_id": 12,
         "round": 2
+    },
+    {
+        "draft_id": "1181844911174176769",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Luther",
+            "injury_status": "",
+            "last_name": "Burden",
+            "news_updated": "1745625021351",
+            "number": "87",
+            "player_id": "12519",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 16,
+        "picked_by": "701181889934884864",
+        "player_id": "12519",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 2
+    },
+    {
+        "draft_id": "1181844911174176769",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Cam",
+            "injury_status": "",
+            "last_name": "Skattebo",
+            "news_updated": "1745685026427",
+            "number": "44",
+            "player_id": "12481",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 17,
+        "picked_by": "603744964689592320",
+        "player_id": "12481",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 2
     }
 ]

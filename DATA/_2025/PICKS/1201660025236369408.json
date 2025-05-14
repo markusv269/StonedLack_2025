@@ -414,5 +414,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 2
+    },
+    {
+        "draft_id": "1201660025236369408",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Derrick",
+            "injury_status": "",
+            "last_name": "Harmon",
+            "news_updated": "1745548241426",
+            "number": "99",
+            "player_id": "12561",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PIT",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 17,
+        "picked_by": "698187034254209024",
+        "player_id": "12561",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 2
     }
 ]

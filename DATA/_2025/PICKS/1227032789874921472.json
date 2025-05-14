@@ -466,5 +466,57 @@
         "reactions": null,
         "roster_id": 6,
         "round": 2
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "De'Von",
+            "injury_status": "",
+            "last_name": "Achane",
+            "news_updated": "1736135141899",
+            "number": "28",
+            "player_id": "9226",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "MIA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 19,
+        "picked_by": "1129824623715110912",
+        "player_id": "9226",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 2
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Garrett",
+            "injury_status": "",
+            "last_name": "Wilson",
+            "news_updated": "1746041133808",
+            "number": "5",
+            "player_id": "8146",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYJ",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 20,
+        "picked_by": "1027973321809358848",
+        "player_id": "8146",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 2
     }
 ]

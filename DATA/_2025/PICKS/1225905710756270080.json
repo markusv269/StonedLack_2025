@@ -3824,5 +3824,57 @@
         "reactions": null,
         "roster_id": 5,
         "round": 13
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jack",
+            "injury_status": "",
+            "last_name": "Campbell",
+            "news_updated": "1737954632187",
+            "number": "46",
+            "player_id": "10880",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DET",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 148,
+        "picked_by": "740271047152128000",
+        "player_id": "10880",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 13
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Daiyan",
+            "injury_status": "Questionable",
+            "last_name": "Henley",
+            "news_updated": "1744788052160",
+            "number": "0",
+            "player_id": "10914",
+            "position": "LB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 149,
+        "picked_by": "1117256915224055808",
+        "player_id": "10914",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 13
     }
 ]
