@@ -1012,5 +1012,31 @@
         "reactions": null,
         "roster_id": 12,
         "round": 4
+    },
+    {
+        "draft_id": "1207817141777080320",
+        "draft_slot": 4,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Woody",
+            "injury_status": "",
+            "last_name": "Marks",
+            "news_updated": "1746982844862",
+            "number": "27",
+            "player_id": "12474",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 40,
+        "picked_by": "1127246321750052864",
+        "player_id": "12474",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 4
     }
 ]

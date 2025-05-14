@@ -856,5 +856,31 @@
         "reactions": null,
         "roster_id": 1,
         "round": 3
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 10,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jalen",
+            "injury_status": "",
+            "last_name": "Royals",
+            "news_updated": "1745690132359",
+            "number": "11",
+            "player_id": "12505",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "KC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 34,
+        "picked_by": "538699757910323200",
+        "player_id": "12505",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 3
     }
 ]

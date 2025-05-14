@@ -414,5 +414,57 @@
         "reactions": null,
         "roster_id": 9,
         "round": 2
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "James",
+            "injury_status": "",
+            "last_name": "Cook",
+            "news_updated": "1745355038754",
+            "number": "4",
+            "player_id": "8138",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 17,
+        "picked_by": "1124417910476275712",
+        "player_id": "8138",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 2
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaxon",
+            "injury_status": "",
+            "last_name": "Smith-Njigba",
+            "news_updated": "1741440652622",
+            "number": "11",
+            "player_id": "9488",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SEA",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 18,
+        "picked_by": "1172543741350166528",
+        "player_id": "9488",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 2
     }
 ]
