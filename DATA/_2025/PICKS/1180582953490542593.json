@@ -778,5 +778,57 @@
         "reactions": null,
         "roster_id": 11,
         "round": 3
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jaydon",
+            "injury_status": "",
+            "last_name": "Blue",
+            "news_updated": "1747161351872",
+            "number": "34",
+            "player_id": "12457",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "DAL",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 31,
+        "picked_by": "698817605703647232",
+        "player_id": "12457",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 3
+    },
+    {
+        "draft_id": "1180582953490542593",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jordan",
+            "injury_status": "",
+            "last_name": "James",
+            "news_updated": "1746985545211",
+            "number": "29",
+            "player_id": "12467",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 32,
+        "picked_by": "698817605703647232",
+        "player_id": "12467",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 3
     }
 ]

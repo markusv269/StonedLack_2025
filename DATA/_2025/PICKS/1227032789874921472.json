@@ -154,5 +154,57 @@
         "reactions": null,
         "roster_id": 8,
         "round": 1
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brian",
+            "injury_status": "",
+            "last_name": "Thomas",
+            "news_updated": "1740517823391",
+            "number": "7",
+            "player_id": "11631",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 7,
+        "picked_by": "1172543741350166528",
+        "player_id": "11631",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 1
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 8,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Saquon",
+            "injury_status": "",
+            "last_name": "Barkley",
+            "news_updated": "1741116938505",
+            "number": "26",
+            "player_id": "4866",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "PHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "7"
+        },
+        "pick_no": 8,
+        "picked_by": "1124417910476275712",
+        "player_id": "4866",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 1
     }
 ]
