@@ -206,5 +206,31 @@
         "reactions": null,
         "roster_id": 4,
         "round": 1
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 9,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Brock",
+            "injury_status": "",
+            "last_name": "Bowers",
+            "news_updated": "1736136041583",
+            "number": "89",
+            "player_id": "11604",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 9,
+        "picked_by": "1210022333993988096",
+        "player_id": "11604",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 1
     }
 ]

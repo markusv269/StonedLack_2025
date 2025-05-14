@@ -1844,5 +1844,83 @@
         "reactions": null,
         "roster_id": 8,
         "round": 6
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ricky",
+            "injury_status": "",
+            "last_name": "Pearsall",
+            "news_updated": "1736172906785",
+            "number": "1",
+            "player_id": "11638",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "1"
+        },
+        "pick_no": 72,
+        "picked_by": "886033298118569984",
+        "player_id": "11638",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 6
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Jayden",
+            "injury_status": "",
+            "last_name": "Higgins",
+            "news_updated": "1746984945192",
+            "number": "81",
+            "player_id": "12484",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 73,
+        "picked_by": "886033298118569984",
+        "player_id": "12484",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 7
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Joe",
+            "injury_status": "",
+            "last_name": "Mixon",
+            "news_updated": "1737249645593",
+            "number": "28",
+            "player_id": "4018",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 74,
+        "picked_by": "886033298118569984",
+        "player_id": "4018",
+        "reactions": null,
+        "roster_id": 4,
+        "round": 7
     }
 ]

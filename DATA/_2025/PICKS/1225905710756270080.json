@@ -3772,5 +3772,31 @@
         "reactions": null,
         "roster_id": 8,
         "round": 13
+    },
+    {
+        "draft_id": "1225905710756270080",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kayvon",
+            "injury_status": "",
+            "last_name": "Thibodeaux",
+            "news_updated": "1745714427644",
+            "number": "5",
+            "player_id": "8355",
+            "position": "DL",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 146,
+        "picked_by": "990318951781490688",
+        "player_id": "8355",
+        "reactions": null,
+        "roster_id": 3,
+        "round": 13
     }
 ]
