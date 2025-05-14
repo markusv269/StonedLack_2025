@@ -726,5 +726,83 @@
         "reactions": null,
         "roster_id": 4,
         "round": 3
+    },
+    {
+        "draft_id": "1227724438242349056",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "James",
+            "injury_status": "",
+            "last_name": "Cook",
+            "news_updated": "1745355038754",
+            "number": "4",
+            "player_id": "8138",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "BUF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 29,
+        "picked_by": "585507399792627712",
+        "player_id": "8138",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 3
+    },
+    {
+        "draft_id": "1227724438242349056",
+        "draft_slot": 6,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tee",
+            "injury_status": "",
+            "last_name": "Higgins",
+            "news_updated": "1742183155805",
+            "number": "5",
+            "player_id": "6801",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 30,
+        "picked_by": "1002228490156064768",
+        "player_id": "6801",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 3
+    },
+    {
+        "draft_id": "1227724438242349056",
+        "draft_slot": 7,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Kyren",
+            "injury_status": "",
+            "last_name": "Williams",
+            "news_updated": "1743452731311",
+            "number": "23",
+            "player_id": "8150",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAR",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "3"
+        },
+        "pick_no": 31,
+        "picked_by": "995355579444965376",
+        "player_id": "8150",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 3
     }
 ]
