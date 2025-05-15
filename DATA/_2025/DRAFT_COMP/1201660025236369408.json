@@ -18,13 +18,12 @@
         "839949979090030592": 9,
         "859916391497711616": 1
     },
-    "last_message_id": "1228597063365697536",
-    "last_message_time": 1747282875440,
-    "last_picked": 1747259920556,
+    "last_message_id": "1228606814141022208",
+    "last_message_time": 1747285200203,
+    "last_picked": 1747285200137,
     "league_id": "1201660025227976704",
     "metadata": {
         "description": "",
-        "is_autopaused": "true",
         "name": "Stoned Lack Dynasty IDP Only",
         "scoring_type": "idp"
     },
@@ -66,6 +65,6 @@
     },
     "sport": "nfl",
     "start_time": 1747067034227,
-    "status": "paused",
+    "status": "drafting",
     "type": "linear"
 }

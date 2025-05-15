@@ -1220,5 +1220,57 @@
         "reactions": null,
         "roster_id": 7,
         "round": 4
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Joe",
+            "injury_status": "",
+            "last_name": "Mixon",
+            "news_updated": "1737249645593",
+            "number": "28",
+            "player_id": "4018",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "HOU",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 48,
+        "picked_by": "1123978909739089920",
+        "player_id": "4018",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 4
+    },
+    {
+        "draft_id": "1227032789874921472",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "George",
+            "injury_status": "",
+            "last_name": "Kittle",
+            "news_updated": "1745946924535",
+            "number": "85",
+            "player_id": "4217",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "SF",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "8"
+        },
+        "pick_no": 49,
+        "picked_by": "1123978909739089920",
+        "player_id": "4217",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 5
     }
 ]
