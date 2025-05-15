@@ -2286,5 +2286,31 @@
         "reactions": null,
         "roster_id": 2,
         "round": 8
+    },
+    {
+        "draft_id": "1225880662301478912",
+        "draft_slot": 5,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "D'Andre",
+            "injury_status": "",
+            "last_name": "Swift",
+            "news_updated": "1742328026793",
+            "number": "4",
+            "player_id": "6790",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CHI",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "5"
+        },
+        "pick_no": 89,
+        "picked_by": "1181005812495355904",
+        "player_id": "6790",
+        "reactions": null,
+        "roster_id": 1,
+        "round": 8
     }
 ]
