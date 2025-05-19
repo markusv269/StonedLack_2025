@@ -18,12 +18,14 @@
         "699734595817537536": 12,
         "779077630615035904": 3
     },
-    "last_message_id": "1180230346197667841",
-    "last_message_time": 1735751351453,
-    "last_picked": null,
+    "last_message_id": "1229970506367631360",
+    "last_message_time": 1747610329766,
+    "last_picked": 1747597566310,
     "league_id": "1180230346197667840",
     "metadata": {
         "description": "",
+        "elapsed_pick_timer": "12763397",
+        "is_autopaused": "true",
         "name": "SLL 2 Dynasty",
         "scoring_type": "dynasty_ppr"
     },
@@ -31,8 +33,8 @@
     "season_type": "regular",
     "settings": {
         "alpha_sort": 0,
-        "autopause_enabled": 0,
-        "autopause_end_time": 540,
+        "autopause_enabled": 1,
+        "autopause_end_time": 300,
         "autopause_start_time": 1260,
         "autostart": 0,
         "cpu_autopick": 1,
@@ -66,7 +68,7 @@
         "9": 10
     },
     "sport": "nfl",
-    "start_time": 1747587600000,
-    "status": "pre_draft",
+    "start_time": 1747588688920,
+    "status": "paused",
     "type": "linear"
 }

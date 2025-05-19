@@ -18,13 +18,12 @@
         "700275595556241408": 7,
         "700388011497574400": 5
     },
-    "last_message_id": "1228531491680563200",
-    "last_message_time": 1747267241929,
-    "last_picked": 1747267241921,
+    "last_message_id": "1229401018995847168",
+    "last_message_time": 1747474553397,
+    "last_picked": 1747461600364,
     "league_id": "1180311821918916608",
     "metadata": {
         "description": "",
-        "is_autopaused": "true",
         "name": "SLL 8 DYNASTY",
         "scoring_type": "dynasty_ppr"
     },
@@ -68,6 +67,6 @@
     },
     "sport": "nfl",
     "start_time": 1746950407506,
-    "status": "paused",
+    "status": "complete",
     "type": "linear"
 }

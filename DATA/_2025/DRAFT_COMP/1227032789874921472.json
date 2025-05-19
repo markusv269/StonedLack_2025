@@ -19,12 +19,13 @@
         "701502788793884672": 2,
         "867544786272460800": 8
     },
-    "last_message_id": "1228609860623409152",
-    "last_message_time": 1747285926545,
-    "last_picked": 1747285915778,
+    "last_message_id": "1229935571619561472",
+    "last_message_time": 1747602000673,
+    "last_picked": 1747595898388,
     "league_id": "1227032788637601792",
     "metadata": {
         "description": "",
+        "elapsed_pick_timer": "6102224",
         "is_autopaused": "true",
         "name": "Stoned Lack Dynasty 37",
         "scoring_type": "dynasty_ppr"

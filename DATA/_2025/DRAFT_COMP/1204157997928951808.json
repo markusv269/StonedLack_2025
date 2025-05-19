@@ -18,9 +18,9 @@
         "831541428285976576": 12,
         "835138945258979328": 5
     },
-    "last_message_id": "1204157997928951808",
-    "last_message_time": 1741456148182,
-    "last_picked": null,
+    "last_message_id": "1229782701901361152",
+    "last_message_time": 1747565553694,
+    "last_picked": 1747560555630,
     "league_id": "1204157997916360704",
     "metadata": {
         "description": "",
@@ -66,7 +66,7 @@
         "9": 2
     },
     "sport": "nfl",
-    "start_time": 1747411200000,
-    "status": "pre_draft",
+    "start_time": 1747411214676,
+    "status": "drafting",
     "type": "linear"
 }

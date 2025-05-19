@@ -1,1 +1,54 @@
-[]
+[
+    {
+        "draft_id": "1194741490742648833",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ashton",
+            "injury_status": "",
+            "last_name": "Jeanty",
+            "news_updated": "1746812424886",
+            "number": "2",
+            "player_id": "12527",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 1,
+        "picked_by": "977746984348012544",
+        "player_id": "12527",
+        "reactions": null,
+        "roster_id": 2,
+        "round": 1
+    },
+    {
+        "draft_id": "1194741490742648833",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Omarion",
+            "injury_status": "",
+            "last_name": "Hampton",
+            "news_updated": "1745549439484",
+            "number": "8",
+            "player_id": "12507",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 2,
+        "picked_by": "873296312697774080",
+        "player_id": "12507",
+        "reactions": null,
+        "roster_id": 9,
+        "round": 1
+    }
+]

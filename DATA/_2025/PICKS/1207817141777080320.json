@@ -1194,5 +1194,57 @@
         "reactions": null,
         "roster_id": 1,
         "round": 4
+    },
+    {
+        "draft_id": "1207817141777080320",
+        "draft_slot": 11,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tez",
+            "injury_status": "",
+            "last_name": "Johnson",
+            "news_updated": "1746811224770",
+            "number": "83",
+            "player_id": "12485",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "TB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 47,
+        "picked_by": "1130883212298862592",
+        "player_id": "12485",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 4
+    },
+    {
+        "draft_id": "1207817141777080320",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Dillon",
+            "injury_status": "",
+            "last_name": "Gabriel",
+            "news_updated": "1745637027481",
+            "number": "5",
+            "player_id": "12486",
+            "position": "QB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CLE",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 48,
+        "picked_by": "1124792894478508032",
+        "player_id": "12486",
+        "reactions": null,
+        "roster_id": 7,
+        "round": 4
     }
 ]
