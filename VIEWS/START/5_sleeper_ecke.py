@@ -38,7 +38,7 @@ with col2:
 
 st.write("### Bekannte sleeper API Endpoints")
 def endpoint(desc, url):
-    col1, col2 = st.columns(2)
+    col1, col2 = st.columns([1,2])
     with col1:
         st.write(desc)
     with col2:
@@ -70,5 +70,5 @@ endpoint("Player Projections", "https://api.sleeper.app/v1/projections/nfl/{seas
 st.write("### Trending Players")
 endpoint("Trending up","https://api.sleeper.app/v1/players/nfl/trending/add")
 endpoint("Trending down", "https://api.sleeper.app/v1/players/nfl/trending/drop")
-endpoint("Trending up mit Zeitangabe und Spielerlimit", "https://api.sleeper.app/v1/players/nfl/trending/add?lookback_hours=24&limit=10")
-endpoint("Trending down mit Zeitangabe und Spielerlimit", "https://api.sleeper.app/v1/players/nfl/trending/drop?lookback_hours=24&limit=10")
+endpoint("Trending up mit Zeitangabe und Spielerlimit", "https://api.sleeper.app/v1/players/nfl/trending/add?lookback_hours={hours}&limit={limit}")
+endpoint("Trending down mit Zeitangabe und Spielerlimit", "https://api.sleeper.app/v1/players/nfl/trending/drop?lookback_hours={hours}&limit={limit}")
