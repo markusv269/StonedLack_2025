@@ -139,7 +139,16 @@ if league_id:
                 cols[3].markdown(row["Pos"])
 
             st.markdown("### 🧊 Bench")
-            for row in [format_player(pid) for pid in bench if pid]:
+
+            # 1. Positions-Reihenfolge definieren
+            position_order = ["QB", "RB", "WR", "TE", "K", "DEF", "LB", "DB", "DL"]
+
+            # 2. Formatierte Bench-Spieler holen und sortieren
+            formatted_bench = [format_player(pid) for pid in bench if pid]
+            formatted_bench.sort(key=lambda x: position_order.index(x["Pos"]) if x["Pos"] in position_order else 99)
+
+            # 3. Darstellung
+            for row in formatted_bench:
                 cols = st.columns([1, 1, 3, 1])
                 cols[0].image(row["Headshot"], width=80)
                 cols[1].image(row["Logo"], width=50)
