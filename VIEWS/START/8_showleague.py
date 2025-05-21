@@ -166,7 +166,6 @@ if league_id:
                         <th>Logo</th>
                         <th>Name</th>
                         <th>Position</th>
-                        <th>Team</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -179,7 +178,6 @@ if league_id:
                     <td><img src="{player['Logo']}" alt="Logo"></td>
                     <td>{player['Name']}</td>
                     <td>{player['Pos']}</td>
-                    <td>{player['Team']}</td>
                 </tr>
                 """
 
