@@ -117,75 +117,51 @@ if league_id:
         players_data = get_players()
         starters = selected.get("starters", [])
         bench = [p for p in selected.get("players", []) if p and p not in starters]
+        position_order = ["QB", "RB", "WR", "TE", "K", "DEF", "LB", "DB", "DL"]
 
-        def format_player(p_id):
-            p = players_data.get(p_id, {})
-            team = p.get("team")
+        # Spieler formatieren
+        def format_player(pid):
+            p = players_data.get(pid, {})
+            team = p.get("team", "")
             return {
-                "Name": p.get("full_name", p_id),
+                "Name": p.get("full_name", pid),
                 "Pos": p.get("position", "—"),
                 "Team": TEAM_INFO.get(team, {}).get("name", team),
-                "Logo": get_team_logo(team),
-                "Headshot": f"https://sleepercdn.com/content/nfl/players/{p_id}.jpg"
+                "Logo": f"https://static.www.nfl.com/t_q-best/league/api/clubs/logos/{team}.svg",
+                "Headshot": f"https://sleepercdn.com/content/nfl/players/{pid}.jpg"
             }
 
-        with st.expander("📋 Roster-Details", expanded=False):
-            st.markdown("### 🔥 Starter")
-            for row in [format_player(pid) for pid in starters if pid]:
-                cols = st.columns([1,1,1,1,5])
-                cols[0].image(row["Headshot"], width=50)
-                cols[1].image(row["Logo"], width=30)
-                cols[2].markdown(f"**{row['Name']}**")
-                cols[3].markdown(row["Pos"])
+        # Tabellenrendering als Funktion
+        def render_table(title, player_ids):
+            st.markdown(f"### {title}")
+            player_data = [format_player(pid) for pid in player_ids if pid]
+            player_data.sort(key=lambda x: position_order.index(x["Pos"]) if x["Pos"] in position_order else 99)
 
-            st.markdown("### 🧊 Bench")
-            # Positions-Reihenfolge
-            position_order = ["QB", "RB", "WR", "TE", "K", "DEF", "LB", "DB", "DL"]
-
-            # Spieler formatieren & sortieren
-            bench_data = [format_player(pid) for pid in bench if pid]
-            bench_data.sort(key=lambda x: position_order.index(x["Pos"]) if x["Pos"] in position_order else 99)
-
-            # HTML-Tabelle erstellen
             html = """
-            <style>
-            .bench-table td, .bench-table th {
-                padding: 6px 10px;
-                text-align: left;
-                vertical-align: middle;
-            }
-            .bench-table img {
-                height: 50px;
-                border-radius: 8px;
-            }
-            </style>
-            <table class="bench-table">
-                <thead>
-                    <tr>
-                        <th>Headshot</th>
-                        <th>Logo</th>
-                        <th>Name</th>
-                        <th>Position</th>
-                    </tr>
-                </thead>
-                <tbody>
+            <table style="width:100%; border-collapse: collapse;">
+            <thead>
+                <tr style="text-align: left; border-bottom: 1px solid #ddd;">
+                <th style="padding: 8px;">Headshot</th>
+                <th style="padding: 8px;">Teamlogo</th>
+                <th style="padding: 8px;">Name</th>
+                <th style="padding: 8px;">Position</th>
+                </tr>
+            </thead>
+            <tbody>
             """
-
-            for player in bench_data:
+            for player in player_data:
                 html += f"""
-                <tr>
-                    <td><img src="{player['Headshot']}" alt="Headshot"></td>
-                    <td><img src="{player['Logo']}" alt="Logo"></td>
-                    <td>{player['Name']}</td>
-                    <td>{player['Pos']}</td>
+                <tr style="border-bottom: 1px solid #eee;">
+                <td style="padding: 8px;"><img src="{player['Headshot']}" style="height:50px; border-radius:6px;"></td>
+                <td style="padding: 8px;"><img src="{player['Logo']}" style="height:40px;"></td>
+                <td style="padding: 8px;">{player['Name']}</td>
+                <td style="padding: 8px;">{player['Pos']}</td>
                 </tr>
                 """
-
             html += "</tbody></table>"
-
-            # HTML anzeigen
             st.html(html)
-        st.markdown("---")
-        st.markdown("### 📤 Teilbarer Link")
-        share_url = f"https://stonedlack-2025.streamlit.app/showleague?{urllib.parse.urlencode({'league_id': league_id, 'roster_id': selected_roster})}"
-        st.text_input("🔗 Link", value=share_url)
+
+        # Ausgabe 
+        render_table("🔥 Starter", starters)
+        render_table("🧊 Bench", bench)
+       
