@@ -132,7 +132,7 @@ if league_id:
         with st.expander("📋 Roster-Details", expanded=False):
             st.markdown("### 🔥 Starter")
             for row in [format_player(pid) for pid in starters if pid]:
-                cols = st.columns([1, 1, 3, 1])
+                cols = st.columns([1,1,1,1,5])
                 cols[0].image(row["Headshot"], width=80)
                 cols[1].image(row["Logo"], width=50)
                 cols[2].markdown(f"**{row['Name']}**")
@@ -149,7 +149,7 @@ if league_id:
 
             # 3. Darstellung
             for row in formatted_bench:
-                cols = st.columns([1, 1, 3, 1])
+                cols = st.columns([1,1,1,1,5])
                 cols[0].image(row["Headshot"], width=80)
                 cols[1].image(row["Logo"], width=50)
                 cols[2].markdown(f"**{row['Name']}**")
