@@ -115,6 +115,7 @@ if league_id:
 
     if selected:
         players_data = get_players()
+        all_players = selected.get("players", [])
         starters = selected.get("starters", [])
         bench = [p for p in selected.get("players", []) if p and p not in starters]
         position_order = ["QB", "RB", "WR", "TE", "K", "DEF", "LB", "DB", "DL"]
@@ -139,15 +140,7 @@ if league_id:
                 player_data.sort(key=lambda x: position_order.index(x["Pos"]) if x["Pos"] in position_order else 99)
 
             html = """
-            <table style="width:100%; border-collapse: collapse;">
-            <thead>
-                <tr style="text-align: left; border-bottom: 1px solid #ddd;">
-                <th style="padding: 8px;">Headshot</th>
-                <th style="padding: 8px;">Teamlogo</th>
-                <th style="padding: 8px;">Name</th>
-                <th style="padding: 8px;">Position</th>
-                </tr>
-            </thead>
+            <table style="width:50%; border-collapse: collapse;">
             <tbody>
             """
             for player in player_data:
@@ -163,6 +156,5 @@ if league_id:
             st.html(html)
 
         # Ausgabe 
-        render_table("🔥 Starter", starters, sorting=False)
-        render_table("🧊 Bench", bench)
+        render_table("Roster", all_players)
        
