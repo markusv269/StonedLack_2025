@@ -90,8 +90,8 @@ params = st.query_params
 league_id = params.get("league_id")
 roster_id = params.get("roster_id")
 
-# Eingabe für League ID
-league_id = st.text_input("Gib die League ID ein")
+if not params:# Eingabe für League ID
+    league_id = st.text_input("Gib die League ID ein")
 
 if league_id:
     # Liga-Daten laden
@@ -132,22 +132,53 @@ if league_id:
                     "Headshot": f"https://sleepercdn.com/content/nfl/players/{p_id}.jpg"
                 }
 
-            st.markdown("### Starter")
-            starter_data = [format_player(pid) for pid in starters if pid]
-            df_start = pd.DataFrame(starter_data)
-            for _, row in df_start.iterrows():
-                cols = st.columns([1, 1, 3, 1])
-                cols[0].image(row["Headshot"], width=80)     # 🧑‍🦱 Headshot
-                cols[1].image(row["Logo"], width=50)         # 🏈 Teamlogo
-                cols[2].markdown(f"**{row['Name']}**")       # 📛 Name
-                cols[3].markdown(row["Pos"])                 # 📌 Position
+            roster_expander = st.expander("Roster-Details", expanded=False)
+            with roster_expander:
+                st.markdown("### Starter")
+                starter_data = [format_player(pid) for pid in starters if pid]
+                df_start = pd.DataFrame(starter_data)
+                for _, row in df_start.iterrows():
+                    cols = st.columns([1, 1, 3, 1])
+                    cols[0].image(row["Headshot"], width=80)     # 🧑‍🦱 Headshot
+                    cols[1].image(row["Logo"], width=50)         # 🏈 Teamlogo
+                    cols[2].markdown(f"**{row['Name']}**")       # 📛 Name
+                    cols[3].markdown(row["Pos"])                 # 📌 Position
 
-            st.markdown("### Bench")
-            bench_data = [format_player(pid) for pid in bench if pid]
-            df_bench = pd.DataFrame(bench_data)
-            for _, row in df_bench.iterrows():
-                cols = st.columns([1, 1, 3, 1])
-                cols[0].image(row["Headshot"], width=40)     # 🧑‍🦱 Headshot
-                cols[1].image(row["Logo"], width=40)         # 🏈 Teamlogo
-                cols[2].markdown(f"**{row['Name']}**")       # 📛 Name
-                cols[3].markdown(row["Pos"])                 # 📌 Position
+                st.markdown("### Bench")
+                bench_data = [format_player(pid) for pid in bench if pid]
+                df_bench = pd.DataFrame(bench_data)
+                for _, row in df_bench.iterrows():
+                    cols = st.columns([1, 1, 3, 1])
+                    cols[0].image(row["Headshot"], width=80)     # 🧑‍🦱 Headshot
+                    cols[1].image(row["Logo"], width=50)         # 🏈 Teamlogo
+                    cols[2].markdown(f"**{row['Name']}**")       # 📛 Name
+                    cols[3].markdown(row["Pos"])                 # 📌 Position
+            
+            # st.markdown("### Picks")
+            # draft_id = league.get("draft_id")
+            # if draft_id:
+            #     draft_picks = f"https://api.sleeper.app/v1/draft/{draft_id}/picks"
+            #     traded=picks = f"https://api.sleeper.app/v1/draft/{draft_id}/traded_picks"
+
+            #     picks = requests.get(draft_picks).json()
+            #     pick_data = []
+            #     for pick in picks.values():
+            #         if pick["owner_id"] == selected_roster:
+            #             player_id = pick.get("player_id")
+            #             player_name = players.get(player_id, {}).get("full_name", "N/A")
+            #             pick_data.append({
+            #                 "Round": pick["round"],
+            #                 "Pick": pick["pick"],
+            #                 "Player": player_name
+            #             })
+            #     df_picks = pd.DataFrame(pick_data)
+            #     st.dataframe(df_picks, use_container_width=True)
+
+        share_page = st.button("Teilen")
+        if share_page:
+            # URL-Parameter kodieren
+            params = {
+                "league_id": league_id,
+                "roster_id": selected_roster if selected_roster else ""
+            }
+            st.markdown(f"https://stonedlack-2025.streamlit.app/showleague?{urllib.parse.urlencode(params)}")

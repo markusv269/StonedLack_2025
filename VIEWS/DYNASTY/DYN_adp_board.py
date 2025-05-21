@@ -3,45 +3,7 @@ import requests
 import pandas as pd
 from collections import defaultdict
 from config import DYNLEAGUES
-
-def position_color(pos):
-    return {
-        "QB": "#b26186",
-        "RB": "#87c2a5",
-        "WR": "#669dcb",
-        "TE": "#c0914a",
-        "K":  "#fbbc05",
-        "DEF": "#ea4335",
-        "DL": "#999999",
-        "LB": "#999999",
-        "DB": "#999999"
-    }.get(pos.upper(), "#dddddd")
-
-def player_box(name, team, position, color, round, pick_in_round, count):
-    if count == 1:
-        picks = f"{count} Pick"
-    else:
-        picks = f"{count} Picks"
-    if len(list(name)) > 12:
-        name = name[:6] + "..." 
-    return f"""
-    <div style="
-        font-size: 1em;
-        background-color: {color};
-        padding: 2px;
-        border-radius: 5px;
-        margin: 2px;
-        color: white;
-        font-weight: bold;
-        text-align: left;
-        min-height: 90px;
-    ">
-        <div>{name}</div>
-        <div style="font-size: 0.7em;">{round}.{pick_in_round}</div>
-        <div style="font-size: 0.6em;">{picks}</div>
-        <div style="font-size: 0.6em;">{team} • {position}</div>
-    </div>
-    """
+from assets.styles_def import position_color, player_box
 
 
 @st.cache_data(show_spinner="Lade Draft-Daten ...", ttl=3600)
@@ -136,9 +98,6 @@ top36 = build_draftboard(all_picks)
 col1, col3 = st.columns(2)
 with col1:
     select_playerpicks = st.selectbox("Min. Anzahl Picks", list(range(1,16)), index=0)
-    # pick_count
-# with col2: 
-#     select_playerpool = st.selectbox("Spielerpool", ["All", "Ohne IDP", "Nur IDP"], index=0)
 with col3:
     select_scoring = st.selectbox("Liga", ["All", "1QB", "2QB", "IDP"], index=0)
 
@@ -160,15 +119,6 @@ if select_playerpicks:
     top36 = top36[top36[count] >= select_playerpicks]
 
 top36 = top36.sort_values(value).reset_index(drop=True)
-
-
-# if select_playerpool == "All":
-#     top36 = top36
-# elif select_playerpool == "Ohne IDP":
-#     top36 = top36[~top36["position"].isin(["DL", "LB", "DB"])]
-# elif select_playerpool == "Nur IDP":
-#     top36 = top36[top36["position"].isin(["DL", "LB", "DB"])]
-# top36 = top36.sort_values("avg_pick").reset_index(drop=True)
 
 top36["round"] = top36.index // 12 + 1
 top36["pick_in_round"] = top36.index % 12 + 1
@@ -226,3 +176,9 @@ with col5:
     st.write("**IDP**")
     def_ = top36[top36["position"].isin(["DL", "LB", "DB"])]
     st.dataframe(def_[["name", "team", "position", value]].sort_values(value), use_container_width=True, hide_index=True)
+
+# player_pos = []
+# for pick in all_picks:
+#     if pick.get("metadata", {}).get("position") not in player_pos:
+#         player_pos.append(pick["metadata"]["position"])
+# st.write(player_pos)
