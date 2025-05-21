@@ -87,11 +87,13 @@ st.markdown("""
 """, unsafe_allow_html=True)
 # Eingabe
 params = st.query_params
-league_id = params.get("league_id")
-roster_id = params.get("roster_id")
+param_league_id = params.get("league_id")
+param_roster_id = params.get("roster_id")
 
 if not params:# Eingabe für League ID
     league_id = st.text_input("Gib die League ID ein")
+else:
+    league_id = param_league_id
 
 if league_id:
     # Liga-Daten laden
@@ -114,7 +116,7 @@ if league_id:
     if not params:
         selected_roster = st.selectbox("Wähle ein Roster", options.keys(), format_func=lambda x: options[x])
     else:
-        selected_roster = roster_id
+        selected_roster = param_roster_id
 
     if selected_roster:
         selected = next((r for r in rosters if r["roster_id"] == selected_roster), None)
