@@ -7,7 +7,7 @@ from datetime import datetime, date
 # Airtable Konfiguration
 AIRTABLE_API_KEY = st.secrets["airtable"]["api_key"]
 BASE_ID = st.secrets["airtable"]["base_id"]
-TABLE_NAME = st.secrets["airtable"]["table_name"]
+TABLE_NAME = "Aussagen"
 
 # Funktion zum Speichern in Airtable
 def save_to_airtable(option, option_wo, text, date_value=None):

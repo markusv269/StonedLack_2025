@@ -9,7 +9,7 @@ SLEEPER_API_BASE = "https://api.sleeper.app/v1/league/"
 # Airtable Konfiguration
 AIRTABLE_API_KEY = st.secrets["airtable"]["api_key"]
 BASE_ID = st.secrets["airtable"]["base_id"]
-TABLE_NAME = st.secrets["airtable"]["table_leagues"]
+TABLE_NAME = "Ligen"
 
 # Funktion zum Laden der Daten aus Airtable
 def load_from_airtable():
