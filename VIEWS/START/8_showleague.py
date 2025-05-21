@@ -132,10 +132,11 @@ if league_id:
             }
 
         # Tabellenrendering als Funktion
-        def render_table(title, player_ids):
+        def render_table(title, player_ids, sorting=True):
             st.markdown(f"### {title}")
             player_data = [format_player(pid) for pid in player_ids if pid]
-            player_data.sort(key=lambda x: position_order.index(x["Pos"]) if x["Pos"] in position_order else 99)
+            if sorting == True:
+                player_data.sort(key=lambda x: position_order.index(x["Pos"]) if x["Pos"] in position_order else 99)
 
             html = """
             <table style="width:100%; border-collapse: collapse;">
@@ -162,6 +163,6 @@ if league_id:
             st.html(html)
 
         # Ausgabe 
-        render_table("🔥 Starter", starters)
+        render_table("🔥 Starter", starters, sorting=False)
         render_table("🧊 Bench", bench)
        
