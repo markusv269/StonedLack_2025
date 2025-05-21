@@ -57,6 +57,7 @@ endpoint("League Drafts Picks", "https://api.sleeper.app/v1/league/{league_id}/d
 st.write("#### NFL")
 endpoint("NFL Status", "https://api.sleeper.app/v1/state/nfl")
 endpoint("NFL Players", "https://api.sleeper.app/v1/players/nfl")
+endpoint("NFL Player Info", "https://api.sleeper.com/players/nfl/{player_id}")
 endpoint("NFL Player Headshots", "https://sleepercdn.com/content/nfl/players/thumb/{player_id}.jpg")
 endpoint("NFL Schedule", "https://api.sleeper.com/schedule/nfl/{season_type}/{season}")
 endpoint("Teams Depth Charts", "https://api.sleeper.com/players/nfl/{team}/depth_chart")
