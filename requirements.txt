@@ -10,3 +10,4 @@ st-link-analysis
 bs4
 selenium
 plotly
+pyairtable
