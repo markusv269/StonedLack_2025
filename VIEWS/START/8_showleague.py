@@ -124,12 +124,13 @@ if league_id:
         def format_player(pid):
             p = players_data.get(pid, {})
             team = p.get("team", "")
+            headshot = f"https://static.www.nfl.com/t_q-best/league/api/clubs/logos/{pid}.svg" if pid in TEAM_INFO else f"https://sleepercdn.com/content/nfl/players/{pid}.jpg"
             return {
-                "Name": p.get("full_name", pid),
+                "Name": p.get("full_name", TEAM_INFO.get(team, {}).get("name", team)),
                 "Pos": p.get("position", "—"),
-                "Team": TEAM_INFO.get(team, {}).get("name", team),
-                "Logo": f"https://static.www.nfl.com/t_q-best/league/api/clubs/logos/{team}.svg",
-                "Headshot": f"https://sleepercdn.com/content/nfl/players/{pid}.jpg"
+                # "Team": TEAM_INFO.get(team, {}).get("name", team),
+                "Logo": get_team_logo(team),
+                "Headshot": headshot
             }
 
         # Tabellenrendering als Funktion
