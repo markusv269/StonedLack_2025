@@ -67,7 +67,7 @@ def get_players():
 # --------------------------------------------------
 # Layout & Einstellungen
 # --------------------------------------------------
-st.title("🏈 Fantasy League Übersicht")
+# st.title("🏈 Fantasy League Übersicht")
 st.markdown("""
     <style>
     div[data-testid="metric-container"] {
