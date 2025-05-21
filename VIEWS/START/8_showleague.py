@@ -111,7 +111,10 @@ if league_id:
     # Dropdown für Teamwahl
     rosters = get_rosters(league_id)
     options = {r["roster_id"]: f"Roster {r['roster_id']}" for r in rosters}
-    selected_roster = st.selectbox("Wähle ein Roster", options.keys(), format_func=lambda x: options[x])
+    if not params:
+        selected_roster = st.selectbox("Wähle ein Roster", options.keys(), format_func=lambda x: options[x])
+    else:
+        selected_roster = roster_id
 
     if selected_roster:
         selected = next((r for r in rosters if r["roster_id"] == selected_roster), None)
