@@ -20,12 +20,13 @@
         "723576828790370304": 6,
         "752644714649534464": 7
     },
-    "last_message_id": "1196950328075890688",
-    "last_message_time": 1739737705777,
-    "last_picked": null,
+    "last_message_id": "1232474147376857088",
+    "last_message_time": 1748207244302,
+    "last_picked": 1748207225744,
     "league_id": "1196950328071704576",
     "metadata": {
         "description": "",
+        "is_autopaused": "true",
         "name": "Stoned Lack Bestball Dynasty",
         "scoring_type": "dynasty_ppr"
     },
@@ -67,7 +68,7 @@
         "9": 11
     },
     "sport": "nfl",
-    "start_time": 1747980049000,
-    "status": "pre_draft",
+    "start_time": 1747979083936,
+    "status": "paused",
     "type": "linear"
 }

@@ -18,14 +18,12 @@
         "699734595817537536": 12,
         "779077630615035904": 3
     },
-    "last_message_id": "1229970506367631360",
-    "last_message_time": 1747610329766,
-    "last_picked": 1747597566310,
+    "last_message_id": "1231563352606527488",
+    "last_message_time": 1747990093903,
+    "last_picked": 1747990092488,
     "league_id": "1180230346197667840",
     "metadata": {
         "description": "",
-        "elapsed_pick_timer": "12763397",
-        "is_autopaused": "true",
         "name": "SLL 2 Dynasty",
         "scoring_type": "dynasty_ppr"
     },
@@ -69,6 +67,6 @@
     },
     "sport": "nfl",
     "start_time": 1747588688920,
-    "status": "paused",
+    "status": "complete",
     "type": "linear"
 }

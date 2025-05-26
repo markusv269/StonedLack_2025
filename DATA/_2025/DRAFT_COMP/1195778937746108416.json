@@ -18,14 +18,12 @@
         "740271047152128000": 11,
         "984364915651645440": 4
     },
-    "last_message_id": "1229920473379246080",
-    "last_message_time": 1747598400972,
-    "last_picked": 1747581546440,
+    "last_message_id": "1231140874067382272",
+    "last_message_time": 1747889367170,
+    "last_picked": 1747889365022,
     "league_id": "1195778937733513216",
     "metadata": {
         "description": "",
-        "elapsed_pick_timer": "16854481",
-        "is_autopaused": "true",
         "name": "Stoned Lack Dynastie 3",
         "scoring_type": "dynasty_ppr"
     },
@@ -33,7 +31,7 @@
     "season_type": "regular",
     "settings": {
         "alpha_sort": 0,
-        "autopause_enabled": 1,
+        "autopause_enabled": 0,
         "autopause_end_time": 360,
         "autopause_start_time": 1200,
         "autostart": 0,
@@ -69,6 +67,6 @@
     },
     "sport": "nfl",
     "start_time": 1747577153455,
-    "status": "paused",
+    "status": "complete",
     "type": "linear"
 }

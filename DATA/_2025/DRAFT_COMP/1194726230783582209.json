@@ -18,12 +18,14 @@
         "828250947351330816": 4,
         "828268584009609216": 6
     },
-    "last_message_id": "1194726230783582209",
-    "last_message_time": 1739207439659,
-    "last_picked": null,
+    "last_message_id": "1232455639330983936",
+    "last_message_time": 1748202831639,
+    "last_picked": 1748201645159,
     "league_id": "1194726230783582208",
     "metadata": {
         "description": "",
+        "elapsed_pick_timer": "5512",
+        "is_autopaused": "false",
         "name": "SLL15",
         "scoring_type": "dynasty_ppr"
     },
@@ -32,8 +34,8 @@
     "settings": {
         "alpha_sort": 0,
         "autopause_enabled": 1,
-        "autopause_end_time": 420,
-        "autopause_start_time": 1260,
+        "autopause_end_time": 480,
+        "autopause_start_time": 1200,
         "autostart": 1,
         "cpu_autopick": 1,
         "enforce_position_limits": 1,
@@ -66,7 +68,7 @@
         "9": 5
     },
     "sport": "nfl",
-    "start_time": 1748190000000,
-    "status": "pre_draft",
+    "start_time": 1748160020094,
+    "status": "paused",
     "type": "linear"
 }
