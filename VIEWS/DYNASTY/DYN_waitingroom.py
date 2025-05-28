@@ -45,7 +45,7 @@ if sleeper_name:
     user_url = f"https://sleeper.app/v1/user/{sleeper_name}"
     response = requests.get(user_url)
     
-    if response.status_code == 200:
+    if response.json() != None:
         user_data = response.json()
         user_id = user_data.get("user_id")
         st.success(f"✅ User ID: {user_id} gefunden.")
@@ -55,7 +55,7 @@ if sleeper_name:
             if st.button("Beitreten"):
                 save_to_airtable(sleeper_name, league_options)
         else:
-            st.warning("❗ Bitte wähle mindestens eine Liga aus.")
+            st.warning("❗ Bitte wähle mindestens einen Ligatyp aus.")
     else:
         st.error("❌ User nicht gefunden. Bitte überprüfe deinen Namen.")
 

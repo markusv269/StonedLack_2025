@@ -1,4 +1,9 @@
-
+import requests
+import json
+from datetime import datetime, date
+import streamlit as st
+import pyairtable
+# Airtable Konfiguration
 
 
 BASE_ID = st.secrets["airtable"]["base_id"]
