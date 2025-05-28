@@ -39,6 +39,9 @@ DYNLEAGUES = [ # 2025
     "1225880660946718720", # Stoned Lack Dynasty 35
     "1225905709284085760", # Stoned Lack Dynasty 36
     "1227032788637601792", # Stoned Lack Dynasty 37
+    "1229353710618939392", # Stoned Lack Dynasty 38
+    
+    "1231019902408601601", # Stoned Lack Dynasty 40
     "1201660025227976704", # Stoned Lack Dynasty IDP Only
     "1196950328071704576", # Stoned Lack Bestball Dynasty
     "1227724436963069952", # Stoned Lack Bestball Dynasty 2
