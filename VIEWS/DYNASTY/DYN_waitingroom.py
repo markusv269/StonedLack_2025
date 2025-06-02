@@ -38,14 +38,14 @@ idp_checkbox = st.checkbox("Dynasty mit IDP")
 best_ball_checkbox = st.checkbox("Best Ball Dynasty")
 
 st.write("")
-options = []
+league_options = []
 if dynasty_checkbox:
-    options.append("Dynasty")
+    league_options.append("Dynasty")
 if idp_checkbox:
-    options.append("Dynasty mit IDP")
+    league_options.append("Dynasty mit IDP")
 if best_ball_checkbox:
-    options.append("Best Ball Dynasty")
-league_options = options
+    league_options.append("Best Ball Dynasty")
+
 
 sleeper_name = st.text_input("**Trage deinen sleeper-Namen ein**", placeholder="Sleepername")
 discord_name = st.text_input("**Trage deinen Discord-Namen ein**", placeholder="Discordname")
@@ -67,6 +67,10 @@ def save_to_airtable(sleeper, discord, options):
             })
             st.success(f"Du bist jetzt im Warteraum für {option} registriert.")
 
+# Initialstatus
+user_valid = False
+user_id = None
+
 # Verarbeitung der Eingaben
 if sleeper_name:
     user_url = f"https://sleeper.app/v1/user/{sleeper_name}"
@@ -75,19 +79,13 @@ if sleeper_name:
     if response.json() != None:
         user_data = response.json()
         user_id = user_data.get("user_id")
+        user_valid = True
         st.success(f"✅ User ID: {user_id} gefunden.")
-
-        if league_options:
-            # Nur wenn alles erfüllt ist, zeige den Button
-            if discord_name:
-                if st.button("Beitreten"):
-                    save_to_airtable(sleeper_name, discord_name, league_options)
-            else:
-                st.warning("❗ Bitte gib deinen Discord-Namen ein.")
-        else:
-            st.warning("❗ Bitte wähle mindestens einen Ligatyp aus.")
     else:
         st.error("❌ User nicht gefunden. Bitte überprüfe deinen Namen. Noch nicht bei sleeper registriert? Dann [hier registrieren](https://sleeper.app).")
+
+form_ready = user_valid and bool(discord_name.strip()) and len(league_options) > 0
+button = st.button("Setz' mich auf die Warteliste(n)", disabled=not form_ready, key="join_button")
 
 def display_waiting_lists():
     table = Table(AIRTABLE_API_KEY, BASE_ID, TABLE_NAME)
