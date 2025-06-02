@@ -2,7 +2,6 @@ import streamlit as st
 import requests
 from pyairtable import Table
 from pyairtable.formulas import match
-from collections import defaultdict
 import math
 import pandas as pd
 
