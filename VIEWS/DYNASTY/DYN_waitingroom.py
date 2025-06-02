@@ -86,6 +86,8 @@ if sleeper_name:
 
 form_ready = user_valid and bool(discord_name.strip()) and len(league_options) > 0
 button = st.button("Setz' mich auf die Warteliste(n)", disabled=not form_ready, key="join_button")
+if button:
+    save_to_airtable(sleeper_name, discord_name, league_options)
 
 def display_waiting_lists():
     table = Table(AIRTABLE_API_KEY, BASE_ID, TABLE_NAME)
