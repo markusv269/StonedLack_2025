@@ -1220,5 +1220,31 @@
         "reactions": null,
         "roster_id": 10,
         "round": 4
+    },
+    {
+        "draft_id": "1204157997928951808",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Savion",
+            "injury_status": "",
+            "last_name": "Williams",
+            "news_updated": "1748008517485",
+            "number": "83",
+            "player_id": "12482",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 48,
+        "picked_by": "831541428285976576",
+        "player_id": "12482",
+        "reactions": null,
+        "roster_id": 5,
+        "round": 4
     }
 ]
