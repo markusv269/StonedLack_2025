@@ -13,22 +13,48 @@ TABLE_NAME = "WaitingRoom"
 
 # UI-Text
 st.write("# Dynasty Waiting Room")
-st.write("Bock auf eine StonedLack Dynasty-Liga? Hier kannst du dich eintragen.")
-st.write("Die Liga wird erst eröffnet, wenn genug Leute zusammenkommen. Also sag deinen Freunden Bescheid!")
+st.write('''
+Bock auf eine StonedLack Dynasty-Liga? Hier kannst du dich eintragen.  
 
-# Eingaben
-league_options = st.multiselect(
-    "Welchen Ligentyp möchtest du spielen?",
-    options=["1QB Dynasty", "IDP", "IDP only", "Best Ball", "Best Ball IDP"],
-    placeholder="Wähle mindestens eine Option"
-)
-sleeper_name = st.text_input("Trage deinen sleeper-Namen ein")
+---
+                
+**Wie funktionierts?!**  
+Trage deinen sleeper-Namen und deinen Discord-Namen (auf dem StonedLack-Server) ein und wähle die Ligentypen, die du spielen möchtest.
+Die Wartelisten je Liga werden automatisch aktualisiert. Sobald genug Leute für eine Liga bereitstehen, wird sie eröffnet und du bekommst eine Einladung über die sleeper-App.
+         
+---
+
+**Bitte beachtet!**  
+Die Liga wird erst eröffnet, wenn genug Leute zusammenkommen. Also bleibt auf dem Laufenden und informiert Euch regelmäßig auf dem StonedLack-Discord-Server!   
+Es dürfen nur aktive Hörer des StonedLack-Podcasts teilnehmen.
+
+--- 
+         
+''')
+
+st.write("**Welchen Ligentyp möchtest du spielen (wähle mindestens einen)?**")
+dynasty_checkbox = st.checkbox("Dynasty")
+idp_checkbox = st.checkbox("Dynasty mit IDP")
+best_ball_checkbox = st.checkbox("Best Ball Dynasty")
+
+st.write("")
+options = []
+if dynasty_checkbox:
+    options.append("Dynasty")
+if idp_checkbox:
+    options.append("Dynasty mit IDP")
+if best_ball_checkbox:
+    options.append("Best Ball Dynasty")
+league_options = options
+
+sleeper_name = st.text_input("**Trage deinen sleeper-Namen ein**", placeholder="Sleepername")
+discord_name = st.text_input("**Trage deinen Discord-Namen ein**", placeholder="Discordname")
 
 # Funktion zum Speichern
-def save_to_airtable(sleeper, options):
+def save_to_airtable(sleeper, discord, options):
     table = Table(AIRTABLE_API_KEY, BASE_ID, TABLE_NAME)
     for option in options:
-        index_value = f"{sleeper}-{option}"
+        index_value = f"{sleeper.lower()}-{option}"
         existing = table.first(formula=match({"index": index_value}))
         if existing:
             st.warning(f"Du bist bereits im Warteraum für {option} registriert.")
@@ -36,7 +62,8 @@ def save_to_airtable(sleeper, options):
             table.create({
                 "index": index_value,
                 "sleeper": sleeper,
-                "options": option
+                "discord": discord,
+                "option": option
             })
             st.success(f"Du bist jetzt im Warteraum für {option} registriert.")
 
@@ -52,12 +79,15 @@ if sleeper_name:
 
         if league_options:
             # Nur wenn alles erfüllt ist, zeige den Button
-            if st.button("Beitreten"):
-                save_to_airtable(sleeper_name, league_options)
+            if discord_name:
+                if st.button("Beitreten"):
+                    save_to_airtable(sleeper_name, discord_name, league_options)
+            else:
+                st.warning("❗ Bitte gib deinen Discord-Namen ein.")
         else:
             st.warning("❗ Bitte wähle mindestens einen Ligatyp aus.")
     else:
-        st.error("❌ User nicht gefunden. Bitte überprüfe deinen Namen.")
+        st.error("❌ User nicht gefunden. Bitte überprüfe deinen Namen. Noch nicht bei sleeper registriert? Dann [hier registrieren](https://sleeper.app).")
 
 def display_waiting_lists():
     table = Table(AIRTABLE_API_KEY, BASE_ID, TABLE_NAME)
@@ -67,8 +97,9 @@ def display_waiting_lists():
     waitlist = defaultdict(list)
     for record in records:
         fields = record.get("fields", {})
-        league_type = fields.get("options")
+        league_type = fields.get("option")
         sleeper = fields.get("sleeper")
+        discord = fields.get("discord")
         if league_type and sleeper:
             waitlist[league_type].append(sleeper)
 
