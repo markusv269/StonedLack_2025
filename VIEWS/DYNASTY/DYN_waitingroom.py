@@ -94,14 +94,14 @@ def display_waiting_lists():
     records = table.all()
 
     # Gruppieren nach Ligentyp
-    waitlist = defaultdict(list)
+    waitlist = {}
     for record in records:
         fields = record.get("fields", {})
         league_type = fields.get("option")
         sleeper = fields.get("sleeper")
         discord = fields.get("discord")
         if league_type and sleeper:
-            waitlist[league_type].append(sleeper)
+            waitlist[league_type] = {"sleeper": sleeper, "discord": discord}
 
     if not waitlist:
         st.info("Noch keine Einträge in den Wartelisten.")
@@ -128,5 +128,50 @@ def display_waiting_lists():
             with cols[c]:
                 df = pd.DataFrame(sorted(waitlist[league]), columns=[f"{league} ({len(waitlist[league])})"])
                 st.dataframe(df,hide_index=True)
+
+def display_waiting_lists():
+    table = Table(AIRTABLE_API_KEY, BASE_ID, TABLE_NAME)
+    records = table.all()
+
+    # Gruppieren nach Ligentyp
+    waitlist = {}
+    for record in records:
+        fields = record.get("fields", {})
+        league_type = fields.get("option")
+        sleeper = fields.get("sleeper")
+        discord = fields.get("discord")
+        if league_type and sleeper:
+            waitlist.setdefault(league_type, []).append({
+                "Sleeper": sleeper,
+                "Discord": discord or "—"
+            })
+
+    if not waitlist:
+        st.info("Noch keine Einträge in den Wartelisten.")
+        return
+
+    st.markdown("---")
+    st.header("📋 Aktuelle Wartelisten")
+
+    league_types = sorted(waitlist.keys())
+    num_leagues = len(league_types)
+
+    # Dynamische Spaltenanzahl: max. 4 Spalten pro Reihe
+    max_cols = 4
+    cols_per_row = min(max_cols, num_leagues)
+    rows = math.ceil(num_leagues / cols_per_row)
+
+    for r in range(rows):
+        cols = st.columns(cols_per_row)
+        for c in range(cols_per_row):
+            idx = r * cols_per_row + c
+            if idx >= num_leagues:
+                break
+            league = league_types[idx]
+            with cols[c]:
+                st.write(f"**{league} ({len(waitlist[league])}/12)**")
+                df = pd.DataFrame(waitlist[league])
+                st.dataframe(df, hide_index=True, use_container_width=True)
+
 # Am Ende der App anzeigen
 display_waiting_lists()
