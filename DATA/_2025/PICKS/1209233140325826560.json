@@ -1,1 +1,80 @@
-[]
+[
+    {
+        "draft_id": "1209233140325826560",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Ashton",
+            "injury_status": "",
+            "last_name": "Jeanty",
+            "news_updated": "1748019328775",
+            "number": "2",
+            "player_id": "12527",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LV",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 1,
+        "picked_by": "468057716363882496",
+        "player_id": "12527",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 1
+    },
+    {
+        "draft_id": "1209233140325826560",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Omarion",
+            "injury_status": "",
+            "last_name": "Hampton",
+            "news_updated": "1747680344074",
+            "number": "8",
+            "player_id": "12507",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "LAC",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 2,
+        "picked_by": "460135429803339776",
+        "player_id": "12507",
+        "reactions": null,
+        "roster_id": 6,
+        "round": 1
+    },
+    {
+        "draft_id": "1209233140325826560",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Travis",
+            "injury_status": "",
+            "last_name": "Hunter",
+            "news_updated": "1746983445035",
+            "number": "12",
+            "player_id": "12530",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 3,
+        "picked_by": "779077630615035904",
+        "player_id": "12530",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 1
+    }
+]
