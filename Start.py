@@ -78,17 +78,18 @@ st.sidebar.write("by GoKingsGo, 2025")
 pg = st.navigation(
     {
         "Start": [
-            st.Page(page="VIEWS/START/0_start.py", title="Das StonedLack Universum", icon=":material/home:", default=True),
+            st.Page(page="VIEWS/START/0_start.py", title="Startseite", icon=":material/home:", default=True),
             st.Page(page="VIEWS/START/1_hottakes.py", title="Hot Takes-Sammlung", icon=":material/whatshot:"),
             # st.Page(page="VIEWS/START/2_champofchamps copy.py", title="Champ of Champs", icon=":material/trophy:"),
             # st.Page(page="VIEWS/START/3_coc_spiel.py", title="CoC Tippabgabe", icon=":material/casino:"),
+            st.Page(page="VIEWS/START/4_universe.py", title="Das StonedLack Universum", icon=":material/planet:"),
             st.Page(page="VIEWS/START/5_sleeper_ecke.py", title="sleeper.com-Ecke", icon=":material/bedtime:"),
             st.Page(page="VIEWS/START/7_Community_Mock_Draft.py", title="Community Mock Draft 2025", icon=":material/tv:"),
             st.Page(page="VIEWS/START/8_showleague.py", title="Share your league", icon=":material/tv:"),
             # st.Page(page="VIEWS/START/9_sleeper_players.py", title="Sleeper Players", icon=":material/sports_football:"),
         ],
         "Redraft allgemein": [
-            # st.Page(page="VIEWS/REDRAFT/RED_slr2025.py", title="SLR2025 Anmeldung", icon=":material/login:"),
+            # st.Page(page="VIEWS/REDRAFT/RED_SLR2025.py", title="SLR2025 Anmeldung", icon=":material/login:"),
             # st.Page(page="VIEWS/REDRAFT/RED_slr2025_status.py", title="SLR2025 Anmeldestatus", icon=":material/download_done:"),
             st.Page(page="VIEWS/REDRAFT/RED_info.py", title="Die Redraftligen", icon=":material/home:"),
             # st.Page(page="VIEWS/REDRAFT/RED_uebersicht.py", title="Ligenübersicht", icon=":material/layers:"),

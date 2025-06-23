@@ -1,13 +1,12 @@
 import streamlit as st
 from sleeper_wrapper import User
-from utils import AIRTABLE_API_KEY, BASE_ID 
 import datetime, time
 from datetime import datetime
 import requests
 import json
 
-AIRTABLE_API_KEY = AIRTABLE_API_KEY
-BASE_ID = BASE_ID
+AIRTABLE_API_KEY = st.secrets["airtable"]["api_key"]
+BASE_ID = st.secrets["airtable"]["base_id"]
 TABLE_NAME = "SLR2025"
 
 def save_to_airtable(sleeper, discord, commish, mitspieler):

@@ -4,6 +4,7 @@ from pyairtable import Table
 from pyairtable.formulas import match
 import math
 import pandas as pd
+from airtable import waitinglist_airtable
 
 # Airtable-Zugangsdaten
 AIRTABLE_API_KEY = st.secrets["airtable"]["api_key"]
@@ -49,23 +50,6 @@ if best_ball_checkbox:
 sleeper_name = st.text_input("**Trage deinen sleeper-Namen ein**", placeholder="Sleepername")
 discord_name = st.text_input("**Trage deinen Discord-Namen ein**", placeholder="Discordname")
 
-# Funktion zum Speichern
-def save_to_airtable(sleeper, discord, options):
-    table = Table(AIRTABLE_API_KEY, BASE_ID, TABLE_NAME)
-    for option in options:
-        index_value = f"{sleeper.lower()}-{option}"
-        existing = table.first(formula=match({"index": index_value}))
-        if existing:
-            st.warning(f"Du bist bereits im Warteraum für {option} registriert.")
-        else:
-            table.create({
-                "index": index_value,
-                "sleeper": sleeper,
-                "discord": discord,
-                "option": option
-            })
-            st.success(f"Du bist jetzt im Warteraum für {option} registriert.")
-
 # Initialstatus
 user_valid = False
 user_id = None
@@ -86,7 +70,7 @@ if sleeper_name:
 form_ready = user_valid and bool(discord_name.strip()) and len(league_options) > 0
 button = st.button("Setz' mich auf die Warteliste(n)", disabled=not form_ready, key="join_button")
 if button:
-    save_to_airtable(sleeper_name, discord_name, league_options)
+    waitinglist_airtable(sleeper_name, discord_name, league_options)
 
 def display_waiting_lists():
     table = Table(AIRTABLE_API_KEY, BASE_ID, TABLE_NAME)

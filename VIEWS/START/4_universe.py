@@ -1,27 +1,28 @@
 import streamlit as st
 from st_link_analysis import st_link_analysis, NodeStyle, EdgeStyle
 import requests
-from config import DYNLEAGUES, REDLEAGUES
+from config import DYNLEAGUES
 
 # Vorgegebene Ligen
-LEAGUE_IDS = DYNLEAGUES + REDLEAGUES
+LEAGUE_IDS = DYNLEAGUES
 st.title("Das StonedLack Universum")
 st.write("_Das Laden des Ligen-Netzwerkes dauert ein wenig!_")
 
 # Funktion zum Abrufen der Ligadaten (mit Caching)
-@st.cache_data
+@st.cache_data(ttl=3600*24, show_spinner=True)
 def get_league_data(league_id):
     url = f"https://api.sleeper.app/v1/league/{league_id}"
     response = requests.get(url)
     return response.json() if response.status_code == 200 else {}
 
-@st.cache_data
+@st.cache_data(ttl=3600*24, show_spinner=True)
 def get_users_from_league(league_id):
     url = f"https://api.sleeper.app/v1/league/{league_id}/users"
     response = requests.get(url)
     return response.json() if response.status_code == 200 else []
 
 # Erstelle Knoten und Kanten
+@st.cache_data(ttl=3600*24, show_spinner=True)
 def prepare_data(selected_leagues=None, search_query=None):
     nodes, edges = [], []
     errors = []
@@ -39,14 +40,14 @@ def prepare_data(selected_leagues=None, search_query=None):
         draft_id = league_info.get('draft_id', 'keine')
         users = get_users_from_league(league_id)
 
-        nodes.append({"data": {"id": f"league_{league_id}", "label": "LEAGUE", "name": league_name, "Draft-ID": draft_id}})
+        nodes.append({"data": {"id": league_id, "label": "LEAGUE", "name": league_name, "Draft-ID": draft_id}})
         
         for user in users:
             if search_query and search_query.lower() not in user['display_name'].lower():
                 continue  
             user_id, display_name = user['user_id'], user['display_name']
-            nodes.append({"data": {"id": f"user_{user_id}", "label": "USER", "name": display_name}})
-            edges.append({"data": {"id": f"edge_{league_id}_{user_id}", "label": "PARTICIPATES", "source": f"league_{league_id}", "target": f"user_{user_id}"}})
+            nodes.append({"data": {"id": user_id, "label": "USER", "name": display_name}})
+            edges.append({"data": {"id": f"edge_{league_id}_{user_id}", "label": "PARTICIPATES", "source": league_id, "target": user_id}})
     
     if errors:
         st.error("\n".join(errors))  # Zeigt alle Fehler gesammelt an
