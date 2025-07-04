@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-from pyairtable import Table
+from pyairtable import Table, Api, Base
 from pyairtable.formulas import match
 import math
 import pandas as pd
@@ -10,6 +10,8 @@ from airtable import waitinglist_airtable
 AIRTABLE_API_KEY = st.secrets["airtable"]["api_key"]
 BASE_ID = st.secrets["airtable"]["base_id"]
 TABLE_NAME = "WaitingRoom"
+api = Api(AIRTABLE_API_KEY)
+base = Base(api, BASE_ID)
 
 # UI-Text
 st.write("# Dynasty Waiting Room")
@@ -73,47 +75,7 @@ if button:
     waitinglist_airtable(sleeper_name, discord_name, league_options)
 
 def display_waiting_lists():
-    table = Table(AIRTABLE_API_KEY, BASE_ID, TABLE_NAME)
-    records = table.all()
-
-    # Gruppieren nach Ligentyp
-    waitlist = {}
-    for record in records:
-        fields = record.get("fields", {})
-        league_type = fields.get("option")
-        sleeper = fields.get("sleeper")
-        discord = fields.get("discord")
-        if league_type and sleeper:
-            waitlist[league_type] = {"sleeper": sleeper, "discord": discord}
-
-    if not waitlist:
-        st.info("Noch keine Einträge in den Wartelisten.")
-        return
-
-    st.markdown("---")
-    st.header("📋 Aktuelle Wartelisten")
-
-    league_types = sorted(waitlist.keys())
-    num_leagues = len(league_types)
-
-    # Dynamische Spaltenanzahl: max. 4 Spalten pro Reihe
-    max_cols = 4
-    cols_per_row = min(max_cols, num_leagues)
-    rows = math.ceil(num_leagues / cols_per_row)
-
-    for r in range(rows):
-        cols = st.columns(cols_per_row)
-        for c in range(cols_per_row):
-            idx = r * cols_per_row + c
-            if idx >= num_leagues:
-                break
-            league = league_types[idx]
-            with cols[c]:
-                df = pd.DataFrame(sorted(waitlist[league]), columns=[f"{league} ({len(waitlist[league])})"])
-                st.dataframe(df,hide_index=True)
-
-def display_waiting_lists():
-    table = Table(AIRTABLE_API_KEY, BASE_ID, TABLE_NAME)
+    table = base.table(TABLE_NAME)
     records = table.all()
 
     # Gruppieren nach Ligentyp

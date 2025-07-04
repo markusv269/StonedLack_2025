@@ -7,10 +7,10 @@ from pyairtable import Table
 from pyairtable.formulas import match
 # Airtable Konfiguration
 
-
+API_KEY = st.secrets["airtable"]["api_key"]
 BASE_ID = st.secrets["airtable"]["base_id"]
 AIRTABLE_API_KEY = st.secrets["airtable"]["api_key"]
-TABLE_NAME = "default"
+TABLE_NAME = "WaitingRoom"
 
 def save_to_airtable(**kwargs):
     if not BASE_ID or not API_KEY or not TABLE_NAME:

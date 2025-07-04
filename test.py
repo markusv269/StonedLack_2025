@@ -1,20 +1,31 @@
-from sleeper import SleeperLeague, SleeperDraft
-from config import DYNLEAGUES
+# from sleeper_wrapper import League, Drafts, User
+# from config import DYNLEAGUES
 
-for league_id in DYNLEAGUES:
-    league_data = SleeperLeague(league_id)
-    print(f"{league_data.get_league_info().get('name')}")
+# stoned_lack_roster = {}
 
-    for draft in league_data.get_draft_ids():
-        draft_data = SleeperDraft(draft)
-        draft_info = draft_data.get_draft_info()
-        print(f"Draft ID: {draft_info.get('draft_id')}")
-        print(f"Draft-Order: {draft_info.get('draft_order')}")
-        print(f"Draft-Settings: {draft_info.get('settings')}")
-        print()
+# for league_id in DYNLEAGUES:
+#     league_data = League(league_id)
 
-# user_id = "miami84"
-# user_data = SleeperUser(user_id)
-# user_leagues = user_data.get_all_leagues(season=2025)
-# for league in user_leagues:
-#     print(f"\"{league['league_id']}\", # {league['name']}")
+#     for roster in league_data.get_rosters():
+#         if roster['owner_id'] not in stoned_lack_roster:
+#             stoned_lack_roster[roster['owner_id']] = {
+#                 "roster_id": roster['roster_id'],
+#                 # "display_name": roster['display_name'],
+#                 "count" : 1
+#             }
+#         else:
+#             stoned_lack_roster[roster['owner_id']]['count'] += 1
+
+# print("StonedLack Roster:")
+# sort_roster = sorted(stoned_lack_roster.items(), key=lambda x: x[1]['count'], reverse=True)
+# for owner_id, data in stoned_lack_roster.items():
+#     user_name = User(owner_id).get_display_name()
+#     print(f"{user_name}: {data['count']} Rosters")
+        
+
+# # user_id = "miami84"
+# # user_data = SleeperUser(user_id)
+# # user_leagues = user_data.get_all_leagues(season=2025)
+# # for league in user_leagues:
+# #     print(f"\"{league['league_id']}\", # {league['name']}")
+
