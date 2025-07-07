@@ -18,14 +18,12 @@
         "888950882673266688": 11,
         "989203503744593920": 5
     },
-    "last_message_id": "1245155862801035264",
-    "last_message_time": 1751230800871,
-    "last_picked": 1751228319096,
+    "last_message_id": "1247611543420420097",
+    "last_message_time": 1751816280754,
+    "last_picked": 1751816277989,
     "league_id": "1182673834217238528",
     "metadata": {
         "description": "",
-        "elapsed_pick_timer": "2481707",
-        "is_autopaused": "true",
         "name": "STONED LACK DYNASTY 13 IDP",
         "scoring_type": "idp"
     },
@@ -72,6 +70,6 @@
     },
     "sport": "nfl",
     "start_time": 1751134756690,
-    "status": "paused",
+    "status": "complete",
     "type": "linear"
 }
