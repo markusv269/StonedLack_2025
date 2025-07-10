@@ -1,8 +1,5 @@
 import streamlit as st
 st.set_page_config(layout="wide")
-# from tools.methods import (
-#     load_matchups, load_players, load_rosters, load_users, get_matchup_results
-# )
 from config import SCORINGSETTINGS
 
 def load_css(file_path):
@@ -27,31 +24,6 @@ def initialize_data():
 
 if "session_data" not in st.session_state:
     st.session_state["session_data"] = initialize_data()
-
-# # Matchups mit Nutzernamen verknüpfen
-# if st.session_state["session_data"]["matchupsdf"] is None:
-#     userdf = st.session_state["session_data"]["userdf"]
-#     matchupsdf = load_matchups().merge(
-#         userdf[['league_id', 'roster_id', 'display_name', 'league_name']],
-#         on=['league_id', 'roster_id'],
-#         how='left'
-#     )
-#     st.session_state["session_data"]["matchupsdf"] = matchupsdf
-
-# # Spieler laden
-# if st.session_state["session_data"]["playersdf"] is None:
-#     playersdf, playersdict = load_players()
-#     st.session_state["session_data"].update({
-#         "playersdf": playersdf,
-#         "playersdict": playersdict
-#     })
-
-# # Matchup-Ergebnisse berechnen
-# if st.session_state["session_data"]["matchesdf"] is None:
-#     st.session_state["session_data"]["matchesdf"] = get_matchup_results(
-#         matchdf=st.session_state["session_data"]["matchupsdf"],
-#         userdf=st.session_state["session_data"]["userdf"]
-#     )
 
 # Streamlit UI
 st.image("Pictures/SL_logo.png", width=150)
@@ -93,7 +65,7 @@ pg = st.navigation(
             # st.Page(page="VIEWS/REDRAFT/RED_SLR2025.py", title="SLR2025 Anmeldung", icon=":material/login:"),
             # st.Page(page="VIEWS/REDRAFT/RED_slr2025_status.py", title="SLR2025 Anmeldestatus", icon=":material/download_done:"),
             st.Page(page="VIEWS/REDRAFT/RED_info.py", title="Die Redraftligen", icon=":material/home:"),
-            # st.Page(page="VIEWS/REDRAFT/RED_uebersicht.py", title="Ligenübersicht", icon=":material/layers:"),
+            st.Page(page="VIEWS/REDRAFT/RED_uebersicht.py", title="Ligenübersicht", icon=":material/layers:"),
             st.Page(page="VIEWS/REDRAFT/RED_alte_Redrafts.py", title="Send your old SLR", icon=":material/send:"),
         ],
         # "SL Redraftligen 2024" :[
