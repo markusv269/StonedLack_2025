@@ -47,9 +47,11 @@ def anmeldung_slr(sleeper, discord, commish, mitspieler):
             "Anmeldezeit": datetime.now().isoformat()
         })
         st.success(f"Du bist jetzt für die StonedLack Redraftligen 2025 registriert.")
-
-
-st.markdown(f'''
+left, right = st.columns([2,6])
+with left:
+    st.image("Pictures/SL_logo.png", width=200)
+with right:
+    st.markdown(f'''
     ### 📝 Anmeldung zu den **Stoned Lack Redraft Ligen 2025**
             
     Willkommen zur Anmeldung für die allseits beliebten **Stoned Lack Redraft Ligen**! 🏈
@@ -86,47 +88,47 @@ st.markdown(f'''
     Seht unter SLR2025 Anmeldestatus nach, ob eure Anmeldung erfasst wurde.
     
     Wir freuen uns auf euch! **Let’s go! 🚀**
-''')
-st.write("## Melde Dich hier für die StonedLack Redraftligen 2025 an")
-commish = st.checkbox("Ich übernehme einen Commish-Posten!")
-mitspieler = st.checkbox("Ich möchte mit jemandem zusammenspielen")
+    ''')
+    st.write("## Melde Dich hier für die StonedLack Redraftligen 2025 an")
+    commish = st.checkbox("Ich übernehme einen Commish-Posten!")
+    mitspieler = st.checkbox("Ich möchte mit jemandem zusammenspielen")
 
-with st.form("Anmeldung SLR 2025"):
-    sleeper_name = st.text_input("Dein Sleeper-Name (Pflichtfeld)", key="sleeper")
-    discord_name = st.text_input("Dein Discord-Name (Pflichtfeld)", key="discord")
+    with st.form("Anmeldung SLR 2025"):
+        sleeper_name = st.text_input("Dein Sleeper-Name (Pflichtfeld)", key="sleeper")
+        discord_name = st.text_input("Dein Discord-Name (Pflichtfeld)", key="discord")
 
-    mitspieler_names = []
-    if mitspieler:
-        st.write("Trage bis zu 3 Mitspieler ein:")
-        col1, col2, col3 = st.columns(3)
-        mitspieler_inputs = [
-            col1.text_input("Mitspieler 1"),
-            col2.text_input("Mitspieler 2"),
-            col3.text_input("Mitspieler 3")
-        ]
-        mitspieler_names = [name.strip() for name in mitspieler_inputs if name.strip()]
-    
-    submitted = st.form_submit_button("Anmelden!")
+        mitspieler_names = []
+        if mitspieler:
+            st.write("Trage bis zu 3 Mitspieler ein:")
+            col1, col2, col3 = st.columns(3)
+            mitspieler_inputs = [
+                col1.text_input("Mitspieler 1"),
+                col2.text_input("Mitspieler 2"),
+                col3.text_input("Mitspieler 3")
+            ]
+            mitspieler_names = [name.strip() for name in mitspieler_inputs if name.strip()]
+        
+        submitted = st.form_submit_button("Anmelden!")
 
-    if submitted:
-        if not sleeper_name or not discord_name:
-            st.error("Bitte fülle alle Pflichtfelder aus!")
-        elif not get_user_id(sleeper_name):
-            st.error("Der angegebene Sleeper-Name ist ungültig oder existiert nicht.")
-        elif any(not get_user_id(mitspieler) for mitspieler in mitspieler_names):
-            st.error("Bitte gib gültige Mitspieler-Namen an.")
-        else:
-            anmeldung_slr(sleeper_name, discord_name, commish, mitspieler_names)
+        if submitted:
+            if not sleeper_name or not discord_name:
+                st.error("Bitte fülle alle Pflichtfelder aus!")
+            elif not get_user_id(sleeper_name):
+                st.error("Der angegebene Sleeper-Name ist ungültig oder existiert nicht.")
+            elif any(not get_user_id(mitspieler) for mitspieler in mitspieler_names):
+                st.error("Bitte gib gültige Mitspieler-Namen an.")
+            else:
+                anmeldung_slr(sleeper_name, discord_name, commish, mitspieler_names)
 
-st.write("## Anmeldestatus SLR2025")
-table = Table(AIRTABLE_API_KEY, BASE_ID, TABLE_NAME)
-records = table.all(sort=["-Anmeldezeit"])
-if records:
-    st.write("Hier siehst du die aktuell angemeldeten Teilnehmenden für die SLR 2025.")
-    st.success(f"Anzahl der Anmeldungen: {len(records)}")
-    df = pd.DataFrame([record["fields"] for record in records])
-    if "commish" not in df.columns:
-        df["Commish"] = df.get("Commish", False)
-    st.dataframe(df[["Sleeper", "Discord", "Commish"]], use_container_width=True, hide_index=True)
-else:
-    st.error("Keine Anmeldungen gefunden.")
+    st.write("## Anmeldestatus SLR2025")
+    table = Table(AIRTABLE_API_KEY, BASE_ID, TABLE_NAME)
+    records = table.all(sort=["-Anmeldezeit"])
+    if records:
+        st.write("Hier siehst du die aktuell angemeldeten Teilnehmenden für die SLR 2025.")
+        st.success(f"Anzahl der Anmeldungen: {len(records)}")
+        df = pd.DataFrame([record["fields"] for record in records])
+        if "commish" not in df.columns:
+            df["Commish"] = df.get("Commish", False)
+        st.dataframe(df[["Sleeper", "Discord", "Commish"]], use_container_width=True, hide_index=True)
+    else:
+        st.error("Keine Anmeldungen gefunden.")
