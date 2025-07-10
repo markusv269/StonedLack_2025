@@ -22,12 +22,14 @@ TABLE_NAME = "SLR2025"
 def anmeldung_slr(sleeper, discord, commish, mitspieler):
     table = Table(AIRTABLE_API_KEY, BASE_ID, TABLE_NAME)
     index_value = sleeper.lower()
-    existing = table.first(formula=match({"Sleeper": index_value}))
+    user = User(index_value)
+    display_name = user.get_display_name() or index_value
+    existing = table.first(formula=match({"index": index_value}))
     if existing:
         first_checkin_time = existing['fields'].get('Anmeldezeit', None)
         # Update existing record
         table.update(existing['id'], {
-            "Sleeper": index_value,
+            "Sleeper": display_name,
             "Discord": discord,
             "Commish": commish,
             "Mitspieler": ", ".join(map(str, mitspieler)),
@@ -37,7 +39,8 @@ def anmeldung_slr(sleeper, discord, commish, mitspieler):
     else:
         # Create new record
         table.create({
-            "Sleeper": index_value,
+            "index": index_value,
+            "Sleeper": display_name,
             "Discord": discord,
             "Commish": commish,
             "Mitspieler": ", ".join(map(str, mitspieler)),
@@ -119,7 +122,7 @@ st.write("## Anmeldestatus SLR2025")
 table = Table(AIRTABLE_API_KEY, BASE_ID, TABLE_NAME)
 records = table.all(sort=["-Anmeldezeit"])
 if records:
-    st.write("### Aktuelle Anmeldungen:")
+    st.write("Hier siehst du die aktuell angemeldeten Teilnehmenden für die SLR 2025.")
     st.write(f"Anzahl der Anmeldungen: {len(records)}")
     df = pd.DataFrame([record["fields"] for record in records])
     st.dataframe(df[["Sleeper", "Discord", "Commish"]], use_container_width=True, hide_index=True)
