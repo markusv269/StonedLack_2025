@@ -123,8 +123,8 @@ table = Table(AIRTABLE_API_KEY, BASE_ID, TABLE_NAME)
 records = table.all(sort=["-Anmeldezeit"])
 if records:
     st.write("Hier siehst du die aktuell angemeldeten Teilnehmenden für die SLR 2025.")
-    st.write(f"Anzahl der Anmeldungen: {len(records)}")
+    st.success(f"Anzahl der Anmeldungen: {len(records)}")
     df = pd.DataFrame([record["fields"] for record in records])
     st.dataframe(df[["Sleeper", "Discord", "Commish"]], use_container_width=True, hide_index=True)
 else:
-    st.write("Keine Anmeldungen gefunden.")
+    st.error("Keine Anmeldungen gefunden.")
