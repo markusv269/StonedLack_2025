@@ -131,6 +131,11 @@ with right:
             df["Commish"] = df.get("Commish", False)
         if "Mitspieler" not in df.columns:
             df["Mitspieler"] = df.get("Mitspieler", "")
-        st.dataframe(df[["Sleeper", "Discord", "Commish", "Mitspieler"]], use_container_width=True, hide_index=True)
+        st.dataframe(df[["Sleeper", "Discord", "Commish", "Mitspieler"]],
+                    use_container_width=True, 
+                    hide_index=True,
+                    column_config={
+                        "Mitspieler": st.column_config.TextColumn("Gewünschte Mitspieler",)
+                    })
     else:
         st.error("Keine Anmeldungen gefunden.")
