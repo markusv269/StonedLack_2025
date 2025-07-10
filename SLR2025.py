@@ -67,7 +67,7 @@ st.markdown(f'''
     
     #### 🙌 Werde Commissioner!
     
-    Eine Liga ist nur so gut wie ihr Commissioner! Falls du Lust hast, eine Liga zu leiten, melde dich gerne. 🏆
+    Eine Liga ist nur so gut wie ihr Commissioner! Falls du Lust hast, eine Liga zu leiten, trau Dich, es kann nichts schief gehen! 🏆
     - **Erfahrung ist nicht nötig** – Unterstützung gibt’s im **Stoned Lack Army Discord oder direkt in der sleeper-Liga**.
     - Ohne freiwillige Commissioner gibt es keine Ligen – also trau dich! 💪
     
