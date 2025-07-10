@@ -125,6 +125,8 @@ if records:
     st.write("Hier siehst du die aktuell angemeldeten Teilnehmenden für die SLR 2025.")
     st.success(f"Anzahl der Anmeldungen: {len(records)}")
     df = pd.DataFrame([record["fields"] for record in records])
+    if "commish" not in df.columns:
+        df["Commish"] = df.get("Commish", False)
     st.dataframe(df[["Sleeper", "Discord", "Commish"]], use_container_width=True, hide_index=True)
 else:
     st.error("Keine Anmeldungen gefunden.")
