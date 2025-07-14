@@ -19,12 +19,13 @@
         "740271047152128000": 8,
         "990318951781490688": 12
     },
-    "last_message_id": "1247703627624099840",
-    "last_message_time": 1751838235341,
-    "last_picked": 1751837740422,
+    "last_message_id": "1250229290541260800",
+    "last_message_time": 1752440400304,
+    "last_picked": 1752437862036,
     "league_id": "1240076840060600320",
     "metadata": {
         "description": "",
+        "elapsed_pick_timer": "2538206",
         "is_autopaused": "true",
         "name": "Stoned Lack IDP Dynasty 39",
         "scoring_type": "idp"
