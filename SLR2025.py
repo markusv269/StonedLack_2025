@@ -95,6 +95,7 @@ with right:
     - **Datenaktualisierung**  
     Falls ihr eure Anmeldung überschreiben wollt, meldet euch einfach mit dem **gleichen Sleeper-Namen** erneut an. Es zählt immer der letzte Eintrag.
     Bei der Anmeldung erhaltet ihr einen **Anmeldeschlüssel**, den ihr für zukünftige Änderungen benötigt.
+    Die Anmeldezeit bleibt bei einer Änderung unverändert zum ersten Eintrag, ihr müsst also keine Angst haben, dass ihr aus der Reihe rutscht und wieder hinten ansteht.
                 
     - **Anmeldeschlüssel**
     Der Anmeldeschlüssel ist ein **einmaliger Code**, der euch hilft, eure Anmeldung zu aktualisieren. Er wird bei der Anmeldung generiert und angezeigt.
