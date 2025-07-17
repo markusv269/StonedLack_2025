@@ -130,7 +130,10 @@ with right:
         n_waiters = len(records) % 12
         left, right = st.columns(2)
         with left:
-            st.success(f"Anzahl volle Ligen: {n_leagues}")
+            if n_leagues > 0:
+                st.success(f"Anzahl volle Ligen: {n_leagues}")
+            else:
+                st.warning("Noch keine volle Liga!")
         with right:
             if n_waiters > 0:
                 st.warning(f"Anzahl der Wartenden: {n_waiters}")
