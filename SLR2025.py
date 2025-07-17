@@ -19,15 +19,22 @@ AIRTABLE_API_KEY = st.secrets["airtable"]["api_key"]
 BASE_ID = st.secrets["airtable"]["base_id"]
 TABLE_NAME = "SLR2025"
 
-def anmeldung_slr(sleeper, discord, commish, mitspieler):
+import uuid
+
+def anmeldung_slr(sleeper, discord, commish, mitspieler, schluessel_input=None):
     table = Table(AIRTABLE_API_KEY, BASE_ID, TABLE_NAME)
     index_value = sleeper.lower()
     user = User(index_value)
     display_name = user.get_display_name() or index_value
     existing = table.first(formula=match({"index": index_value}))
+
     if existing:
+        gespeicherter_schluessel = existing['fields'].get("Schlüssel", "")
+        if schluessel_input != gespeicherter_schluessel:
+            st.error("Falscher Schlüssel! Deine Anmeldung kann nicht geändert werden.")
+            return
+
         first_checkin_time = existing['fields'].get('Anmeldezeit', None)
-        # Update existing record
         table.update(existing['id'], {
             "Sleeper": display_name,
             "Discord": discord,
@@ -35,18 +42,21 @@ def anmeldung_slr(sleeper, discord, commish, mitspieler):
             "Mitspieler": ", ".join(map(str, mitspieler)),
             "Anmeldezeit": first_checkin_time if first_checkin_time else datetime.now().isoformat()
         })
-        st.warning(f"Deine Anmeldung wurde aktualisiert.")
+        st.success("✅ Deine Anmeldung wurde erfolgreich aktualisiert.")
     else:
-        # Create new record
+        schluessel = uuid.uuid4().hex[:8]  # Einfacher 8-stelliger Schlüssel
         table.create({
             "index": index_value,
             "Sleeper": display_name,
             "Discord": discord,
             "Commish": commish,
             "Mitspieler": ", ".join(map(str, mitspieler)),
-            "Anmeldezeit": datetime.now().isoformat()
+            "Anmeldezeit": datetime.now().isoformat(),
+            "Schlüssel": schluessel
         })
-        st.success(f"Du bist jetzt für die StonedLack Redraftligen 2025 registriert.")
+        st.success("✅ Du bist jetzt für die StonedLack Redraftligen 2025 registriert.")
+        st.info(f"🔐 **Wichtiger Schlüssel:** `{schluessel}`\nBitte speichere diesen Schlüssel sicher. Du brauchst ihn, um deine Anmeldung zu ändern!")
+
 left, right = st.columns([2,6])
 with left:
     st.image("Pictures/SL_logo.png", width=200)
