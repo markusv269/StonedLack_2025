@@ -130,9 +130,9 @@ with right:
         n_waiters = len(records) % 12
         left, right = st.columns(2)
         with left:
-            st.write(f"Anzahl der Ligen: {n_leagues}")
+            st.success(f"Anzahl volle Ligen: {n_leagues}")
         with right:
-            st.write(f"Anzahl der Wartenden: {n_waiters}")
+            st.success(f"Anzahl der Wartenden: {n_waiters}")
         df = pd.DataFrame([record["fields"] for record in records])
         if "Commish" not in df.columns:
             df["Commish"] = df.get("Commish", False)
