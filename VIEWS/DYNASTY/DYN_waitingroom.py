@@ -118,7 +118,7 @@ def display_waiting_lists():
             with cols[c]:
                 st.write(f"**{league} ({len(waitlist[league])}/12)**")
                 df = pd.DataFrame(waitlist[league])
-                df['Anmeldung'] = pd.to_datetime(df['Anmeldung_dt']).dt.strftime('%d.%m.%Y %H:%M')
+                df['Anmeldung'] = pd.to_datetime(df['Anmeldung_dt']).dt.strftime('%d.%m.%Y')
                 st.dataframe(df.sort_values(by='Anmeldung_dt').drop(columns='Anmeldung_dt'), hide_index=True, use_container_width=True)
 
 # Am Ende der App anzeigen
