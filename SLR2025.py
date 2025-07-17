@@ -118,7 +118,8 @@ with right:
             ]
             mitspieler_names = [name.strip() for name in mitspieler_inputs if name.strip()]
         
-        submitted = st.form_submit_button("Anmelden!")
+        schluessel_input = st.text_input("🔐 Dein Anmeldeschlüssel (nur bei Änderung)", help="Nur erforderlich, wenn du eine bestehende Anmeldung ändern möchtest.")
+        submitted = st.form_submit_button("Anmeldung absenden")
 
         if submitted:
             if not sleeper_name or not discord_name:
@@ -128,8 +129,7 @@ with right:
             elif any(not get_user_id(mitspieler) for mitspieler in mitspieler_names):
                 st.error("Bitte gib gültige Mitspieler-Namen an.")
             else:
-                anmeldung_slr(sleeper_name, discord_name, commish, mitspieler_names)
-
+                anmeldung_slr(sleeper_name, discord_name, commish, mitspieler_names, schluessel_input)
     st.write("## Anmeldestatus SLR2025")
     table = Table(AIRTABLE_API_KEY, BASE_ID, TABLE_NAME)
     records = table.all(sort=["-Anmeldezeit"])
