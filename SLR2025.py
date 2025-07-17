@@ -55,7 +55,7 @@ def anmeldung_slr(sleeper, discord, commish, mitspieler, schluessel_input=None):
             "Schlüssel": schluessel
         })
         st.success("✅ Du bist jetzt für die StonedLack Redraftligen 2025 registriert.")
-        st.info(f"🔐 **Wichtiger Schlüssel:** `{schluessel}`\nBitte speichere diesen Schlüssel sicher. Du brauchst ihn, um deine Anmeldung zu ändern!")
+        st.info(f"🔐 **Wichtiger Schlüssel: `{schluessel}`\nBitte speichere diesen Schlüssel sicher. Du brauchst ihn, um deine Anmeldung zu ändern!**")
 
 left, right = st.columns([2,6])
 with left:
