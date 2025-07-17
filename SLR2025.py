@@ -225,4 +225,3 @@ with right:
                     })
     else:
         st.error("Keine Anmeldungen gefunden.")
-
