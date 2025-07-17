@@ -81,6 +81,7 @@ def display_waiting_lists():
     # Gruppieren nach Ligentyp
     waitlist = {}
     for record in records:
+        time = record.get("createdTime", None)
         fields = record.get("fields", {})
         league_type = fields.get("option")
         sleeper = fields.get("sleeper")
@@ -88,7 +89,8 @@ def display_waiting_lists():
         if league_type and sleeper:
             waitlist.setdefault(league_type, []).append({
                 "Sleeper": sleeper,
-                "Discord": discord or "—"
+                "Discord": discord or "—",
+                "Anmeldung": time
             })
 
     if not waitlist:
@@ -116,6 +118,7 @@ def display_waiting_lists():
             with cols[c]:
                 st.write(f"**{league} ({len(waitlist[league])}/12)**")
                 df = pd.DataFrame(waitlist[league])
+                df['Anmeldung'] = pd.to_datetime(df['Anmeldung']).dt.strftime('%d.%m.%Y %H:%M')
                 st.dataframe(df, hide_index=True, use_container_width=True)
 
 # Am Ende der App anzeigen
