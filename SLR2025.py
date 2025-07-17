@@ -94,6 +94,12 @@ with right:
     
     - **Datenaktualisierung**  
     Falls ihr eure Anmeldung überschreiben wollt, meldet euch einfach mit dem **gleichen Sleeper-Namen** erneut an. Es zählt immer der letzte Eintrag.
+    Bei der Anmeldung erhaltet ihr einen **Anmeldeschlüssel**, den ihr für zukünftige Änderungen benötigt.
+                
+    - **Anmeldeschlüssel**
+    Der Anmeldeschlüssel ist ein **einmaliger Code**, der euch hilft, eure Anmeldung zu aktualisieren. Er wird bei der Anmeldung generiert und angezeigt.
+    Bewahrt ihn sicher auf, da ihr ihn benötigt, um eure Anmeldung zu ändern oder zu aktualisieren.
+    
     - **Status prüfen**  
     Seht unter SLR2025 Anmeldestatus nach, ob eure Anmeldung erfasst wurde.
     
