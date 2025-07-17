@@ -131,7 +131,7 @@ with right:
         left, right = st.columns(2)
         with left:
             if n_leagues > 0:
-                st.success(f"Anzahl volle Ligen: {n_leagues}")
+                st.success(f"Anzahl volle Ligen: {n_leagues} :fire:")
             else:
                 st.warning("Noch keine volle Liga!")
         with right:
