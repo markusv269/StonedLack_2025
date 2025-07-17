@@ -37,15 +37,18 @@ DYNLEAGUES = [ # 2025
     "1208531949958742016", # Stoned Lack IDP Dynasty 33
     "1222678226208296960", # Stoned Lack Dynasty 34
     "1225880660946718720", # Stoned Lack Dynasty 35
-    "1225905709284085760", # Stoned Lack Dynasty 36
+    "1225905709284085760", # Stoned Lack Dynasty 36 IDP
     "1227032788637601792", # Stoned Lack Dynasty 37
     "1229353710618939392", # Stoned Lack Dynasty 38
     "1240076840060600320", # Stoned Lack Dynasty 39 IDP
     "1231019902408601601", # Stoned Lack Dynasty 40
     "1238115967473553408", # Stoned Lack Dynasty 41
+    "1250933984330780672", # Stoned Lack Dynasty 42
     "1201660025227976704", # Stoned Lack Dynasty IDP Only
     "1196950328071704576", # Stoned Lack Bestball Dynasty
     "1227724436963069952", # Stoned Lack Bestball Dynasty 2
+    "1228114533256544256", # Stoned Lack Bestball Dynasty 3
+    "1250931611524927488", # Stoned Lack Bestball Dynasty 4
 ]
 
 DYNLEAGUES_2024 = [
