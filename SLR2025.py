@@ -97,7 +97,7 @@ with right:
     Bei der Anmeldung erhaltet ihr einen **Anmeldeschlüssel**, den ihr für zukünftige Änderungen benötigt.
     Die Anmeldezeit bleibt bei einer Änderung unverändert zum ersten Eintrag, ihr müsst also keine Angst haben, dass ihr aus der Reihe rutscht und wieder hinten ansteht.
                 
-    - **Anmeldeschlüssel**
+    - **Anmeldeschlüssel**  
     Der Anmeldeschlüssel ist ein **einmaliger Code**, der euch hilft, eure Anmeldung zu aktualisieren. Er wird bei der Anmeldung generiert und angezeigt.
     Bewahrt ihn sicher auf, da ihr ihn benötigt, um eure Anmeldung zu ändern oder zu aktualisieren.
     
