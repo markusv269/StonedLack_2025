@@ -126,6 +126,13 @@ with right:
     if records:
         st.write("Hier siehst du die aktuell angemeldeten Teilnehmenden für die SLR 2025.")
         st.success(f"Anzahl der Anmeldungen: {len(records)}")
+        n_leagues = len(records) // 12 + (1 if len(records) % 12 > 0 else 0)
+        n_waiters = len(records) % 12
+        left, right = st.columns(2)
+        with left:
+            st.write(f"Anzahl der geplanten Ligen: {n_leagues}")
+        with right:
+            st.write(f"Anzahl der Wartenden: {n_waiters}")
         df = pd.DataFrame([record["fields"] for record in records])
         if "Commish" not in df.columns:
             df["Commish"] = df.get("Commish", False)
