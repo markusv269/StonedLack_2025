@@ -110,7 +110,7 @@ with right:
     mitspieler = st.checkbox("Ich möchte mit jemandem zusammenspielen")
 
     with st.form("Anmeldung SLR 2025"):
-        sleeper_name = st.text_input(":moon: Dein Sleeper-Name (Pflichtfeld)", key="sleeper")
+        sleeper_name = st.text_input(":material/moon: Dein Sleeper-Name (Pflichtfeld)", key="sleeper")
         discord_name = st.text_input("Dein Discord-Name (Pflichtfeld)", key="discord")
 
         mitspieler_names = []
