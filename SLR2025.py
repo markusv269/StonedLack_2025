@@ -177,7 +177,7 @@ with right:
         email = ""
         schluessel_input = ""
         if mode == "Anmeldung":
-            email = st.text_input("Deine E-Mail-Adresse für Schlüsselzusendung (Optional)", key="email")
+            email = st.text_input("✉️ Deine E-Mail-Adresse für Schlüsselzusendung (Optional)", key="email")
         else:
             schluessel_input = st.text_input("🔐 Anmeldeschlüssel", help="Nur erforderlich, wenn du deine Anmeldung ändern willst.")
 
