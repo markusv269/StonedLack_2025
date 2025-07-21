@@ -8,7 +8,7 @@ from airtable import waitinglist_airtable
 
 # Airtable-Zugangsdaten
 AIRTABLE_API_KEY = st.secrets["airtable"]["api_key"]
-BASE_ID = st.secrets["airtable"]["base_id"]
+BASE_ID = st.secrets["airtable"]["base_id_dyn"]
 TABLE_NAME = "WaitingRoom"
 api = Api(AIRTABLE_API_KEY)
 base = Base(api, BASE_ID)
