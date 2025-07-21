@@ -16,7 +16,7 @@ def get_user_id(username):
     except Exception:
         return False
 
-AIRTABLE_API_KEY = st.secrets["airtable"]["api_key"]
+AIRTABLE_API_KEY = st.secrets["airtable"]["api_key_reg"]
 BASE_ID = st.secrets["airtable"]["base_id"]
 TABLE_NAME = "SLR2025"
 

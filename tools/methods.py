@@ -1,7 +1,10 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import streamlit as st
+from typing import List
+from sleeper import SleeperLeague, SleeperUser, SleeperDraft, get_draft_status, get_draft_time, get_draft_type
+from config import REDLEAGUES
+redraft_leagues = REDLEAGUES
 
 def load_matchups():
     matchups = pd.read_parquet('DATA/_2024/MATCHUPS/matchups.parquet', engine='pyarrow')
@@ -12,18 +15,49 @@ def load_matchups():
     return matchups
 
 def load_rosters():
-    rosters = pd.read_parquet('DATA/_2024/ROSTERS/rosters.parquet', engine='pyarrow')
-    settings = rosters['settings'].apply(pd.Series)
-    rosters = rosters.drop(columns=['settings']).join(settings)
-    rosters['fpts'] = round(rosters['fpts'] + rosters['fpts_decimal'] / 100,2)
-    rosters['fpts_against'] = round(rosters['fpts_against'] + rosters['fpts_against_decimal'] / 100,2)
-    rosters['ppts'] = round(rosters['ppts'] + rosters['ppts_decimal'] / 100,2)
-    rosters = rosters.drop(columns=['fpts_decimal', 'fpts_against_decimal', 'ppts_decimal', 'starters'])
+    all_rosters = []
+
+    for league_id in redraft_leagues:
+        league = SleeperLeague(league_id)
+        roster_data = league.get_rosters()
+        df = pd.DataFrame(roster_data).T.reset_index(drop=True)
+        df['league_id'] = league_id
+        all_rosters.append(df)
+
+    rosters = pd.concat(all_rosters, ignore_index=True)
+    rosters['roster_id'] = rosters.index
+    if rosters["settings"]:
+        rosters['settings'] = rosters['settings'].apply(pd.Series)
+        rosters['fpts'] = round(rosters['fpts'] + rosters['fpts_decimal'] / 100, 2)
+        rosters['fpts_against'] = round(rosters['fpts_against'] + rosters['fpts_against_decimal'] / 100, 2)
+        rosters['ppts'] = round(rosters['ppts'] + rosters['ppts_decimal'] / 100, 2)
+        rosters = rosters.drop(columns=['fpts_decimal', 'fpts_against_decimal', 'ppts_decimal', 'starters'])
+
     return rosters
 
-def load_users():
-    users = pd.read_parquet('DATA/sleeper_user/users.parquet', engine='pyarrow')
-    return users
+def load_users(redraft_leagues: List[str]) -> pd.DataFrame:
+    all_users = []
+
+    for league_id in redraft_leagues:
+        league = SleeperLeague(league_id)
+        rosters = league.get_rosters()
+
+        for roster in rosters:
+            owner_id = roster.get("owner_id")
+            if not owner_id:
+                continue  # skip if no owner assigned
+
+            try:
+                user = SleeperUser(owner_id)
+                user_info = user.get_user_info()
+                user_info["league_id"] = league_id
+                all_users.append(user_info)
+            except Exception as e:
+                print(f"Fehler beim Abrufen von user_id {owner_id}: {e}")
+                continue
+
+    users_df = pd.DataFrame(all_users).drop_duplicates(subset=["user_id", "league_id"])
+    return users_df
 
 def load_players():
     players = pd.read_json('DATA/nfl_player/players.json')
