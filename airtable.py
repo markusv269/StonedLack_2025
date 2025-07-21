@@ -9,6 +9,7 @@ from pyairtable.formulas import match
 
 API_KEY = st.secrets["airtable"]["api_key"]
 BASE_ID = st.secrets["airtable"]["base_id"]
+BASE_ID_DYN = st.secrets["airtable"]["base_id_dyn"]
 AIRTABLE_API_KEY = st.secrets["airtable"]["api_key"]
 TABLE_NAME = "WaitingRoom"
 
@@ -38,7 +39,7 @@ def save_to_airtable(**kwargs):
         return False
 
 def waitinglist_airtable(sleeper, discord, options):
-    table = Table(AIRTABLE_API_KEY, BASE_ID, TABLE_NAME)
+    table = Table(AIRTABLE_API_KEY, BASE_ID_DYN, TABLE_NAME)
     for option in options:
         index_value = f"{sleeper.lower()}-{option}"
         existing = table.first(formula=match({"index": index_value}))
