@@ -1,0 +1,73 @@
+{
+    "created": 1752607846978,
+    "creators": [
+        "585507399792627712",
+        "1127167632777682944"
+    ],
+    "draft_id": "1250931612850339840",
+    "draft_order": {
+        "1106948236515962880": 11,
+        "1110241653186555904": 12,
+        "1118578000754282496": 2,
+        "1127167632777682944": 3,
+        "1127246321750052864": 6,
+        "1129655183757299712": 8,
+        "1129708558423031808": 7,
+        "1129824623715110912": 4,
+        "1133863853596528640": 9,
+        "585507399792627712": 1,
+        "990318951781490688": 5,
+        "992029176536305664": 10
+    },
+    "last_message_id": "1252778239097569280",
+    "last_message_time": 1753048116999,
+    "last_picked": 1753048090798,
+    "league_id": "1250931611524927488",
+    "metadata": {
+        "description": "",
+        "is_autopaused": "true",
+        "name": "Stoned Lack Bestball Dynasty 4",
+        "scoring_type": "dynasty_ppr"
+    },
+    "season": "2025",
+    "season_type": "regular",
+    "settings": {
+        "alpha_sort": 0,
+        "autopause_enabled": 1,
+        "autopause_end_time": 300,
+        "autopause_start_time": 1260,
+        "autostart": 0,
+        "cpu_autopick": 1,
+        "enforce_position_limits": 1,
+        "nomination_timer": 60,
+        "pick_timer": 28800,
+        "player_type": 0,
+        "reversal_round": 0,
+        "rounds": 29,
+        "slots_bn": 20,
+        "slots_flex": 2,
+        "slots_qb": 1,
+        "slots_rb": 2,
+        "slots_te": 1,
+        "slots_wr": 3,
+        "teams": 12
+    },
+    "slot_to_roster_id": {
+        "1": 6,
+        "10": 8,
+        "11": 10,
+        "12": 9,
+        "2": 5,
+        "3": 4,
+        "4": 12,
+        "5": 2,
+        "6": 1,
+        "7": 7,
+        "8": 3,
+        "9": 11
+    },
+    "sport": "nfl",
+    "start_time": 1752944458431,
+    "status": "paused",
+    "type": "snake"
+}
