@@ -165,15 +165,21 @@ records = result.data
 
 if records:
     st.write("Hier siehst du die aktuell angemeldeten Teilnehmenden.")
-    st.success(f"Anzahl der Anmeldungen: {len(records)}")
     n_leagues = len(records) // 12
     n_waiters = len(records) % 12
-
+    n_commish = sum(1 for r in records if r.get("Commish") is True)
+    st.success(f"Anzahl der Anmeldungen: {len(records)} ({n_commish} Commishs)")
+    
     left, right = st.columns(2)
     with left:
         st.success(f"Anzahl volle Ligen: {n_leagues}")
+        # if n_commish > n_leagues:
+        #     st.success(f"Aktuell mehr Commishs ({n_commish}) als Ligen.")
+        # else:
+        #     st.warning("Wir brauchen mehr Commishs!")
     with right:
         st.info(f"Nachrücker: {n_waiters}")
+        
 
     df = pd.DataFrame(records)
     df["Commish"] = df.get("Commish", False)
