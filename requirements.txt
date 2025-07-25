@@ -12,3 +12,4 @@ selenium
 plotly
 pyairtable
 networkx
+supabase
