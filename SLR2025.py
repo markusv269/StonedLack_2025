@@ -196,16 +196,20 @@ if records:
         st.info(f"Nachrücker: {n_waiters}")
         
     # Farb-Funktion
-    def highlight_rows(row):
+    def style_row(row):
         if row.name < n_waiters:
-            return ['background-color: #e6f2ff'] * len(row)  # hellblau (wie st.info)
+            return [  # Blau wie st.info
+                'background-color: #e6f2ff; color: #004085'  # heller Hintergrund, dunklere Schrift
+            ] * len(row)
         else:
-            return ['background-color: #e6ffe6'] * len(row)  # hellgrün (wie st.success)
+            return [  # Grün wie st.success
+                'background-color: #e6ffe6; color: #155724'  # heller Hintergrund, grüne Schrift
+            ] * len(row)
 
     df = pd.DataFrame(records)
     df["Commish"] = df.get("Commish", False)
     df["Mitspieler"] = df.get("Mitspieler", "")
-    st.dataframe(df[["Sleeper", "Discord", "Commish", "Mitspieler"]].style.apply(highlight_rows, axis=1),
+    st.dataframe(df[["Sleeper", "Discord", "Commish", "Mitspieler"]].style.apply(style_row, axis=1),
                  use_container_width=True,
                  hide_index=True,
                  column_config={"Mitspieler": st.column_config.TextColumn("Gewünschte Mitspieler")})
