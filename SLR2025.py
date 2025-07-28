@@ -168,8 +168,23 @@ if records:
     n_leagues = len(records) // 12
     n_waiters = len(records) % 12
     n_commish = sum(1 for r in records if r.get("Commish") is True)
-    st.success(f"Anzahl der Anmeldungen: {len(records)} ({n_commish} Commishs)")
-    
+    # Graue Box mit Markdown und CSS
+    text = f"Anzahl der Anmeldungen gesamt: {len(records)} Manager, {n_commish} Commishs"
+    st.markdown(
+        f"""
+        <div style="
+            padding: 1rem;
+            background-color: #f0f0f0;
+            border-radius: 0.5rem;
+            color: #333;
+            margin-bottom: 1rem;
+            ">
+            {text}
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
     left, right = st.columns(2)
     with left:
         st.success(f"Anzahl volle Ligen: {n_leagues}")
