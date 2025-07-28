@@ -180,11 +180,17 @@ if records:
     with right:
         st.info(f"Nachrücker: {n_waiters}")
         
+    # Farb-Funktion
+    def highlight_rows(row):
+        if row.name < n_waiters:
+            return ['background-color: #e6f2ff'] * len(row)  # hellblau (wie st.info)
+        else:
+            return ['background-color: #e6ffe6'] * len(row)  # hellgrün (wie st.success)
 
     df = pd.DataFrame(records)
     df["Commish"] = df.get("Commish", False)
     df["Mitspieler"] = df.get("Mitspieler", "")
-    st.dataframe(df[["Sleeper", "Discord", "Commish", "Mitspieler"]],
+    st.dataframe(df[["Sleeper", "Discord", "Commish", "Mitspieler"]].style.apply(highlight_rows, axis=1),
                  use_container_width=True,
                  hide_index=True,
                  column_config={"Mitspieler": st.column_config.TextColumn("Gewünschte Mitspieler")})
