@@ -107,17 +107,54 @@ with left:
     st.image("Pictures/SL_logo.png", width=200)
 
 with right:
-    st.markdown("""
+    st.markdown(f'''
     ### 📝 Anmeldung zu den **Stoned Lack Redraft Ligen 2025**
-    
-    Willkommen zur Anmeldung für die allseits beliebten **Stoned Lack Redraft Ligen**! 🏈  
+            
+    Willkommen zur Anmeldung für die allseits beliebten **Stoned Lack Redraft Ligen**! 🏈
+            
     Gespielt wird auf [Sleeper](https://sleeper.com/). Die Zuteilung zu einer Liga erfolgt per **Live-Auslosung Ende August 2025** im Stream von Stoned Lack!
+    
+    **🔹 Wichtige Infos zur Anmeldung:**
+    - Tragt eure **Kontakt-Daten** ein, mit denen euch der Commissioner nach der Auslosung einladen kann.
+    - Achtet auf die **genaue Schreibweise eurer Namen in Sleeper & Discord**.
+    - **Der Sleeper-Name ist zwingend erforderlich** und wird überprüft, da dieser für die Zuteilung und die Mitspielerwünsche genutzt wird.
+    - Falls ihr noch keinen Sleeper-Account habt, erstellt euch einen unter: [Sleeper-Registrierung](https://sleeper.com/create).
+    
+    **⏳ Ablauf:**
+    - Nach der **Auslosung** erhaltet ihr eine **Einladung** über Sleeper oder Discord.
+    - Bitte schaut regelmäßig in **Sleeper & Discord**, damit die Liga zügig zustande kommt und der Draft starten kann.
+    
+    ---
+    
+    #### 🙌 Werde Commissioner!
+    
+    Eine Liga ist nur so gut wie ihr Commissioner! Falls du Lust hast, eine Liga zu leiten, trau Dich, es kann nichts schief gehen! 🏆
+    - **Erfahrung ist nicht nötig** – Unterstützung gibt’s im **Stoned Lack Army Discord oder direkt in der sleeper-Liga**.
+    - Ohne freiwillige Commissioner gibt es keine Ligen – also trau dich! 💪
+    
+    ---
+    
+    #### ℹ️ Datenschutz & Anmeldestatus
+    
+    _Die hier erhobenen Daten werden ausschließlich zur Durchführung der Stoned Lack Redraft Ligen gespeichert und nach Ende der Saison gelöscht._
+    
+    - **Datenaktualisierung**  
+    Falls ihr eure Anmeldung überschreiben wollt, meldet euch einfach mit dem **gleichen Sleeper-Namen** erneut an. Es zählt immer der letzte Eintrag.
+    Bei der Anmeldung erhaltet ihr einen **Anmeldeschlüssel** (per Mail oder als Anzeige), den ihr für zukünftige Änderungen benötigt.
+    Die Anmeldezeit bleibt bei einer Änderung unverändert zum ersten Eintrag, ihr müsst also keine Angst haben, dass ihr aus der Reihe rutscht und wieder hinten ansteht.
+                
+    - **Anmeldeschlüssel**  
+    Der Anmeldeschlüssel ist ein **einmalig erstellter Code**, der euch hilft, eure Anmeldung zu aktualisieren. Er wird bei der Anmeldung generiert und Euch entweder per Mail zugesandt oder nach der Anmeldung angezeigt.
+    Bewahrt ihn sicher auf, da ihr ihn benötigt, um eure Anmeldung zu ändern oder zu aktualisieren.
+    
+    - **Status prüfen**  
+    Seht unten nach, ob eure Anmeldung erfasst wurde.
+    
+    Wir freuen uns auf euch! **Let’s go! 🚀**
 
-    **🔹 Infos:**
-    - Sleeper & Discord müssen exakt angegeben werden.
-    - Du kannst maximal **3 Wunsch-Mitspieler** angeben.
-    - Nach Anmeldung bekommst du einen Schlüssel (per Mail oder angezeigt), mit dem du später deine Anmeldung ändern kannst.
-    """)
+    ---
+
+    ''')
 
     mode = st.radio("Möchtest du dich neu anmelden oder eine bestehende Anmeldung ändern?", ["Anmeldung", "Aktualisierung"])
     commish = st.checkbox("Ich übernehme einen Commish-Posten!")
