@@ -19,12 +19,13 @@
         "990318951781490688": 5,
         "992029176536305664": 10
     },
-    "last_message_id": "1255334657973571584",
-    "last_message_time": 1753657614756,
-    "last_picked": 1753657600928,
+    "last_message_id": "1257839436092162048",
+    "last_message_time": 1754254800393,
+    "last_picked": 1754250248038,
     "league_id": "1250931611524927488",
     "metadata": {
         "description": "",
+        "elapsed_pick_timer": "4552298",
         "is_autopaused": "true",
         "name": "Stoned Lack Bestball Dynasty 4",
         "scoring_type": "dynasty_ppr"
