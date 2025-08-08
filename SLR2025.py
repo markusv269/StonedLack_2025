@@ -252,3 +252,65 @@ if records:
                  column_config={"Mitspieler": st.column_config.TextColumn("Gewünschte Mitspieler")})
 else:
     st.warning("Noch keine Anmeldungen vorhanden.")
+
+wunsch_dict = {}
+commish_df = pd.DataFrame()
+player_df = pd.DataFrame()
+
+# Iteration über alle Zeilen des DataFrames
+for index, row in df.iterrows():
+    spieler = row["index"]
+
+    # Wunsch-Mitspieler extrahieren
+    mitspieler_liste = row["Mitspieler"]
+    if pd.notna(mitspieler_liste):
+        for mitspieler in mitspieler_liste.split(","):
+            mitspieler = mitspieler.lower().strip()
+            if mitspieler:  # nur nicht-leere Strings
+                wunsch_dict.setdefault(spieler, []).append(mitspieler)
+
+    # Aufteilen in Commishs und normale Spieler
+    if row.get("Commish", False):
+        commish_df = pd.concat([commish_df, row.to_frame().T], ignore_index=True)
+    else:
+        player_df = pd.concat([player_df, row.to_frame().T], ignore_index=True)
+
+# Gegenseitige Wunschgruppen finden (nur 2er-Gruppen)
+mutual_groups = set()
+for spieler, wünsche in wunsch_dict.items():
+    for gewünschter in wünsche:
+        if gewünschter in wunsch_dict and spieler in wunsch_dict[gewünschter]:
+            gruppe = tuple(sorted([spieler, gewünschter]))
+            mutual_groups.add(gruppe)
+
+# Umwandlung in Listen
+verified_groups = [list(gruppe) for gruppe in mutual_groups]
+
+# einseitige Erwähnung reicht
+group_to_merge = verified_groups.copy()
+
+def merge_groups(groups):
+    merged = []
+
+    for group in groups:
+        added = False
+        for mgroup in merged:
+            if any(elem in mgroup for elem in group):
+                mgroup.update(group)
+                added = True
+                break
+        if not added:
+            merged.append(set(group))
+
+    return [list(mgroup) for mgroup in merged]
+
+merged_groups = merge_groups(group_to_merge)
+
+st.write("## Verifizierte Gruppen")
+st.write("*Es werden alle sleeper-Namen in Kleinbuchstaben angezeigt.*")
+if merged_groups:
+    # st.write("Hier sind die Spieler, die sich gegenseitig als Mitspieler wünschen:")
+    for gruppe in merged_groups:
+        st.write("*", " -- ".join(gruppe))
+else:
+    st.write("Keine gegenseitigen Wunschgruppen gefunden.")
