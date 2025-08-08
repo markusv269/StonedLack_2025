@@ -194,123 +194,123 @@ with right:
             else:
                 anmeldung_slr(sleeper_name, discord_name, commish, mitspieler_names, email, schluessel_input)
 
-# --- Statusanzeige ---
+    # --- Statusanzeige ---
 
-st.write("## Anmeldestatus SLR2025")
-result = supabase.table("SLR2025").select("*").order("Anmeldezeit", desc=True).execute()
-records = result.data
+    st.write("## Anmeldestatus SLR2025")
+    result = supabase.table("SLR2025").select("*").order("Anmeldezeit", desc=True).execute()
+    records = result.data
 
-if records:
-    st.write("Hier siehst du die aktuell angemeldeten Teilnehmenden.")
-    n_leagues = len(records) // 12
-    n_waiters = len(records) % 12
-    n_commish = sum(1 for r in records if r.get("Commish") is True)
-    # Graue Box mit Markdown und CSS
-    text = f"Anzahl der Anmeldungen gesamt: {len(records)} Manager, {n_commish} Commishs"
-    st.markdown(
-        f"""
-        <div style="
-            padding: 1rem;
-            background-color: #f0f0f0;
-            border-radius: 0.5rem;
-            color: #333;
-            margin-bottom: 1rem;
-            ">
-            {text}
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+    if records:
+        st.write("Hier siehst du die aktuell angemeldeten Teilnehmenden.")
+        n_leagues = len(records) // 12
+        n_waiters = len(records) % 12
+        n_commish = sum(1 for r in records if r.get("Commish") is True)
+        # Graue Box mit Markdown und CSS
+        text = f"Anzahl der Anmeldungen gesamt: {len(records)} Manager, {n_commish} Commishs"
+        st.markdown(
+            f"""
+            <div style="
+                padding: 1rem;
+                background-color: #f0f0f0;
+                border-radius: 0.5rem;
+                color: #333;
+                margin-bottom: 1rem;
+                ">
+                {text}
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
 
-    left, right = st.columns(2)
-    with left:
-        st.success(f"Anzahl volle Ligen: {n_leagues}")
-        # if n_commish > n_leagues:
-        #     st.success(f"Aktuell mehr Commishs ({n_commish}) als Ligen.")
-        # else:
-        #     st.warning("Wir brauchen mehr Commishs!")
-    with right:
-        st.info(f"Nachrücker: {n_waiters}")
-        
-    # Farb-Funktion
-    def style_row(row):
-        if row.name < n_waiters:
-            return [  # Blau wie st.info
-                'background-color: #e6f2ff; color: #004085'  # heller Hintergrund, dunklere Schrift
-            ] * len(row)
-        else:
-            return [  # Grün wie st.success
-                'background-color: #e6ffe6; color: #155724'  # heller Hintergrund, grüne Schrift
-            ] * len(row)
+        left, right = st.columns(2)
+        with left:
+            st.success(f"Anzahl volle Ligen: {n_leagues}")
+            # if n_commish > n_leagues:
+            #     st.success(f"Aktuell mehr Commishs ({n_commish}) als Ligen.")
+            # else:
+            #     st.warning("Wir brauchen mehr Commishs!")
+        with right:
+            st.info(f"Nachrücker: {n_waiters}")
+            
+        # Farb-Funktion
+        def style_row(row):
+            if row.name < n_waiters:
+                return [  # Blau wie st.info
+                    'background-color: #e6f2ff; color: #004085'  # heller Hintergrund, dunklere Schrift
+                ] * len(row)
+            else:
+                return [  # Grün wie st.success
+                    'background-color: #e6ffe6; color: #155724'  # heller Hintergrund, grüne Schrift
+                ] * len(row)
 
-    df = pd.DataFrame(records)
-    df["Commish"] = df.get("Commish", False)
-    df["Mitspieler"] = df.get("Mitspieler", "")
-    st.dataframe(df[["Sleeper", "Discord", "Commish", "Mitspieler"]].style.apply(style_row, axis=1),
-                 use_container_width=True,
-                 hide_index=True,
-                 column_config={"Mitspieler": st.column_config.TextColumn("Gewünschte Mitspieler")})
-else:
-    st.warning("Noch keine Anmeldungen vorhanden.")
-
-wunsch_dict = {}
-commish_df = pd.DataFrame()
-player_df = pd.DataFrame()
-
-# Iteration über alle Zeilen des DataFrames
-for index, row in df.iterrows():
-    spieler = row["index"]
-
-    # Wunsch-Mitspieler extrahieren
-    mitspieler_liste = row["Mitspieler"]
-    if pd.notna(mitspieler_liste):
-        for mitspieler in mitspieler_liste.split(","):
-            mitspieler = mitspieler.lower().strip()
-            if mitspieler:  # nur nicht-leere Strings
-                wunsch_dict.setdefault(spieler, []).append(mitspieler)
-
-    # Aufteilen in Commishs und normale Spieler
-    if row.get("Commish", False):
-        commish_df = pd.concat([commish_df, row.to_frame().T], ignore_index=True)
+        df = pd.DataFrame(records)
+        df["Commish"] = df.get("Commish", False)
+        df["Mitspieler"] = df.get("Mitspieler", "")
+        st.dataframe(df[["Sleeper", "Discord", "Commish", "Mitspieler"]].style.apply(style_row, axis=1),
+                    use_container_width=True,
+                    hide_index=True,
+                    column_config={"Mitspieler": st.column_config.TextColumn("Gewünschte Mitspieler")})
     else:
-        player_df = pd.concat([player_df, row.to_frame().T], ignore_index=True)
+        st.warning("Noch keine Anmeldungen vorhanden.")
 
-# Gegenseitige Wunschgruppen finden (nur 2er-Gruppen)
-mutual_groups = set()
-for spieler, wünsche in wunsch_dict.items():
-    for gewünschter in wünsche:
-        if gewünschter in wunsch_dict and spieler in wunsch_dict[gewünschter]:
-            gruppe = tuple(sorted([spieler, gewünschter]))
-            mutual_groups.add(gruppe)
+    wunsch_dict = {}
+    commish_df = pd.DataFrame()
+    player_df = pd.DataFrame()
 
-# Umwandlung in Listen
-verified_groups = [list(gruppe) for gruppe in mutual_groups]
+    # Iteration über alle Zeilen des DataFrames
+    for index, row in df.iterrows():
+        spieler = row["index"]
 
-# einseitige Erwähnung reicht
-group_to_merge = verified_groups.copy()
+        # Wunsch-Mitspieler extrahieren
+        mitspieler_liste = row["Mitspieler"]
+        if pd.notna(mitspieler_liste):
+            for mitspieler in mitspieler_liste.split(","):
+                mitspieler = mitspieler.lower().strip()
+                if mitspieler:  # nur nicht-leere Strings
+                    wunsch_dict.setdefault(spieler, []).append(mitspieler)
 
-def merge_groups(groups):
-    merged = []
+        # Aufteilen in Commishs und normale Spieler
+        if row.get("Commish", False):
+            commish_df = pd.concat([commish_df, row.to_frame().T], ignore_index=True)
+        else:
+            player_df = pd.concat([player_df, row.to_frame().T], ignore_index=True)
 
-    for group in groups:
-        added = False
-        for mgroup in merged:
-            if any(elem in mgroup for elem in group):
-                mgroup.update(group)
-                added = True
-                break
-        if not added:
-            merged.append(set(group))
+    # Gegenseitige Wunschgruppen finden (nur 2er-Gruppen)
+    mutual_groups = set()
+    for spieler, wünsche in wunsch_dict.items():
+        for gewünschter in wünsche:
+            if gewünschter in wunsch_dict and spieler in wunsch_dict[gewünschter]:
+                gruppe = tuple(sorted([spieler, gewünschter]))
+                mutual_groups.add(gruppe)
 
-    return [list(mgroup) for mgroup in merged]
+    # Umwandlung in Listen
+    verified_groups = [list(gruppe) for gruppe in mutual_groups]
 
-merged_groups = merge_groups(group_to_merge)
+    # einseitige Erwähnung reicht
+    group_to_merge = verified_groups.copy()
 
-st.write("## Verifizierte Gruppen")
-st.write("*Es werden alle sleeper-Namen in Kleinbuchstaben angezeigt.*")
-if merged_groups:
-    # st.write("Hier sind die Spieler, die sich gegenseitig als Mitspieler wünschen:")
-    for gruppe in merged_groups:
-        st.write("*", " -- ".join(gruppe))
-else:
-    st.write("Keine gegenseitigen Wunschgruppen gefunden.")
+    def merge_groups(groups):
+        merged = []
+
+        for group in groups:
+            added = False
+            for mgroup in merged:
+                if any(elem in mgroup for elem in group):
+                    mgroup.update(group)
+                    added = True
+                    break
+            if not added:
+                merged.append(set(group))
+
+        return [list(mgroup) for mgroup in merged]
+
+    merged_groups = merge_groups(group_to_merge)
+
+    st.write("## Verifizierte Gruppen")
+    st.write("*Es werden alle sleeper-Namen in Kleinbuchstaben angezeigt.*")
+    if merged_groups:
+        # st.write("Hier sind die Spieler, die sich gegenseitig als Mitspieler wünschen:")
+        for gruppe in merged_groups:
+            st.write("*", " -- ".join(gruppe))
+    else:
+        st.write("Keine gegenseitigen Wunschgruppen gefunden.")
