@@ -305,12 +305,12 @@ with right:
         return [list(mgroup) for mgroup in merged]
 
     merged_groups = merge_groups(group_to_merge)
-
-    st.write("## Verifizierte Gruppen")
-    st.write("*Es werden alle sleeper-Namen in Kleinbuchstaben angezeigt.*")
-    if merged_groups:
-        # st.write("Hier sind die Spieler, die sich gegenseitig als Mitspieler wünschen:")
-        for gruppe in merged_groups:
-            st.write("*", " -- ".join(gruppe))
-    else:
-        st.write("Keine gegenseitigen Wunschgruppen gefunden.")
+    with st.expander("Gegenseitige Wunschgruppen", icon=":material/group:", expanded=False):
+        # st.write("#### Verifizierte Gruppen")
+        st.write('''*Es werden alle sleeper-Namen in Kleinbuchstaben angezeigt.*  ''')
+        if merged_groups:
+            # st.write("Hier sind die Spieler, die sich gegenseitig als Mitspieler wünschen:")
+            for gruppe in merged_groups:
+                st.write("*", " -- ".join(gruppe))
+        else:
+            st.write("Keine gegenseitigen Wunschgruppen gefunden.")
