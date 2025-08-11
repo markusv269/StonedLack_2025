@@ -34,8 +34,14 @@ st.write("# Dynasty Waiting Room")
          
 # ''')
 st.subheader("Achtung: Anmeldeschluss für die Dynasty-Ligen für die Saison 2025.", divider="blue")
-st.write("*Der Waiting Room für die StonedLack Dynasty-Ligen schließt für diese Saison seine Pforten. Die Organisation weiterer Ligen bis zum Saisonstart am 04.09.2025 wird nicht mehr möglich sein. Wir danken allen, die sich eingetragen haben und wünschen viel Erfolg in den Ligen! 🏈  " \
-"Wir freuen uns auf die nächste Saison und hoffen, dass ihr dann wieder dabei seid! Bis dahin!*")
+st.write('''
+        *Der Waiting Room für die StonedLack Dynasty-Ligen schließt für diese Saison seine Pforten.  
+         Die Organisation weiterer Ligen bis zum Saisonstart am 04.09.2025 wird nicht mehr möglich sein.  
+         Wir danken allen, die sich eingetragen haben und wünschen viel Erfolg in den Ligen!* 🏈 
+
+        --- 
+
+        **Wir freuen uns auf die nächste Saison und hoffen, dass ihr dann wieder dabei seid! Bis dahin!**''')
 
 # st.write("**Welchen Ligentyp möchtest du spielen (wähle mindestens einen)?**")
 # dynasty_checkbox = st.checkbox("Dynasty")
