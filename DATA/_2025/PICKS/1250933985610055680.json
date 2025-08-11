@@ -8656,5 +8656,83 @@
         "reactions": null,
         "roster_id": 2,
         "round": 28
+    },
+    {
+        "draft_id": "1250933985610055680",
+        "draft_slot": 3,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Luke",
+            "injury_status": "",
+            "last_name": "Musgrave",
+            "news_updated": "1738125046303",
+            "number": "88",
+            "player_id": "9481",
+            "position": "TE",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "GB",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 334,
+        "picked_by": "990318951781490688",
+        "player_id": "9481",
+        "reactions": null,
+        "roster_id": 8,
+        "round": 28
+    },
+    {
+        "draft_id": "1250933985610055680",
+        "draft_slot": 2,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Antwane",
+            "injury_status": "",
+            "last_name": "Wells",
+            "news_updated": "1745790351135",
+            "number": "2",
+            "player_id": "12460",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "NYG",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 335,
+        "picked_by": "1133863853596528640",
+        "player_id": "12460",
+        "reactions": null,
+        "roster_id": 10,
+        "round": 28
+    },
+    {
+        "draft_id": "1250933985610055680",
+        "draft_slot": 1,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Parker",
+            "injury_status": "",
+            "last_name": "Washington",
+            "news_updated": "1736200206659",
+            "number": "11",
+            "player_id": "9487",
+            "position": "WR",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "JAX",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "2"
+        },
+        "pick_no": 336,
+        "picked_by": "992029176536305664",
+        "player_id": "9487",
+        "reactions": null,
+        "roster_id": 11,
+        "round": 28
     }
 ]

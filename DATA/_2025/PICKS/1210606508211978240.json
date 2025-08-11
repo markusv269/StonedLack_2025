@@ -1220,5 +1220,31 @@
         "reactions": null,
         "roster_id": 6,
         "round": 4
+    },
+    {
+        "draft_id": "1210606508211978240",
+        "draft_slot": 12,
+        "is_keeper": null,
+        "metadata": {
+            "first_name": "Tahj",
+            "injury_status": "",
+            "last_name": "Brooks",
+            "news_updated": "1753999841788",
+            "number": "25",
+            "player_id": "12543",
+            "position": "RB",
+            "sport": "nfl",
+            "status": "Active",
+            "team": "CIN",
+            "team_abbr": "",
+            "team_changed_at": "",
+            "years_exp": "0"
+        },
+        "pick_no": 48,
+        "picked_by": "603197936876187648",
+        "player_id": "12543",
+        "reactions": null,
+        "roster_id": 12,
+        "round": 4
     }
 ]

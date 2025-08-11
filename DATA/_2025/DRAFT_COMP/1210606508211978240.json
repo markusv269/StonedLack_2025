@@ -18,13 +18,12 @@
         "728027880252100608": 11,
         "732564808494379008": 4
     },
-    "last_message_id": "1257846332215795712",
-    "last_message_time": 1754256444557,
-    "last_picked": 1754256444548,
+    "last_message_id": "1258004369626902528",
+    "last_message_time": 1754294123612,
+    "last_picked": 1754294122567,
     "league_id": "1210606508199383040",
     "metadata": {
         "description": "",
-        "is_autopaused": "true",
         "name": "SLL 14 Dynasty",
         "scoring_type": "dynasty_ppr"
     },
@@ -68,6 +67,6 @@
     },
     "sport": "nfl",
     "start_time": 1753977735172,
-    "status": "paused",
+    "status": "complete",
     "type": "linear"
 }
