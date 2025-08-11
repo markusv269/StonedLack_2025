@@ -197,49 +197,49 @@ mockdrafts_2025_stream = [
 
 
 REDLEAGUES_2025 = {
-    "1259474320795652096": {"invitelink": "https://sleeper.com/i/LV9YBna4RwYkm"}, #SLR2025 - Liga 45
-    "1259474226784518144": {"invitelink": "https://sleeper.com/i/Y2GY7xAMj8B6R"}, #SLR2025 - Liga 44
-    "1259474146023182336": {"invitelink": "https://sleeper.com/i/zE10MeQ0W4mwB"}, #SLR2025 - Liga 43
-    "1259456880581812224": {"invitelink": "https://sleeper.com/i/m78PMql9wl29G"}, #SLR2025 - Liga 42
-    "1259456793621307392": {"invitelink": "https://sleeper.com/i/j7Oj2BOnggaaV"}, #SLR2025 - Liga 41
-    "1259456679792103424": {"invitelink": "https://sleeper.com/i/m78PMw2bnzkww"}, #SLR2025 - Liga 40
-    "1259456554017492992": {"invitelink": "https://sleeper.com/i/j7Oj2wjLoV5n0"}, #SLR2025 - Liga 39
-    "1259456415743877120": {"invitelink": "https://sleeper.com/i/E8oV4MxxQn0QG"}, #SLR2025 - Liga 38
-    "1259456303575609344": {"invitelink": "https://sleeper.com/i/Y2GYNPL97qmQW"}, #SLR2025 - Liga 37
-    "1253003762222497792": {"invitelink": "https://sleeper.com/i/j7Ogm79mPxjDV"}, #SLR2025 - Liga 36
-    "1253003689942061056": {"invitelink": "https://sleeper.com/i/kM8n2MRmPAMWk"}, #SLR2025 - Liga 35
-    "1253003588548968448": {"invitelink": "https://sleeper.com/i/j7Ogm7ooAQ9Xw"}, #SLR2025 - Liga 34
-    "1253003494361677824": {"invitelink": "https://sleeper.com/i/m78jogOzxLx83"}, #SLR2025 - Liga 33
-    "1253003422249005056": {"invitelink": "https://sleeper.com/i/kM8n2zjWGa3j7"}, #SLR2025 - Liga 32
-    "1253002628053356544": {"invitelink": "https://sleeper.com/i/Y2G5Rk8OMZ7xj"}, #SLR2025 - Liga 31
-    "1253002535396982784": {"invitelink": "https://sleeper.com/i/QB2GJmk2qKwZP"}, #SLR2025 - Liga 30
-    "1253002452240703488": {"invitelink": "https://sleeper.com/i/Y2G5R0xwDLXOD"}, #SLR2025 - Liga 29
-    "1253001282537394176": {"invitelink": "https://sleeper.com/i/0NLGQD1JZRdxX"}, #SLR2025 - Liga 28
-    "1253001211578171392": {"invitelink": "https://sleeper.com/i/j7OgXl9DBmVO0"}, #SLR2025 - Liga 27
-    "1253001133438291968": {"invitelink": "https://sleeper.com/i/m78jGnWnXdYGw"}, #SLR2025 - Liga 26
-    "1253001055621349376": {"invitelink": "https://sleeper.com/i/0NLGQDjPm7g92"}, #SLR2025 - Liga 25
-    "1253000976617439232": {"invitelink": "https://sleeper.com/i/0NLGQDbYZQl75"}, #SLR2025 - Liga 24
-    "1253000893956100096": {"invitelink": "https://sleeper.com/i/LV96Om3xGQ8mX"}, #SLR2025 - Liga 23
-    "1253000818538323968": {"invitelink": "https://sleeper.com/i/m78jGeRxob79e"}, #SLR2025 - Liga 22
-    "1253000733360402432": {"invitelink": "https://sleeper.com/i/0NLGQaYmOMJXw"}, #SLR2025 - Liga 21
-    "1253000648966819840": {"invitelink": "https://sleeper.com/i/QB2GJKxGkb5J3"}, #SLR2025 - Liga 20
-    "1253000445379477504": {"invitelink": "https://sleeper.com/i/j7OgXaq7BZEGW"}, #SLR2025 - Liga 19
-    "1253000346901417984": {"invitelink": "https://sleeper.com/i/QB2GJKBNXLOzE"}, #SLR2025 - Liga 18
-    "1253000245189541888": {"invitelink": "https://sleeper.com/i/Y2G5RoZMJ7zLa"}, #SLR2025 - Liga 17
-    "1253000171831173120": {"invitelink": "https://sleeper.com/i/E8oRWPz1dZwaw"}, #SLR2025 - Liga 16
-    "1253000079652954112": {"invitelink": "https://sleeper.com/i/kM8nK9GB58BLx"}, #SLR2025 - Liga 15
-    "1252999351161069568": {"invitelink": "https://sleeper.com/i/m78jG23dqQqbY"}, #SLR2025 - Liga 14
-    "1252998690872758272": {"invitelink": "https://sleeper.com/i/V9EPGAB7aDnW6"}, #SLR2025 - Liga 13
-    "1252998625206730752": {"invitelink": "https://sleeper.com/i/LV96OA0bLeDB8"}, #SLR2025 - Liga 12
-    "1252998547037507584": {"invitelink": "http://sleeper.com/i/QB2GJAWZ1xAl0"}, #SLR2025 - Liga 11
-    "1252998484617863168": {"invitelink": "https://sleeper.com/i/m78jGBEa0Ponx"}, #SLR2025 - Liga 10
-    "1252998313972604928": {"invitelink": "https://sleeper.com/i/V9EPG0A4Wm4n6"}, #SLR2025 - Liga 9
-    "1252998212189425664": {"invitelink": "https://sleeper.com/i/E8oRW0ML8Bm50"}, #SLR2025 - Liga 8
-    "1252998131948204032": {"invitelink": "https://sleeper.com/i/0NLGQXQlz2JmX"}, #SLR2025 - Liga 7
-    "1252998048309592064": {"invitelink": "https://sleeper.com/i/E8oRWgwd11j13"}, #SLR2025 - Liga 6
-    "1252997844055371776": {"invitelink": "https://sleeper.com/i/0NLGQOR83DkAw"}, #SLR2025 - Liga 5
-    "1252997476521099264": {"invitelink": "https://sleeper.com/i/E8oRW28YjkRJQ"}, #SLR2025 - Liga 4
-    "1252997374859563008": {"invitelink": "https://sleeper.com/i/LV96OBeQ3GLXX"}, #SLR2025 - Liga 3
-    "1252997295608180736": {"invitelink": "https://sleeper.com/i/zE1YbMqZ9nwEq"}, #SLR2025 - Liga 2
-    "1252997207154491392": {"invitelink": "https://sleeper.com/i/j7OgXAo1Kqd08"}, #SLR2025 - Liga 1
+    '1259474320795652096': {'invitelink': 'https://sleeper.com/i/LV9YBna4RwYkm', 'name': 'SLR2025 - Liga 45'}, 
+    '1259474226784518144': {'invitelink': 'https://sleeper.com/i/Y2GY7xAMj8B6R', 'name': 'SLR2025 - Liga 44'}, 
+    '1259474146023182336': {'invitelink': 'https://sleeper.com/i/zE10MeQ0W4mwB', 'name': 'SLR2025 - Liga 43'}, 
+    '1259456880581812224': {'invitelink': 'https://sleeper.com/i/m78PMql9wl29G', 'name': 'SLR2025 - Liga 42'}, 
+    '1259456793621307392': {'invitelink': 'https://sleeper.com/i/j7Oj2BOnggaaV', 'name': 'SLR2025 - Liga 41'}, 
+    '1259456679792103424': {'invitelink': 'https://sleeper.com/i/m78PMw2bnzkww', 'name': 'SLR2025 - Liga 40'}, 
+    '1259456554017492992': {'invitelink': 'https://sleeper.com/i/j7Oj2wjLoV5n0', 'name': 'SLR2025 - Liga 39'}, 
+    '1259456415743877120': {'invitelink': 'https://sleeper.com/i/E8oV4MxxQn0QG', 'name': 'SLR2025 - Liga 38'}, 
+    '1259456303575609344': {'invitelink': 'https://sleeper.com/i/Y2GYNPL97qmQW', 'name': 'SLR2025 - Liga 37'}, 
+    '1253003762222497792': {'invitelink': 'https://sleeper.com/i/j7Ogm79mPxjDV', 'name': 'SLR2025 - Liga 36'}, 
+    '1253003689942061056': {'invitelink': 'https://sleeper.com/i/kM8n2MRmPAMWk', 'name': 'SLR2025 - Liga 35'}, 
+    '1253003588548968448': {'invitelink': 'https://sleeper.com/i/j7Ogm7ooAQ9Xw', 'name': 'SLR2025 - Liga 34'}, 
+    '1253003494361677824': {'invitelink': 'https://sleeper.com/i/m78jogOzxLx83', 'name': 'SLR2025 - Liga 33'}, 
+    '1253003422249005056': {'invitelink': 'https://sleeper.com/i/kM8n2zjWGa3j7', 'name': 'SLR2025 - Liga 32'}, 
+    '1253002628053356544': {'invitelink': 'https://sleeper.com/i/Y2G5Rk8OMZ7xj', 'name': 'SLR2025 - Liga 31'}, 
+    '1253002535396982784': {'invitelink': 'https://sleeper.com/i/QB2GJmk2qKwZP', 'name': 'SLR2025 - Liga 30'}, 
+    '1253002452240703488': {'invitelink': 'https://sleeper.com/i/Y2G5R0xwDLXOD', 'name': 'SLR2025 - Liga 29'}, 
+    '1253001282537394176': {'invitelink': 'https://sleeper.com/i/0NLGQD1JZRdxX', 'name': 'SLR2025 - Liga 28'}, 
+    '1253001211578171392': {'invitelink': 'https://sleeper.com/i/j7OgXl9DBmVO0', 'name': 'SLR2025 - Liga 27'}, 
+    '1253001133438291968': {'invitelink': 'https://sleeper.com/i/m78jGnWnXdYGw', 'name': 'SLR2025 - Liga 26'}, 
+    '1253001055621349376': {'invitelink': 'https://sleeper.com/i/0NLGQDjPm7g92', 'name': 'SLR2025 - Liga 25'}, 
+    '1253000976617439232': {'invitelink': 'https://sleeper.com/i/0NLGQDbYZQl75', 'name': 'SLR2025 - Liga 24'}, 
+    '1253000893956100096': {'invitelink': 'https://sleeper.com/i/LV96Om3xGQ8mX', 'name': 'SLR2025 - Liga 23'}, 
+    '1253000818538323968': {'invitelink': 'https://sleeper.com/i/m78jGeRxob79e', 'name': 'SLR2025 - Liga 22'}, 
+    '1253000733360402432': {'invitelink': 'https://sleeper.com/i/0NLGQaYmOMJXw', 'name': 'SLR2025 - Liga 21'}, 
+    '1253000648966819840': {'invitelink': 'https://sleeper.com/i/QB2GJKxGkb5J3', 'name': 'SLR2025 - Liga 20'}, 
+    '1253000445379477504': {'invitelink': 'https://sleeper.com/i/j7OgXaq7BZEGW', 'name': 'SLR2025 - Liga 19'}, 
+    '1253000346901417984': {'invitelink': 'https://sleeper.com/i/QB2GJKBNXLOzE', 'name': 'SLR2025 - Liga 18'}, 
+    '1253000245189541888': {'invitelink': 'https://sleeper.com/i/Y2G5RoZMJ7zLa', 'name': 'SLR2025 - Liga 17'}, 
+    '1253000171831173120': {'invitelink': 'https://sleeper.com/i/E8oRWPz1dZwaw', 'name': 'SLR2025 - Liga 16'}, 
+    '1253000079652954112': {'invitelink': 'https://sleeper.com/i/kM8nK9GB58BLx', 'name': 'SLR2025 - Liga 15'}, 
+    '1252999351161069568': {'invitelink': 'https://sleeper.com/i/m78jG23dqQqbY', 'name': 'SLR2025 - Liga 14'}, 
+    '1252998690872758272': {'invitelink': 'https://sleeper.com/i/V9EPGAB7aDnW6', 'name': 'SLR2025 - Liga 13'}, 
+    '1252998625206730752': {'invitelink': 'https://sleeper.com/i/LV96OA0bLeDB8', 'name': 'SLR2025 - Liga 12'}, 
+    '1252998547037507584': {'invitelink': 'https://sleeper.com/i/QB2GJAWZ1xAl0', 'name': 'SLR2025 - Liga 11'}, 
+    '1252998484617863168': {'invitelink': 'https://sleeper.com/i/m78jGBEa0Ponx', 'name': 'SLR2025 - Liga 10'}, 
+    '1252998313972604928': {'invitelink': 'https://sleeper.com/i/V9EPG0A4Wm4n6', 'name': 'SLR2025 - Liga 9'},
+    '1252998212189425664': {'invitelink': 'https://sleeper.com/i/E8oRW0ML8Bm50', 'name': 'SLR2025 - Liga 8'}, 
+    '1252998131948204032': {'invitelink': 'https://sleeper.com/i/0NLGQXQlz2JmX', 'name': 'SLR2025 - Liga 7'}, 
+    '1252998048309592064': {'invitelink': 'https://sleeper.com/i/E8oRWgwd11j13', 'name': 'SLR2025 - Liga 6'}, 
+    '1252997844055371776': {'invitelink': 'https://sleeper.com/i/0NLGQOR83DkAw', 'name': 'SLR2025 - Liga 5'}, 
+    '1252997476521099264': {'invitelink': 'https://sleeper.com/i/E8oRW28YjkRJQ', 'name': 'SLR2025 - Liga 4'}, 
+    '1252997374859563008': {'invitelink': 'https://sleeper.com/i/LV96OBeQ3GLXX', 'name': 'SLR2025 - Liga 3'}, 
+    '1252997295608180736': {'invitelink': 'https://sleeper.com/i/zE1YbMqZ9nwEq', 'name': 'SLR2025 - Liga 2'}, 
+    '1252997207154491392': {'invitelink': 'https://sleeper.com/i/j7OgXAo1Kqd08', 'name': 'SLR2025 - Liga 1'}
 }

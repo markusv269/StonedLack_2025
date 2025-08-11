@@ -15,64 +15,67 @@ base = Base(api, BASE_ID)
 
 # UI-Text
 st.write("# Dynasty Waiting Room")
-st.write('''
-Bock auf eine StonedLack Dynasty-Liga? Hier kannst du dich eintragen.  
+# st.write('''
+# Bock auf eine StonedLack Dynasty-Liga? Hier kannst du dich eintragen.  
 
----
+# ---
                 
-**Wie funktionierts?!**  
-Trage deinen sleeper-Namen und deinen Discord-Namen (auf dem StonedLack-Server) ein und wähle die Ligentypen, die du spielen möchtest.
-Die Wartelisten je Liga werden automatisch aktualisiert. Sobald genug Leute für eine Liga bereitstehen, wird sie eröffnet und du bekommst eine Einladung über die sleeper-App.
+# **Wie funktionierts?!**  
+# Trage deinen sleeper-Namen und deinen Discord-Namen (auf dem StonedLack-Server) ein und wähle die Ligentypen, die du spielen möchtest.
+# Die Wartelisten je Liga werden automatisch aktualisiert. Sobald genug Leute für eine Liga bereitstehen, wird sie eröffnet und du bekommst eine Einladung über die sleeper-App.
          
----
+# ---
 
-**Bitte beachtet!**  
-Die Liga wird erst eröffnet, wenn genug Leute zusammenkommen. Also bleibt auf dem Laufenden und informiert Euch regelmäßig auf dem StonedLack-Discord-Server!   
-Es dürfen nur aktive Hörer des StonedLack-Podcasts teilnehmen.
+# **Bitte beachtet!**  
+# Die Liga wird erst eröffnet, wenn genug Leute zusammenkommen. Also bleibt auf dem Laufenden und informiert Euch regelmäßig auf dem StonedLack-Discord-Server!   
+# Es dürfen nur aktive Hörer des StonedLack-Podcasts teilnehmen.
 
---- 
+# --- 
          
-''')
+# ''')
+st.subheader("Achtung: Anmeldeschluss für die Dynasty-Ligen für die Saison 2025.", divider="blue")
+st.write("*Der Waiting Room für die StonedLack Dynasty-Ligen schließt für diese Saison seine Pforten. Die Organisation weiterer Ligen bis zum Saisonstart am 04.09.2025 wird nicht mehr möglich sein. Wir danken allen, die sich eingetragen haben und wünschen viel Erfolg in den Ligen! 🏈  " \
+"Wir freuen uns auf die nächste Saison und hoffen, dass ihr dann wieder dabei seid! Bis dahin!*")
 
-st.write("**Welchen Ligentyp möchtest du spielen (wähle mindestens einen)?**")
-dynasty_checkbox = st.checkbox("Dynasty")
-idp_checkbox = st.checkbox("Dynasty mit IDP")
-best_ball_checkbox = st.checkbox("Best Ball Dynasty")
+# st.write("**Welchen Ligentyp möchtest du spielen (wähle mindestens einen)?**")
+# dynasty_checkbox = st.checkbox("Dynasty")
+# idp_checkbox = st.checkbox("Dynasty mit IDP")
+# best_ball_checkbox = st.checkbox("Best Ball Dynasty")
 
-st.write("")
-league_options = []
-if dynasty_checkbox:
-    league_options.append("Dynasty")
-if idp_checkbox:
-    league_options.append("Dynasty mit IDP")
-if best_ball_checkbox:
-    league_options.append("Best Ball Dynasty")
+# st.write("")
+# league_options = []
+# if dynasty_checkbox:
+#     league_options.append("Dynasty")
+# if idp_checkbox:
+#     league_options.append("Dynasty mit IDP")
+# if best_ball_checkbox:
+#     league_options.append("Best Ball Dynasty")
 
 
-sleeper_name = st.text_input("**Trage deinen sleeper-Namen ein**", placeholder="Sleepername")
-discord_name = st.text_input("**Trage deinen Discord-Namen ein**", placeholder="Discordname")
+# sleeper_name = st.text_input("**Trage deinen sleeper-Namen ein**", placeholder="Sleepername")
+# discord_name = st.text_input("**Trage deinen Discord-Namen ein**", placeholder="Discordname")
 
-# Initialstatus
-user_valid = False
-user_id = None
+# # Initialstatus
+# user_valid = False
+# user_id = None
 
-# Verarbeitung der Eingaben
-if sleeper_name:
-    user_url = f"https://sleeper.app/v1/user/{sleeper_name}"
-    response = requests.get(user_url)
+# # Verarbeitung der Eingaben
+# if sleeper_name:
+#     user_url = f"https://sleeper.app/v1/user/{sleeper_name}"
+#     response = requests.get(user_url)
     
-    if response.json() != None:
-        user_data = response.json()
-        user_id = user_data.get("user_id")
-        user_valid = True
-        st.success(f"✅ User ID: {user_id} gefunden.")
-    else:
-        st.error("❌ User nicht gefunden. Bitte überprüfe deinen Namen. Noch nicht bei sleeper registriert? Dann [hier registrieren](https://sleeper.app).")
+#     if response.json() != None:
+#         user_data = response.json()
+#         user_id = user_data.get("user_id")
+#         user_valid = True
+#         st.success(f"✅ User ID: {user_id} gefunden.")
+#     else:
+#         st.error("❌ User nicht gefunden. Bitte überprüfe deinen Namen. Noch nicht bei sleeper registriert? Dann [hier registrieren](https://sleeper.app).")
 
-form_ready = user_valid and bool(discord_name.strip()) and len(league_options) > 0
-button = st.button("Setz' mich auf die Warteliste(n)", disabled=not form_ready, key="join_button")
-if button:
-    waitinglist_airtable(sleeper_name, discord_name, league_options)
+# form_ready = user_valid and bool(discord_name.strip()) and len(league_options) > 0
+# button = st.button("Setz' mich auf die Warteliste(n)", disabled=not form_ready, key="join_button")
+# if button:
+#     waitinglist_airtable(sleeper_name, discord_name, league_options)
 
 def display_waiting_lists():
     table = base.table(TABLE_NAME)
@@ -122,4 +125,4 @@ def display_waiting_lists():
                 st.dataframe(df.sort_values(by='Anmeldung_dt').drop(columns='Anmeldung_dt'), hide_index=True, use_container_width=True)
 
 # Am Ende der App anzeigen
-display_waiting_lists()
+# display_waiting_lists()
