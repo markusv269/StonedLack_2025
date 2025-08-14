@@ -109,11 +109,11 @@ with left:
 with right:
     st.markdown(f'''
     ### 📝 Anmeldung zu den **Stoned Lack Redraft Ligen 2025**  
-    #### **<span style="color: red;">Anmeldeschluss: 14. August 2025, 20:00 Uhr</span>**
+    #### **<span style="color: red;">Anmeldeschluss: 15. August 2025, 20:00 Uhr</span>**
             
     Willkommen zur Anmeldung für die allseits beliebten **Stoned Lack Redraft Ligen**! 🏈
             
-    Gespielt wird auf [Sleeper](https://sleeper.com/). Die Zuteilung zu einer Liga erfolgt per **Live-Auslosung am <span style="color: black;">14. August 2025</span>** im Stream von Stoned Lack!
+    Gespielt wird auf [Sleeper](https://sleeper.com/). Die Zuteilung zu einer Liga erfolgt per **Live-Auslosung am 15. August 2025** im Stream von Stoned Lack!
     
     **🔹 Wichtige Infos zur Anmeldung:**
     - Tragt eure **Kontakt-Daten** ein, mit denen euch der Commissioner nach der Auslosung einladen kann.
