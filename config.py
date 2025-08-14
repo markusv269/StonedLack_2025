@@ -201,6 +201,11 @@ mockdrafts_2025_stream = [
 
 
 REDLEAGUES_2025 = {
+    '1259474814326804480': {'invitelink': 'https://sleeper.com/i/zE10M78gmGPxq', 'name': 'SLR2025 - Liga 50'},
+    '1259474730402983936': {'invitelink': 'https://sleeper.com/i/zE10M7jD17bkX', 'name': 'SLR2025 - Liga 49'},
+    '1259474649956229120': {'invitelink': 'https://sleeper.com/i/E8oVn0qNeVGA3', 'name': 'SLR2025 - Liga 48'},
+    '1259474519244935168': {'invitelink': 'https://sleeper.com/i/m78PXKX5Bd5E5', 'name': 'SLR2025 - Liga 47'},
+    '1259474432758398976': {'invitelink': 'https://sleeper.com/i/0NL6nX6aYdknW', 'name': 'SLR2025 - Liga 46'},
     '1259474320795652096': {'invitelink': 'https://sleeper.com/i/LV9YBna4RwYkm', 'name': 'SLR2025 - Liga 45'}, 
     '1259474226784518144': {'invitelink': 'https://sleeper.com/i/Y2GY7xAMj8B6R', 'name': 'SLR2025 - Liga 44'}, 
     '1259474146023182336': {'invitelink': 'https://sleeper.com/i/zE10MeQ0W4mwB', 'name': 'SLR2025 - Liga 43'}, 
