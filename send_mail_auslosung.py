@@ -62,15 +62,18 @@ auslosung_df_long = auslosung_df.melt(id_vars=["league_name"], var_name="draft_p
 mail_df = auslosung_df_long.merge(anmeldung_df, left_on="sleeper_name", right_on="Sleeper", how="left")
 mail_df["invite_link"] = mail_df["league_name"].map(name_link_dict)
 
-for _, row in mail_df[mail_df["Email"].notna()].head(50).iterrows():
-    sendgrid_mail(
-        # to_email=row["Email"],
-        to_email="markus.voerkel@web.de",  # Temporarily hardcoded for testing
-        sleeper_name=row["Sleeper"],
-        league=row["league_name"],
-        draftpos=row["draft_pos"],
-        invitelink=row["invite_link"],
-        commish=row["Commish"]
-    )
+# for _, row in mail_df[mail_df["Email"].notna()].head(10).iterrows():
+#     sendgrid_mail(
+#         # to_email=row["Email"],
+#         to_email="markus.voerkel@web.de",  # Temporarily hardcoded for testing
+#         sleeper_name=row["Sleeper"],
+#         league=row["league_name"],
+#         draftpos=row["draft_pos"],
+#         invitelink=row["invite_link"],
+#         commish=row["Commish"]
+#     )
+# mail_df.to_csv("auslosung_mail.csv", index=False)
+# print(mail_df[["Email", "Sleeper", "league_name", "draft_pos", "invite_link", "Commish"]])
 
-# print(mail_df[mail_df["Email"].notna()].shape)
+for _, row in mail_df[mail_df["Commish"] == True].sort_values(by="league_name").iterrows():
+    print(row['Sleeper'], row['invite_link'])

@@ -203,8 +203,8 @@ with right:
 
     if records:
         st.write("Hier siehst du die aktuell angemeldeten Teilnehmenden.")
-        n_leagues = len(records) // 12
-        n_waiters = len(records) % 12
+        n_leagues = 46
+        n_waiters = len(records) - n_leagues*12
         n_commish = sum(1 for r in records if r.get("Commish") is True)
         # Graue Box mit Markdown und CSS
         text = f"Anzahl der Anmeldungen gesamt: {len(records)} Manager, {n_commish} Commishs"
@@ -225,7 +225,7 @@ with right:
 
         left, right = st.columns(2)
         with left:
-            st.success(f"Anzahl volle Ligen: {n_leagues}")
+            st.success(f"Anzahl SLR aktuell: {n_leagues}")
             # if n_commish > n_leagues:
             #     st.success(f"Aktuell mehr Commishs ({n_commish}) als Ligen.")
             # else:
