@@ -121,17 +121,32 @@ top36 = top36.sort_values(value).reset_index(drop=True)
 top36["round"] = top36.index // 12 + 1
 top36["pick_in_round"] = top36.index % 12 + 1
 
-show = top36[top36["round"] <= 3]
+show = top36#[top36["round"] <= 3]
 # Darstellung als Board mit farbigen Kästchen
-for r in range(1, 4):
+for r in range(1, 10):
     # st.subheader(f"🏈 Runde {r}")
     round_picks = show[show["round"] == r]
 
     cols = st.columns(12)
     for _, row in round_picks.iterrows():
-        with cols[row["pick_in_round"] - 1]:
+    # Prüfen, ob die Runde gerade ist
+        if row["round"] % 2 == 0:
+            # Spalten umdrehen: "pick_in_round" wird umgekehrt
+            col_index = len(cols) - row["pick_in_round"]
+        else:
+            col_index = row["pick_in_round"] - 1
+
+        with cols[col_index]:
             color = position_color(row["position"])
-            html = player_box(row["name"], row["team"], row["position"], color, row["round"], row["pick_in_round"], row[count])
+            html = player_box(
+                row["name"], 
+                row["team"], 
+                row["position"], 
+                color, 
+                row["round"], 
+                row["pick_in_round"], 
+                row[count]
+            )
             st.markdown(html, unsafe_allow_html=True)
 
 scoring_types = []
