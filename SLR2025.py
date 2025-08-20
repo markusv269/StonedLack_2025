@@ -63,20 +63,20 @@ def anmeldung_slr(sleeper, discord, commish, mitspieler, email, schluessel_input
     existing = result.data[0] if result.data else None
 
     if existing:
-        gespeicherter_schluessel = existing.get("Schlüssel", "")
-        if schluessel_input != gespeicherter_schluessel:
-            st.error("Falscher Schlüssel! Deine Anmeldung kann nicht geändert werden.")
-            return
-
-        first_checkin_time = existing.get("Anmeldezeit")
-        supabase.table("SLR2025").update({
+        schluessel = uuid.uuid4().hex[:8]
+        eintrag = {
+            "index": index_value + "_DOPPEL",
             "Sleeper": display_name,
             "Discord": discord,
             "Commish": commish,
             "Mitspieler": ", ".join(mitspieler),
-            "Anmeldezeit": first_checkin_time or datetime.utcnow().isoformat()
-        }).eq("index", index_value).execute()
-        st.success("✅ Deine Anmeldung wurde aktualisiert.")
+            "Email": email,
+            "Anmeldezeit": datetime.utcnow().isoformat(),
+            "Schlüssel": schluessel,
+            "Doppelanmeldung": True
+        }
+        supabase.table("SLR2025").insert(eintrag).execute()
+        st.success("✅ Du bist ein zweites Mal für die SLR2025 registriert.")
     else:
         schluessel = uuid.uuid4().hex[:8]
         eintrag = {
@@ -107,81 +107,92 @@ with left:
     st.image("Pictures/SL_logo.png", width=200)
 
 with right:
-    st.markdown(f'''
-    ### 📝 Anmeldung zu den **Stoned Lack Redraft Ligen 2025**  
-    #### **<span style="color: red;">Anmeldeschluss: 15. August 2025, 20:00 Uhr</span>**
+    # st.markdown(f'''
+    # ### 📝 Anmeldung zu den **Stoned Lack Redraft Ligen 2025**  
+    # #### **<span style="color: red;">Anmeldeschluss: 15. August 2025, 20:00 Uhr</span>**
             
-    Willkommen zur Anmeldung für die allseits beliebten **Stoned Lack Redraft Ligen**! 🏈
+    # Willkommen zur Anmeldung für die allseits beliebten **Stoned Lack Redraft Ligen**! 🏈
             
-    Gespielt wird auf [Sleeper](https://sleeper.com/). Die Zuteilung zu einer Liga erfolgt per **Live-Auslosung am 15. August 2025** im Stream von Stoned Lack!
+    # Gespielt wird auf [Sleeper](https://sleeper.com/). Die Zuteilung zu einer Liga erfolgt per **Live-Auslosung am 15. August 2025** im Stream von Stoned Lack!
     
-    **🔹 Wichtige Infos zur Anmeldung:**
-    - Tragt eure **Kontakt-Daten** ein, mit denen euch der Commissioner nach der Auslosung einladen kann.
-    - Achtet auf die **genaue Schreibweise eurer Namen in Sleeper & Discord**.
-    - **Der Sleeper-Name ist zwingend erforderlich** und wird überprüft, da dieser für die Zuteilung und die Mitspielerwünsche genutzt wird.
-    - Falls ihr noch keinen Sleeper-Account habt, erstellt euch einen unter: [Sleeper-Registrierung](https://sleeper.com/create).
+    # **🔹 Wichtige Infos zur Anmeldung:**
+    # - Tragt eure **Kontakt-Daten** ein, mit denen euch der Commissioner nach der Auslosung einladen kann.
+    # - Achtet auf die **genaue Schreibweise eurer Namen in Sleeper & Discord**.
+    # - **Der Sleeper-Name ist zwingend erforderlich** und wird überprüft, da dieser für die Zuteilung und die Mitspielerwünsche genutzt wird.
+    # - Falls ihr noch keinen Sleeper-Account habt, erstellt euch einen unter: [Sleeper-Registrierung](https://sleeper.com/create).
     
-    **⏳ Ablauf:**
-    - Nach der **Auslosung** erhaltet ihr eine **Einladung** über Sleeper oder Discord.
-    - Bitte schaut regelmäßig in **Sleeper & Discord**, damit die Liga zügig zustande kommt und der Draft starten kann.
+    # **⏳ Ablauf:**
+    # - Nach der **Auslosung** erhaltet ihr eine **Einladung** über Sleeper oder Discord.
+    # - Bitte schaut regelmäßig in **Sleeper & Discord**, damit die Liga zügig zustande kommt und der Draft starten kann.
     
-    ---
+    # ---
     
-    #### 🙌 Werde Commissioner!
+    # #### 🙌 Werde Commissioner!
     
-    Eine Liga ist nur so gut wie ihr Commissioner! Falls du Lust hast, eine Liga zu leiten, trau Dich, es kann nichts schief gehen! 🏆
-    - **Erfahrung ist nicht nötig** – Unterstützung gibt’s im **Stoned Lack Army Discord oder direkt in der sleeper-Liga**.
-    - Ohne freiwillige Commissioner gibt es keine Ligen – also trau dich! 💪
+    # Eine Liga ist nur so gut wie ihr Commissioner! Falls du Lust hast, eine Liga zu leiten, trau Dich, es kann nichts schief gehen! 🏆
+    # - **Erfahrung ist nicht nötig** – Unterstützung gibt’s im **Stoned Lack Army Discord oder direkt in der sleeper-Liga**.
+    # - Ohne freiwillige Commissioner gibt es keine Ligen – also trau dich! 💪
     
-    ---
+    # ---
     
-    #### ℹ️ Datenschutz & Anmeldestatus
+    # #### ℹ️ Datenschutz & Anmeldestatus
     
-    _Die hier erhobenen Daten werden ausschließlich zur Durchführung der Stoned Lack Redraft Ligen gespeichert und nach Ende der Saison gelöscht._
+    # _Die hier erhobenen Daten werden ausschließlich zur Durchführung der Stoned Lack Redraft Ligen gespeichert und nach Ende der Saison gelöscht._
     
-    - **Datenaktualisierung**  
-    Falls ihr eure Anmeldung überschreiben wollt, meldet euch einfach mit dem **gleichen Sleeper-Namen** erneut an. Es zählt immer der letzte Eintrag.
-    Bei der Anmeldung erhaltet ihr einen **Anmeldeschlüssel** (per Mail oder als Anzeige), den ihr für zukünftige Änderungen benötigt.
-    Die Anmeldezeit bleibt bei einer Änderung unverändert zum ersten Eintrag, ihr müsst also keine Angst haben, dass ihr aus der Reihe rutscht und wieder hinten ansteht.
+    # - **Datenaktualisierung**  
+    # Falls ihr eure Anmeldung überschreiben wollt, meldet euch einfach mit dem **gleichen Sleeper-Namen** erneut an. Es zählt immer der letzte Eintrag.
+    # Bei der Anmeldung erhaltet ihr einen **Anmeldeschlüssel** (per Mail oder als Anzeige), den ihr für zukünftige Änderungen benötigt.
+    # Die Anmeldezeit bleibt bei einer Änderung unverändert zum ersten Eintrag, ihr müsst also keine Angst haben, dass ihr aus der Reihe rutscht und wieder hinten ansteht.
                 
-    - **Anmeldeschlüssel**  
-    Der Anmeldeschlüssel ist ein **einmalig erstellter Code**, der euch hilft, eure Anmeldung zu aktualisieren. Er wird bei der Anmeldung generiert und Euch entweder per Mail zugesandt oder nach der Anmeldung angezeigt.
-    Bewahrt ihn sicher auf, da ihr ihn benötigt, um eure Anmeldung zu ändern oder zu aktualisieren.
+    # - **Anmeldeschlüssel**  
+    # Der Anmeldeschlüssel ist ein **einmalig erstellter Code**, der euch hilft, eure Anmeldung zu aktualisieren. Er wird bei der Anmeldung generiert und Euch entweder per Mail zugesandt oder nach der Anmeldung angezeigt.
+    # Bewahrt ihn sicher auf, da ihr ihn benötigt, um eure Anmeldung zu ändern oder zu aktualisieren.
     
-    - **Status prüfen**  
-    Seht unten nach, ob eure Anmeldung erfasst wurde.
+    # - **Status prüfen**  
+    # Seht unten nach, ob eure Anmeldung erfasst wurde.
     
-    Wir freuen uns auf euch! **Let’s go! 🚀**
+    # Wir freuen uns auf euch! **Let’s go! 🚀**
 
-    ---
+    # ---
 
-    ''', unsafe_allow_html=True)
+    # ''', unsafe_allow_html=True)
 
-    mode = st.radio("Möchtest du dich neu anmelden oder eine bestehende Anmeldung ändern?", ["Anmeldung", "Aktualisierung"])
+    st.write('''
+    ### 📝 Nachrücker aufgepassst!
+
+    Jetzt noch für die SLR2025 anmelden und auf die Warteliste der Nachrücker kommen! 
+    Die Frist für das Beitreten der ausgelosten Manager endet am Mittwoch Abend. Danach werden wir die Nachrücker einladen bzw. weitere Ligen erstellen.🏈
+
+    Die Anmeldung ist nun auch für Manager freigeschaltet, die bereits in der SLR2025 angemeldet sind. Beachtet, dass wir zuerst die Manager einladen, die noch keiner SLR angehören. Eine Doppelanmeldung wird automatisch als solche registriert. Eine dritte Anmeldung ist nicht möglich.
+             
+    Mitspieler-Wünsche können nur noch begrenzt berücksichtigt werden.
+    ''')
+
+    # mode = st.radio("Möchtest du dich neu anmelden oder eine bestehende Anmeldung ändern?", ["Anmeldung", "Aktualisierung"])
     commish = st.checkbox("Ich übernehme einen Commish-Posten!")
-    mitspieler = st.checkbox("Ich möchte mit jemandem zusammenspielen")
+    # mitspieler = st.checkbox("Ich möchte mit jemandem zusammenspielen")
 
     with st.form("SLR 2025 Anmeldung/Aktualisierung"):
         sleeper_name = st.text_input("🌙 Dein Sleeper-Name (Pflichtfeld)", key="sleeper")
         discord_name = st.text_input("💬 Dein Discord-Name (Pflichtfeld)", key="discord")
 
         mitspieler_names = []
-        if mitspieler:
-            st.write("Trage bis zu 3 Mitspieler ein:")
-            col1, col2, col3 = st.columns(3)
-            mitspieler_inputs = [
-                col1.text_input("Mitspieler 1"),
-                col2.text_input("Mitspieler 2"),
-                col3.text_input("Mitspieler 3")
-            ]
-            mitspieler_names = [name.strip() for name in mitspieler_inputs if name.strip()]
+        # if mitspieler:
+        #     st.write("Trage bis zu 3 Mitspieler ein:")
+        #     col1, col2, col3 = st.columns(3)
+        #     mitspieler_inputs = [
+        #         col1.text_input("Mitspieler 1"),
+        #         col2.text_input("Mitspieler 2"),
+        #         col3.text_input("Mitspieler 3")
+        #     ]
+        #     mitspieler_names = [name.strip() for name in mitspieler_inputs if name.strip()]
 
         email = ""
         schluessel_input = ""
-        if mode == "Anmeldung":
-            email = st.text_input("✉️ Deine E-Mail-Adresse für Schlüsselzusendung (Optional)", key="email")
-        else:
-            schluessel_input = st.text_input("🔐 Anmeldeschlüssel", help="Nur erforderlich bei Änderung.")
+        # if mode == "Anmeldung":
+        #     email = st.text_input("✉️ Deine E-Mail-Adresse für Schlüsselzusendung (Optional)", key="email")
+        # else:
+        #     schluessel_input = st.text_input("🔐 Anmeldeschlüssel", help="Nur erforderlich bei Änderung.")
 
         submitted = st.form_submit_button("Absenden")
 
@@ -226,10 +237,6 @@ with right:
         left, right = st.columns(2)
         with left:
             st.success(f"Anzahl SLR aktuell: {n_leagues}")
-            # if n_commish > n_leagues:
-            #     st.success(f"Aktuell mehr Commishs ({n_commish}) als Ligen.")
-            # else:
-            #     st.warning("Wir brauchen mehr Commishs!")
         with right:
             st.info(f"Nachrücker: {n_waiters}")
             
@@ -247,71 +254,72 @@ with right:
         df = pd.DataFrame(records)
         df["Commish"] = df.get("Commish", False)
         df["Mitspieler"] = df.get("Mitspieler", "")
-        st.dataframe(df[["Sleeper", "Discord", "Commish", "Mitspieler"]].style.apply(style_row, axis=1),
+        df_cut = df.iloc[:-12*n_leagues]   # alles außer die letzten 12*n_leagues
+        st.dataframe(df_cut[["Sleeper", "Discord", "Commish", "Mitspieler", "Doppelanmeldung"]].style.apply(style_row, axis=1),
                     use_container_width=True,
                     hide_index=True,
                     column_config={"Mitspieler": st.column_config.TextColumn("Gewünschte Mitspieler")})
     else:
         st.warning("Noch keine Anmeldungen vorhanden.")
 
-    wunsch_dict = {}
-    commish_df = pd.DataFrame()
-    player_df = pd.DataFrame()
+    # wunsch_dict = {}
+    # commish_df = pd.DataFrame()
+    # player_df = pd.DataFrame()
 
-    # Iteration über alle Zeilen des DataFrames
-    for index, row in df.iterrows():
-        spieler = row["index"]
+    # # Iteration über alle Zeilen des DataFrames
+    # for index, row in df.iterrows():
+    #     spieler = row["index"]
 
-        # Wunsch-Mitspieler extrahieren
-        mitspieler_liste = row["Mitspieler"]
-        if pd.notna(mitspieler_liste):
-            for mitspieler in mitspieler_liste.split(","):
-                mitspieler = mitspieler.lower().strip()
-                if mitspieler:  # nur nicht-leere Strings
-                    wunsch_dict.setdefault(spieler, []).append(mitspieler)
+    #     # Wunsch-Mitspieler extrahieren
+    #     mitspieler_liste = row["Mitspieler"]
+    #     if pd.notna(mitspieler_liste):
+    #         for mitspieler in mitspieler_liste.split(","):
+    #             mitspieler = mitspieler.lower().strip()
+    #             if mitspieler:  # nur nicht-leere Strings
+    #                 wunsch_dict.setdefault(spieler, []).append(mitspieler)
 
-        # Aufteilen in Commishs und normale Spieler
-        if row.get("Commish", False):
-            commish_df = pd.concat([commish_df, row.to_frame().T], ignore_index=True)
-        else:
-            player_df = pd.concat([player_df, row.to_frame().T], ignore_index=True)
+    #     # Aufteilen in Commishs und normale Spieler
+    #     if row.get("Commish", False):
+    #         commish_df = pd.concat([commish_df, row.to_frame().T], ignore_index=True)
+    #     else:
+    #         player_df = pd.concat([player_df, row.to_frame().T], ignore_index=True)
 
-    # Gegenseitige Wunschgruppen finden (nur 2er-Gruppen)
-    mutual_groups = set()
-    for spieler, wünsche in wunsch_dict.items():
-        for gewünschter in wünsche:
-            if gewünschter in wunsch_dict and spieler in wunsch_dict[gewünschter]:
-                gruppe = tuple(sorted([spieler, gewünschter]))
-                mutual_groups.add(gruppe)
+    # # Gegenseitige Wunschgruppen finden (nur 2er-Gruppen)
+    # mutual_groups = set()
+    # for spieler, wünsche in wunsch_dict.items():
+    #     for gewünschter in wünsche:
+    #         if gewünschter in wunsch_dict and spieler in wunsch_dict[gewünschter]:
+    #             gruppe = tuple(sorted([spieler, gewünschter]))
+    #             mutual_groups.add(gruppe)
 
-    # Umwandlung in Listen
-    verified_groups = [list(gruppe) for gruppe in mutual_groups]
+    # # Umwandlung in Listen
+    # verified_groups = [list(gruppe) for gruppe in mutual_groups]
 
-    # einseitige Erwähnung reicht
-    group_to_merge = verified_groups.copy()
+    # # einseitige Erwähnung reicht
+    # group_to_merge = verified_groups.copy()
 
-    def merge_groups(groups):
-        merged = []
+    # def merge_groups(groups):
+    #     merged = []
 
-        for group in groups:
-            added = False
-            for mgroup in merged:
-                if any(elem in mgroup for elem in group):
-                    mgroup.update(group)
-                    added = True
-                    break
-            if not added:
-                merged.append(set(group))
+    #     for group in groups:
+    #         added = False
+    #         for mgroup in merged:
+    #             if any(elem in mgroup for elem in group):
+    #                 mgroup.update(group)
+    #                 added = True
+    #                 break
+    #         if not added:
+    #             merged.append(set(group))
 
-        return [list(mgroup) for mgroup in merged]
+    #     return [list(mgroup) for mgroup in merged]
 
-    merged_groups = merge_groups(group_to_merge)
-    with st.expander("Gegenseitige Wunschgruppen", icon=":material/group:", expanded=False):
-        # st.write("#### Verifizierte Gruppen")
-        st.write('''*Es werden alle sleeper-Namen in Kleinbuchstaben angezeigt.*  ''')
-        if merged_groups:
-            # st.write("Hier sind die Spieler, die sich gegenseitig als Mitspieler wünschen:")
-            for gruppe in merged_groups:
-                st.write("*", " -- ".join(gruppe))
-        else:
-            st.write("Keine gegenseitigen Wunschgruppen gefunden.")
+    # merged_groups = merge_groups(group_to_merge)
+    # with st.expander("Gegenseitige Wunschgruppen", icon=":material/group:", expanded=False):
+    #     # st.write("#### Verifizierte Gruppen")
+    #     st.write('''*Es werden alle sleeper-Namen in Kleinbuchstaben angezeigt.*  ''')
+    #     if merged_groups:
+    #         # st.write("Hier sind die Spieler, die sich gegenseitig als Mitspieler wünschen:")
+    #         for gruppe in merged_groups:
+    #             st.write("*", " -- ".join(gruppe))
+    #     else:
+    #         st.write("Keine gegenseitigen Wunschgruppen gefunden.")

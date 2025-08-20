@@ -4,6 +4,7 @@ from supabase import create_client, Client
 import pandas as pd
 from config import REDLEAGUES_2025
 import requests
+from sleeper_wrapper import League, User
 
 leagues = REDLEAGUES_2025
 name_link_dict = {league["name"]: league["invitelink"] for league in leagues.values()}
@@ -61,19 +62,78 @@ auslosung_df_long = auslosung_df.melt(id_vars=["league_name"], var_name="draft_p
 
 mail_df = auslosung_df_long.merge(anmeldung_df, left_on="sleeper_name", right_on="Sleeper", how="left")
 mail_df["invite_link"] = mail_df["league_name"].map(name_link_dict)
+mail_df["Email"] = "markus.voerkel@googlemail.com"
+def sendgrid_mail_multi_bcc(to_emails, league, players, invitelink):
+    """
+    Sendet eine Mail an mehrere Owner einer Liga (alle im BCC).
+    
+    to_emails: Liste von Emails (Strings)
+    league: Name der Liga
+    players: Liste von Dicts [{sleeper_name, draftpos, commish}]
+    invitelink: Sleeper Invite-Link
+    """
+    url = "https://api.sendgrid.com/v3/mail/send"
+    api_key = st.secrets["sendgrid"]["api_key"]
+    from_email = st.secrets["sendgrid"]["from_email"]
 
-# for _, row in mail_df[mail_df["Email"].notna()].head(10).iterrows():
-#     sendgrid_mail(
-#         # to_email=row["Email"],
-#         to_email="markus.voerkel@web.de",  # Temporarily hardcoded for testing
-#         sleeper_name=row["Sleeper"],
-#         league=row["league_name"],
-#         draftpos=row["draft_pos"],
-#         invitelink=row["invite_link"],
-#         commish=row["Commish"]
-#     )
-# mail_df.to_csv("auslosung_mail.csv", index=False)
-# print(mail_df[["Email", "Sleeper", "league_name", "draft_pos", "invite_link", "Commish"]])
+    # E-Mail Text vorbereiten
+    player_lines = []
+    for p in players:
+        line = f"- {p['sleeper_name']} (Draftpos #{p['draftpos']})"
+        if p["commish"]:
+            line += " [Commish]"
+        player_lines.append(line)
+    
+    email_text = f"""
+Hallo zusammen,
 
-for _, row in mail_df[mail_df["Commish"] == True].sort_values(by="league_name").iterrows():
-    print(row['Sleeper'], row['invite_link'])
+die Auslosung der SLR2025 ist erfolgt! 🏈
+
+Ihr wurdet in die Liga "{league}" gelost.
+Hier sind die Draftpositionen:
+
+{chr(10).join(player_lines)}
+
+Bitte tretet der Liga bei, indem ihr auf den folgenden Link klickt:
+{invitelink}
+
+Viel Erfolg in der Saison und viel Spaß!
+
+Viele Grüße  
+Euer Stoned Lack Team
+"""
+
+    data = {
+        "personalizations": [{
+            "to": [{"email": from_email}],  # Dummy-To (wird benötigt)
+            "bcc": [{"email": e} for e in to_emails],
+            "subject": f"Auslosung der Stoned Lack Redraft Liga {league} für 2025"
+        }],
+        "from": {"email": from_email, "name": "Stoned Lack Redraft"},
+        "content": [{"type": "text/plain", "value": email_text}]
+    }
+
+    response = requests.post(url, json=data, headers={
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json"
+    })
+
+    return response.status_code == 202
+
+
+# # --- Aufruf pro Liga ---
+for league_name, group in mail_df.groupby("league_name"):
+    group = group[group["Email"].notna()]  # Nur mit Email
+
+    if group.empty:
+        continue
+
+    to_emails = group["Email"].tolist()
+    players = group[["Sleeper", "draft_pos", "Commish"]].rename(
+        columns={"Sleeper": "sleeper_name", "draft_pos": "draftpos", "Commish": "commish"}
+    ).to_dict("records")
+    invitelink = group["invite_link"].iloc[0]
+
+    sendgrid_mail_multi_bcc(to_emails, league_name, players, invitelink)
+    # print(group, to_emails, league_name, players, invitelink)
+    print(f"Mail an Liga {league_name} gesendet ({len(to_emails)} Empfänger, BCC)")

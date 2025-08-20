@@ -1,65 +1,45 @@
+import streamlit as st
+import duckdb
 import requests
-import numpy as np
-from config import DYNLEAGUES_2024
+import pandas as pd
+import os
 
-# Beispiel: Liste mit mehreren Ligen
-LEAGUE_IDS = DYNLEAGUES_2024
+# --- Einstellungen ---
+GITHUB_RAW_URL = "https://github.com/markusv269/StonedLack_pydantic_duckDB/raw/main/data/sleeper.duckdb"
+LOCAL_DB_PATH = "sleeper.duckdb"
 
-weeks = range(1, 4)  # Wochen 1–3
+# --- DuckDB herunterladen, falls nicht lokal vorhanden ---
+if not os.path.exists(LOCAL_DB_PATH):
+    st.info("Lade DuckDB-Datenbank von GitHub...")
+    r = requests.get(GITHUB_RAW_URL)
+    if r.status_code == 200:
+        with open(LOCAL_DB_PATH, "wb") as f:
+            f.write(r.content)
+        st.success("Datenbank erfolgreich heruntergeladen!")
+    else:
+        st.error(f"Fehler beim Herunterladen der Datenbank: {r.status_code}")
 
-# Ergebnisse pro Liga speichern
-league_results = {}
+# --- Verbindung zu DuckDB ---
+conn = duckdb.connect(LOCAL_DB_PATH)
 
-for league_id in LEAGUE_IDS:
-    roster_ids_all = set()
-    weekly_data = []
+# --- Tabellenauswahl ---
+tables = conn.execute("SHOW TABLES").fetchall()
+tables = [t[0] for t in tables]
 
-    # --- Daten holen ---
-    for week in weeks:
-        url = f"https://api.sleeper.app/v1/league/{league_id}/matchups/{week}"
-        data = requests.get(url).json()
+selected_table = st.selectbox("Wähle eine Tabelle aus", tables)
 
-        week_points = {}
-        for matchup in data:
-            roster_id = matchup["roster_id"]
-            points = matchup["points"]
-            week_points[roster_id] = points
-            roster_ids_all.add(roster_id)
+# --- Daten anzeigen ---
+if selected_table:
+    df = conn.execute(f"SELECT * FROM {selected_table} LIMIT 100").fetchdf()
+    st.dataframe(df)
 
-        weekly_data.append(week_points)
+# --- Optional: SQL-Abfrage ---
+st.subheader("SQL-Abfrage ausführen")
+user_query = st.text_area("SQL-Abfrage:", f"SELECT * FROM {selected_table} LIMIT 10")
 
-    # --- Konsistente Team-Reihenfolge ---
-    roster_ids_sorted = sorted(roster_ids_all)
-
-    # --- Matrix: Wochen × Teams ---
-    points_matrix = np.zeros((len(weeks), len(roster_ids_sorted)))
-
-    for week_idx, week_points in enumerate(weekly_data):
-        for col_idx, roster_id in enumerate(roster_ids_sorted):
-            points_matrix[week_idx, col_idx] = week_points.get(roster_id, 0.0)
-
-    # --- Statistiken ---
-    total_points = np.sum(points_matrix, axis=0)
-    avg_per_team = np.mean(points_matrix, axis=0)
-    best_week_points = np.max(points_matrix, axis=0)
-
-    best_team_idx = np.argmax(total_points)
-
-    league_results[league_id] = {
-        "roster_ids": roster_ids_sorted,
-        "matrix": points_matrix,
-        "total_points": total_points,
-        "avg_points": avg_per_team,
-        "best_week_points": best_week_points,
-        "best_team_idx": best_team_idx
-    }
-
-# --- Ausgabe ---
-for league_id, res in league_results.items():
-    print(f"\n📊 Liga {league_id}")
-    for rid, total, avg in zip(res["roster_ids"], res["total_points"], res["avg_points"]):
-        print(f"Roster {rid}: Gesamt {total:.1f} | Schnitt {avg:.2f}")
-
-    best_team_rid = res["roster_ids"][res["best_team_idx"]]
-    print(f"🏆 Bestes Team: Roster {best_team_rid} "
-          f"mit {res['total_points'][res['best_team_idx']]:.1f} Punkten")
+if st.button("Abfrage ausführen"):
+    try:
+        query_result = conn.execute(user_query).fetchdf()
+        st.dataframe(query_result)
+    except Exception as e:
+        st.error(f"Fehler bei der Abfrage: {e}")
