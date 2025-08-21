@@ -160,7 +160,7 @@ with right:
     st.write('''
     ### 📝 Anmeldung für die SLR 2025 abgeschlossen
              
-    Die Anmeldung für die StonedLack Redraft Ligen 2025 ist nun abgeschlossen.
+    Die Anmeldung für die Stoned Lack Redraft Ligen 2025 ist nun abgeschlossen.
     Vielen Dank an alle, die sich angemeldet haben! 
              
     Viel Erfolg in der Saison 2025.🙌
