@@ -158,168 +158,166 @@ with right:
     # ''', unsafe_allow_html=True)
 
     st.write('''
-    ### 📝 Nachrücker aufgepassst!
-
-    Jetzt noch für die SLR2025 anmelden und auf die Warteliste der Nachrücker kommen! 
-    Die Frist für das Beitreten der ausgelosten Manager endet am Mittwoch Abend. Danach werden wir die Nachrücker einladen bzw. weitere Ligen erstellen.🏈
-
-    Die Anmeldung ist nun auch für Manager freigeschaltet, die bereits in der SLR2025 angemeldet sind. Beachtet, dass wir zuerst die Manager einladen, die noch keiner SLR angehören. Eine Doppelanmeldung wird automatisch als solche registriert. Eine dritte Anmeldung ist nicht möglich.
+    ### 📝 Anmeldung für die SLR 2025 abgeschlossen
              
-    Mitspieler-Wünsche können nur noch begrenzt berücksichtigt werden.
+    Die Anmeldung für die StonedLack Redraft Ligen 2025 ist nun abgeschlossen.
+    Vielen Dank an alle, die sich angemeldet haben! 
+             
+    Viel Erfolg in der Saison 2025.🙌
     ''')
 
-    # mode = st.radio("Möchtest du dich neu anmelden oder eine bestehende Anmeldung ändern?", ["Anmeldung", "Aktualisierung"])
-    commish = st.checkbox("Ich übernehme einen Commish-Posten!")
-    # mitspieler = st.checkbox("Ich möchte mit jemandem zusammenspielen")
+    # # mode = st.radio("Möchtest du dich neu anmelden oder eine bestehende Anmeldung ändern?", ["Anmeldung", "Aktualisierung"])
+    # commish = st.checkbox("Ich übernehme einen Commish-Posten!")
+    # # mitspieler = st.checkbox("Ich möchte mit jemandem zusammenspielen")
 
-    with st.form("SLR 2025 Anmeldung/Aktualisierung"):
-        sleeper_name = st.text_input("🌙 Dein Sleeper-Name (Pflichtfeld)", key="sleeper")
-        discord_name = st.text_input("💬 Dein Discord-Name (Pflichtfeld)", key="discord")
+    # with st.form("SLR 2025 Anmeldung/Aktualisierung"):
+    #     sleeper_name = st.text_input("🌙 Dein Sleeper-Name (Pflichtfeld)", key="sleeper")
+    #     discord_name = st.text_input("💬 Dein Discord-Name (Pflichtfeld)", key="discord")
 
-        mitspieler_names = []
-        # if mitspieler:
-        #     st.write("Trage bis zu 3 Mitspieler ein:")
-        #     col1, col2, col3 = st.columns(3)
-        #     mitspieler_inputs = [
-        #         col1.text_input("Mitspieler 1"),
-        #         col2.text_input("Mitspieler 2"),
-        #         col3.text_input("Mitspieler 3")
-        #     ]
-        #     mitspieler_names = [name.strip() for name in mitspieler_inputs if name.strip()]
+    #     mitspieler_names = []
+    #     # if mitspieler:
+    #     #     st.write("Trage bis zu 3 Mitspieler ein:")
+    #     #     col1, col2, col3 = st.columns(3)
+    #     #     mitspieler_inputs = [
+    #     #         col1.text_input("Mitspieler 1"),
+    #     #         col2.text_input("Mitspieler 2"),
+    #     #         col3.text_input("Mitspieler 3")
+    #     #     ]
+    #     #     mitspieler_names = [name.strip() for name in mitspieler_inputs if name.strip()]
 
-        email = ""
-        schluessel_input = ""
-        # if mode == "Anmeldung":
-        #     email = st.text_input("✉️ Deine E-Mail-Adresse für Schlüsselzusendung (Optional)", key="email")
-        # else:
-        #     schluessel_input = st.text_input("🔐 Anmeldeschlüssel", help="Nur erforderlich bei Änderung.")
+    #     email = ""
+    #     schluessel_input = ""
+    #     # if mode == "Anmeldung":
+    #     #     email = st.text_input("✉️ Deine E-Mail-Adresse für Schlüsselzusendung (Optional)", key="email")
+    #     # else:
+    #     #     schluessel_input = st.text_input("🔐 Anmeldeschlüssel", help="Nur erforderlich bei Änderung.")
 
-        submitted = st.form_submit_button("Absenden")
+    #     submitted = st.form_submit_button("Absenden")
 
-        if submitted:
-            if not sleeper_name or not discord_name:
-                st.error("Bitte fülle alle Pflichtfelder aus!")
-            elif not get_user_id(sleeper_name):
-                st.error("Der angegebene Sleeper-Name ist ungültig oder existiert nicht.")
-            elif any(not get_user_id(m) for m in mitspieler_names):
-                st.error("Bitte gib gültige Mitspieler-Namen an.")
-            else:
-                anmeldung_slr(sleeper_name, discord_name, commish, mitspieler_names, email, schluessel_input)
+    #     if submitted:
+    #         if not sleeper_name or not discord_name:
+    #             st.error("Bitte fülle alle Pflichtfelder aus!")
+    #         elif not get_user_id(sleeper_name):
+    #             st.error("Der angegebene Sleeper-Name ist ungültig oder existiert nicht.")
+    #         elif any(not get_user_id(m) for m in mitspieler_names):
+    #             st.error("Bitte gib gültige Mitspieler-Namen an.")
+    #         else:
+    #             anmeldung_slr(sleeper_name, discord_name, commish, mitspieler_names, email, schluessel_input)
 
-    # --- Statusanzeige ---
+    # # --- Statusanzeige ---
 
-    st.write("## Anmeldestatus SLR2025")
-    result = supabase.table("SLR2025").select("*").order("Anmeldezeit", desc=True).execute()
-    records = result.data
+    # st.write("## Anmeldestatus SLR2025")
+    # result = supabase.table("SLR2025").select("*").order("Anmeldezeit", desc=True).execute()
+    # records = result.data
 
-    if records:
-        st.write("Hier siehst du die aktuell angemeldeten Teilnehmenden.")
-        n_leagues = 46
-        n_waiters = len(records) - n_leagues*12
-        n_commish = sum(1 for r in records if r.get("Commish") is True)
-        # Graue Box mit Markdown und CSS
-        text = f"Anzahl der Anmeldungen gesamt: {len(records)} Manager, {n_commish} Commishs"
-        st.markdown(
-            f"""
-            <div style="
-                padding: 1rem;
-                background-color: #f0f0f0;
-                border-radius: 0.5rem;
-                color: #333;
-                margin-bottom: 1rem;
-                ">
-                {text}
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
+    # if records:
+    #     st.write("Hier siehst du die aktuell angemeldeten Teilnehmenden.")
+    #     n_leagues = 46
+    #     n_waiters = len(records) - n_leagues*12
+    #     n_commish = sum(1 for r in records if r.get("Commish") is True)
+    #     # Graue Box mit Markdown und CSS
+    #     text = f"Anzahl der Anmeldungen gesamt: {len(records)} Manager, {n_commish} Commishs"
+    #     st.markdown(
+    #         f"""
+    #         <div style="
+    #             padding: 1rem;
+    #             background-color: #f0f0f0;
+    #             border-radius: 0.5rem;
+    #             color: #333;
+    #             margin-bottom: 1rem;
+    #             ">
+    #             {text}
+    #         </div>
+    #         """,
+    #         unsafe_allow_html=True
+    #     )
 
-        left, right = st.columns(2)
-        with left:
-            st.success(f"Anzahl SLR aktuell: {n_leagues}")
-        with right:
-            st.info(f"Nachrücker: {n_waiters}")
+    #     left, right = st.columns(2)
+    #     with left:
+    #         st.success(f"Anzahl SLR aktuell: {n_leagues}")
+    #     with right:
+    #         st.info(f"Nachrücker: {n_waiters}")
             
-        # Farb-Funktion
-        def style_row(row):
-            if row.name < n_waiters:
-                return [  # Blau wie st.info
-                    'background-color: #e6f2ff; color: #004085'  # heller Hintergrund, dunklere Schrift
-                ] * len(row)
-            else:
-                return [  # Grün wie st.success
-                    'background-color: #e6ffe6; color: #155724'  # heller Hintergrund, grüne Schrift
-                ] * len(row)
+    #     # Farb-Funktion
+    #     def style_row(row):
+    #         if row.name < n_waiters:
+    #             return [  # Blau wie st.info
+    #                 'background-color: #e6f2ff; color: #004085'  # heller Hintergrund, dunklere Schrift
+    #             ] * len(row)
+    #         else:
+    #             return [  # Grün wie st.success
+    #                 'background-color: #e6ffe6; color: #155724'  # heller Hintergrund, grüne Schrift
+    #             ] * len(row)
 
-        df = pd.DataFrame(records)
-        df["Commish"] = df.get("Commish", False)
-        df["Mitspieler"] = df.get("Mitspieler", "")
-        df_cut = df.iloc[:-12*n_leagues]   # alles außer die letzten 12*n_leagues
-        st.dataframe(df_cut[["Sleeper", "Discord", "Commish", "Mitspieler", "Doppelanmeldung"]].style.apply(style_row, axis=1),
-                    use_container_width=True,
-                    hide_index=True,
-                    column_config={"Mitspieler": st.column_config.TextColumn("Gewünschte Mitspieler")})
-    else:
-        st.warning("Noch keine Anmeldungen vorhanden.")
+    #     df = pd.DataFrame(records)
+    #     df["Commish"] = df.get("Commish", False)
+    #     df["Mitspieler"] = df.get("Mitspieler", "")
+    #     df_cut = df.iloc[:-12*n_leagues]   # alles außer die letzten 12*n_leagues
+    #     st.dataframe(df_cut[["Sleeper", "Discord", "Commish", "Mitspieler", "Doppelanmeldung"]].style.apply(style_row, axis=1),
+    #                 use_container_width=True,
+    #                 hide_index=True,
+    #                 column_config={"Mitspieler": st.column_config.TextColumn("Gewünschte Mitspieler")})
+    # else:
+    #     st.warning("Noch keine Anmeldungen vorhanden.")
 
-    # wunsch_dict = {}
-    # commish_df = pd.DataFrame()
-    # player_df = pd.DataFrame()
+    # # wunsch_dict = {}
+    # # commish_df = pd.DataFrame()
+    # # player_df = pd.DataFrame()
 
-    # # Iteration über alle Zeilen des DataFrames
-    # for index, row in df.iterrows():
-    #     spieler = row["index"]
+    # # # Iteration über alle Zeilen des DataFrames
+    # # for index, row in df.iterrows():
+    # #     spieler = row["index"]
 
-    #     # Wunsch-Mitspieler extrahieren
-    #     mitspieler_liste = row["Mitspieler"]
-    #     if pd.notna(mitspieler_liste):
-    #         for mitspieler in mitspieler_liste.split(","):
-    #             mitspieler = mitspieler.lower().strip()
-    #             if mitspieler:  # nur nicht-leere Strings
-    #                 wunsch_dict.setdefault(spieler, []).append(mitspieler)
+    # #     # Wunsch-Mitspieler extrahieren
+    # #     mitspieler_liste = row["Mitspieler"]
+    # #     if pd.notna(mitspieler_liste):
+    # #         for mitspieler in mitspieler_liste.split(","):
+    # #             mitspieler = mitspieler.lower().strip()
+    # #             if mitspieler:  # nur nicht-leere Strings
+    # #                 wunsch_dict.setdefault(spieler, []).append(mitspieler)
 
-    #     # Aufteilen in Commishs und normale Spieler
-    #     if row.get("Commish", False):
-    #         commish_df = pd.concat([commish_df, row.to_frame().T], ignore_index=True)
-    #     else:
-    #         player_df = pd.concat([player_df, row.to_frame().T], ignore_index=True)
+    # #     # Aufteilen in Commishs und normale Spieler
+    # #     if row.get("Commish", False):
+    # #         commish_df = pd.concat([commish_df, row.to_frame().T], ignore_index=True)
+    # #     else:
+    # #         player_df = pd.concat([player_df, row.to_frame().T], ignore_index=True)
 
-    # # Gegenseitige Wunschgruppen finden (nur 2er-Gruppen)
-    # mutual_groups = set()
-    # for spieler, wünsche in wunsch_dict.items():
-    #     for gewünschter in wünsche:
-    #         if gewünschter in wunsch_dict and spieler in wunsch_dict[gewünschter]:
-    #             gruppe = tuple(sorted([spieler, gewünschter]))
-    #             mutual_groups.add(gruppe)
+    # # # Gegenseitige Wunschgruppen finden (nur 2er-Gruppen)
+    # # mutual_groups = set()
+    # # for spieler, wünsche in wunsch_dict.items():
+    # #     for gewünschter in wünsche:
+    # #         if gewünschter in wunsch_dict and spieler in wunsch_dict[gewünschter]:
+    # #             gruppe = tuple(sorted([spieler, gewünschter]))
+    # #             mutual_groups.add(gruppe)
 
-    # # Umwandlung in Listen
-    # verified_groups = [list(gruppe) for gruppe in mutual_groups]
+    # # # Umwandlung in Listen
+    # # verified_groups = [list(gruppe) for gruppe in mutual_groups]
 
-    # # einseitige Erwähnung reicht
-    # group_to_merge = verified_groups.copy()
+    # # # einseitige Erwähnung reicht
+    # # group_to_merge = verified_groups.copy()
 
-    # def merge_groups(groups):
-    #     merged = []
+    # # def merge_groups(groups):
+    # #     merged = []
 
-    #     for group in groups:
-    #         added = False
-    #         for mgroup in merged:
-    #             if any(elem in mgroup for elem in group):
-    #                 mgroup.update(group)
-    #                 added = True
-    #                 break
-    #         if not added:
-    #             merged.append(set(group))
+    # #     for group in groups:
+    # #         added = False
+    # #         for mgroup in merged:
+    # #             if any(elem in mgroup for elem in group):
+    # #                 mgroup.update(group)
+    # #                 added = True
+    # #                 break
+    # #         if not added:
+    # #             merged.append(set(group))
 
-    #     return [list(mgroup) for mgroup in merged]
+    # #     return [list(mgroup) for mgroup in merged]
 
-    # merged_groups = merge_groups(group_to_merge)
-    # with st.expander("Gegenseitige Wunschgruppen", icon=":material/group:", expanded=False):
-    #     # st.write("#### Verifizierte Gruppen")
-    #     st.write('''*Es werden alle sleeper-Namen in Kleinbuchstaben angezeigt.*  ''')
-    #     if merged_groups:
-    #         # st.write("Hier sind die Spieler, die sich gegenseitig als Mitspieler wünschen:")
-    #         for gruppe in merged_groups:
-    #             st.write("*", " -- ".join(gruppe))
-    #     else:
-    #         st.write("Keine gegenseitigen Wunschgruppen gefunden.")
+    # # merged_groups = merge_groups(group_to_merge)
+    # # with st.expander("Gegenseitige Wunschgruppen", icon=":material/group:", expanded=False):
+    # #     # st.write("#### Verifizierte Gruppen")
+    # #     st.write('''*Es werden alle sleeper-Namen in Kleinbuchstaben angezeigt.*  ''')
+    # #     if merged_groups:
+    # #         # st.write("Hier sind die Spieler, die sich gegenseitig als Mitspieler wünschen:")
+    # #         for gruppe in merged_groups:
+    # #             st.write("*", " -- ".join(gruppe))
+    # #     else:
+    # #         st.write("Keine gegenseitigen Wunschgruppen gefunden.")
