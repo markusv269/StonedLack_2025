@@ -1,11 +1,11 @@
 from supabase import create_client, Client
 import requests
-import streamlit as st
 from datetime import datetime, timezone
+import os
 
-# Supabase Credentials
-url: str = st.secrets["supabase"]["url"]
-key: str = st.secrets["supabase"]["key"]
+# Supabase Credentials aus Environment Variables
+url: str = os.environ["SUPABASE_URL"]
+key: str = os.environ["SUPABASE_KEY"]
 supabase: Client = create_client(url, key)
 
 # --- 1. Alle league_ids aus Supabase abrufen ---
