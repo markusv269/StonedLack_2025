@@ -1,0 +1,30 @@
+name: Update Draft Picks
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Jede Stunde, zur Minute 0 (UTC)
+  workflow_dispatch:      # erlaubt manuelles Starten
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install supabase requests
+
+      - name: Run Python Script
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python cron_sb_draftpicks.py
