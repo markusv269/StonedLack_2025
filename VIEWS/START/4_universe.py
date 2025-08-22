@@ -8,11 +8,12 @@ url: str = st.secrets["supabase"]["url"]
 key: str = st.secrets["supabase"]["key"]
 supabase: Client = create_client(url, key)
 
-LEAGUE_IDS = DYNLEAGUES_2025
-
 st.title("Das StonedLack Universum")
 st.write("_Das Laden des Ligen-Netzwerks erfolgt aus der Supabase-Datenbank_")
 
+response = supabase.table("leagues").select("league_id").execute()
+# response.data ist eine Liste von Dicts
+league_ids = [item["league_id"] for item in response.data]
 # --- Daten aus Supabase laden ---
 @st.cache_data(ttl=3600*24, show_spinner=True)
 def get_league_data(league_ids=None):
@@ -89,13 +90,13 @@ def prepare_data(selected_leagues=None, search_query=None):
     return {"nodes": nodes, "edges": edges}
 
 # --- UI ---
-league_names = [l["league_name"] for l in get_league_data(LEAGUE_IDS)]
+league_names = [l["league_name"] for l in get_league_data(league_ids)]
 st.markdown("### Wähle eine oder mehrere Ligen aus:")
 selected_league_names = st.multiselect("Ligen auswählen", options=league_names)
 
 # Namen → IDs
 selected_leagues_ids = [
-    LEAGUE_IDS[league_names.index(name)] for name in selected_league_names if name in league_names
+    league_ids[league_names.index(name)] for name in selected_league_names if name in league_names
 ]
 
 search_query = st.text_input("Benutzer suchen (Teil des Namens)")
