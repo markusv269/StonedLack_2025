@@ -33,7 +33,8 @@ def load_drafts():
     drafts_df['last_updated_str'] = drafts_df['updated_at'].dt.strftime('%d.%m.%Y, %H:%M')
     drafts_df['league_number'] = drafts_df['league_name'].str.extract(r'(\d+)$').astype(int)
     return drafts_df
-for _,row in load_drafts().sort_values(by="league_number", ascending=True).iterrows():
+drafts_df = load_drafts()
+for _,row in drafts_df[drafts_df["league_number"]<49].sort_values(by="league_number", ascending=True).iterrows():
     st.write(f"#### {row['league_name']}")
 
     col1, col2 = st.columns(2)
