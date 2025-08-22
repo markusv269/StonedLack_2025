@@ -1,59 +1,60 @@
-from sb_fetch_adpboard import get_adpboard
 import streamlit as st
 import pandas as pd
+from supabase import create_client, Client
+from datetime import datetime
+from styles import metric_box
 
-draft_df = get_adpboard("redraft")
+# Supabase Credentials
+url: str = st.secrets["supabase"]["url"]
+key: str = st.secrets["supabase"]["key"]
+supabase: Client = create_client(url, key)
 
-# Anzahl Teams
-num_teams = 12
-teams = [f"Team {i+1}" for i in range(num_teams)]
+@st.cache_data(ttl=3600)
+def load_drafts():
+    drafts = supabase.table("drafts").select("*").eq("season", 2025).execute()
+    leagues = supabase.table("leagues").select("*").eq("league_type", "redraft").execute()
+    picks = supabase.table("draft_picks").select("*").execute()
+    picks_data = picks.data
+    picks_df = pd.DataFrame(picks_data)
+    league_data = leagues.data
+    league_df = pd.DataFrame(league_data)
+    drafts_data = drafts.data
+    drafts_df = pd.DataFrame(drafts_data)
+    drafts_df = drafts_df.merge(league_df[["league_id", "league_name"]], on="league_id", how="right")
+    # drafts_df = drafts_df.merge(picks_df.groupby("draft_id").size().reset_index(name="total_picks"), on="draft_id", how="left")
+    # drafts_df['start_time'] = pd.to_datetime(drafts_df['start_time'], utc=True)
+    # alles nach dem Sekunden-Anteil wegschneiden
+    drafts_df['start_time'] = drafts_df['start_time'].astype(str).str.replace(r'\.\d+', '', regex=True)
 
-# --- Farben für Positionen ---
-POSITION_COLORS = {
-    "QB": "#FFD700",
-    "RB": "#1E90FF",
-    "WR": "#32CD32",
-    "TE": "#FF69B4",
-    "K": "#FFA500",
-    "DL": "#8B0000",
-    "LB": "#DC143C",
-    "DB": "#FF4500",
-    "IDP": "#FF6347",  # für Sammel-Def-Positionen
-}
+    # danach normal in datetime wandeln
+    drafts_df['start_time'] = (pd.to_datetime(drafts_df['start_time'], utc=True, errors='coerce')+ pd.Timedelta(hours=2))
+    drafts_df['start_time_str'] = drafts_df['start_time'].dt.strftime('%d.%m.%Y, %H:%M')
+    drafts_df['updated_at'] = (pd.to_datetime(drafts_df['updated_at'], utc=True)+ pd.Timedelta(hours=2))
+    drafts_df['last_updated_str'] = drafts_df['updated_at'].dt.strftime('%d.%m.%Y, %H:%M')
+    drafts_df['league_number'] = drafts_df['league_name'].str.extract(r'(\d+)$').astype(int)
+    return drafts_df
+for _,row in load_drafts().sort_values(by="league_number", ascending=True).iterrows():
+    st.write(f"#### {row['league_name']}")
 
-def position_color(pos):
-    return POSITION_COLORS.get(pos, "#CCCCCC")
-def player_box(name, team, pos):
-    color = position_color(pos)
-    return f"""
-    <div style="
-        background-color:{color};
-        padding:6px;
-        margin:2px;
-        border-radius:6px;
-        text-align:center;
-        font-weight:bold;
-        font-size:14px;
-    ">
-        {name} ({team})<br>{pos}
-    </div>
-    """
-st.write("### Draftboard (Snake-Draft)")
-# --- Max Picks pro Runde ---
-num_teams = 12  # feste Anzahl Spalten
-
-rounds = sorted(draft_df["adp_round"].unique())
-for r in rounds:
-    st.subheader(f"Runde {r}")
-    round_picks = draft_df[draft_df["adp_round"] == r].sort_values("adp_pick")
-    
-    # Snake-Logik: gerade Runden umdrehen
-    if r % 2 == 0:
-        round_picks = round_picks.iloc[::-1]
-    
-    cols = st.columns(num_teams)  # immer 12 Spalten
-    for idx, row in enumerate(round_picks.itertuples()):
-        team_col = idx % num_teams  # Spalte innerhalb der Runde
-        with cols[team_col]:
-            html = player_box(row.name, row.team, row.position)
-            st.markdown(html, unsafe_allow_html=True)
+    col1, col2 = st.columns(2)
+    with col2:
+        metric_box("Draft Link:",f'<a href="https://sleeper.com/draft/nfl/{row["draft_id"]}" target="_blank">https://sleeper.com/draft/nfl/{row["draft_id"]}</a>')
+    with col1:
+        status = row['status']
+        if status == "pre_draft":
+            status = st.warning("Draft ausstehend")
+        elif status == "drafting":
+            status = st.info("Draft läuft")
+        elif status == "paused":
+            status = st.info("Draft pausiert")
+        elif status == "complete":
+            status = st.success("Draft abgeschlossen")
+        else:
+            status = st.warning(row["status"])
+    col3, col4 = st.columns(2)
+    with col3:
+        metric_box("Startzeit:",f"{row['start_time_str']}")
+    with col4:
+        metric_box("Stand Datenbank:", f"{row['last_updated_str']}")
+    st.write("---")
+# st.write(load_drafts())
