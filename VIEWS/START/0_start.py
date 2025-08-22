@@ -1,6 +1,9 @@
 import streamlit as st
 import feedparser
 
+
+st.title("Wir bauen etwas um... Bald geht's weiter!")
+
 st.write('''
     # Das StonedLack Universum 🏈
     Das Universum umfasste in der Saison 2024 über 60 Dynasty- und Redraftligen. Auf den folgenden Seiten findet ihr Einblicke zu den wöchentlichen Statistiken, Matchups, zu den Drafts etc.

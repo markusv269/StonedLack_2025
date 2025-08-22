@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 
-DYNLEAGUES = [ # 2025
+DYNLEAGUES_2025 = [ # 2025
     "1209233140317425664", # Stoned Lack Dynastie #1
     "1180230346197667840", # SLL 2 Dynasty
     "1195778937733513216", # Stoned Lack Dynastie 3

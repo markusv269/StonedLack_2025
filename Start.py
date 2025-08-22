@@ -1,8 +1,6 @@
 import streamlit as st
 st.set_page_config(layout="wide")
-from config import SCORINGSETTINGS,REDLEAGUES
-from sleeper import SleeperUser, SleeperLeague, SleeperDraft
-from tools.methods import load_matchups, load_players, load_rosters, get_matchup_results, load_users
+from config import SCORINGSETTINGS,REDLEAGUES_2025
 
 redraft_leagues = ["1234232479812952064"]
 
@@ -60,8 +58,8 @@ pg = st.navigation(
             # st.Page(page="VIEWS/START/3_coc_spiel.py", title="CoC Tippabgabe", icon=":material/casino:"),
             st.Page(page="VIEWS/START/4_universe.py", title="Das StonedLack Universum", icon=":material/planet:"),
             st.Page(page="VIEWS/START/5_sleeper_ecke.py", title="sleeper.com-Ecke", icon=":material/bedtime:"),
-            st.Page(page="VIEWS/START/7_Community_Mock_Draft.py", title="Community Mock Draft 2025", icon=":material/tv:"),
-            st.Page(page="VIEWS/START/8_showleague.py", title="Share your league", icon=":material/tv:"),
+            # st.Page(page="VIEWS/START/7_Community_Mock_Draft.py", title="Community Mock Draft 2025", icon=":material/tv:"),
+            # st.Page(page="VIEWS/START/8_showleague.py", title="Share your league", icon=":material/tv:"),
             # st.Page(page="VIEWS/START/9_sleeper_players.py", title="Sleeper Players", icon=":material/sports_football:"),
             # st.Page(page="VIEWS/START/10_week.py", title="NFL Woche", icon=":material/sports_football:"),
         ],
@@ -69,22 +67,23 @@ pg = st.navigation(
             # st.Page(page="VIEWS/REDRAFT/RED_SLR2025.py", title="SLR2025 Anmeldung", icon=":material/login:"),
             # st.Page(page="VIEWS/REDRAFT/RED_slr2025_status.py", title="SLR2025 Anmeldestatus", icon=":material/download_done:"),
             st.Page(page="VIEWS/REDRAFT/RED_info.py", title="Die Redraftligen", icon=":material/home:"),
-            st.Page(page="VIEWS/REDRAFT/RED_uebersicht.py", title="Ligenübersicht", icon=":material/layers:"),
-            st.Page(page="VIEWS/REDRAFT/RED_alte_Redrafts.py", title="Send your old SLR", icon=":material/send:"),
+            # st.Page(page="VIEWS/REDRAFT/RED_uebersicht.py", title="Ligenübersicht", icon=":material/layers:"),
+            # st.Page(page="VIEWS/REDRAFT/RED_alte_Redrafts.py", title="Send your old SLR", icon=":material/send:"),
+            st.Page(page="VIEWS/REDRAFT/RED_Manager.py", title="Manager", icon=":material/groups:"),
         ],
         "SLR Ligen 2025" :[
             # st.Page(page="VIEWS/REDRAFT/RED_Wochenstatistiken.py", title="Wochenstatistiken", icon=":material/calendar_month:"),
             # st.Page(page="VIEWS/REDRAFT/RED_Wochenkategorien.py", title="Wochenkategorien", icon=":material/bar_chart:"),
             # st.Page(page="VIEWS/REDRAFT/RED_Matchups.py", title="Matchups", icon=":material/sports_football:"),
             # st.Page(page="VIEWS/REDRAFT/RED_Manager.py", title="Manager", icon=":material/groups:"),
-            st.Page(page="VIEWS/REDRAFT/RED_drafts.py", title="Drafts", icon=":material/target:"),
-            st.Page(page="VIEWS/REDRAFT/RED_adp_board.py", title="ADP Draftboard", icon=":material/table:"),
+            # st.Page(page="VIEWS/REDRAFT/RED_drafts.py", title="Drafts", icon=":material/target:"),
+            # st.Page(page="VIEWS/REDRAFT/RED_adp_board.py", title="ADP Draftboard", icon=":material/table:"),
         ],
         "SL Dynastys": [
             # st.Page(page="VIEWS/DYNASTY/DYN_info.py", title="Dynasty", icon=":material/construction:"),
-            st.Page(page="VIEWS/DYNASTY/DYN_drafts.py", title="Drafts 2025", icon=":material/target:"),
-            st.Page(page="VIEWS/DYNASTY/DYN_adp_board.py", title="Dynasty Draftboard 2025", icon=":material/table:"),
-            st.Page(page="VIEWS/DYNASTY/DYN_waitingroom.py", title="Dynasty Waiting Room", icon=":material/groups:"),
+            # st.Page(page="VIEWS/DYNASTY/DYN_drafts.py", title="Drafts 2025", icon=":material/target:"),
+            # st.Page(page="VIEWS/DYNASTY/DYN_adp_board.py", title="Dynasty Draftboard 2025", icon=":material/table:"),
+            # st.Page(page="VIEWS/DYNASTY/DYN_waitingroom.py", title="Dynasty Waiting Room", icon=":material/groups:"),
         ]
     }
 )
