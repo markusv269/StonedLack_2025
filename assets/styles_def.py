@@ -16,8 +16,8 @@ def player_box(name, team, position, color, round, pick_in_round, count):
         picks = f"{count} Pick"
     else:
         picks = f"{count} Picks"
-    if len(list(name)) > 12:
-        name = name[:6] + "..." 
+    if len(list(name)) > 20:
+        name = name[:15] + "..." 
     return f"""
     <div style="
         font-size: 1em;
