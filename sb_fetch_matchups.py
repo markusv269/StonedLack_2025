@@ -35,7 +35,7 @@ for league_id in league_ids:
             "matchup_id": matchup.get("matchup_id"),
             "roster_id": str(matchup["roster_id"]),
             "points": matchup.get("points", 0),
-            "json_data": json.dumps(matchup),
+             "json_data": matchup,  # <- nicht json.dumps()
             "week": week
         })
         

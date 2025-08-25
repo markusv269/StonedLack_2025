@@ -25,6 +25,7 @@ def fetch_and_store_league(league_id: str, league_type: str):
         "league_season": int(league_data.get("season")),
         "league_type": league_type,
         "league_scoring": league_data.get("scoring_settings", {}),
+        "roster_positions": league_data.get("roster_positions", {}),
         "updated_at": now,
     }
 

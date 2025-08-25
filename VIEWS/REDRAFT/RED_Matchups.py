@@ -1,87 +1,84 @@
 import streamlit as st
+import supabase
+import pandas as pd
+from supabase import create_client, Client
 
-users_df = st.session_state["session_data"]["userdf"]
-matchups_df = st.session_state["session_data"]["matchupsdf"]
-matchups_df = matchups_df.merge(users_df[['league_id', 'roster_id', 'display_name', 'league_name']], on=['league_id', 'roster_id'], how='left')
-rosters_df = st.session_state["session_data"]["rostersdf"]
+# Supabase Credentials
+url: str = st.secrets["supabase"]["url"]
+key: str = st.secrets["supabase"]["key"]
+supabase: Client = create_client(url, key)
+# Daten aus der Supabase-Tabelle abrufen
+matchups = supabase.rpc("get_matchup_starters").execute()
+# league_settings = supabase.table("leagues").select("*").execute()
+# st.write("### Matchups")
+# st.dataframe(pd.DataFrame(matchups.data))
+# for matchup in matchups.data:
+#     st.write("Starter")
+#     for player in matchup['json_data'].get('starters', []):
+#         st.write(player)
+#     st.write("---")
+#     st.write("Bench")
+#     for player in matchup['json_data'].get('starters', []):
+#         st.write(player)
+#     st.write("---")
 
-players_df, players_dict = st.session_state["session_data"]["playersdf"], st.session_state["session_data"]["playersdict"]
-matches_df = st.session_state["session_data"]["matchesdf"]
+import pandas as pd
 
-st.title('Matchup-Übersicht')
-st.write('''Übersicht über alle Matchups. Filter nach Woche, Liga oder bestimmten Manager (zeigt alle gewonnenen und verlorernen Spiele).
-            \n_Aus Performance-Gründen werden maximal 100 Matchups angezeigt._''')
+# Beispiel: df ist dein DataFrame mit den Rohdaten
+# Spalten (basierend auf deinem Dump): 
+# ["matchup_uid", "player_idx", "league_name", "league_type", "league_id", "matchup_id", "slot", "position", "player_id", "player_name", "team", "points"]
+df = pd.DataFrame(matchups.data)
 
-matches_show = matches_df[['league_name', 'week', 'winner_name', 'winner_points', 'loser_name', 'loser_points']]
-matches_show = matches_show.rename(columns={
-    'league_name' : 'Liga',
-    'week' : 'Woche',
-    'winner_name' : 'Gewinner',
-    'winner_points' : 'Pkt. Gewinner',
-    'loser_name' : 'Verlierer',
-    'loser_points' : 'Pkt. Verlierer'        
-})
-matches_show['Pkt. Summe'] = matches_show['Pkt. Gewinner'] + matches_show['Pkt. Verlierer']
-matches_show['Pkt. Diff'] = matches_show['Pkt. Gewinner'] - matches_show['Pkt. Verlierer']
-   
-   
-# Filter-UI
-ucol1, ucol2, ucol3 = st.columns([1, 1, 1.6])
-dcol1, dcol2, dcol3 = st.columns([1, 1, 1.6])
+st.write(df)
 
-with ucol1:
-    activate_league = st.checkbox("Ligafilter aktivieren", key="cb_league")
-with ucol2:
-    activate_week = st.checkbox("Wochenfilter aktivieren", key="cb_week")
+import streamlit as st
+import pandas as pd
 
-# Bedingte Filteroptionen
-with dcol1:
-    select_league = st.selectbox("Wähle Liga", matches_show["Liga"].unique(), key="sel_league") if activate_league else None
-with dcol2:
-    select_week = st.selectbox("Wähle Woche", sorted(matches_show["Woche"].unique()), key="sel_week") if activate_week else None
-with dcol3:
-    select_manager = st.multiselect("Manager wählen", sorted(set(matches_show["Gewinner"]).union(set(matches_show["Verlierer"]))))
+# df: dein DataFrame mit den Rohdaten
+# Spalten: ["league_id","matchup_id","roster_id","player_name","player_points","player_position"]
 
-# Daten filtern
-filtered_df = matches_show.copy()
+# Alle eindeutigen Matchups
+matchup_ids = df[['league_id','matchup_id']].drop_duplicates()
 
-if activate_league and select_league:
-    filtered_df = filtered_df[filtered_df["Liga"] == select_league]
+import streamlit as st
+import pandas as pd
 
-if activate_week and select_week:
-    filtered_df = filtered_df[filtered_df["Woche"] == select_week]
+# df: dein DataFrame mit den Rohdaten
+# Spalten: ["league_id","matchup_id","roster_id","player_name","player_points","slot"]
 
-if select_manager:
-    filtered_df = filtered_df[filtered_df["Gewinner"].isin(select_manager) | filtered_df["Verlierer"].isin(select_manager)]
+# Alle eindeutigen Matchups
+matchup_ids = df[['league_id','matchup_id']].drop_duplicates()
 
-# Dynamische Spaltenauswahl
-column_order = [col for col in filtered_df.columns if col not in (["Liga"] if activate_league else []) + (["Woche"] if activate_week else [])]
-
-# Gefilterte Tabelle anzeigen
-# st.dataframe(filtered_df, column_order=column_order, hide_index=True)
-filtered_df = filtered_df.head(100)
-
-st.write("### Matchups")
-matchups_per_row = 4
-rows = [filtered_df.iloc[i:i+matchups_per_row] for i in range(0, len(filtered_df), matchups_per_row)]
-
-for row in rows:
-    cols = st.columns(matchups_per_row)
-    for col, (_, matchup) in zip(cols, row.iterrows()):
-        with col:
-            st.markdown(
-                f"""
-                <div style="border:1px solid #ddd; border-radius:10px; padding:10px; text-align:center; background-color:#f9f9f9;">
-                    <div style="font-size:11px; font-weight:bold; color:#555;">{matchup['Liga']} - Woche {matchup['Woche']}</div>
-                    <hr style="margin:5px 0; border-top:1px solid #ddd;">
-                    <div style="font-size:16px; font-weight:bold; color:#28a745;">{matchup['Gewinner']}</div>
-                    <div style="font-size:13px; color:gray;">{matchup['Pkt. Gewinner']:.2f}</div>
-                    <div style="font-size:20px; font-weight:bold;">:</div>
-                    <div style="font-size:13px; color:gray;">{matchup['Pkt. Verlierer']:.2f}</div>
-                    <div style="font-size:16px; font-weight:bold; color:#dc3545;">{matchup['Verlierer']}</div>
-                </div>
-                """, 
-                unsafe_allow_html=True
-            )
-    st.markdown("<div style='margin-bottom: 20px;'></div>", unsafe_allow_html=True)
-# st.subheader("Alle Matchups eines Managers")
+for _, matchup in matchup_ids.iterrows():
+    league_id = matchup['league_id']
+    matchup_id = matchup['matchup_id']
+    # league_name = matchup['league_name']  # Falls du den Namen der Liga hast, ersetze dies entsprechend
+    
+    st.write(f"**League {league_id} – Matchup {matchup_id}**")
+    
+    # Spieler der beiden Rosters filtern
+    rosters = df[(df['league_id']==league_id) & (df['matchup_id']==matchup_id)]
+    roster_ids = rosters['roster_id'].unique()
+    
+    if len(roster_ids) != 2:
+        st.warning(f"Matchup {matchup_id} hat nicht genau 2 Roster!")
+        continue
+    
+    roster1 = rosters[rosters['roster_id']==roster_ids[0]].sort_values('slot')
+    roster2 = rosters[rosters['roster_id']==roster_ids[1]].sort_values('slot')
+    
+    # Beide Roster auf gleiche Länge bringen
+    max_len = max(len(roster1), len(roster2))
+    roster1 = roster1.reindex(range(max_len))
+    roster2 = roster2.reindex(range(max_len))
+    
+    # Streamlit Columns: Spieler1 | Punkte1 | Slot | Punkte2 | Spieler2
+    for i in range(max_len):
+        col1, col2, col3, col4, col5 = st.columns([2,1,1,1,2])
+        col1.write(roster1['player_name'].iloc[i] if pd.notna(roster1['player_name'].iloc[i]) else "")
+        col2.write(roster1['player_points'].iloc[i] if pd.notna(roster1['player_points'].iloc[i]) else "")
+        col3.write(roster1['slot'].iloc[i] if pd.notna(roster1['slot'].iloc[i]) else "")
+        col4.write(roster2['player_points'].iloc[i] if pd.notna(roster2['player_points'].iloc[i]) else "")
+        col5.write(roster2['player_name'].iloc[i] if pd.notna(roster2['player_name'].iloc[i]) else "")
+    
+    st.markdown("---")  # Trennlinie zwischen Matchups

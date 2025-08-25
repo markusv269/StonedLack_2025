@@ -2,60 +2,114 @@ import streamlit as st
 import pandas as pd
 from supabase import create_client, Client
 from datetime import datetime
-from styles import metric_box
+from styles import metric_box  # deine eigene Komponente
 
-# Supabase Credentials
+# ░░░ SUPABASE CREDENTIALS ░░░
 url: str = st.secrets["supabase"]["url"]
 key: str = st.secrets["supabase"]["key"]
 supabase: Client = create_client(url, key)
 
+# ░░░ DATEN LADEN ░░░
 @st.cache_data(ttl=3600)
 def load_drafts():
+    # Supabase-Abfragen
     drafts = supabase.table("drafts").select("*").eq("season", 2025).execute()
     leagues = supabase.table("leagues").select("*").eq("league_type", "redraft").execute()
     picks = supabase.table("draft_picks").select("*").execute()
-    picks_data = picks.data
-    picks_df = pd.DataFrame(picks_data)
-    league_data = leagues.data
-    league_df = pd.DataFrame(league_data)
-    drafts_data = drafts.data
-    drafts_df = pd.DataFrame(drafts_data)
-    drafts_df = drafts_df.merge(league_df[["league_id", "league_name"]], on="league_id", how="right")
-    # drafts_df = drafts_df.merge(picks_df.groupby("draft_id").size().reset_index(name="total_picks"), on="draft_id", how="left")
-    # drafts_df['start_time'] = pd.to_datetime(drafts_df['start_time'], utc=True)
-    # alles nach dem Sekunden-Anteil wegschneiden
-    drafts_df['start_time'] = drafts_df['start_time'].astype(str).str.replace(r'\.\d+', '', regex=True)
 
-    # danach normal in datetime wandeln
-    drafts_df['start_time'] = (pd.to_datetime(drafts_df['start_time'], utc=True, errors='coerce')+ pd.Timedelta(hours=2))
-    drafts_df['start_time_str'] = drafts_df['start_time'].dt.strftime('%d.%m.%Y, %H:%M')
-    drafts_df['updated_at'] = (pd.to_datetime(drafts_df['updated_at'], utc=True)+ pd.Timedelta(hours=2))
-    drafts_df['last_updated_str'] = drafts_df['updated_at'].dt.strftime('%d.%m.%Y, %H:%M')
-    drafts_df['league_number'] = drafts_df['league_name'].str.extract(r'(\d+)$').astype(int)
-    return drafts_df
-drafts_df = load_drafts()
-for _,row in drafts_df[drafts_df["league_number"]<49].sort_values(by="league_number", ascending=True).iterrows():
+    # In DataFrames umwandeln
+    drafts_df = pd.DataFrame(drafts.data)
+    leagues_df = pd.DataFrame(leagues.data)
+    picks_df = pd.DataFrame(picks.data)
+
+    # Ligenname hinzufügen
+    drafts_df = drafts_df.merge(
+        leagues_df[["league_id", "league_name"]],
+        on="league_id",
+        how="right"
+    )
+
+    # Sekundenbruchteil bei start_time abschneiden
+    drafts_df['start_time'] = drafts_df['start_time'].astype(str).str.replace(r'\.\d+', '', regex=True)
+    drafts_df['start_time'] = pd.to_datetime(drafts_df['start_time'], utc=True, errors='coerce') + pd.Timedelta(hours=2)
+    drafts_df['updated_at'] = pd.to_datetime(drafts_df['updated_at'], utc=True, errors='coerce') + pd.Timedelta(hours=2)
+
+    # Formatierte Strings für Anzeige (mit Fallback)
+    drafts_df['start_time_str'] = drafts_df['start_time'].dt.strftime('%d.%m.%Y, %H:%M').fillna("–")
+    drafts_df['last_updated_str'] = drafts_df['updated_at'].dt.strftime('%d.%m.%Y, %H:%M').fillna("–")
+
+    # League Number extrahieren
+    drafts_df['league_number'] = drafts_df['league_name'].str.extract(r'(\d+)$').astype(float).astype('Int64')
+
+    # Letzter Pick pro Draft: (Round + Pick-No)
+    last_picks = (
+        picks_df.groupby(["draft_id", "round"])["pick_no"]
+        .max()
+        .reset_index()
+        .sort_values(["draft_id", "round"])
+        .groupby("draft_id")
+        .last()  # nimmt die letzte Runde je Draft
+        .reset_index()
+    )
+
+    # Dictionary für schnelles Lookup: draft_id -> (round, pick_no)
+    last_pick_by_draft_id = {
+        row["draft_id"]: (int(row["round"]), int(row["pick_no"]) % 12 +1)
+        for _, row in last_picks.iterrows()
+    }
+
+    return drafts_df, picks_df, last_pick_by_draft_id
+
+# ░░░ DATEN LADEN ░░░
+drafts_df, picks_df, last_pick_by_draft_id = load_drafts()
+
+# ░░░ ANZEIGE ░░░
+filtered_drafts = drafts_df[drafts_df["league_number"] < 49].sort_values(by="league_number")
+
+for _, row in filtered_drafts.iterrows():
     st.write(f"#### {row['league_name']}")
 
     col1, col2 = st.columns(2)
     with col2:
-        metric_box("Draft Link:",f'<a href="https://sleeper.com/draft/nfl/{row["draft_id"]}" target="_blank">https://sleeper.com/draft/nfl/{row["draft_id"]}</a>')
+        # Draft-Link
+        metric_box(
+            "Draft Link:",
+            f'<a href="https://sleeper.com/draft/nfl/{row["draft_id"]}" target="_blank">Link öffnen</a>'
+        )
+
     with col1:
-        status = row['status']
+        # Statusanzeige
+        status = row.get('status', '').lower()
         if status == "pre_draft":
-            status = st.warning("Draft ausstehend")
+            st.warning("Draft ausstehend")
         elif status == "drafting":
-            status = st.info("Draft läuft")
+            last_pick = last_pick_by_draft_id.get(row['draft_id'])
+            if last_pick:
+                round_no, pick_no = last_pick
+                st.info(f"Draft läuft (Pick {round_no}.{pick_no})")
+            else:
+                st.info("Draft läuft (noch kein Pick)")
         elif status == "paused":
-            status = st.info("Draft pausiert")
+            last_pick = last_pick_by_draft_id.get(row['draft_id'])
+            if last_pick:
+                round_no, pick_no = last_pick
+                st.info(f"Draft pausiert (Pick {round_no}.{pick_no})")
+            else:
+                st.info("Draft pausiert (noch kein Pick)")
+            # st.info("Draft pausiert")
         elif status == "complete":
-            status = st.success("Draft abgeschlossen")
+            st.success("Draft abgeschlossen")
         else:
-            status = st.warning(row["status"])
+            st.warning(f"Status: {status}")
+
     col3, col4 = st.columns(2)
     with col3:
-        metric_box("Startzeit:",f"{row['start_time_str']}")
+        metric_box("Startzeit:", f"{row['start_time_str']}")
     with col4:
         metric_box("Stand Datenbank:", f"{row['last_updated_str']}")
-    st.write("---")
-# st.write(load_drafts())
+
+    st.divider()
+
+# # ░░░ OPTIONAL: DEBUG ANZEIGE ░░░
+# if st.checkbox("🔍 Debug: Zeige `last_pick_by_draft_id`"):
+#     st.write(last_pick_by_draft_id)
