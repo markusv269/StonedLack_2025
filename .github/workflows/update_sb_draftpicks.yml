@@ -2,7 +2,7 @@ name: Update Draft Picks
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Jede Stunde, zur Minute 0 (UTC)
+    - cron: '*/15 * * * *'  # Jede Stunde, zur Minute 0 (UTC)
   workflow_dispatch:      # erlaubt manuelles Starten
 
 jobs:
