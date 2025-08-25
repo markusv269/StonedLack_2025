@@ -4,8 +4,8 @@ def position_color(pos):
         "RB": "#87c2a5",
         "WR": "#669dcb",
         "TE": "#c0914a",
-        "K":  "#fbbc05",
-        "DEF": "#ea4335",
+        "K":  "#af3fc5",
+        "DEF": "#a1481f",
         "DL": "#999999",
         "LB": "#999999",
         "DB": "#999999"
