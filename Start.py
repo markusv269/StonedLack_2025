@@ -77,7 +77,7 @@ pg = st.navigation(
             # st.Page(page="VIEWS/REDRAFT/RED_Matchups.py", title="Matchups", icon=":material/sports_football:"),
             # st.Page(page="VIEWS/REDRAFT/RED_Manager.py", title="Manager", icon=":material/groups:"),
             st.Page(page="VIEWS/REDRAFT/RED_drafts.py", title="Drafts", icon=":material/target:"),
-            # st.Page(page="VIEWS/REDRAFT/RED_adp_board.py", title="ADP Draftboard", icon=":material/table:"),
+            st.Page(page="VIEWS/REDRAFT/RED_adp_board.py", title="ADP Draftboard", icon=":material/table:"),
         ],
         "SL Dynastys": [
             # st.Page(page="VIEWS/DYNASTY/DYN_info.py", title="Dynasty", icon=":material/construction:"),

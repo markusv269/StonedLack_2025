@@ -9,7 +9,7 @@ url: str = st.secrets["supabase"]["url"]
 key: str = st.secrets["supabase"]["key"]
 supabase: Client = create_client(url, key)
 
-ltype = "dynasty"  # Beispiel: redraft, dynasty, keeper
+ltype = "redraft"  # Beispiel: redraft, dynasty, keeper
 # Beispiel: redraft
 def get_adpboard(ltype: str):
     redraft_data = supabase.rpc("get_player_stats_by_league_type", {"ltype": ltype}).execute()
