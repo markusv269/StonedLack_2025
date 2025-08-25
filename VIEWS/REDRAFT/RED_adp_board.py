@@ -7,7 +7,7 @@ from assets.styles_def import position_color, player_box
 from sb_fetch_adpboard import get_adpboard
 
 all_picks = get_adpboard("redraft")
-st.dataframe(all_picks)
+
 
 # @st.cache_data(show_spinner="Lade Draft-Daten ...", ttl=3600)
 # def fetch_all_drafts(league_ids):
@@ -200,3 +200,9 @@ for r in range(1, 16):
 # #     if pick.get("metadata", {}).get("position") not in player_pos:
 # #         player_pos.append(pick["metadata"]["position"])
 # # st.write(player_pos)
+
+select_positions = st.multiselect("Positionen filtern", ["QB", "RB", "WR", "TE", "K", "DEF"], default=["QB", "RB", "WR", "TE", "K", "DEF"])
+if select_positions:
+    show = show[show["player_position"].isin(select_positions)]
+
+st.dataframe(show[['name', 'team', 'player_position', "min_pick", "max_pick"]], hide_index=True, use_container_width=True)
