@@ -128,7 +128,7 @@ if select_playerpicks:
 
 # show = top36#[top36["round"] <= 3]
 # Darstellung als Board mit farbigen Kästchen
-for r in range(1, 10):
+for r in range(1, 16):
     # st.subheader(f"🏈 Runde {r}")
     round_picks = show[show["adp_round"] == r]
 
