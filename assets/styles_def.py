@@ -12,10 +12,7 @@ def position_color(pos):
     }.get(pos.upper(), "#dddddd")
 
 def player_box(name, team, position, color, round, pick_in_round, count):
-    if count == 1:
-        picks = f"{count} Pick"
-    else:
-        picks = f"{count} Picks"
+    picks = f"Ø {count}"
     if len(list(name)) > 20:
         name = name[:15] + "..." 
     return f"""

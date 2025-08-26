@@ -150,7 +150,7 @@ for r in range(1, 16):
                 color, 
                 row["adp_round"], 
                 row["adp_pick"], 
-                row["pick_count"]
+                row["avg_pick"]
             )
             st.markdown(html, unsafe_allow_html=True)
 
@@ -205,4 +205,4 @@ select_positions = st.multiselect("Positionen filtern", ["QB", "RB", "WR", "TE",
 if select_positions:
     show = show[show["player_position"].isin(select_positions)]
 
-st.dataframe(show[['name', 'team', 'player_position', "min_pick", "max_pick"]], hide_index=True, use_container_width=True)
+st.dataframe(show[['name', 'team', 'player_position', "avg_pick", "min_pick", "max_pick"]], hide_index=True, use_container_width=True)
