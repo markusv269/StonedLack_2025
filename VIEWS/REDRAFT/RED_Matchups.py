@@ -91,7 +91,7 @@ def player_box(player_id: str, points: float, starter=True, players_dict=None):
 # ░░░ MATCHUP DARSTELLUNG ░░░
 def show_matchups(weekly_json: dict, league_id: str, managers_df: pd.DataFrame, players_dict: dict, roster_positions: list):
     for matchup_id, matchup_data in weekly_json.get("matchups", {}).items():
-        st.subheader(f"Matchup {matchup_id}")
+        # st.subheader(f"Matchup {matchup_id}")
 
         roster_ids = list(matchup_data.keys())
         if len(roster_ids) != 2:
