@@ -74,10 +74,10 @@ pg = st.navigation(
         "SLR Ligen 2025" :[
             # st.Page(page="VIEWS/REDRAFT/RED_Wochenstatistiken.py", title="Wochenstatistiken", icon=":material/calendar_month:"),
             # st.Page(page="VIEWS/REDRAFT/RED_Wochenkategorien.py", title="Wochenkategorien", icon=":material/bar_chart:"),
-            st.Page(page="VIEWS/REDRAFT/RED_Matchups.py", title="Matchups", icon=":material/sports_football:"),
             # st.Page(page="VIEWS/REDRAFT/RED_Manager.py", title="Manager", icon=":material/groups:"),
             st.Page(page="VIEWS/REDRAFT/RED_drafts.py", title="Drafts", icon=":material/target:"),
             st.Page(page="VIEWS/REDRAFT/RED_adp_board.py", title="ADP Draftboard", icon=":material/table:"),
+            st.Page(page="VIEWS/REDRAFT/RED_Matchups.py", title="Matchups", icon=":material/sports_football:"),
         ],
         "SL Dynastys": [
             # st.Page(page="VIEWS/DYNASTY/DYN_info.py", title="Dynasty", icon=":material/construction:"),
