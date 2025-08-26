@@ -62,7 +62,10 @@ def roster_name(league_id, roster_id, managers_df):
         return f"Roster {roster_id}"
     display = m.iloc[0]["display_name"]
     team = m.iloc[0]["team_name"]
-    return f"{display} ({team})"
+    if team:
+        return f"{display} ({team})"
+    else:
+        return f"{display}"
 
 def player_box(player_id: str, points: float, starter=True, players_dict=None):
     color = "#d1fae5" if starter else "#f3f4f6"
@@ -109,7 +112,7 @@ def show_matchups(weekly_json: dict, league_id: str, managers_df: pd.DataFrame, 
 
         total1, total2 = total(r1), total(r2)
 
-        col1, col2 = st.columns(2)
+        col1, col_mid, col2 = st.columns([5,1,5])
         with col1:
             st.markdown(f"### {name1}")
             st.metric("Gesamtpunkte", round(total1, 2))
