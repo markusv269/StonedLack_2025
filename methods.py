@@ -41,7 +41,7 @@ def load_weekly_matchups(week: int):
 
 
 #### LOAD DRAFTS
-@st.cache_data(ttl=15*60) # 15 Minuten cachen
+@st.cache_data(ttl=5*60) # 15 Minuten cachen
 def load_season_drafts(season: int):
     drafts = supabase.table("drafts").select("*").eq("season", season).execute()
     return pd.DataFrame(drafts.data)
