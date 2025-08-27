@@ -37,7 +37,7 @@ def load_drafts():
     drafts_df['last_updated_str'] = drafts_df['updated_at'].dt.strftime('%d.%m.%Y, %H:%M').fillna("–")
 
     # League Number extrahieren
-    drafts_df['league_number'] = drafts_df['league_name'].str.extract(r'(\d+)$').astype(float).astype('Int64')
+    # drafts_df['league_number'] = drafts_df['league_name'].str.extract(r'(\d+)$').astype(float).astype('Int64')
 
     # Letzter Pick pro Draft: (Round + Pick-No)
     last_picks = (
@@ -62,7 +62,7 @@ def load_drafts():
 drafts_df, picks_df, last_pick_by_draft_id = load_drafts()
 
 # ░░░ ANZEIGE ░░░
-filtered_drafts = drafts_df[drafts_df["league_number"] < 49].sort_values(by="league_number")
+filtered_drafts = drafts_df#[drafts_df["league_number"] < 49].sort_values(by="league_number")
 
 for _, row in filtered_drafts.iterrows():
     st.write(f"#### {row['league_name']}")

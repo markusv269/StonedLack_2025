@@ -10,7 +10,7 @@ key: str = st.secrets["supabase"]["key"]
 supabase: Client = create_client(url, key)
 
 # ░░░ DATEN LADEN ░░░
-@st.cache_data(ttl=3600)
+@st.cache_data(ttl=5*60)
 def load_drafts():
     # Supabase-Abfragen
     picks = supabase.table("draft_picks").select("*").execute()
@@ -32,29 +32,21 @@ def load_drafts():
     drafts_df['start_time'] = pd.to_datetime(drafts_df['start_time'], utc=True, errors='coerce') + pd.Timedelta(hours=2)
     drafts_df['updated_at'] = pd.to_datetime(drafts_df['updated_at'], utc=True, errors='coerce') + pd.Timedelta(hours=2)
 
-    # Formatierte Strings für Anzeige (mit Fallback)
+    # Formatierte Strings für Anzeige
     drafts_df['start_time_str'] = drafts_df['start_time'].dt.strftime('%d.%m.%Y, %H:%M').fillna("–")
     drafts_df['last_updated_str'] = drafts_df['updated_at'].dt.strftime('%d.%m.%Y, %H:%M').fillna("–")
 
     # League Number extrahieren
     drafts_df['league_number'] = drafts_df['league_name'].str.extract(r'(\d+)$').astype(float).astype('Int64')
 
-    # Letzter Pick pro Draft: (Round + Pick-No)
-    last_picks = (
-        picks_df.groupby(["draft_id", "round"])["pick_no"]
-        .max()
-        .reset_index()
-        .sort_values(["draft_id", "round"])
-        .groupby("draft_id")
-        .last()  # nimmt die letzte Runde je Draft
-        .reset_index()
-    )
-
-    # Dictionary für schnelles Lookup: draft_id -> (round, pick_no)
-    last_pick_by_draft_id = {
-        row["draft_id"]: (int(row["round"]), int(row["pick_no"]) % 12 +1)
-        for _, row in last_picks.iterrows()
-    }
+    # Dictionary für schnelles Lookup: draft_id -> (round, pick_in_round)
+    last_pick_by_draft_id = {}
+    if not picks_df.empty:
+        for draft_id, df in picks_df.groupby("draft_id"):
+            highest_pick = df.loc[df["pick_no"].idxmax()]
+            round_no = int(highest_pick["round"])
+            pick_in_round = int((highest_pick["pick_no"] - 1) % 12 + 1)  # Sleeper = 12er-Runden
+            last_pick_by_draft_id[draft_id] = (round_no, pick_in_round)
 
     return drafts_df, picks_df, last_pick_by_draft_id
 

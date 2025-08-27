@@ -8,7 +8,7 @@ url: str = st.secrets["supabase"]["url"]
 key: str = st.secrets["supabase"]["key"]
 supabase: Client = create_client(url, key)
 
-BATCH_SIZE = 1000  # Batch-Größe für Upserts
+BATCH_SIZE = 999  # Batch-Größe für Upserts
 
 # --- Alle Drafts mit Status "complete" abrufen ---
 drafts = supabase.table("drafts").select("draft_id").execute()
@@ -41,5 +41,6 @@ for draft_id in draft_ids:
 for i in range(0, len(all_picks), BATCH_SIZE):
     batch = all_picks[i:i+BATCH_SIZE]
     supabase.table("draft_picks").upsert(batch).execute()
+    print(f"✅ {len(batch)} Picks gespeichert (Batch {i//BATCH_SIZE + 1}).")
 
 print(f"Alle Draft-Picks für {len(draft_ids)} Drafts wurden in Supabase aktualisiert!")

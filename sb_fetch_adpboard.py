@@ -12,8 +12,8 @@ supabase: Client = create_client(url, key)
 ltype = "redraft"  # Beispiel: redraft, dynasty, keeper
 # Beispiel: redraft
 def get_adpboard(ltype: str):
-    redraft_data = supabase.rpc("get_player_stats_by_league_type", {"ltype": ltype}).execute()
-    df = pd.DataFrame(redraft_data.data)
+    data = supabase.rpc("get_player_stats_by_league_type", {"ltype": ltype}).execute()
+    df = pd.DataFrame(data.data)
     df["adp_round"] = (df.index)// 12 +1
     df["adp_pick"] = (df.index) % 12 +1
     df["adp_overall_pick"] = df.index + 1
