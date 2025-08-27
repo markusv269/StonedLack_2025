@@ -2,52 +2,23 @@ import streamlit as st
 import feedparser
 
 
-st.title("Wir bauen etwas um... Bald geht's weiter!")
+# st.title("Wir bauen etwas um... Bald geht's weiter!")
 
 st.write('''
     # Das StonedLack Universum 🏈
-    Das Universum umfasste in der Saison 2024 über 60 Dynasty- und Redraftligen. Auf den folgenden Seiten findet ihr Einblicke zu den wöchentlichen Statistiken, Matchups, zu den Drafts etc.
+    Das Universum umfasst in der Saison 2025 über 90 Dynasty- und Redraftligen. Auf den folgenden Seiten findet ihr Einblicke zu den wöchentlichen Statistiken, Matchups, zu den Drafts etc.
     ''')
 
 with st.expander("StonedLack News", icon=":material/news:", expanded=True):
     st.write(''' 
-    #### Community-Mock-Draft am 21.04.2025 ab 21:30 Uhr
-    Der NFL-Draft steht an, doch kurz vor dem Großereignis in Green Bay steht im Stoned Lack Universum der Community Mock Draft an.
-    Im [Discord](https://discord.com/channels/793571503681175573/1357360178978361555/1357361110923346184) kann man sich dazu noch anmelden.
-             
-    Im Mock Draft werden die Zuschauer live in die Show geholt und dürfen für "ihre" Franchise den First Round Pick tätigen. 
-    Gut die Hälfte der Teams stehen noch zur Wahl, also zwar noch genug Zeit, sich ein Team auszusuchen. Wer jedoch sein für Lieblingsteam picken möchte, sollte sich ranhalten.
-             
-    Der Community Mock Draft ist jedes Jahr ein Highlight der Offseason (wenn nicht sogar der ganzen Saison), also macht mit und pickt den nächsten Superstar für Eure NFL-Franchise!
+    #### Redraftligen 2025 ausgelost und Drafts gestartet!
+    Die Redraftligen für die Saison 2025 wurden im Rahmen einer Live-Auslosung im Stoned Lack Podcast vergeben.
+    Mittlerweile sind alle 48 Ligen gefüllt und die Drafts sind in vollem Gange.
+    Auf der Seite "Drafts" findet ihr alle Informationen zu den Drafts, inklusive Link zum jeweiligen Draft.
+    Auf der Seite "ADP Draftboard" findet ihr ein gemeinsames Draftboard aller Redraftligen.
              
     ---
     
-    #### Erster Dynasty-Draft 2025 läuft
-    In der neu gegründeten Stoned Lack Dynasty 32 läuft gerade der Verteran Draft. Alle Picks können hier auf der Seite unter Dynasty -> Drafts oder auf sleeper (https://sleeper.com/draft/nfl/1207100722546475008) abgerufen werden.                 
-    
-    ---
-
-    #### Stoned Lack bei der American Football Madness in Düsseldorf dabei
-    Wie die beiden am Montag im Podcast verrieten, wird im Rahmen der American Football Madness (AFM) in Düsseldorf am 31.05.2025 ein Live-Podcast von Stoned Lack aufgenommen. 
-    Tickets und Infos zum Event gibt es unter folgendem [Link](https://www.americanfootballmadness.de/).
-    
-    ---
-             
-    #### Neue Stoned Lack Dynasty-Liga gegründet
-    Die neue Fantasy Saison ist noch eine Weile hin, doch die Vorfreude ist bereits spürbar. Mit der Stoned Lack Dynasty 32 wurde nun eine weitere SL Liga gegründet. 
-    Altbekannte und neue Manager werden dann ab September ihre Teams gegeneinander antreten lassen.     
-
-    ---
-      
-    #### kunfc. ist der Champ of Champs 2024
-    Mit dem Ausgang des Superbowls entschied sich auch die Frage, wer sich im Champ of Champs-Spiel durchsetzt. Letzlich ergattert sich kunfc. (sleeper: kunfc) den begehrten Titel und den Siegespreis.
-    
-    Das Champ of Champs-Spiel im Superbowl bestand aus der Auswahl von drei Spielern, deren Fantasy-Performances mit einem Faktor multipliziert wurde. Bester Fantasy Spieler der Runde war Worthy mit insgesamt 107,10 Fantasy Punkten (bei einem Faktor x3). 
-    
-    kunfc setzte auf Worthy, AJ Brown und Goedert und sammelte somit insgesamt 161,1 Fantasy Punkte, was die Verteidigung der Führung und den Gesamtsieg bedeutete. Glückwunsch zum Sieg und viel Spaß mit dem Preis.
-  
-    ---
-        
     #### Aktuelle Podcast-Folgen''')
     # RSS-Feed URL
     RSS_FEED_URL = "https://www.youtube.com/feeds/videos.xml?playlist_id=PLVPzmyE6fIhQg_kqkLNoH1fd4oyv2D5X6"

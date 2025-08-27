@@ -1,27 +1,13 @@
 import streamlit as st
 import pandas as pd
 from supabase import create_client, Client
+from methods import load_managers, load_leagues, load_matchups
 
 # ░░░ SUPABASE CREDENTIALS ░░░
 url: str = st.secrets["supabase"]["url"]
 key: str = st.secrets["supabase"]["key"]
 supabase: Client = create_client(url, key)
 
-# ░░░ DATEN LADEN ░░░
-@st.cache_data(ttl=5*60)
-def load_matchups():
-    matchups = supabase.table("matchup_week_stats").select("*").execute()
-    return pd.DataFrame(matchups.data)
-
-@st.cache_data(ttl=5*60)
-def load_leagues():
-    leagues = supabase.table("leagues").select("league_id,league_name,roster_positions").eq("league_type", "redraft").execute()
-    return pd.DataFrame(leagues.data)
-
-@st.cache_data(ttl=5*60)
-def load_managers():
-    managers = supabase.table("managers").select("league_id,roster_id,display_name,team_name").execute()
-    return pd.DataFrame(managers.data)
 
 # ░░░ JSON-KONSTRUKT ░░░
 def build_weekly_json(matchups_df: pd.DataFrame, week: int, league_id: str):

@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 from supabase import create_client, Client
-from datetime import datetime
-from styles import metric_box  # deine eigene Komponente
+from assets.styles_def import metric_box  # deine eigene Komponente
+from methods import load_leagues_with_type, load_season_drafts
 
 # ░░░ SUPABASE CREDENTIALS ░░░
 url: str = st.secrets["supabase"]["url"]
@@ -13,13 +13,11 @@ supabase: Client = create_client(url, key)
 @st.cache_data(ttl=3600)
 def load_drafts():
     # Supabase-Abfragen
-    drafts = supabase.table("drafts").select("*").eq("season", 2025).execute()
-    leagues = supabase.table("leagues").select("*").eq("league_type", "redraft").execute()
     picks = supabase.table("draft_picks").select("*").execute()
 
     # In DataFrames umwandeln
-    drafts_df = pd.DataFrame(drafts.data)
-    leagues_df = pd.DataFrame(leagues.data)
+    drafts_df = load_season_drafts(2025)
+    leagues_df = load_leagues_with_type("redraft")
     picks_df = pd.DataFrame(picks.data)
 
     # Ligenname hinzufügen
@@ -110,6 +108,3 @@ for _, row in filtered_drafts.iterrows():
 
     st.divider()
 
-# # ░░░ OPTIONAL: DEBUG ANZEIGE ░░░
-# if st.checkbox("🔍 Debug: Zeige `last_pick_by_draft_id`"):
-#     st.write(last_pick_by_draft_id)

@@ -1,3 +1,5 @@
+import streamlit as st
+
 def position_color(pos):
     return {
         "QB": "#b26186",
@@ -33,3 +35,39 @@ def player_box(name, team, position, color, round, pick_in_round, count):
         <div style="font-size: 0.6em;">{team} • {position}</div>
     </div>
     """
+
+def metric_box(label, value):
+    st.markdown(
+        f"""
+        <style>
+        /* Standard (Lightmode) */
+        .metric-box .label {{
+            color: #333; /* dunkelgrau */
+            font-size: 10px;
+        }}
+        .metric-box .value {{
+            color: #000; /* schwarz */
+            font-size: 14px;
+            font-weight: bold;
+        }}
+
+        /* Darkmode */
+        [data-theme="dark"] .metric-box .label {{
+            color: #aaa; /* hellgrau */
+        }}
+        [data-theme="dark"] .metric-box .value {{
+            color: #ccc; /* etwas helleres Grau */
+        }}
+
+        .metric-box {{
+            text-align: center;
+            padding: 0.5rem;
+        }}
+        </style>
+        <div class="metric-box">
+            <div class="label">{label}</div>  
+            <div class="value">{value}</div>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )

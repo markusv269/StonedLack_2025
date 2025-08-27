@@ -1,8 +1,5 @@
 import streamlit as st
 st.set_page_config(layout="wide")
-from config import SCORINGSETTINGS,REDLEAGUES_2025
-
-redraft_leagues = ["1234232479812952064"]
 
 def load_css(file_path):
     with open(file_path) as f:
@@ -10,78 +7,31 @@ def load_css(file_path):
 # Load custom CSS
 load_css("assets/styles.css")
 
-# # Session State Initialisierung
-@st.cache_data(ttl=3600)
-def initialize_data():
-    return {
-        # "userdf": load_users(redraft_leagues),
-        "matchupsdf": None,
-        # "rostersdf": load_rosters(),
-#         "playersdf": None,
-#         "playersdict": None,
-#         "matchesdf": None,
-        "scoring": SCORINGSETTINGS,
-#         "auth": None
-    }
-
-if "session_data" not in st.session_state:
-    st.session_state["session_data"] = initialize_data()
-
 # Streamlit UI
 st.image("Pictures/SL_logo.png", width=150)
 st.sidebar.write("by GoKingsGo, 2025")
 
-# if st.session_state["session_data"]["auth"] is None:
-#     st.session_state["session_data"]["auth"] = False
-
-# login_data = st.secrets["login"]["login"]
-# st.sidebar.subheader("Adminbereich")
-# username = st.sidebar.text_input("Username")
-# password = st.sidebar.text_input("Password", type="password", placeholder=None)
-# if st.sidebar.button("Login"):
-#     if username in login_data and login_data[username] == password:
-#         st.sidebar.success("Login erfolgreich!")
-#         st.session_state["session_data"]["auth"] = True            
-#     else:
-#         st.sidebar.error("Falsche Zugangsdaten!")
-# if st.sidebar.button("Logout"):
-#     st.session_state["session_data"]["auth"] = False  
-
-# Navigation
-# if st.session_state["session_data"]["auth"] == True:
 pg = st.navigation(
     {
         "Start": [
             st.Page(page="VIEWS/START/0_start.py", title="Startseite", icon=":material/home:", default=True),
-            st.Page(page="VIEWS/START/1_hottakes.py", title="Hot Takes-Sammlung", icon=":material/whatshot:"),
-            # st.Page(page="VIEWS/START/2_champofchamps copy.py", title="Champ of Champs", icon=":material/trophy:"),
-            # st.Page(page="VIEWS/START/3_coc_spiel.py", title="CoC Tippabgabe", icon=":material/casino:"),
+            # st.Page(page="VIEWS/START/1_hottakes.py", title="Hot Takes-Sammlung", icon=":material/whatshot:"),
             st.Page(page="VIEWS/START/4_universe.py", title="Das StonedLack Universum", icon=":material/planet:"),
             st.Page(page="VIEWS/START/5_sleeper_ecke.py", title="sleeper.com-Ecke", icon=":material/bedtime:"),
-            # st.Page(page="VIEWS/START/7_Community_Mock_Draft.py", title="Community Mock Draft 2025", icon=":material/tv:"),
-            # st.Page(page="VIEWS/START/8_showleague.py", title="Share your league", icon=":material/tv:"),
-            # st.Page(page="VIEWS/START/9_sleeper_players.py", title="Sleeper Players", icon=":material/sports_football:"),
-            # st.Page(page="VIEWS/START/10_week.py", title="NFL Woche", icon=":material/sports_football:"),
-        ],
+   ],
         "Redraft allgemein": [
-            # st.Page(page="VIEWS/REDRAFT/RED_SLR2025.py", title="SLR2025 Anmeldung", icon=":material/login:"),
-            # st.Page(page="VIEWS/REDRAFT/RED_slr2025_status.py", title="SLR2025 Anmeldestatus", icon=":material/download_done:"),
             st.Page(page="VIEWS/REDRAFT/RED_info.py", title="Die Redraftligen", icon=":material/home:"),
-            # st.Page(page="VIEWS/REDRAFT/RED_uebersicht.py", title="Ligenübersicht", icon=":material/layers:"),
-            # st.Page(page="VIEWS/REDRAFT/RED_alte_Redrafts.py", title="Send your old SLR", icon=":material/send:"),
             st.Page(page="VIEWS/REDRAFT/RED_Manager.py", title="Manager", icon=":material/groups:"),
         ],
         "SLR Ligen 2025" :[
-            # st.Page(page="VIEWS/REDRAFT/RED_Wochenstatistiken.py", title="Wochenstatistiken", icon=":material/calendar_month:"),
-            # st.Page(page="VIEWS/REDRAFT/RED_Wochenkategorien.py", title="Wochenkategorien", icon=":material/bar_chart:"),
-            # st.Page(page="VIEWS/REDRAFT/RED_Manager.py", title="Manager", icon=":material/groups:"),
             st.Page(page="VIEWS/REDRAFT/RED_drafts.py", title="Drafts", icon=":material/target:"),
             st.Page(page="VIEWS/REDRAFT/RED_adp_board.py", title="ADP Draftboard", icon=":material/table:"),
             st.Page(page="VIEWS/REDRAFT/RED_Matchups.py", title="Matchups", icon=":material/sports_football:"),
+            # st.Page(page="VIEWS/REDRAFT/RED_Wochenstatistiken.py", title="Wochenstatistiken", icon=":material/calendar_month:"),
         ],
         "SL Dynastys": [
             # st.Page(page="VIEWS/DYNASTY/DYN_info.py", title="Dynasty", icon=":material/construction:"),
-            # st.Page(page="VIEWS/DYNASTY/DYN_drafts.py", title="Drafts 2025", icon=":material/target:"),
+            st.Page(page="VIEWS/DYNASTY/DYN_drafts.py", title="Drafts 2025", icon=":material/target:"),
             # st.Page(page="VIEWS/DYNASTY/DYN_adp_board.py", title="Dynasty Draftboard 2025", icon=":material/table:"),
             # st.Page(page="VIEWS/DYNASTY/DYN_waitingroom.py", title="Dynasty Waiting Room", icon=":material/groups:"),
         ]
