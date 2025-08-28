@@ -111,9 +111,9 @@ def show_matchups(weekly_json: dict, league_id: str, managers_df: pd.DataFrame, 
         starters1 = list(matchup_data[r1]["starter"].items())
         starters2 = list(matchup_data[r2]["starter"].items())
         max_len = max(len(starters1), len(starters2), len(roster_positions))
-
+        ext = [".jpg", ".png"]
         for i in range(max_len):
-            col1, col_mid, col2 = st.columns([5, 1, 5])
+            col1, col_mid, col2 = st.columns([5,1,5])
             with col1:
                 if i < len(starters1):
                     pid, pts = starters1[i]
@@ -124,6 +124,29 @@ def show_matchups(weekly_json: dict, league_id: str, managers_df: pd.DataFrame, 
                         f"<div style='text-align:center; margin-top:25%; font-weight:bold;'>{roster_positions[i]}</div>",
                         unsafe_allow_html=True
                     )
+            # with col1a:
+            #     if i < len(starters1):
+            #         pid, pts = starters1[i]
+            #         try: 
+            #             url = supabase.storage.from_("images").create_signed_url(f"{pid}.jpg", expires_in=3600)
+            #             st.image(url)
+            #         except:
+            #             try:
+            #                 url = supabase.storage.from_("images").create_signed_url(f"{pid}.png", expires_in=3600)
+            #                 st.image(url)
+            #             except:
+            #                 st.write(pid)                    
+
+            # # with col2a:
+            # #     if i < len(starters2):
+            # #         pid, pts = starters2[i]
+            # #         try: 
+            # #             st.image(supabase.storage.from_('images').download(f'{pid}.jpg'))
+            # #         except:
+            # #             try:
+            # #                 st.image(supabase.storage.from_('images').download(f'{pid}.png'))
+            # #             except:
+            # #                 st.write(pid)
             with col2:
                 if i < len(starters2):
                     pid, pts = starters2[i]

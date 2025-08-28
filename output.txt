@@ -1,0 +1,1440 @@
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (7564) at (1,1) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Chase}& \tiny \textcolor{gray!40!black}{ {1}.{1} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- CIN (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#1 Range: 1 -- 4 ($\diameter$1.23)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/7564}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (9509) at (2,1) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Robinson}& \tiny \textcolor{gray!40!black}{ {1}.{2} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- ATL (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#1 Range: 1 -- 4 ($\diameter$2.28)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/9509}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (4866) at (3,1) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Barkley}& \tiny \textcolor{gray!40!black}{ {1}.{3} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- PHI (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#2 Range: 1 -- 7 ($\diameter$3.57)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4866}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (6786) at (4,1) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Lamb}& \tiny \textcolor{gray!40!black}{ {1}.{4} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- DAL (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#2 Range: 2 -- 8 ($\diameter$4.68)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/6786}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (6794) at (5,1) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Jefferson}& \tiny \textcolor{gray!40!black}{ {1}.{5} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- MIN (6) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#3 Range: 1 -- 8 ($\diameter$4.81)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/6794}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (9221) at (6,1) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Gibbs}& \tiny \textcolor{gray!40!black}{ {1}.{6} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- DET (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#3 Range: 2 -- 9 ($\diameter$5.38)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/9221}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (7547) at (7,1) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Brown}& \tiny \textcolor{gray!40!black}{ {1}.{7} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- DET (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#4 Range: 2 -- 15 ($\diameter$8.19)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/7547}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (4034) at (8,1) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright McCaffrey}& \tiny \textcolor{gray!40!black}{ {1}.{8} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- SF (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#4 Range: 3 -- 15 ($\diameter$9.53)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4034}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (3198) at (9,1) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Henry}& \tiny \textcolor{gray!40!black}{ {1}.{9} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- BAL (7) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#5 Range: 5 -- 16 ($\diameter$10.11)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/3198}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (9493) at (10,1) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Nacua}& \tiny \textcolor{gray!40!black}{ {1}.{10} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- LAR (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#5 Range: 6 -- 15 ($\diameter$10.13)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/9493}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (11632) at (11,1) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Nabers}& \tiny \textcolor{gray!40!black}{ {1}.{11} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- NYG (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#6 Range: 6 -- 17 ($\diameter$10.13)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11632}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (12527) at (12,1) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Jeanty}& \tiny \textcolor{gray!40!black}{ {1}.{12} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- LV (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#6 Range: 6 -- 21 ($\diameter$11.79)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12527}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (7569) at (12,2) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Collins}& \tiny \textcolor{gray!40!black}{ {2}.{1} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- HOU (6) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#7 Range: 9 -- 19 ($\diameter$12.77)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/7569}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (11631) at (11,2) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Thomas}& \tiny \textcolor{gray!40!black}{ {2}.{2} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- JAX (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#8 Range: 7 -- 18 ($\diameter$13.81)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11631}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (9226) at (10,2) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Achane}& \tiny \textcolor{gray!40!black}{ {2}.{3} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- MIA (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#7 Range: 8 -- 22 ($\diameter$14.4)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/9226}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (8112) at (9,2) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright London}& \tiny \textcolor{gray!40!black}{ {2}.{4} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- ATL (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#9 Range: 12 -- 20 ($\diameter$15.19)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8112}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (11604) at (8,2) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Bowers}& \tiny \textcolor{gray!40!black}{ {2}.{5} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- LV (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#1 Range: 9 -- 30 ($\diameter$18.74)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11604}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (5850) at (7,2) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Jacobs}& \tiny \textcolor{gray!40!black}{ {2}.{6} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- GB (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#8 Range: 14 -- 24 ($\diameter$18.91)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/5850}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (5859) at (6,2) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Brown}& \tiny \textcolor{gray!40!black}{ {2}.{7} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- PHI (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#10 Range: 9 -- 26 ($\diameter$19.23)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/5859}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (11635) at (5,2) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright McConkey}& \tiny \textcolor{gray!40!black}{ {2}.{8} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- LAC (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#11 Range: 16 -- 32 ($\diameter$22.19)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11635}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (9224) at (4,2) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Brown}& \tiny \textcolor{gray!40!black}{ {2}.{9} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- CIN (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#9 Range: 14 -- 29 ($\diameter$22.28)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/9224}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (11584) at (3,2) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Irving}& \tiny \textcolor{gray!40!black}{ {2}.{10} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- TB (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#10 Range: 16 -- 31 ($\diameter$23.15)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11584}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (6813) at (2,2) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Taylor}& \tiny \textcolor{gray!40!black}{ {2}.{11} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- IND (11) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#11 Range: 17 -- 32 ($\diameter$23.36)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/6813}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (4984) at (1,2) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Allen}& \tiny \textcolor{gray!40!black}{ {2}.{12} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- BUF (7) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#1 Range: 12 -- 35 ($\diameter$24.6)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4984}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (8150) at (1,3) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Williams}& \tiny \textcolor{gray!40!black}{ {3}.{1} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- LAR (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#12 Range: 17 -- 43 ($\diameter$26.3)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8150}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (3321) at (2,3) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Hill}& \tiny \textcolor{gray!40!black}{ {3}.{2} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- MIA (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#12 Range: 17 -- 43 ($\diameter$26.98)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/3321}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (8130) at (3,3) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright McBride}& \tiny \textcolor{gray!40!black}{ {3}.{3} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- ARI (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#2 Range: 21 -- 40 ($\diameter$27.4)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8130}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (4881) at (4,3) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Jackson}& \tiny \textcolor{gray!40!black}{ {3}.{4} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- BAL (7) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#2 Range: 13 -- 39 ($\diameter$28.0)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4881}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (9488) at (5,3) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Smith-...}& \tiny \textcolor{gray!40!black}{ {3}.{5} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- SEA (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#13 Range: 18 -- 44 ($\diameter$28.7)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/9488}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (12507) at (6,3) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Hampton}& \tiny \textcolor{gray!40!black}{ {3}.{6} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- LAC (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#13 Range: 23 -- 40 ($\diameter$30.96)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12507}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (6801) at (7,3) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Higgins}& \tiny \textcolor{gray!40!black}{ {3}.{7} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- CIN (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#14 Range: 23 -- 41 ($\diameter$31.62)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/6801}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (8138) at (8,3) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Cook}& \tiny \textcolor{gray!40!black}{ {3}.{8} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- BUF (7) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#14 Range: 27 -- 48 ($\diameter$33.64)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8138}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (4035) at (9,3) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Kamara}& \tiny \textcolor{gray!40!black}{ {3}.{9} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- NO (11) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#15 Range: 22 -- 44 ($\diameter$34.02)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4035}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (8151) at (10,3) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Walker}& \tiny \textcolor{gray!40!black}{ {3}.{10} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- SEA (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#16 Range: 26 -- 47 ($\diameter$36.32)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8151}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (11566) at (11,3) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Daniels}& \tiny \textcolor{gray!40!black}{ {3}.{11} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- WAS (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#3 Range: 18 -- 51 ($\diameter$36.94)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11566}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (4217) at (12,3) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Kittle}& \tiny \textcolor{gray!40!black}{ {3}.{12} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- SF (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#3 Range: 19 -- 44 ($\diameter$37.15)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4217}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (8146) at (12,4) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Wilson}& \tiny \textcolor{gray!40!black}{ {4}.{1} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- NYJ (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#15 Range: 22 -- 48 ($\diameter$37.51)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8146}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (11628) at (11,4) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Harrison}& \tiny \textcolor{gray!40!black}{ {4}.{2} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- ARI (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#16 Range: 24 -- 48 ($\diameter$37.94)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11628}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (2216) at (10,4) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Evans}& \tiny \textcolor{gray!40!black}{ {4}.{3} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- TB (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#17 Range: 22 -- 51 ($\diameter$38.13)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/2216}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (2133) at (9,4) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Adams}& \tiny \textcolor{gray!40!black}{ {4}.{4} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- LAR (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#18 Range: 27 -- 53 ($\diameter$40.0)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/2133}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (5927) at (8,4) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright McLaurin}& \tiny \textcolor{gray!40!black}{ {4}.{5} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- WAS (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#19 Range: 22 -- 53 ($\diameter$40.91)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/5927}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (8155) at (7,4) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Hall}& \tiny \textcolor{gray!40!black}{ {4}.{6} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- NYJ (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#17 Range: 24 -- 58 ($\diameter$41.3)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8155}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (6904) at (6,4) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Hurts}& \tiny \textcolor{gray!40!black}{ {4}.{7} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- PHI (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#4 Range: 29 -- 61 ($\diameter$42.7)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/6904}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (12529) at (5,4) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Henderson}& \tiny \textcolor{gray!40!black}{ {4}.{8} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- NE (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#18 Range: 27 -- 58 ($\diameter$43.26)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12529}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (4137) at (4,4) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Conner}& \tiny \textcolor{gray!40!black}{ {4}.{9} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- ARI (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#19 Range: 32 -- 56 ($\diameter$43.32)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4137}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (7594) at (3,4) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Hubbard}& \tiny \textcolor{gray!40!black}{ {4}.{10} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- CAR (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#20 Range: 33 -- 51 ($\diameter$43.34)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/7594}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (5846) at (2,4) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Metcalf}& \tiny \textcolor{gray!40!black}{ {4}.{11} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- PIT (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#20 Range: 36 -- 54 ($\diameter$45.98)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/5846}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (10229) at (1,4) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Rice}& \tiny \textcolor{gray!40!black}{ {4}.{12} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- KC (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#21 Range: 33 -- 66 ($\diameter$48.91)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/10229}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (5045) at (1,5) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Sutton}& \tiny \textcolor{gray!40!black}{ {5}.{1} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- DEN (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#22 Range: 37 -- 56 ($\diameter$49.26)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/5045}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (4983) at (2,5) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Moore}& \tiny \textcolor{gray!40!black}{ {5}.{2} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- CHI (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#23 Range: 36 -- 65 ($\diameter$52.11)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4983}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (8205) at (3,5) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Pacheco}& \tiny \textcolor{gray!40!black}{ {5}.{3} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- KC (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#21 Range: 42 -- 63 ($\diameter$52.79)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8205}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (12489) at (4,5) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Harvey}& \tiny \textcolor{gray!40!black}{ {5}.{4} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- DEN (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#22 Range: 37 -- 69 ($\diameter$53.17)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12489}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (12526) at (5,5) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright McMillan}& \tiny \textcolor{gray!40!black}{ {5}.{5} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- CAR (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#24 Range: 48 -- 73 ($\diameter$55.06)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12526}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (5967) at (6,5) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Pollard}& \tiny \textcolor{gray!40!black}{ {5}.{6} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- TEN (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#23 Range: 38 -- 65 ($\diameter$55.96)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/5967}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (6770) at (7,5) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Burrow}& \tiny \textcolor{gray!40!black}{ {5}.{7} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- CIN (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#5 Range: 31 -- 84 ($\diameter$56.36)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/6770}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (4981) at (8,5) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Ridley}& \tiny \textcolor{gray!40!black}{ {5}.{8} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- TEN (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#25 Range: 46 -- 69 ($\diameter$58.57)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4981}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (7525) at (9,5) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Smith}& \tiny \textcolor{gray!40!black}{ {5}.{9} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- PHI (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#26 Range: 49 -- 75 ($\diameter$58.63)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/7525}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (11624) at (10,5) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Worthy}& \tiny \textcolor{gray!40!black}{ {5}.{10} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- KC (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#27 Range: 43 -- 73 ($\diameter$59.04)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11624}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (6790) at (11,5) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Swift}& \tiny \textcolor{gray!40!black}{ {5}.{11} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- CHI (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#24 Range: 47 -- 75 ($\diameter$59.28)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/6790}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (5892) at (12,5) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Montgo...}& \tiny \textcolor{gray!40!black}{ {5}.{12} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- DET (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#25 Range: 46 -- 74 ($\diameter$59.87)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/5892}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (8137) at (12,6) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Pickens}& \tiny \textcolor{gray!40!black}{ {6}.{1} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- DAL (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#28 Range: 46 -- 77 ($\diameter$61.6)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8137}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (9997) at (11,6) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Flowers}& \tiny \textcolor{gray!40!black}{ {6}.{2} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- BAL (7) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#29 Range: 30 -- 83 ($\diameter$61.64)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/9997}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (7526) at (10,6) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Waddle}& \tiny \textcolor{gray!40!black}{ {6}.{3} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- MIA (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#30 Range: 49 -- 71 ($\diameter$62.32)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/7526}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (4199) at (9,6) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Jones}& \tiny \textcolor{gray!40!black}{ {6}.{4} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- MIN (6) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#26 Range: 42 -- 78 ($\diameter$62.49)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4199}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (10859) at (8,6) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright LaPorta}& \tiny \textcolor{gray!40!black}{ {6}.{5} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- DET (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#4 Range: 36 -- 92 ($\diameter$63.85)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/10859}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (8148) at (7,6) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Williams}& \tiny \textcolor{gray!40!black}{ {6}.{6} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- DET (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#31 Range: 50 -- 73 ($\diameter$64.15)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8148}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (12530) at (6,6) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Hunter}& \tiny \textcolor{gray!40!black}{ {6}.{7} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- JAX (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#32 Range: 53 -- 82 ($\diameter$65.5)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12530}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (12504) at (5,6) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Johnson}& \tiny \textcolor{gray!40!black}{ {6}.{8} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- PIT (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#27 Range: 57 -- 84 ($\diameter$68.11)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12504}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (8144) at (4,6) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Olave}& \tiny \textcolor{gray!40!black}{ {6}.{9} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- NO (11) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#33 Range: 47 -- 90 ($\diameter$71.57)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8144}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (6783) at (3,6) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Jeudy}& \tiny \textcolor{gray!40!black}{ {6}.{10} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- CLE (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#34 Range: 56 -- 87 ($\diameter$71.65)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/6783}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (5947) at (2,6) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Meyers}& \tiny \textcolor{gray!40!black}{ {6}.{11} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- LV (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#35 Range: 54 -- 96 ($\diameter$75.28)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/5947}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (5844) at (1,6) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Hockenson}& \tiny \textcolor{gray!40!black}{ {6}.{12} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- MIN (6) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#5 Range: 53 -- 102 ($\diameter$76.76)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/5844}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (2449) at (1,7) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Diggs}& \tiny \textcolor{gray!40!black}{ {7}.{1} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- NE (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#36 Range: 61 -- 93 ($\diameter$76.91)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/2449}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (11655) at (2,7) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Tracy}& \tiny \textcolor{gray!40!black}{ {7}.{2} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- NYG (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#28 Range: 60 -- 98 ($\diameter$77.15)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11655}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (7543) at (3,7) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Etienne}& \tiny \textcolor{gray!40!black}{ {7}.{3} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- JAX (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#29 Range: 61 -- 91 ($\diameter$77.7)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/7543}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (12501) at (4,7) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Golden}& \tiny \textcolor{gray!40!black}{ {7}.{4} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- GB (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#37 Range: 59 -- 100 ($\diameter$78.33)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12501}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (4018) at (5,7) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Mixon}& \tiny \textcolor{gray!40!black}{ {7}.{5} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- HOU (6) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#30 Range: 50 -- 108 ($\diameter$79.31)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4018}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (11620) at (6,7) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Odunze}& \tiny \textcolor{gray!40!black}{ {7}.{6} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- CHI (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#38 Range: 66 -- 101 ($\diameter$79.7)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11620}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (12514) at (7,7) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Egbuka}& \tiny \textcolor{gray!40!black}{ {7}.{7} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- TB (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#39 Range: 61 -- 116 ($\diameter$81.04)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12514}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (1466) at (8,7) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Kelce}& \tiny \textcolor{gray!40!black}{ {7}.{8} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- KC (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#6 Range: 50 -- 100 ($\diameter$81.33)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/1466}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (11638) at (9,7) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Pearsall}& \tiny \textcolor{gray!40!black}{ {7}.{9} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- SF (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#40 Range: 70 -- 107 ($\diameter$81.65)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11638}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (8228) at (10,7) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Warren}& \tiny \textcolor{gray!40!black}{ {7}.{10} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- PIT (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#31 Range: 71 -- 100 ($\diameter$83.46)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8228}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (5872) at (11,7) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Samuel}& \tiny \textcolor{gray!40!black}{ {7}.{11} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- WAS (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#41 Range: 60 -- 107 ($\diameter$85.24)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/5872}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (8408) at (12,7) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Mason}& \tiny \textcolor{gray!40!black}{ {7}.{12} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- MIN (6) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#32 Range: 67 -- 104 ($\diameter$86.67)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8408}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (9756) at (12,8) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Addison}& \tiny \textcolor{gray!40!black}{ {8}.{1} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- MIN (6) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#42 Range: 66 -- 106 ($\diameter$87.93)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/9756}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (9753) at (11,8) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Charbo...}& \tiny \textcolor{gray!40!black}{ {8}.{2} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- SEA (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#33 Range: 61 -- 108 ($\diameter$88.37)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/9753}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (6806) at (10,8) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Dobbins}& \tiny \textcolor{gray!40!black}{ {8}.{3} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- DEN (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#34 Range: 65 -- 107 ($\diameter$88.49)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/6806}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (12512) at (9,8) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Judkins}& \tiny \textcolor{gray!40!black}{ {8}.{4} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- CLE (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#35 Range: 63 -- 141 ($\diameter$90.24)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12512}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (4066) at (8,8) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Engram}& \tiny \textcolor{gray!40!black}{ {8}.{5} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- DEN (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#7 Range: 69 -- 118 ($\diameter$90.32)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4066}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (4046) at (7,8) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Mahomes}& \tiny \textcolor{gray!40!black}{ {8}.{6} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- KC (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#6 Range: 39 -- 119 ($\diameter$91.0)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4046}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (8154) at (6,8) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Robinson}& \tiny \textcolor{gray!40!black}{ {8}.{7} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- WAS (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#36 Range: 65 -- 124 ($\diameter$91.12)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8154}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (4039) at (5,8) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Kupp}& \tiny \textcolor{gray!40!black}{ {8}.{8} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- SEA (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#43 Range: 72 -- 125 ($\diameter$91.22)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4039}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (7588) at (4,8) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Williams}& \tiny \textcolor{gray!40!black}{ {8}.{9} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- DAL (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#37 Range: 64 -- 118 ($\diameter$91.26)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/7588}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (12518) at (3,8) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Warren}& \tiny \textcolor{gray!40!black}{ {8}.{10} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- IND (11) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#8 Range: 63 -- 114 ($\diameter$91.63)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12518}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (8134) at (2,8) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Shakir}& \tiny \textcolor{gray!40!black}{ {8}.{11} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- BUF (7) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#44 Range: 67 -- 112 ($\diameter$94.2)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8134}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (11563) at (1,8) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Nix}& \tiny \textcolor{gray!40!black}{ {8}.{12} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- DEN (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#7 Range: 63 -- 124 ($\diameter$94.73)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11563}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (4033) at (1,9) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Njoku}& \tiny \textcolor{gray!40!black}{ {9}.{1} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- CLE (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#9 Range: 51 -- 122 ($\diameter$97.09)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4033}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (5012) at (2,9) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Andrews}& \tiny \textcolor{gray!40!black}{ {9}.{2} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- BAL (7) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#10 Range: 72 -- 126 ($\diameter$97.43)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/5012}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (12481) at (3,9) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Skattebo}& \tiny \textcolor{gray!40!black}{ {9}.{3} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- NYG (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#38 Range: 79 -- 110 ($\diameter$98.3)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12481}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (7049) at (4,9) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Jennings}& \tiny \textcolor{gray!40!black}{ {9}.{4} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- SF (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#45 Range: 80 -- 117 ($\diameter$98.91)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/7049}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (5849) at (5,9) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Murray}& \tiny \textcolor{gray!40!black}{ {9}.{5} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- ARI (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#8 Range: 65 -- 133 ($\diameter$102.07)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/5849}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (12533) at (6,9) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Croske...}& \tiny \textcolor{gray!40!black}{ {9}.{6} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- WAS (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#39 Range: 77 -- 148 ($\diameter$102.62)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12533}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (4663) at (7,9) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Ekeler}& \tiny \textcolor{gray!40!black}{ {9}.{7} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- WAS (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#40 Range: 84 -- 149 ($\diameter$103.24)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4663}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (9500) at (8,9) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Downs}& \tiny \textcolor{gray!40!black}{ {9}.{8} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- IND (11) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#46 Range: 83 -- 128 ($\diameter$103.73)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/9500}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (4037) at (9,9) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Godwin}& \tiny \textcolor{gray!40!black}{ {9}.{9} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- TB (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#47 Range: 77 -- 130 ($\diameter$105.41)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4037}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (11637) at (10,9) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Coleman}& \tiny \textcolor{gray!40!black}{ {9}.{10} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- BUF (7) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#48 Range: 87 -- 125 ($\diameter$105.98)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11637}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (12517) at (11,9) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Loveland}& \tiny \textcolor{gray!40!black}{ {9}.{11} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- CHI (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#11 Range: 53 -- 151 ($\diameter$106.26)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12517}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (4892) at (12,9) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Mayfield}& \tiny \textcolor{gray!40!black}{ {9}.{12} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- TB (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#9 Range: 70 -- 166 ($\diameter$106.66)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4892}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (6819) at (12,10) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Pittman}& \tiny \textcolor{gray!40!black}{ {10}.{1} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- IND (11) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#49 Range: 92 -- 126 ($\diameter$107.64)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/6819}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (12457) at (11,10) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Blue}& \tiny \textcolor{gray!40!black}{ {10}.{2} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- DAL (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#41 Range: 76 -- 129 ($\diameter$108.12)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12457}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (12484) at (10,10) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Higgins}& \tiny \textcolor{gray!40!black}{ {10}.{3} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- HOU (6) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#50 Range: 85 -- 129 ($\diameter$108.71)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12484}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (7611) at (9,10) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Stevenson}& \tiny \textcolor{gray!40!black}{ {10}.{4} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- NE (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#42 Range: 94 -- 140 ($\diameter$110.42)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/7611}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (10222) at (8,10) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Reed}& \tiny \textcolor{gray!40!black}{ {10}.{5} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- GB (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#51 Range: 88 -- 144 ($\diameter$114.1)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/10222}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (4988) at (7,10) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Chubb}& \tiny \textcolor{gray!40!black}{ {10}.{6} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- HOU (6) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#43 Range: 93 -- 151 ($\diameter$115.24)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4988}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (9225) at (6,10) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Bigsby}& \tiny \textcolor{gray!40!black}{ {10}.{7} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- JAX (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#44 Range: 79 -- 139 ($\diameter$115.71)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/9225}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (1479) at (5,10) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Allen}& \tiny \textcolor{gray!40!black}{ {10}.{8} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- LAC (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#52 Range: 83 -- 157 ($\diameter$115.86)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/1479}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (9484) at (4,10) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Kraft}& \tiny \textcolor{gray!40!black}{ {10}.{9} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- GB (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#12 Range: 83 -- 145 ($\diameter$117.64)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/9484}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (11576) at (3,10) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Allen}& \tiny \textcolor{gray!40!black}{ {10}.{10} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- NYJ (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#45 Range: 88 -- 160 ($\diameter$122.62)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11576}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (11589) at (2,10) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Benson}& \tiny \textcolor{gray!40!black}{ {10}.{11} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- ARI (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#46 Range: 97 -- 175 ($\diameter$123.9)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11589}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (8183) at (1,10) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Purdy}& \tiny \textcolor{gray!40!black}{ {10}.{12} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- SF (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#10 Range: 37 -- 172 ($\diameter$124.2)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8183}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (8676) at (1,11) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Shaheed}& \tiny \textcolor{gray!40!black}{ {11}.{1} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- NO (11) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#53 Range: 85 -- 150 ($\diameter$126.5)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8676}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (10236) at (2,11) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Kincaid}& \tiny \textcolor{gray!40!black}{ {11}.{2} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- BUF (7) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#13 Range: 87 -- 162 ($\diameter$126.91)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/10236}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (4950) at (3,11) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Kirk}& \tiny \textcolor{gray!40!black}{ {11}.{3} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- HOU (6) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#54 Range: 80 -- 174 ($\diameter$127.06)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4950}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (7553) at (4,11) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Pitts}& \tiny \textcolor{gray!40!black}{ {11}.{4} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- ATL (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#14 Range: 87 -- 169 ($\diameter$128.29)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/7553}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (7528) at (5,11) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Harris}& \tiny \textcolor{gray!40!black}{ {11}.{5} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- LAC (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#47 Range: 99 -- 161 ($\diameter$128.76)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/7528}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (6803) at (6,11) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Aiyuk}& \tiny \textcolor{gray!40!black}{ {11}.{6} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- SF (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#55 Range: 109 -- 155 ($\diameter$129.21)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/6803}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (8136) at (7,11) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright White}& \tiny \textcolor{gray!40!black}{ {11}.{7} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- TB (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#48 Range: 96 -- 169 ($\diameter$129.86)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8136}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (3294) at (8,11) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Prescott}& \tiny \textcolor{gray!40!black}{ {11}.{8} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- DAL (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#11 Range: 97 -- 179 ($\diameter$130.35)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/3294}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (8132) at (9,11) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Allgeier}& \tiny \textcolor{gray!40!black}{ {11}.{9} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- ATL (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#49 Range: 105 -- 171 ($\diameter$131.16)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8132}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (12509) at (10,11) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Harris}& \tiny \textcolor{gray!40!black}{ {11}.{10} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- LAC (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#56 Range: 100 -- 176 ($\diameter$132.71)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12509}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (7090) at (11,11) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Mooney}& \tiny \textcolor{gray!40!black}{ {11}.{11} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- ATL (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#57 Range: 108 -- 178 ($\diameter$133.17)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/7090}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=K, inner sep=2pt, rounded corners=.1cm] (11533) at (12,11) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Aubrey}& \tiny \textcolor{gray!40!black}{ {11}.{12} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ K -- DAL (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ K\#1 Range: 78 -- 159 ($\diameter$134.42)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11533}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (11564) at (12,12) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Maye}& \tiny \textcolor{gray!40!black}{ {12}.{1} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- NE (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#12 Range: 96 -- 167 ($\diameter$134.57)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11564}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (9494) at (11,12) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Mims}& \tiny \textcolor{gray!40!black}{ {12}.{2} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- DEN (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#58 Range: 109 -- 175 ($\diameter$134.62)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/9494}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=DEF, inner sep=2pt, rounded corners=.1cm] (DEN) at (10,12) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Broncos}& \tiny \textcolor{gray!40!black}{ {12}.{3} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF -- DEN (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF\#1 Range: 94 -- 162 ($\diameter$134.63)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/DEN}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (1689) at (9,12) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Thielen}& \tiny \textcolor{gray!40!black}{ {12}.{4} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- CAR (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#59 Range: 91 -- 170 ($\diameter$135.8)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/1689}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (9508) at (8,12) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Spears}& \tiny \textcolor{gray!40!black}{ {12}.{5} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- TEN (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#50 Range: 105 -- 178 ($\diameter$136.62)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/9508}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (11560) at (7,12) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Williams}& \tiny \textcolor{gray!40!black}{ {12}.{6} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- CHI (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#13 Range: 77 -- 180 ($\diameter$136.96)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11560}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (7591) at (6,12) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Fields}& \tiny \textcolor{gray!40!black}{ {12}.{7} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- NYJ (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#14 Range: 104 -- 166 ($\diameter$137.06)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/7591}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (11651) at (5,12) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Guerendo}& \tiny \textcolor{gray!40!black}{ {12}.{8} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- SF (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#51 Range: 94 -- 175 ($\diameter$138.05)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11651}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (12469) at (4,12) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Sampson}& \tiny \textcolor{gray!40!black}{ {12}.{9} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- CLE (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#52 Range: 97 -- 180 ($\diameter$138.47)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12469}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (8143) at (3,12) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Ford}& \tiny \textcolor{gray!40!black}{ {12}.{10} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- CLE (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#53 Range: 98 -- 169 ($\diameter$138.56)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8143}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (12519) at (2,12) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Burden}& \tiny \textcolor{gray!40!black}{ {12}.{11} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- CHI (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#60 Range: 105 -- 177 ($\diameter$138.73)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12519}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (3163) at (1,12) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Goff}& \tiny \textcolor{gray!40!black}{ {12}.{12} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- DET (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#15 Range: 75 -- 179 ($\diameter$138.94)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/3163}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (6797) at (1,13) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Herbert}& \tiny \textcolor{gray!40!black}{ {13}.{1} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- LAC (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#16 Range: 110 -- 179 ($\diameter$140.09)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/6797}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (8110) at (2,13) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Ferguson}& \tiny \textcolor{gray!40!black}{ {13}.{2} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- DAL (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#15 Range: 115 -- 180 ($\diameter$140.29)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8110}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=DEF, inner sep=2pt, rounded corners=.1cm] (PHI) at (3,13) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Eagles}& \tiny \textcolor{gray!40!black}{ {13}.{3} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF -- PHI (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF\#2 Range: 103 -- 169 ($\diameter$140.35)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/PHI}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (12490) at (4,13) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Tuten}& \tiny \textcolor{gray!40!black}{ {13}.{4} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- JAX (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#54 Range: 110 -- 180 ($\diameter$141.07)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12490}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (11575) at (5,13) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Davis}& \tiny \textcolor{gray!40!black}{ {13}.{5} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- BUF (7) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#55 Range: 111 -- 166 ($\diameter$141.83)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11575}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=DEF, inner sep=2pt, rounded corners=.1cm] (PIT) at (6,13) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Steelers}& \tiny \textcolor{gray!40!black}{ {13}.{6} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF -- PIT (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF\#3 Range: 105 -- 164 ($\diameter$144.6)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/PIT}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (4144) at (7,13) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Smith}& \tiny \textcolor{gray!40!black}{ {13}.{7} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- PIT (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#16 Range: 91 -- 178 ($\diameter$145.29)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4144}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (12495) at (8,13) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Gordon}& \tiny \textcolor{gray!40!black}{ {13}.{8} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- MIA (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#56 Range: 107 -- 180 ($\diameter$146.7)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12495}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (5022) at (9,13) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Goedert}& \tiny \textcolor{gray!40!black}{ {13}.{9} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- PHI (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#17 Range: 115 -- 179 ($\diameter$148.12)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/5022}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (12547) at (10,13) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Williams}& \tiny \textcolor{gray!40!black}{ {13}.{10} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- NE (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#61 Range: 113 -- 175 ($\diameter$148.52)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12547}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (7021) at (11,13) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Dowdle}& \tiny \textcolor{gray!40!black}{ {13}.{11} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- CAR (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#57 Range: 113 -- 176 ($\diameter$149.04)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/7021}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (10444) at (12,13) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Tillman}& \tiny \textcolor{gray!40!black}{ {13}.{12} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- CLE (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#62 Range: 124 -- 177 ($\diameter$149.64)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/10444}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (7571) at (12,14) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Bateman}& \tiny \textcolor{gray!40!black}{ {14}.{1} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- BAL (7) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#63 Range: 118 -- 176 ($\diameter$150.16)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/7571}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (7670) at (11,14) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Palmer}& \tiny \textcolor{gray!40!black}{ {14}.{2} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- BUF (7) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#64 Range: 120 -- 178 ($\diameter$150.9)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/7670}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (12521) at (10,14) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Arroyo}& \tiny \textcolor{gray!40!black}{ {14}.{3} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- SEA (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#18 Range: 97 -- 172 ($\diameter$151.74)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12521}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=WR, inner sep=2pt, rounded corners=.1cm] (12541) at (9,14) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Thornton}& \tiny \textcolor{gray!40!black}{ {14}.{4} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR -- LV (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ WR\#65 Range: 120 -- 179 ($\diameter$151.8)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12541}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=DEF, inner sep=2pt, rounded corners=.1cm] (BAL) at (8,14) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Ravens}& \tiny \textcolor{gray!40!black}{ {14}.{5} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF -- BAL (7) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF\#4 Range: 113 -- 176 ($\diameter$152.18)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/BAL}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=TE, inner sep=2pt, rounded corners=.1cm] (1339) at (7,14) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Ertz}& \tiny \textcolor{gray!40!black}{ {14}.{6} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE -- WAS (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ TE\#19 Range: 114 -- 179 ($\diameter$152.28)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/1339}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (11565) at (6,14) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright McCarthy}& \tiny \textcolor{gray!40!black}{ {14}.{7} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- MIN (6) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#17 Range: 129 -- 179 ($\diameter$154.16)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11565}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (11643) at (5,14) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Wright}& \tiny \textcolor{gray!40!black}{ {14}.{8} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- MIA (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#58 Range: 131 -- 176 ($\diameter$154.36)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11643}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (9758) at (4,14) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Stroud}& \tiny \textcolor{gray!40!black}{ {14}.{9} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- HOU (6) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#18 Range: 132 -- 176 ($\diameter$154.62)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/9758}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (11577) at (3,14) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Shipley}& \tiny \textcolor{gray!40!black}{ {14}.{10} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- PHI (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#59 Range: 130 -- 177 ($\diameter$156.61)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11577}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=K, inner sep=2pt, rounded corners=.1cm] (8259) at (2,14) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Dicker}& \tiny \textcolor{gray!40!black}{ {14}.{11} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ K -- LAC (12) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ K\#2 Range: 121 -- 169 ($\diameter$156.7)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/8259}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=QB, inner sep=2pt, rounded corners=.1cm] (6804) at (1,14) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Love}& \tiny \textcolor{gray!40!black}{ {14}.{12} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB -- GB (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ QB\#19 Range: 138 -- 179 ($\diameter$156.79)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/6804}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (12471) at (1,15) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Giddens}& \tiny \textcolor{gray!40!black}{ {15}.{1} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- IND (11) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#60 Range: 118 -- 177 ($\diameter$158.1)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12471}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=DEF, inner sep=2pt, rounded corners=.1cm] (HOU) at (2,15) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Texans}& \tiny \textcolor{gray!40!black}{ {15}.{2} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF -- HOU (6) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF\#5 Range: 128 -- 178 ($\diameter$158.15)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/HOU}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=DEF, inner sep=2pt, rounded corners=.1cm] (MIN) at (3,15) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Vikings}& \tiny \textcolor{gray!40!black}{ {15}.{3} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF -- MIN (6) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF\#6 Range: 125 -- 174 ($\diameter$158.28)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/MIN}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=K, inner sep=2pt, rounded corners=.1cm] (11539) at (4,15) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Bates}& \tiny \textcolor{gray!40!black}{ {15}.{4} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ K -- DET (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ K\#3 Range: 123 -- 179 ($\diameter$159.74)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11539}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=DEF, inner sep=2pt, rounded corners=.1cm] (BUF) at (5,15) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Bills}& \tiny \textcolor{gray!40!black}{ {15}.{5} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF -- BUF (7) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF\#7 Range: 134 -- 175 ($\diameter$161.26)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/BUF}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=K, inner sep=2pt, rounded corners=.1cm] (1945) at (6,15) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Boswell}& \tiny \textcolor{gray!40!black}{ {15}.{6} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ K -- PIT (5) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ K\#4 Range: 128 -- 178 ($\diameter$162.63)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/1945}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=RB, inner sep=2pt, rounded corners=.1cm] (12474) at (7,15) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Marks}& \tiny \textcolor{gray!40!black}{ {15}.{7} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB -- HOU (6) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ RB\#61 Range: 139 -- 179 ($\diameter$162.81)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/12474}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=DEF, inner sep=2pt, rounded corners=.1cm] (SF) at (8,15) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright 49ers}& \tiny \textcolor{gray!40!black}{ {15}.{8} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF -- SF (14) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF\#8 Range: 123 -- 179 ($\diameter$164.0)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/SF}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=K, inner sep=2pt, rounded corners=.1cm] (11786) at (9,15) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Little}& \tiny \textcolor{gray!40!black}{ {15}.{9} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ K -- JAX (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ K\#5 Range: 122 -- 180 ($\diameter$164.11)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/11786}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=DEF, inner sep=2pt, rounded corners=.1cm] (ARI) at (10,15) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Cardinals}& \tiny \textcolor{gray!40!black}{ {15}.{10} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF -- ARI (8) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ DEF\#9 Range: 147 -- 178 ($\diameter$165.73)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/ARI}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=K, inner sep=2pt, rounded corners=.1cm] (6650) at (11,15) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright McLaug...}& \tiny \textcolor{gray!40!black}{ {15}.{11} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ K -- TB (9) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ K\#6 Range: 132 -- 180 ($\diameter$168.38)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/6650}\\[-1ex]
+	\end{tabular}
+};
+\node[rectangle, fill=K, inner sep=2pt, rounded corners=.1cm] (4227) at (12,15) {
+	\begin{tabular}{@{}l@{}l@{}r@{}}
+		\multicolumn{2}{p{2cm}}{\normalfont\bfseries\raggedright Butker}& \tiny \textcolor{gray!40!black}{ {15}.{12} }\\[-1ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ K -- KC (10) } } \\[-1.25ex]
+		\multicolumn{3}{p{3cm}}{\tiny \textcolor{gray!40!black}{ K\#7 Range: 130 -- 180 ($\diameter$168.5)} } \\[-2.5ex]
+&& \includegraphics[width=1cm, height=.6cm, keepaspectratio]{images/4227}\\[-1ex]
+	\end{tabular}
+};

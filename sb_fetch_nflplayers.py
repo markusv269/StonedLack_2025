@@ -20,19 +20,19 @@ all_players = r.json()
 # --- Nur Spieler, die in draft_picks vorkommen ---
 players_to_insert = []
 for pid, player in all_players.items():
-    if pid.strip() in player_ids:
-        player["updated_at"] = datetime.utcnow().replace(tzinfo=timezone.utc).isoformat()
-        players_to_insert.append({
-            "player_id": pid,
-            "name": player.get("full_name") or f"{player.get('first_name', '')} {player.get('last_name', '')}",
-            "team": player.get("team"),
-            "position": player.get("position"),
-            "json_data": player,
-            "updated_at": player["updated_at"]
-        })
+    # if pid.strip() in player_ids:
+    player["updated_at"] = datetime.utcnow().replace(tzinfo=timezone.utc).isoformat()
+    players_to_insert.append({
+        "player_id": pid,
+        "name": player.get("full_name") or f"{player.get('first_name', '')} {player.get('last_name', '')}",
+        "team": player.get("team"),
+        "position": player.get("position"),
+        "json_data": player,
+        "updated_at": player["updated_at"]
+    })
 
 # --- Funktion zum Batch-Upsert ---
-def batch_upsert(table_name, records, batch_size=100):
+def batch_upsert(table_name, records, batch_size=500):
     for i in range(0, len(records), batch_size):
         batch = records[i:i+batch_size]
         supabase.table(table_name).upsert(batch, on_conflict="player_id").execute()
