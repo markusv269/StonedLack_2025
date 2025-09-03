@@ -1,5 +1,7 @@
 import streamlit as st
 import requests
+import pandas as pd
+import matplotlib.pyplot as plt
 
 st.subheader("sleeper.com trending Players")
 # Setze den Titel der App
@@ -72,3 +74,102 @@ with col2:
 # endpoint("Trending down", "https://api.sleeper.app/v1/players/nfl/trending/drop")
 # endpoint("Trending up mit Zeitangabe und Spielerlimit", "https://api.sleeper.app/v1/players/nfl/trending/add?lookback_hours={hours}&limit={limit}")
 # endpoint("Trending down mit Zeitangabe und Spielerlimit", "https://api.sleeper.app/v1/players/nfl/trending/drop?lookback_hours={hours}&limit={limit}")
+
+
+import streamlit as st
+import requests
+import pandas as pd
+
+st.title("Fantasy Points Allowed – NFL 2024")
+
+teams = [
+    "ARI","ATL","BAL","BUF","CAR","CHI","CIN","CLE","DAL","DEN","DET","GB",
+    "HOU","IND","JAX","KC","LV","LAC","LAR","MIA","MIN","NE","NO","NYG","NYJ",
+    "PHI","PIT","SF","SEA","TB","TEN","WAS"
+]
+
+base_url = "https://api.sleeper.com/stats/nfl/player/{team}?season_type=regular&season=2024&grouping=season"
+
+@st.cache_data
+def load_data():
+    records = []
+    for team in teams:
+        url = base_url.format(team=team)
+        r = requests.get(url)
+        if r.status_code != 200:
+            # Fallback: leeres Dict, damit der Flow nicht bricht
+            data = {}
+        else:
+            data = r.json()
+        stats = (data or {}).get("stats", {})
+        fan_pts_allow = {k: v for k, v in stats.items() if k.startswith("fan_pts_allow")}
+        record = {"team": team}
+        record.update(fan_pts_allow)
+        records.append(record)
+
+    df = pd.DataFrame(records)
+    positions = ["fan_pts_allow_qb", "fan_pts_allow_rb", "fan_pts_allow_wr", "fan_pts_allow_te"]
+    # Fehlende Werte mit 0 auffüllen, damit Summen/Sortierung robust sind
+    for p in positions:
+        if p not in df.columns:
+            df[p] = 0.0
+    df_plot = df[["team"] + positions].set_index("team").fillna(0.0)
+    df_plot["total"] = df_plot[positions].sum(axis=1)
+    return df_plot, positions
+
+df_plot, positions = load_data()
+
+# ---------------- UI ----------------
+st.header("Einstellungen")
+
+# Womit sortieren?
+sort_by = st.selectbox(
+    "Sortieren nach",
+    ["total"] + positions,
+    format_func=lambda x: "Gesamt" if x == "total" else x.split("_")[-1].upper()
+)
+
+# Reihenfolge
+order_label = st.radio("Reihenfolge", ["Absteigend", "Aufsteigend"], horizontal=True)
+ascending = (order_label == "Aufsteigend")
+
+# Diagrammtyp
+chart_type = st.radio(
+    "Diagramm-Typ",
+    ["Gestapelt (alle Positionen)", "Einzelne Position"]
+)
+
+# ---------------- Sortierung anwenden ----------------
+df_sorted = df_plot.sort_values(by=sort_by, ascending=ascending).copy()
+
+# WICHTIG: Teams als kategorischen Index in genau dieser Reihenfolge,
+# damit st.bar_chart die gewünschte Sortierung übernimmt.
+ordered_teams = list(df_sorted.index)
+df_sorted.index = pd.Categorical(df_sorted.index, categories=ordered_teams, ordered=True)
+
+# ---------------- Charts ----------------
+if chart_type == "Gestapelt (alle Positionen)":
+    # Optional: nur die Positionsspalten anzeigen
+    st.bar_chart(
+        df_sorted[positions],
+        stack=True,
+        height=600,
+        use_container_width=True
+    )
+else:
+    pos_choice = st.selectbox(
+        "Position auswählen",
+        positions,
+        format_func=lambda x: x.split("_")[-1].upper()
+    )
+    # Für die Einzelansicht ggf. nach der gewählten Position neu sortieren:
+    df_pos = df_plot.sort_values(by=pos_choice, ascending=ascending).copy()
+    ordered_teams_pos = list(df_pos.index)
+    df_pos.index = pd.Categorical(df_pos.index, categories=ordered_teams_pos, ordered=True)
+
+    st.bar_chart(
+        df_pos[[pos_choice]],
+        stack=False,
+        height=600,
+        use_container_width=True
+    )

@@ -1,44 +1,44 @@
+import requests
 import pandas as pd
-from supabase import create_client, Client
-import streamlit as st
+import matplotlib.pyplot as plt
 
-url = st.secrets["supabase"]["url"]
-key = st.secrets["supabase"]["key"]
-supabase: Client = create_client(url, key)
+# Liste aller NFL Teams
+teams = [
+    "ARI","ATL","BAL","BUF","CAR","CHI","CIN","CLE","DAL","DEN","DET","GB",
+    "HOU","IND","JAX","KC","LV","LAC","LAR","MIA","MIN","NE","NO","NYG","NYJ",
+    "PHI","PIT","SF","SEA","TB","TEN","WAS"
+]
 
-# IDs vorbereiten
-leagues = supabase.table("leagues").select("league_id").eq("league_type", "redraft").execute().data
-league_ids = [l["league_id"] for l in leagues]
-drafts = supabase.table("drafts").select("draft_id").in_("league_id", league_ids).execute().data
-draft_ids = [d["draft_id"] for d in drafts]
+base_url = "https://api.sleeper.com/stats/nfl/player/{team}?season_type=regular&season=2024&grouping=season"
 
-# ░░░ ALLE PICKS LADEN MIT PAGINATION ░░░
-all_picks = []
-page = 0
-page_size = 1000
+records = []
 
-while True:
-    picks_page = supabase.table("draft_picks") \
-        .select("draft_id", "player_id", "json_data", "roster_id") \
-        .lte("round", 5) \
-        .in_("draft_id", draft_ids) \
-        .range(page*page_size, (page+1)*page_size - 1) \
-        .execute().data
+for team in teams:
+    url = base_url.format(team=team)
+    r = requests.get(url)
+    data = r.json()
+    
+    stats = data.get("stats", {})
+    fan_pts_allow = {k: v for k, v in stats.items() if k.startswith("fan_pts_allow")}
+    
+    record = {"team": team}
+    record.update(fan_pts_allow)
+    records.append(record)
 
-    if not picks_page:
-        break
+df = pd.DataFrame(records)
 
-    all_picks.extend(picks_page)
-    page += 1
+# Nur die relevanten Positionen extrahieren
+positions = ["fan_pts_allow_qb", "fan_pts_allow_rb", "fan_pts_allow_wr", "fan_pts_allow_te"]
+df_plot = df[["team"] + positions].set_index("team")
 
-picks_df = pd.DataFrame(all_picks)
-# Extrahiere zuerst pick_no in eine eigene Spalte
-picks_df["pick_no"] = picks_df["json_data"].apply(lambda x: x.get("pick_no"))
-picks_df["round"] = picks_df["json_data"].apply(lambda x: x.get("round"))
+# Balkendiagramm (gestapelt)
+ax = df_plot.plot(kind="bar", stacked=True, figsize=(14, 7))
 
-pick_no_df = (
-    picks_df.sort_values(by="round").groupby(["draft_id", "roster_id"])["player_id"]
-    .agg(list)
-    .reset_index()
-)
-print(pick_no_df.sort_values(by="draft_id", ascending=True).head(40))
+plt.title("Fantasy Points Allowed per Position (2024 Season)")
+plt.xlabel("Team")
+plt.ylabel("Fantasy Points Allowed")
+plt.xticks(rotation=45)
+plt.legend(title="Position")
+plt.tight_layout()
+plt.show()
+print(df_plot.sort_values(by="fan_pts_allow_wr", ascending=False).reset_index())
