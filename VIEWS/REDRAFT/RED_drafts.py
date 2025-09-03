@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from supabase import create_client, Client
 from assets.styles_def import metric_box  # deine eigene Komponente
-from methods import load_leagues_with_type, load_season_drafts
+from methods import load_leagues_with_type, load_season_drafts, load_draftpicks
 
 # ░░░ SUPABASE CREDENTIALS ░░░
 url: str = st.secrets["supabase"]["url"]
@@ -13,12 +13,9 @@ supabase: Client = create_client(url, key)
 @st.cache_data(ttl=5*60)
 def load_drafts():
     # Supabase-Abfragen
-    picks = supabase.table("draft_picks").select("*").execute()
-
-    # In DataFrames umwandeln
     drafts_df = load_season_drafts(2025)
     leagues_df = load_leagues_with_type("redraft")
-    picks_df = pd.DataFrame(picks.data)
+    picks_df = load_draftpicks()
 
     # Ligenname hinzufügen
     drafts_df = drafts_df.merge(

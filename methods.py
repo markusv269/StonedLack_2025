@@ -7,41 +7,73 @@ url: str = st.secrets["supabase"]["url"]
 key: str = st.secrets["supabase"]["key"]
 supabase: Client = create_client(url, key)
 
+
+#### Hilfsfunktion: alle Seiten laden
+def fetch_all(table: str, filters: list = None, page_size: int = 1000) -> pd.DataFrame:
+    """
+    Lädt alle Datensätze aus einer Supabase-Tabelle über Paging.
+    
+    :param table: Tabellenname
+    :param filters: Liste mit Filterfunktionen (z.B. [lambda q: q.eq("season", 2025)])
+    :param page_size: Anzahl Datensätze pro Page
+    :return: Pandas DataFrame
+    """
+    all_data = []
+    start = 0
+
+    while True:
+        query = supabase.table(table).select("*").range(start, start + page_size - 1)
+        
+        # Filter anhängen
+        if filters:
+            for f in filters:
+                query = f(query)
+        
+        resp = query.execute()
+        data = resp.data
+
+        if not data:
+            break
+
+        all_data.extend(data)
+        start += page_size
+
+    return pd.DataFrame(all_data)
+
+
 #### LOAD LEAGUES
-@st.cache_data(ttl=24*60*60) # 1 Tag cachen
+@st.cache_data(ttl=24*60*60)
 def load_leagues():
-    leagues = supabase.table("leagues").select("*").execute()
-    return pd.DataFrame(leagues.data)
+    return fetch_all("leagues")
 
-@st.cache_data(ttl=24*60*60) # 1 Tag cachen
+
+@st.cache_data(ttl=24*60*60)
 def load_leagues_with_type(type: str):
-    leagues = supabase.table("leagues").select("*").eq("league_type", type).execute()
-    return pd.DataFrame(leagues.data)
-
+    return fetch_all("leagues", filters=[lambda q: q.eq("league_type", type)])
 
 
 #### LOAD MANAGERS
-@st.cache_data(ttl=5*60) # 5 Minuten cachen
+@st.cache_data(ttl=5*60)
 def load_managers():
-    managers = supabase.table("managers").select("*").execute()
-    return pd.DataFrame(managers.data)
-
+    return fetch_all("managers")
 
 
 #### LOAD MATCHUPS
-@st.cache_data(ttl=5*60) # 5 Minuten cachen
+@st.cache_data(ttl=5*60)
 def load_matchups():
-    matchups = supabase.table("matchup_week_stats").select("*").execute()
-    return pd.DataFrame(matchups.data)
+    return fetch_all("matchup_week_stats")
 
-@st.cache_data(ttl=5*60) # 5 Minuten cachen
+
+@st.cache_data(ttl=5*60)
 def load_weekly_matchups(week: int):
-    matchups = supabase.table("matchup_week_stats").select("*").eq("week", week).execute()
-    return pd.DataFrame(matchups.data)
+    return fetch_all("matchup_week_stats", filters=[lambda q: q.eq("week", week)])
 
 
 #### LOAD DRAFTS
-@st.cache_data(ttl=5*60) # 15 Minuten cachen
+@st.cache_data(ttl=15*60)
 def load_season_drafts(season: int):
-    drafts = supabase.table("drafts").select("*").eq("season", season).execute()
-    return pd.DataFrame(drafts.data)
+    return fetch_all("drafts", filters=[lambda q: q.eq("season", season)])
+
+@st.cache_data(ttl=15*60)
+def load_draftpicks():
+    return fetch_all("draft_picks")
