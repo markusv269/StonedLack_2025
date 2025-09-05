@@ -71,7 +71,7 @@ def player_box(player_id: str, points: float, starter=True, players_dict=None):
             box-shadow:0 2px 5px rgba(0,0,0,0.1);
         ">
             <strong>{label}</strong><br>
-            <span style="font-size:20px; font-weight:bold;">{points:.1f}</span>
+            <span style="font-size:20px; font-weight:bold;">{points:.2f}</span>
         </div>
         """,
         unsafe_allow_html=True
@@ -94,16 +94,16 @@ def show_matchups(weekly_json: dict, league_id: str, managers_df: pd.DataFrame, 
         # Gesamtpunkte
         def total(roster):
             d = matchup_data[roster]
-            return sum(d["starter"].values()) + sum(d["bench"].values())
+            return sum(d["starter"].values())
 
         total1, total2 = total(r1), total(r2)
 
         col1, col_mid, col2 = st.columns([5,1,5])
         with col1:
-            st.markdown(f"### {name1}")
+            st.markdown(f"#### {name1}")
             st.metric("Gesamtpunkte", round(total1, 2))
         with col2:
-            st.markdown(f"### {name2}")
+            st.markdown(f"#### {name2}")
             st.metric("Gesamtpunkte", round(total2, 2))
 
         # Starter nebeneinander mit mittiger Spalte
