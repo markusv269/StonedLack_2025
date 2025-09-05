@@ -101,10 +101,20 @@ def show_matchups(weekly_json: dict, league_id: str, managers_df: pd.DataFrame, 
         col1, col_mid, col2 = st.columns([5,1,5])
         with col1:
             st.markdown(f"#### {name1}")
-            st.metric("Gesamtpunkte", round(total1, 2))
+            if total1 > total2:
+                st.success(f"Gesamtpunkte: {round(total1, 2)}")
+            elif total1 < total2:
+                st.error(f"Gesamtpunkte: {round(total1, 2)}")
+            else:
+                st.info(f"Gesamtpunkte: {round(total1, 2)}")
         with col2:
             st.markdown(f"#### {name2}")
-            st.metric("Gesamtpunkte", round(total2, 2))
+            if total1 < total2:
+                st.success(f"Gesamtpunkte: {round(total2, 2)}")
+            elif total1 > total2:
+                st.error(f"Gesamtpunkte: {round(total2, 2)}")
+            else:
+                st.info(f"Gesamtpunkte: {round(total2, 2)}")
 
         # Starter nebeneinander mit mittiger Spalte
         st.write("**Starter**")
