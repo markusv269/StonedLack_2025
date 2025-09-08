@@ -57,6 +57,7 @@ df_points["winner_name"] = df_points.apply(lambda row: row["display_name_1"] if 
 df_points["loser_name"] = df_points.apply(lambda row: row["display_name_1"] if row["loser"] == row["roster1_id"] else row["display_name_2"], axis=1)
 
 knappstes_matchup = df_points.loc[df_points["point_diff"].idxmin()]
+klatsche = df_points.loc[df_points["point_diff"].idxmax()]
 high_scoring = df_points.loc[df_points["total_points"].idxmax()]
 unlucky_loser = df_points.loc[df_points["loser_points"].idxmax()]
 low_scoring = df_points.loc[df_points["total_points"].idxmin()]
@@ -115,6 +116,16 @@ with col2:
     st.write("")
 with col3:
     st.metric(label=low_scoring['display_name_2'], value=round(low_scoring['points2'],2))
+st.write("---")
+
+st.write(f"#### Größte Klatsche")
+col1, col2, col3 = st.columns([3,1,3])
+with col1:
+    st.metric(label=klatsche['winner_name'], value=round(klatsche['winner_points'],2), delta=f"{round(klatsche['point_diff'],2)}")
+with col2:
+    st.write("")
+with col3:
+    st.metric(label=klatsche['loser_name'], value=round(klatsche['loser_points'],2), delta=f"-{round(klatsche['point_diff'],2)}")
 st.write("---")
 
 st.write("#### Top 5 Roster der Woche (nach Gewinner-Punkten)")
