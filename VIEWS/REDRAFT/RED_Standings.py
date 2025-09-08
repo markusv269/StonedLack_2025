@@ -63,4 +63,4 @@ for league_id, group in rosters_df.groupby("league_id"):
         'selector': 'th.row_heading',
         'props': [('font-weight', 'bold')]
     }])
-    st.dataframe(styled, use_container_width=True, hide_index=True)
+    st.dataframe(styled, width="content", hide_index=True)
