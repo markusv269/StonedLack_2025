@@ -39,7 +39,7 @@ def build_weekly_points(matchups_df, week):
     return pd.DataFrame(weekly_points)
 
 # ░░░ STREAMLIT ░░░
-st.title("Knappstes & High-Scoring Matchup der Woche")
+st.title("Wochenstatistiken SLR2025")
 
 week_select = st.number_input("Woche wählen", min_value=1, step=1)
 
@@ -67,6 +67,7 @@ top_roster = top_roster[top_roster["league_id"].isin(leagues_df[leagues_df["leag
 top_roster = top_roster.merge(leagues_df[["league_id", "league_name"]], on="league_id")
 # st.dataframe(managers_df)
 
+st.write(f"#### Knappstes Matchup")
 col1, col2, col3 = st.columns([3,1,3])
 with col1:
     st.metric(label=knappstes_matchup['winner_name'], value=round(knappstes_matchup['winner_points'],2), delta=f"{round(knappstes_matchup['point_diff'],2)}")
@@ -109,13 +110,11 @@ st.write("---")
 st.write(f"#### Low-Scoring Matchup (Gesamtpunkte: {round(low_scoring['total_points'],2)})")
 col1, col2, col3 = st.columns([3,1,3])
 with col1:
-    st.write(f"**{low_scoring['display_name_1']}**")
-    st.write(f"**{round(low_scoring['points1'],2)}**")
+    st.metric(label=low_scoring['display_name_1'], value=round(low_scoring['points1'],2))
 with col2:
     st.write("")
 with col3:
-    st.write(f"**{low_scoring['display_name_2']}**")
-    st.write(f"**{round(low_scoring['points2'],2)}**")
+    st.metric(label=low_scoring['display_name_2'], value=round(low_scoring['points2'],2))
 st.write("---")
 
 st.write("#### Top 5 Roster der Woche (nach Gewinner-Punkten)")
