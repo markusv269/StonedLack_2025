@@ -69,6 +69,7 @@ top_roster = top_roster.merge(leagues_df[["league_id", "league_name"]], on="leag
 # st.dataframe(managers_df)
 
 st.write(f"#### Knappstes Matchup")
+st.write(f"**{klatsche['league_name']}**")
 col1, col2, col3 = st.columns([3,1,3])
 with col1:
     st.metric(label=knappstes_matchup['winner_name'], value=round(knappstes_matchup['winner_points'],2), delta=f"{round(knappstes_matchup['point_diff'],2)}")
@@ -79,6 +80,7 @@ with col3:
 st.write("---")
 
 st.write(f"#### Unglücklichster Verlierer ({unlucky_loser['loser_name']}, {round(unlucky_loser['loser_points'],2)} Punkte)")
+st.write(f"**{unlucky_loser['league_name']}**")
 col1, col2, col3 = st.columns([3,1,3])
 with col1:
     st.metric(label=unlucky_loser['loser_name'], value=round(unlucky_loser['loser_points'],2), delta=f"-{round(unlucky_loser['point_diff'],2)}")
@@ -89,6 +91,7 @@ with col3:
 st.write("---")
 
 st.write(f"#### Glücklichster Gewinner ({lucky_winner['winner_name']}, {round(lucky_winner['winner_points'],2)} Punkte)")
+st.write(f"**{lucky_winner['league_name']}**")
 col1, col2, col3 = st.columns([3,1,3])
 with col1:
     st.metric(label=lucky_winner['winner_name'], value=round(lucky_winner['winner_points'],2), delta=f"{round(lucky_winner['point_diff'],2)}")
@@ -99,6 +102,7 @@ with col3:
 st.write("---")
 
 st.write(f"#### High-Scoring Matchup (Gesamtpunkte: {round(high_scoring['total_points'],2)})")
+st.write(f"**{high_scoring['league_name']}**")
 col1, col2, col3 = st.columns([3,1,3])
 with col1:
     st.metric(label=high_scoring['display_name_1'], value=round(high_scoring['points1'],2))
@@ -109,6 +113,7 @@ with col3:
 st.write("---")
 
 st.write(f"#### Low-Scoring Matchup (Gesamtpunkte: {round(low_scoring['total_points'],2)})")
+st.write(f"**{low_scoring['league_name']}**")
 col1, col2, col3 = st.columns([3,1,3])
 with col1:
     st.metric(label=low_scoring['display_name_1'], value=round(low_scoring['points1'],2))
@@ -119,6 +124,7 @@ with col3:
 st.write("---")
 
 st.write(f"#### Größte Klatsche")
+st.write(f"**{klatsche['league_name']}**")
 col1, col2, col3 = st.columns([3,1,3])
 with col1:
     st.metric(label=klatsche['winner_name'], value=round(klatsche['winner_points'],2), delta=f"{round(klatsche['point_diff'],2)}")
@@ -140,6 +146,8 @@ for idx, row in top_roster.sort_values(by="points", ascending=False).head(select
     with col3:
         st.write(row['league_name'])
     st.write("---")
+
+st.write(klatsche)
 
 st.write("### Alle Matchups der Woche")
 st.dataframe(df_points[["league_name", "winner_name", "winner_points", "loser_name", "loser_points", "total_points", "point_diff"]].sort_values(by="total_points", ascending=False), use_container_width=True, hide_index=True)      
