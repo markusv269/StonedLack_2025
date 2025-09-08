@@ -77,3 +77,8 @@ def load_season_drafts(season: int):
 @st.cache_data(ttl=15*60)
 def load_draftpicks():
     return fetch_all("draft_picks")
+
+#### LOAD ROSTERS
+@st.cache_data(ttl=5*60)
+def load_rosters():
+    return fetch_all("rosters")

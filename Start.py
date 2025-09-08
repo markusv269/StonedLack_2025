@@ -28,6 +28,7 @@ pg = st.navigation(
             st.Page(page="VIEWS/REDRAFT/RED_adp_board.py", title="ADP Draftboard", icon=":material/table:"),
             st.Page(page="VIEWS/REDRAFT/RED_Matchups.py", title="Matchups", icon=":material/sports_football:"),
             st.Page(page="VIEWS/REDRAFT/RED_Wochenstatistiken.py", title="Wochenstatistiken", icon=":material/calendar_month:"),
+            st.Page(page="VIEWS/REDRAFT/RED_Standings.py", title="Standings", icon=":material/leaderboard:"),
         ],
         "SL Dynastys": [
             # st.Page(page="VIEWS/DYNASTY/DYN_info.py", title="Dynasty", icon=":material/construction:"),
