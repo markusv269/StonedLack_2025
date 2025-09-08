@@ -134,7 +134,7 @@ with col3:
     st.metric(label=klatsche['loser_name'], value=round(klatsche['loser_points'],2), delta=f"-{round(klatsche['point_diff'],2)}")
 st.write("---")
 
-st.write("#### Top 5 Roster der Woche (nach Gewinner-Punkten)")
+st.write("#### Top 5 Roster der Woche")
 select_top = st.slider("Anzahl Top-Roster anzeigen", min_value=1, value=5, step=1)
 for idx, row in top_roster.sort_values(by="points", ascending=False).head(select_top).iterrows():
     col1, col2, col3 = st.columns([1,3,2])
