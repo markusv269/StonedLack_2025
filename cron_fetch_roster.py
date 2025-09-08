@@ -46,10 +46,10 @@ for league_id in league_ids:
             "roster_id": str(matchup["roster_id"]),
             "fpts_for": round(matchup.get("settings", {}).get("fpts", 0) + matchup.get("settings", {}).get("fpts_decimal", 0) / 100,2),
             "fpts_against": round(matchup.get("settings", {}).get("fpts_against", 0) + matchup.get("settings", {}).get("fpts_against_decimal", 0) / 100,2),
-            "week": current_week - 1,
-            "wins": matchup.get("settings", {}).get("wins", 0),
-            "losses": matchup.get("settings", {}).get("losses", 0),
-            "ties": matchup.get("settings", {}).get("ties", 0),
+            "week": int(current_week - 1),
+            "wins": int(matchup.get("settings", {}).get("wins", 0)),
+            "losses": int(matchup.get("settings", {}).get("losses", 0)),
+            "ties": int(matchup.get("settings", {}).get("ties", 0)),
             "json_data": matchup 
         })
         
