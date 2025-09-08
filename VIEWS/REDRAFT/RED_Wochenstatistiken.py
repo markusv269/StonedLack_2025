@@ -101,7 +101,7 @@ col1, col2, col3 = st.columns([3,1,3])
 with col1:
     st.metric(label=high_scoring['display_name_1'], value=round(high_scoring['points1'],2))
 with col2:
-    st.write("")
+    st.write(" ")
 with col3:
     st.metric(label=high_scoring['display_name_2'], value=round(high_scoring['points2'],2))
 st.write("---")
