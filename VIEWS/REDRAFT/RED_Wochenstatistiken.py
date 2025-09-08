@@ -147,7 +147,5 @@ for idx, row in top_roster.sort_values(by="points", ascending=False).head(select
         st.write(row['league_name'])
     st.write("---")
 
-st.write(klatsche)
-
 st.write("### Alle Matchups der Woche")
 st.dataframe(df_points[["league_name", "winner_name", "winner_points", "loser_name", "loser_points", "total_points", "point_diff"]].sort_values(by="total_points", ascending=False), use_container_width=True, hide_index=True)      
