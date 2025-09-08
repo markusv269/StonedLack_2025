@@ -62,6 +62,10 @@ unlucky_loser = df_points.loc[df_points["loser_points"].idxmax()]
 low_scoring = df_points.loc[df_points["total_points"].idxmin()]
 lucky_winner = df_points.loc[df_points["winner_points"].idxmin()]
 top_roster = matchups_df[matchups_df["week"] == week_select].copy()
+top_roster = top_roster.merge(managers_df, on=["league_id", "roster_id"])
+top_roster = top_roster[top_roster["league_id"].isin(leagues_df[leagues_df["league_type"]=="redraft"]["league_id"])]
+top_roster = top_roster.merge(leagues_df[["league_id", "league_name"]], on="league_id")
+# st.dataframe(managers_df)
 
 col1, col2, col3 = st.columns([3,1,3])
 with col1:
@@ -117,8 +121,15 @@ st.write("---")
 st.write("#### Top 5 Roster der Woche (nach Gewinner-Punkten)")
 select_top = st.slider("Anzahl Top-Roster anzeigen", min_value=1, value=5, step=1)
 for idx, row in top_roster.sort_values(by="points", ascending=False).head(select_top).iterrows():
-    st.write(row)
-st.write("---")
+    col1, col2, col3 = st.columns([1,3,2])
+    with col1:
+        st.write(f"**{row['points']}**")
+    with col2:
+        teamname = f"*({row['team_name']})*" if row['team_name'] else ""
+        st.write(f"**{row['display_name']}** {teamname}")
+    with col3:
+        st.write(row['league_name'])
+    st.write("---")
 
 st.write("### Alle Matchups der Woche")
 st.dataframe(df_points[["league_name", "winner_name", "winner_points", "loser_name", "loser_points", "total_points", "point_diff"]].sort_values(by="total_points", ascending=False), use_container_width=True, hide_index=True)      
