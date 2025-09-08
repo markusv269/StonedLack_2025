@@ -1,4 +1,4 @@
-name: Fetch NFL Matchups (Cron & Manual)
+name: Update Matchups
 
 on:
   # Zeitbasierte Ausführung
