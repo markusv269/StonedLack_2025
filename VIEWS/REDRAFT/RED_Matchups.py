@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from supabase import create_client, Client
-from methods import load_managers, load_leagues, load_matchups
+from methods import load_managers, load_leagues_with_type, load_matchups
 
 # ░░░ SUPABASE CREDENTIALS ░░░
 url: str = st.secrets["supabase"]["url"]
@@ -184,7 +184,7 @@ def show_matchups(weekly_json: dict, league_id: str, managers_df: pd.DataFrame, 
 st.title("Matchup Viewer")
 
 matchups_df = load_matchups()
-leagues_df = load_leagues()
+leagues_df = load_leagues_with_type("redraft")
 managers_df = load_managers()
 
 week_select = st.number_input("Woche wählen", min_value=int(matchups_df["week"].min()), max_value=int(matchups_df["week"].max()), step=1)
