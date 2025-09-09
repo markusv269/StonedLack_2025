@@ -63,4 +63,54 @@ for league_id, group in rosters_df.groupby("league_id"):
         'selector': 'th.row_heading',
         'props': [('font-weight', 'bold')]
     }])
-    st.dataframe(styled, width="content", hide_index=True)
+    st.dataframe(styled, width="content", hide_index=True,
+                 column_config={
+                    "#": st.column_config.NumberColumn(
+                        "#",
+                        format="%d",
+                        help="Platzierung",
+                        width="small"
+                    ),
+                    "Manager": st.column_config.TextColumn(
+                        "Manager",
+                        help="Team Manager",
+                        width="medium"
+                    ),
+                    "W": st.column_config.NumberColumn(
+                        "W",
+                        format="%d",
+                        help="Wins",
+                        width="small"
+                    ),
+                    "L": st.column_config.NumberColumn(
+                        "L",
+                        format="%d",
+                        help="Losses",
+                        width="small"
+                    ),
+                    "T": st.column_config.NumberColumn(
+                        "T",
+                        format="%d",
+                        help="Ties",
+                        width="small"
+                    ),
+                    "FPTS for": st.column_config.NumberColumn(
+                        "FPTS for",
+                        format="%.2f",
+                        help="Fantasy Points For",
+                        width="small"
+                    ),
+                    "FPTS against": st.column_config.NumberColumn(
+                        "FPTS against",
+                        format="%.2f",
+                        help="Fantasy Points Against",
+                        width="small"
+                    ),
+                    "max PF": st.column_config.NumberColumn(
+                        "max PF",
+                        format="%.2f",
+                        help="Max Possible Points For",
+                        width="small"
+                    ),
+                 }
+    )

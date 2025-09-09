@@ -21,6 +21,7 @@ with col1:
 with col2:
     st.components.v1.iframe(drop_url, width=300, height=20+player*50, scrolling=False)
 
+st.write("---")
 st.subheader("NFL State")
 state_url = "https://api.sleeper.app/v1/state/nfl"
 response = requests.get(state_url)
@@ -75,12 +76,8 @@ with col2:
 # endpoint("Trending up mit Zeitangabe und Spielerlimit", "https://api.sleeper.app/v1/players/nfl/trending/add?lookback_hours={hours}&limit={limit}")
 # endpoint("Trending down mit Zeitangabe und Spielerlimit", "https://api.sleeper.app/v1/players/nfl/trending/drop?lookback_hours={hours}&limit={limit}")
 
-
-import streamlit as st
-import requests
-import pandas as pd
-
-st.title("Fantasy Points Allowed – NFL 2024")
+st.write("---")
+st.subheader("Fantasy Points Allowed")
 
 teams = [
     "ARI","ATL","BAL","BUF","CAR","CHI","CIN","CLE","DAL","DEN","DET","GB",
@@ -88,28 +85,35 @@ teams = [
     "PHI","PIT","SF","SEA","TB","TEN","WAS"
 ]
 
-base_url = "https://api.sleeper.com/stats/nfl/player/{team}?season_type=regular&season=2024&grouping=season"
+base_url = "https://api.sleeper.com/stats/nfl/player/{team}?season_type=regular&season={season}&grouping={grouping}"
 
 @st.cache_data
-def load_data():
+def load_data(season, grouping, week=None):
     records = []
     for team in teams:
-        url = base_url.format(team=team)
+        url = base_url.format(team=team, season=season, grouping=grouping.lower())
         r = requests.get(url)
-        if r.status_code != 200:
-            # Fallback: leeres Dict, damit der Flow nicht bricht
-            data = {}
-        else:
+        data = {}   # <-- hier Standardwert setzen
+
+        if r.status_code == 200:
             data = r.json()
-        stats = (data or {}).get("stats", {})
+
+        # Stats holen
+        if grouping.lower() == "week" and week is not None:
+            stats = (data.get(str(week), {}) or {}).get("stats", {})
+        else:
+            stats = (data or {}).get("stats", {})
+
         fan_pts_allow = {k: v for k, v in stats.items() if k.startswith("fan_pts_allow")}
         record = {"team": team}
         record.update(fan_pts_allow)
         records.append(record)
 
     df = pd.DataFrame(records)
-    positions = ["fan_pts_allow_qb", "fan_pts_allow_rb", "fan_pts_allow_wr", "fan_pts_allow_te"]
-    # Fehlende Werte mit 0 auffüllen, damit Summen/Sortierung robust sind
+    positions = [
+        "fan_pts_allow_qb", "fan_pts_allow_rb", "fan_pts_allow_wr",
+        "fan_pts_allow_te", "fan_pts_allow_k", "fan_pts_allow_def"
+    ]
     for p in positions:
         if p not in df.columns:
             df[p] = 0.0
@@ -117,29 +121,45 @@ def load_data():
     df_plot["total"] = df_plot[positions].sum(axis=1)
     return df_plot, positions
 
-df_plot, positions = load_data()
+df_plot, positions = load_data(season=2025, grouping="Season")
 
 # ---------------- UI ----------------
-st.header("Einstellungen")
+st.write("#### Einstellungen")
+col1, col2 = st.columns(2)
+with col1:
+    select_season = st.selectbox("Saison", [2025, 2024, 2023, 2022, 2021, 2020], index=0)
+with col2:
+    grouping = st.selectbox("Gruppierung", ["Season", "Week"], index=0)
+    if grouping == "Week":
+        week = st.slider("Woche", min_value=1, max_value=18, value=1, step=1)
+    else:
+        week = None 
+col3, col4 = st.columns(2)
+with col3:
+    sort_by = st.selectbox(
+        "Sortieren nach",
+        ["total"] + positions,
+        format_func=lambda x: "Gesamt" if x == "total" else x.split("_")[-1].upper()
+    )
 
-# Womit sortieren?
-sort_by = st.selectbox(
-    "Sortieren nach",
-    ["total"] + positions,
-    format_func=lambda x: "Gesamt" if x == "total" else x.split("_")[-1].upper()
-)
+col3, col4 = st.columns(2)
+with col3:
+    order_label = st.radio("Reihenfolge", ["Absteigend", "Aufsteigend"], horizontal=False)
+    ascending = (order_label == "Aufsteigend")
 
-# Reihenfolge
-order_label = st.radio("Reihenfolge", ["Absteigend", "Aufsteigend"], horizontal=True)
-ascending = (order_label == "Aufsteigend")
-
-# Diagrammtyp
-chart_type = st.radio(
+with col4:
+    chart_type = st.radio(
     "Diagramm-Typ",
     ["Gestapelt (alle Positionen)", "Einzelne Position"]
 )
-
+col5, col6 = st.columns(2)
+with col5:
+    st.write("**Datenquelle: sleeper.com API**")
 # ---------------- Sortierung anwenden ----------------
+if st.button("Daten neu laden"):
+        load_data.clear()
+        df_plot, positions = load_data(season=select_season, grouping=grouping, week=week)
+
 df_sorted = df_plot.sort_values(by=sort_by, ascending=ascending).copy()
 
 # WICHTIG: Teams als kategorischen Index in genau dieser Reihenfolge,
@@ -147,6 +167,7 @@ df_sorted = df_plot.sort_values(by=sort_by, ascending=ascending).copy()
 ordered_teams = list(df_sorted.index)
 df_sorted.index = pd.Categorical(df_sorted.index, categories=ordered_teams, ordered=True)
 
+# if 
 # ---------------- Charts ----------------
 if chart_type == "Gestapelt (alle Positionen)":
     # Optional: nur die Positionsspalten anzeigen
