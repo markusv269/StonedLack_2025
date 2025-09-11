@@ -38,10 +38,10 @@ for league_id, group in rosters_df.groupby("league_id"):
     # Funktion zum Einfärben
      # Funktion zum Einfärben von Zeilen
     def highlight_rows(row):
-        if row.name in [0,1]:  # Zeilen 1 und 2 (Platz 1 & 2)
-            return ['background-color: #fff8b0'] * len(row)
-        elif row.name in [2,3,4,5]:  # Zeilen 3 bis 6
-            return ['background-color: #b0d8ff'] * len(row)
+        if row.name in [0, 1]:  # Platz 1 & 2
+            return ['background-color: rgba(255, 99, 71, 0.3)'] * len(row)  # weiches Tomatenrot
+        elif row.name in [2, 3, 4, 5]:  # Platz 3 bis 6
+            return ['background-color: rgba(70, 130, 180, 0.3)'] * len(row)  # sanftes Stahlblau
         else:
             return [''] * len(row)
 
