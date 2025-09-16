@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 from supabase import create_client, Client
 import streamlit as st
+from methods import load_managers
 
 # Supabase Credentials
 url: str = st.secrets["supabase"]["url"]
@@ -12,33 +13,39 @@ supabase: Client = create_client(url, key)
 leagues_response = supabase.table("leagues").select("league_id").eq("league_type", "redraft").execute()
 league_ids = [l["league_id"] for l in leagues_response.data]
 
+# manager = supabase.table("managers").select("user_id, display_name").execute()
+managers_df = load_managers()
+manager_map = dict(zip(managers_df["user_id"], managers_df["display_name"]))
+
 base_url = "https://api.sleeper.app/v1/league/{league_id}/transactions/{round}"
 
 records = []
 all_player_ids = set()
 
 for league_id in league_ids:
-    url = base_url.format(league_id=league_id, round=2)
-    r = requests.get(url)
-    data = r.json()
-    
-    for txn in data:
-        if txn.get("status") == "complete" and txn.get("type") == "waiver":
-            adds = txn.get("adds") or {}
-            drops = txn.get("drops") or {}
+    for round in [1, 2]:  # Beispiel für Runde 1 und 2
+        url = base_url.format(league_id=league_id, round=round)
+        r = requests.get(url)
+        data = r.json()
+        
+        for txn in data:
+            if  txn.get("type") == "waiver" and txn.get("status_updated") > 1757512800000:
+                adds = txn.get("adds") or {}
+                drops = txn.get("drops") or {}
 
-            # Player-IDs sammeln
-            all_player_ids.update(adds.keys())
-            all_player_ids.update(drops.keys())
+                # Player-IDs sammeln
+                all_player_ids.update(adds.keys())
+                all_player_ids.update(drops.keys())
 
-            records.append({
-                "league_id": league_id,
-                "transaction_id": txn.get("transaction_id"),
-                "adds": list(adds.keys()),
-                "drops": list(drops.keys()),
-                "creator": txn.get("creator"),
-                "waiver_bid": txn.get("settings", {}).get("waiver_bid", 0)
-            })
+                records.append({
+                    "league_id": league_id,
+                    "transaction_id": txn.get("transaction_id"),
+                    "status": txn.get("status"),
+                    "adds": list(adds.keys()),
+                    "drops": list(drops.keys()),
+                    "creator": txn.get("creator"),
+                    "waiver_bid": txn.get("settings", {}).get("waiver_bid", 0)
+                })
 
 # Spieler nur für vorkommende IDs abfragen
 players_response = (
@@ -55,16 +62,40 @@ player_map = dict(zip(players_df["player_id"], players_df["name"]))
 def map_players(player_ids):
     return [player_map.get(pid, pid) for pid in player_ids]
 
+def map_creator(creator_id):
+    return manager_map.get(creator_id, creator_id)
+
 for rec in records:
     rec["adds"] = map_players(rec["adds"])
     rec["drops"] = map_players(rec["drops"])
 
 df = pd.DataFrame(records)
 
-# Ausgabe
-for idx, row in df.iterrows():
-    print(f"League ID: {row['league_id']} | Txn ID: {row['transaction_id']}")
-    print(f"Adds: {', '.join(row['adds'])}")
-    print(f"Drops: {', '.join(row['drops'])}")
-    print(f"Waiver Bid: {row['waiver_bid']}")
-    print("---")
+# Adds und Drops in einzelne Zeilen auflösen
+adds_df = df.explode("adds")[["league_id", "transaction_id", "creator", "waiver_bid", "adds", "status"]]
+adds_df = adds_df.rename(columns={"adds": "player"})
+adds_df["action"] = "add"
+
+drops_df = df.explode("drops")[["league_id", "transaction_id", "creator", "waiver_bid", "drops", "status"]]
+drops_df = drops_df.rename(columns={"drops": "player"})
+drops_df["action"] = "drop"
+
+# Zusammenführen
+moves_df = pd.concat([adds_df, drops_df], ignore_index=True)
+moves_df["creator"] = moves_df["creator"].apply(map_creator)
+
+# Jetzt Gruppierung pro Spieler
+summary = (
+    moves_df.groupby(["player", "status", "action"])
+    .agg(
+        min_price=("waiver_bid", "min"),
+        max_price=("waiver_bid", "max"),
+        avg_price=("waiver_bid", "mean"),
+        transactions=("transaction_id", "count"),
+        owners_bid=("creator", lambda x: list(set(x)))
+    )
+    .reset_index()
+)
+
+print(summary[summary["action"]=="add"].sort_values(by=["player", "max_price"], ascending=[True, False]))
+summary[summary["action"]=="add"].sort_values(by=["player", "max_price"], ascending=[True, False]).to_csv("waiver_adds_week2.csv", index=False)

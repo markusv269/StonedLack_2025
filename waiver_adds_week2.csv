@@ -1,0 +1,139 @@
+player,status,action,min_price,max_price,avg_price,transactions,owners_bid
+Aaron Rodgers,complete,add,0,15,7.666666666666667,3,"['bblaster', 'TobiasHH', 'BigSchroe']"
+Alec Pierce,complete,add,0,0,0.0,1,['silas87']
+Baltimore Ravens,complete,add,0,7,4.4,5,"['marcoloco', 'Matos1406', 'Kronic1981', 'LeTomster', 'tsgpato']"
+Baltimore Ravens,failed,add,0,4,1.8333333333333333,6,"['LeoBenAli', 'Riz1Jets', 'DaveysNation', 'gregor0502', 'Kmakus5', 'Lackomat']"
+Bhayshul Tuten,complete,add,0,47,11.454545454545455,11,"['QuadsOfSteel', 'bigbbbo', 'BraveCompanions', 'ColtsFinest', 'DawgPound1948', 'Dene22', 'Sidres98', 'Izzy0922', 'Don1979', 'DonXandl', 'gardoffl']"
+Bhayshul Tuten,failed,add,0,32,6.181818181818182,11,"['Gertschmaster', 'TheBostonHoodie', 'BradyGaga92', 'NovaTrace', 'ChrisK86', 'MunichPanther', 'Flo2000', 'XBastiX', 'DerEl', 'Philadeagles92', 'upsidesille']"
+Blake Corum,failed,add,0,0,0.0,2,"['marvinchiefsHB', 'Izzy0922']"
+Braelon Allen,failed,add,3,10,5.333333333333333,3,"['DonXandl', 'Matze47']"
+Braelon Allen,complete,add,6,6,6.0,1,['NovaTrace']
+Brenton Strange,complete,add,0,15,6.818181818181818,11,"['PS57', 'USBroncos37', 'simonton18', 'Fritschi75', 'ChrisK86', 'rossi161', 'robertbmd', 'Kickernik', 'LadiesandEdelman19', 'HakanHan', 'Bobo76']"
+Brenton Strange,failed,add,0,10,3.1538461538461537,13,"['clockoperator1', 'lorenzseibl', 'EsslingCherrypickers', 'Kingslayer4', 'DJRedhead', 'Silberrucken', 'matsrun', 'nordkurve', 'ZenkP', 'Jay0987', 'chaefer77', 'lupra6']"
+Buffalo Bills,complete,add,0,6,2.6666666666666665,3,"['Ruffy1904', 'MvD93', 'jokeraw']"
+Cade Otton,complete,add,1,1,1.0,1,['19Loki99']
+Caleb Williams,complete,add,0,11,5.5,2,"['RaoulDuke0', 'Manu1990']"
+Calvin Austin,failed,add,0,38,7.888888888888889,27,"['Brandi16', 'HarryHu', 'Matos1406', 'MacMike23', 'BillsMafia1990Niko', 'heckm', 'Daydrinkling', 'BraveCompanions', 'simonton18', 'DerEl', 'Wattringer93', 'SkolPro', 'RaoulDuke0', 'mogli4dk', 'chaefer77', 'Gambo07', 'Mo1900', 'EsslingCherrypickers', 'Kingslayer4', 'mohrne', 'GM29', 'DJRedhead', 'Merlyn112', 'DonXandl', 'Luutz', 'Honeybadger2310']"
+Calvin Austin,complete,add,0,21,7.722222222222222,18,"['WoizabierSven', 'QuadsOfSteel', 'LeoBenAli', 'Fathinjo40', 'Maxrange092', 'NOLA84', 'PfalzkindBallers85', 'TobiasHH', 'copyK0', 's4msp4de', 'Vic0TP', 'p1ccadilly', 'GreenWolvesB', 'Martin1899', 'derhades1699', 'gardoffl', 'marvhin23', 'Creech3r']"
+Cam Little,failed,add,0,0,0.0,1,['GM29']
+Cedric Tillman,failed,add,0,33,7.928571428571429,14,"['Fleaflicker78', 'marvinchiefsHB', 'Ray612', 'hering08', 'Matos1406', 'Labestianegra2512', 'BillsMafia1990Niko', 'konzi1988', 'simonton18', 'Merlyn112', 'Silberrucken', 'DerDaniel96', 'LoriMad', 'DonXandl']"
+Cedric Tillman,complete,add,0,21,12.0,7,"['paulhandball', 'Ray612', 'KevinClubKaputt', 'kingluki18', 'Gronkzone77', 'DerEl', 'BigSchroe']"
+Chad Ryland,complete,add,0,1,0.3333333333333333,3,"['Kalmo', 'Labestianegra2512', '1hailmurray']"
+Chad Ryland,failed,add,0,0,0.0,1,['piczpek38']
+Chicago Bears,complete,add,0,0,0.0,2,"['mogli4dk', 'bills4bowl']"
+Chig Okonkwo,failed,add,0,4,1.3333333333333333,3,"['DJRedhead', 'hilbenbauer10', 'ESAChargers']"
+Chig Okonkwo,complete,add,2,2,2.0,1,['anda42']
+Christian Kirk,failed,add,25,25,25.0,1,['BillsMafia1990Niko']
+DJ Giddens,complete,add,0,11,5.2,5,"['lubithenoobie', '19Loki99', 'Jubie', '1hailmurray', 'GreenWolvesB']"
+DJ Giddens,failed,add,0,0,0.0,1,['GM29']
+Dallas Cowboys,complete,add,0,7,1.1764705882352942,17,"['DrFrisco54', 'iamseanofthedead', 'Fathinjo40', 'MaGla44', 'Matze88', 'Vitchill', 'simmerl77', 'TheRealCF6', 'Pokernatic', 'Kare84', 'copyK0', 'tibas77', 'Tobi2201', 'OpaFritschi', 'sachsi', 'doubleyou14', 'KaosKoyote']"
+Dallas Cowboys,failed,add,0,1,0.4,5,"['Matos1406', 'Kronic1981', 'jokeraw', 'Tigro1941', 'Bobo76']"
+Dallas Goedert,complete,add,0,16,7.333333333333333,9,"['Mandoloki', 'FordFan870', 'Kleinert47', 'Ram_pag3', 'DJRedhead', 'austrosaint', 'hilbenbauer10', 'ESAChargers', 'piczpek38']"
+Dallas Goedert,failed,add,0,6,1.8888888888888888,9,"['Daydrinkling', 'Kingslayer4', 'BradyGaga92', 'kerntschi82', 'Puppenkiste', 'WinnieW', 'matsrun', 'Sebs23']"
+Dalton Schultz,complete,add,6,6,6.0,1,['tsgpato']
+Dalton Schultz,failed,add,0,0,0.0,1,['GoKingsGo']
+Daniel Carlson,complete,add,0,1,0.5,4,"['kerntschi82', 'OkillyDokilly88', 'MunichPanther', 'Andykonsole']"
+Daniel Carlson,failed,add,0,0,0.0,1,['Andykonsole']
+Daniel Jones,complete,add,1,14,5.375,8,"['Brandi16', 'FantasyRoli', 'Kronic1981', 'PfalzkindBallers85', 'Kingslayer4', 'Kap4ever', 'copyK0', 'MickstarMuecke']"
+Daniel Jones,failed,add,0,6,3.0,2,"['DonXandl', 'heckm']"
+DeMario Douglas,complete,add,0,6,3.0,2,"['Mo1900', 'MrNilsson']"
+Detroit Lions,failed,add,0,0,0.0,1,['Matos1406']
+Dont'e Thornton,complete,add,3,3,3.0,1,['Pfalzer26']
+Elic Ayomanor,failed,add,0,39,9.1,10,"['Tohuwabohu', 'brunzky', 'Matos1406', 'd4ddyOnToUr', 'BraveCompanions', 'GM29', 'Merlyn112', 'GoPats1992', 'Puppenkiste', 'tsgpato']"
+Elic Ayomanor,complete,add,2,8,5.0,5,"['Deckhard', 'PummelPanda', 'Rasamoah', 'marcohuppa91', 'PM8809']"
+Geno Smith,failed,add,14,14,14.0,1,['bblaster']
+Green Bay Packers,complete,add,0,2,0.75,4,"['Fipsche', 'GreenBayKorber', 'PackersHamburg', 'MrFumble']"
+Green Bay Packers,failed,add,0,0,0.0,1,['bob2202']
+Harold Fannin,complete,add,5,80,24.441860465116278,43,"['Wastel', 'd4ddyOnToUr', 'Riz1Jets', 'millerch1986', 'matfh', 'Berti1', 'NCL', 'KevinClubKaputt', 'ZenkP', 'heckm', 'IronNeverLies', 'Lackomat', 'BenMcCarthySZN', 'Rosi36', 'Wahubi', 'kiki1981', 'XBastiX', 'Fufuku', 'JahGibbsMyr', 'Razor8', 'Larsinho888', 'Bjogammler', 'BugsBundy', 'RaiderNationDE', 'MunichPanther', 'GreenWolvesB', 'rentix887', 'Snoreli', 'marvinchiefsHB', 'NOLA84', 'EsslingCherrypickers', 'konzi1988', 'Flogge', 'huni1993', 'Goatnick98', 'JKiddingJ', 'TomEdelkowski', 'roenfeldo', 'faxe1984', 'AnneliesDad', 'nordkurve', 'Honeybadger2310']"
+Harold Fannin,failed,add,0,31,10.141509433962264,106,"['Ruffy1904', 'Chiggo', 'C0nstant1n', 'buserico', 'MiThe', 'stoney6900', 'Puppenkiste', 'uncl3joe', 'Argonaut88', 'AlexBo666', 'Tom1994', 'Devoze', 'ManuHa', 'Flo2000', 'chaefer77', 'benhi06', 'marvinchiefsHB', 'Bruensen', 'kev2897', 'Kingslayer4', 'GreenBeerPacker', 'Birdymaus1983', 'GoBirds529', 'San167', 'seidlbvb', 'Lennoo', 'Schu9186', 'rafiniert', 'DonKanaille42', 'TigerMum', 'Daydrinkling', 'Gambler89', 'PummelPanda', 'Fuchsfelix', 'Weltmann', 'matsrun', 'MrPril21', 'AuricaHellboy', 'LadiesandEdelman19', 'Blockwest', 'hilbenbauer10', 'OpaFritschi', 'Witfar', 'Fipsche', 'PS57', 'Zachner19', 'Bergle85', 'austrosaint', 'mogli4dk', 'SeahawksHermann', 'eiderdaus', 'Merlyn112', 'havefun28', 'miami84', 'ESAChargers', 'lueckenbuesser', 'Jonasdechef', 'Perkeo', 'KevinClubKaputt', 'Kickernik', 'Creech3r', 'ZERHAKKER', 'paulhandball', 'AluChip', 'Kronic1981', 'KingCookie8513', 'KunFc', 'zenflixx', 'Hiase', 'wson78', 'MikeyCee', 'simmerl77', 'MrChilli1967', 'Raah888', 'patanosta', 'BADrum', 'AndaWear', 'Matos1406', 'FSViennaBroncos', 'mazienho', 'Sebs23', 'tsgpato', 'Hannes1860', 'seppel1007', 'FinkNottle', 'Huwigan', 'Haselosi', 'TR15', 'marodier', 'Wattringer93', 'GoKingsGo', 'Southsideballer', 'Alexx98', 'Steelers1509', 'Pat241', 'nbarin', 'upsidesille', 'Labestianegra2512', 'MaGla44', 'JKiddingJ', 'DJRedhead', 'HakanHan', 'Bobo76']"
+Harrison Butker,complete,add,0,0,0.0,1,['KCLuk']
+Harrison Butker,failed,add,0,0,0.0,1,['heckm']
+Hollywood Brown,complete,add,8,53,25.06451612903226,31,"['MP60DC4L', 'Matos1406', 'therock1223', 'Berti1', 'koti1985', 'IboNixKollega', 'Kickernik', 'heckm', 'GoPats1992', 'IronNeverLies', '3S3S', 'tsgpato', 'Puppenkiste', 'seppel1007', 'Schweinehund96', 'misterburnz', 'GamblerSorin', 'Killamuhkuh', 'AuricaHellboy', 'zenflixx', 'ChrisVii', 'Fufuku', 'Manu1990', 'MunichPanther', 'Andeeeee', 'Flogge', 'Dichtlipp', 'faxe1984', 'MazeWindow', 'K1Marcel', 'Honeybadger2310']"
+Hollywood Brown,failed,add,0,31,10.589285714285714,112,"['d4ddyOnToUr', 'Teddy1987', 'MiThe', 'WildesTaubsi', 'Pfalzer26', 'uncl3joe', 'Argonaut88', 'Silberrucken', 'marvhin23', 'LukasIsBack', 'Pascal87Barca', 'Flo2000', 'vonHeizung', 'marvinchiefsHB', 'Kingslayer4', 'Goatnick98', 'roenfeldo', 'GoBirds529', 'Matze88', 'JogisSteelers', 'Schu9186', 'MeanMaschine', 'fabkry', 'MartinB', 'Weltmann', 'Izzy0922', 'matsrun', 'DerDaniel96', 'LadiesandEdelman19', 'Blockwest', '19Loki99', 'Fipsche', 'PS57', 'Zachner19', 'EMU90', 'Kmakus5', 'FRunner08', 'Mo1900', 'HansHansen', 'BangBangBen', 'Stoni', 'Mitsteeler', 'Tillr1', 'Tsubasa37', 'Wambo619', 'lueckenbuesser', 'Aeby1981', 'Rockobold', 'HarryHu', 'QuadsOfSteel', 'matfh', 'SeroToHero', 'Creech3r', 'Tohuwabohu', 'BjoernBorg1982', 'AluChip', 'Fathinjo40', 'Kronic1981', 'ebner98', 'DerEl', 'MagicHeff', 'Hiase', 'MikeyCee', 'Roskev', 'SkolPro', 'Tonilike1987', 'VeniVidiWhut', 'Gartl', 'Zido89', 'JaWick99', 'Senny7', 'MrNilsson', 'patanosta', 'BADrum', 'Wastel', 'AndaWear', 'Rotkaeppchen66', 'FSViennaBroncos', 'DaveysNation', 'p1ccadilly', 'Ghostefan', 'BenMcCarthySZN', 'Hannes1860', 'Fleaflicker78', 'Huwigan', 'Haselosi', 'rossi161', 'ManeJJ18', 'gardoffl', 'SGEmario', 'marodier', 'Bjogammler', 'Pat241', 'nbarin', 'upsidesille', 'Benschobi', 'MaGla44', 'Biertrinker91', 'BorrisLloris', 'huni1993', 'DJRedhead', 'ChrisK86', 'HakanHan', 'Luutz']"
+Houston Texans,complete,add,0,0,0.0,2,"['bob2202', 'DerDaniel96']"
+Houston Texans,failed,add,0,0,0.0,1,['sachsi']
+Hunter Henry,complete,add,0,11,3.5555555555555554,9,"['Daydrinkling', 'Schevin89', 'GoKingsGo', 'MaGla44', 'Chiggo', 'Puppenkiste', 'matsrun', 'DonKanaille42', 'Stifler185']"
+Hunter Henry,failed,add,0,4,1.3,10,"['Fleaflicker78', 'marvinchiefsHB', 'Matos1406', 'd4ddyOnToUr', 'Riz1Jets', 'BradyGaga92', 'matfh', 'NCL', 'matsrun', 'TigerMum']"
+Indianapolis Colts,complete,add,0,2,1.0,2,"['KCLuk', 'Labestianegra2512']"
+Indianapolis Colts,failed,add,0,0,0.0,1,['Kare84']
+Isaiah Likely,complete,add,8,8,8.0,1,['jans12']
+J.J. McCarthy,complete,add,0,0,0.0,2,"['MikeyCee', 'Wattringer93']"
+Jacksonville Jaguars,complete,add,0,0,0.0,1,['Ackermann57']
+Jake Tonges,complete,add,6,8,7.0,2,"['Devoze', 'BangBangBen']"
+Jake Tonges,failed,add,1,1,1.0,2,['Matze47']
+Jayden Reed,complete,add,0,7,3.0,3,"['Bergle85', 'FI94', 'GreenBeerPacker']"
+Jayden Reed,failed,add,6,6,6.0,1,['marcoloco']
+Jonnu Smith,complete,add,0,10,5.0,2,"['Octo6', 'clockoperator1']"
+Jonnu Smith,failed,add,0,0,0.0,3,"['NCL', 'RaiderNationDE']"
+Joshua Palmer,failed,add,1,21,10.5,4,"['Fleaflicker78', 'BillsMafia1990Niko', 'millerch1986', 'faxe1984']"
+JuJu Smith-Schuster,complete,add,0,5,2.5,2,"['Guenni0221', 'd4ddyOnToUr']"
+JuJu Smith-Schuster,failed,add,2,2,2.0,1,['s4msp4de']
+Justin Fields,complete,add,12,41,28.666666666666668,3,"['Micha2189', 'ebner98', 'Matze47']"
+Justin Fields,failed,add,0,22,10.666666666666666,3,"['GreenBayKorber', 'ManeJJ18', 'Biertrinker91']"
+Justin Herbert,complete,add,0,28,11.0,5,"['SeahawksHermann', 'Bjogammler', 'GeTim', 'DonXandl', 'tsgpato']"
+Justin Herbert,failed,add,0,7,1.7142857142857142,7,"['MikeyCee', 'Wattringer93', 'Guenni0221', 'Bjogammler', 'GeTim', 'Luutz', 'benhi06']"
+Juwan Johnson,failed,add,0,24,5.090909090909091,22,"['d4ddyOnToUr', 'BillsMafia1990Niko', 'matfh', 'NCL', 'heckm', 'MvD93', 'Matze47', 'Sebs23', 'tsgpato', 'Puppenkiste', 'AluChip', 'kiki1981', 'Silberrucken', 'matsrun', 'GoKingsGo', 'JahGibbsMyr', 'NOLA84', 'ChrisK86', 'Goatnick98', 'Sidres98', 'faxe1984', 'nordkurve']"
+Juwan Johnson,complete,add,0,14,5.684210526315789,19,"['js3005', 'Teddy1987', 'KevinClubKaputt', 'Matze47', 'TigerMum', 'paulhandball', 'AluChip', 'Huwigan', 'KunFc', 'Ralfonso31', 'matsrun', 'wson78', 'PatDe79', 'RaiderNationDE', 'chaefer77', 'upsidesille', 'Stegiboy21', 'Kingslayer4', 'GoBirds529']"
+Ka'imi Fairbairn,complete,add,0,0,0.0,4,"['jans12', 'mattposer', 'MartinB', 'piczpek38']"
+Ka'imi Fairbairn,failed,add,0,0,0.0,1,['mogli4dk']
+Kareem Hunt,complete,add,0,10,4.5,8,"['Greglemec', 'MacMike23', 'LukasB19', 'copyK0', 'Raffi354', 'TomEdelkowski', 'Tom1994', 'fabkry']"
+Kareem Hunt,failed,add,1,1,1.0,1,['Kingslayer4']
+Kayshon Boutte,complete,add,0,40,12.571428571428571,21,"['Fritschi75', 'matfh', 'MiThe', 'PM8809', 'lupra6', 'Tohuwabohu', 'Fleaflicker78', 'AluChip', 'bob2202', 'MacWho', 'BraveCompanions', 'LadiesandEdelman19', 'KCLuk', 'mattposer', 'SkolPro', 'RaoulDuke0', 'FRunner08', 'Labestianegra2512', 'Jubie', 'Gustii95', 'GoBirds529']"
+Kayshon Boutte,failed,add,0,33,8.92,25,"['Matos1406', 'd4ddyOnToUr', 'Rotkaeppchen66', 'BillsMafia1990Niko', 's4msp4de', 'KevinClubKaputt', 'Matze47', 'paulhandball', 'AluChip', 'kiki1981', 'Izzy0922', 'Gronkzone77', 'DerEl', 'marvhin23', 'wson78', 'Wattringer93', 'ChrisVii', 'mogli4dk', 'chaefer77', 'piczpek38', 'Kingslayer4', 'GM29', 'ChrisK86', 'faxe1984']"
+Keenan Allen,complete,add,50,50,50.0,1,['kiki1981']
+Keenan Allen,failed,add,13,33,22.5,4,"['PatriotPrime', 'Pokernatic', 'uncl3joe']"
+Kendre Miller,failed,add,0,0,0.0,1,['FI94']
+Kenneth Gainwell,complete,add,0,35,6.153846153846154,13,"['iamseanofthedead', 'Kingslayer4', 'JogisSteelers', 'BillsMafia1990Niko', 'simmerl77', 'TobiasHH', 'Kap4ever', 'BradyGaga92', 'GreenBayKorber', 'Pokernatic', 'ToFu_NE', 'DerEl', 'saarmaster87']"
+Kenneth Gainwell,failed,add,0,2,0.4,5,"['Mo1900', 'Fleaflicker78', 'QuadsOfSteel', 'bigbbbo', 'Pfalzer26']"
+Kyle Monangai,complete,add,0,0,0.0,1,['clockoperator1']
+Kyle Monangai,failed,add,0,0,0.0,1,['Greglemec']
+Kyle Pitts,complete,add,6,6,6.0,1,['FRunner08']
+LeQuint Allen,complete,add,2,2,2.0,1,['HakanHan']
+Los Angeles Chargers,complete,add,0,1,0.5,2,"['Riz1Jets', 'Tigro1941']"
+Los Angeles Chargers,failed,add,0,0,0.0,1,['19Loki99']
+Los Angeles Rams,complete,add,0,10,2.7142857142857144,7,"['Bruensen', 'SleepyLippi', 'Donesbucs', 'FSViennaBroncos', 'TeamEdox', 'fribbeldip', 'Haya82']"
+Los Angeles Rams,failed,add,0,3,0.8888888888888888,9,"['EsslingCherrypickers', 'Kalmo', 'Kare84', 'copyK0', 'NCL', 'MStar27', 'Tom1994', 'LadiesandEdelman19', 'Wambo619']"
+Mason Taylor,failed,add,0,0,0.0,1,['clockoperator1']
+Matt Prater,complete,add,2,2,2.0,2,"['Schergel', 'heckm']"
+Michael Mayer,failed,add,0,6,2.0,3,"['Devoze', 'RaiderNationDE']"
+Michael Mayer,complete,add,0,1,0.5,2,"['DerDaniel96', 'Rudebwoy78']"
+Michael Penix,complete,add,0,12,3.875,8,"['Wattringer93', 'hank83', 'bigbbbo', 'Senny7', 'matfh', 'heckm', 'DerDaniel96', 'Gartl']"
+Michael Penix,failed,add,0,5,2.5,2,"['Brandi16', 'MikeyCee']"
+New England Patriots,failed,add,0,3,0.75,4,"['copyK0', 'iamseanofthedead', 'tsgpato', 'Bruensen']"
+New England Patriots,complete,add,0,1,0.5,2,"['MaluDerMaer', 'Lackomat']"
+New Orleans Saints,failed,add,0,0,0.0,1,['Lackomat']
+Quentin Johnston,complete,add,0,37,14.341463414634147,41,"['silas87', 'HarryHu', 's4msp4de', 'robertbmd', 'MickstarMuecke', 'hank83', '3S3S', 'TaysomHilluminati', 'Weltmann', 'Silberrucken', 'Stendalizer', 'Ackermann57', 'Blockwest', 'hotntottn', 'Mikq', 'RedmanGery', 'TheBostonHoodie', 'Larsinho888', 'VeniVidiWhut', 'mogli4dk', 'chaefer77', 'Aymen94', 'piczpek38', 'ChiefsHansi', 'MikeG02', 'BauerHarms', 'TschoSchlei', 'MaGla44', 'EsslingCherrypickers', 'Gustii95', 'GM29', 'DJRedhead', 'Merlyn112', 'Raah888', 'Mitsteeler', 'jan31', 'Jay0987', 'Birdymaus1983', 'Tigro1941', 'BADrum', 'mazienho']"
+Quentin Johnston,failed,add,0,35,9.368421052631579,76,"['Wastel', 'Aeby1981', 'Brandi16', 'hering08', 'Matos1406', 'BillsMafia1990Niko', 'Jonasdechef', 'PackersHamburg', 'GreenBayKorber', 'SeroToHero', 'IboNixKollega', 's4msp4de', 'Teddy1987', 'MeanMaschine', 'p1ccadilly', 'heckm', 'rafiniert', 'derhades1699', 'PM8809', 'Ghostefan', 'Matze47', 'GoPats1992', 'Creech3r', 'Argonaut88', 'paulhandball', 'Fleaflicker78', 'AluChip', 'Fathinjo40', 'possii', 'Popi91', 'Wahubi', 'simonton18', 'matsrun', 'Vic0TP', 'Gronkzone77', 'DerDaniel96', 'AuricaHellboy', 'DerEl', 'gardoffl', 'marvhin23', 'Silverbluehawk', 'KCLuk', 'Wattringer93', 'ChrisVii', 'PS57', 'Zachner19', 'FI94', 'Fipsche', 'GeTim', 'RaoulDuke0', 'Steelers1509', 'MunichPanther', 'Don1979', 'doubleyou14', 'Gambo07', 'Robin050192', 'WhoDatNation01', 'Mo1900', 'Stegiboy21', 'Kingslayer4', 'eiderdaus', 'Flogge', 'MrNilsson', 'huni1993', 'gregor0502', 'GreenBeerPacker', 'MazeWindow', 'GoBirds529', 'Luutz']"
+Rachaad White,complete,add,0,0,0.0,1,['huni1993']
+Rashee Rice,complete,add,75,75,75.0,1,['StuntGee']
+Rashee Rice,failed,add,31,36,33.5,2,"['PatriotPrime', 'KingCookie8513']"
+Ray-Ray McCloud,complete,add,0,0,0.0,1,['DrFrisco54']
+Ray-Ray McCloud,failed,add,0,0,0.0,1,['GM29']
+Romeo Doubs,complete,add,4,5,4.5,2,"['WoizabierSven', 'brunzky']"
+San Francisco 49ers,complete,add,0,6,2.0,8,"['lueckenbuesser', '19Loki99', 'AlexBo666', 'Fischi271', 'NCL', 'RaiderNationDE', 'Hiror', 'Honeybadger2310']"
+San Francisco 49ers,failed,add,0,2,0.6666666666666666,6,"['Brandi16', 'simmerl77', 'Berti1', 'Weltmann', 'Teddy1987', 'jokeraw']"
+Seattle Seahawks,failed,add,0,3,2.0,3,"['Bruensen', 'tsgpato', 'Honeybadger2310']"
+Seattle Seahawks,complete,add,1,1,1.0,1,['chaefer77']
+Spencer Shrader,complete,add,0,0,0.0,2,"['paulhandball', 'GreenBeerPacker']"
+Tampa Bay Buccaneers,complete,add,0,0,0.0,1,['Bobo76']
+Tampa Bay Buccaneers,failed,add,0,0,0.0,1,['Kare84']
+Tre Tucker,complete,add,5,5,5.0,1,['jan31']
+Tre Tucker,failed,add,0,0,0.0,1,['paulhandball']
+Trevor Lawrence,failed,add,1,1,1.0,1,['simonton18']
+Trey Benson,complete,add,5,6,5.5,2,"['LadiesandEdelman19', 'Januschko']"
+Trey Benson,failed,add,0,5,2.0,3,"['Januschko', 'JKiddingJ', 'marvhin23']"
+Troy Franklin,failed,add,4,4,4.0,1,['Matos1406']
+Tyjae Spears,failed,add,0,0,0.0,1,['Blockwest']
+Tyler Allgeier,complete,add,5,5,5.0,1,['heckm']
+Tyler Allgeier,failed,add,5,5,5.0,1,['heckm']
+Tyler Loop,complete,add,0,2,0.6666666666666666,6,"['Tohuwabohu', 'GM29', 'Tonilike1987', 'JKiddingJ', 'ManeJJ18', 'jokeraw']"
+Tyler Loop,failed,add,0,0,0.0,1,['FSViennaBroncos']
+Wan'Dale Robinson,complete,add,0,34,11.666666666666666,3,"['MacMike23', 'BillsMafia1990Niko', 'Flo2000']"
+Wan'Dale Robinson,failed,add,0,13,4.5,4,"['Tohuwabohu', 'paulhandball', 'GoPats1992', 'MiThe']"
+Wil Lutz,complete,add,0,0,0.0,1,['gregor0502']
+Will Reichard,complete,add,0,0,0.0,3,"['mogli4dk', 'Fuchsfelix', 'LeoBenAli']"
+Will Reichard,failed,add,0,0,0.0,1,['JKiddingJ']
+Xavier Legette,failed,add,3,3,3.0,1,['DerEl']
+Younghoe Koo,failed,add,0,0,0.0,1,['heckm']
+Zach Ertz,complete,add,0,11,4.571428571428571,7,"['kev2897', 'Kap4ever', 'mohrne', 'RaiderNationDE', 'BenMcCarthySZN', 'Silverbluehawk', 'zenflixx']"
+Zach Ertz,failed,add,0,5,1.8,5,"['marvinchiefsHB', 'Goatnick98', 'RaiderNationDE', 'chaefer77', 'hilbenbauer10']"

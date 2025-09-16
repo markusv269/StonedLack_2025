@@ -35,6 +35,8 @@ pg = st.navigation(
             st.Page(page="VIEWS/DYNASTY/DYN_drafts.py", title="Drafts 2025", icon=":material/target:"),
             st.Page(page="VIEWS/DYNASTY/DYN_adp_board.py", title="Dynasty Draftboard 2025", icon=":material/table:"),
             # st.Page(page="VIEWS/DYNASTY/DYN_waitingroom.py", title="Dynasty Waiting Room", icon=":material/groups:"),
+            st.Page(page="VIEWS/DYNASTY/DYN_Matchups.py", title="Matchups 2025", icon=":material/sports_football:"),
+            st.Page(page="VIEWS/DYNASTY/DYN_Standings.py", title="Standings 2025", icon=":material/leaderboard:"),
         ]
     }
 )
