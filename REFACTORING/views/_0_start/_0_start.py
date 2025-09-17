@@ -1,6 +1,9 @@
 import streamlit as st
 import feedparser
 
+def fetch_rss(url, limit=None):
+    feed = feedparser.parse(url)
+    return feed.entries[:limit] if limit else feed.entries
 
 # st.title("Wir bauen etwas um... Bald geht's weiter!")
 def app():
@@ -19,38 +22,30 @@ def app():
                 
         ---
         
-        #### Aktuelle Podcast-Folgen''')
-        # RSS-Feed URL
-        RSS_FEED_URL = "https://www.youtube.com/feeds/videos.xml?playlist_id=PLVPzmyE6fIhQg_kqkLNoH1fd4oyv2D5X6"
+        ''')
+        # YouTube Feed
+        feed_url = "https://www.youtube.com/feeds/videos.xml?playlist_id=PLVPzmyE6fIhQg_kqkLNoH1fd4oyv2D5X6"
 
-        def fetch_rss_feed(url):
-            return feedparser.parse(url)
+        feed = feedparser.parse(feed_url)
 
-        feed = fetch_rss_feed(RSS_FEED_URL)
+        st.write(f"#### {feed.feed.title}")
 
-        if feed.entries:
-            for entry in feed.entries[:5]:  # Zeigt die letzten 10 Einträge an
-                st.markdown(
-                    f''' 
-                    [{entry.title}]({entry.link})  
-                    ''')
-        else:
-            st.write("Keine Artikel gefunden.")
+        for entry in feed.entries[:5]:  # Zeigt die letzten 5 Einträge an
+            col1, col2 = st.columns([1,3])
+            with col2:
+                st.write(f"[{entry.title}]({entry.link})")
+            with col1:
+                st.image(entry.media_thumbnail[0]['url'], width=150)
+            # st.write("---")
 
     with st.expander("NFL News", icon=":material/news:", expanded=True):
         # URL des Rotowire NFL RSS-Feeds
-        RSS_FEED_URL = "https://www.rotowire.com/rss/news.php?sport=NFL"
-
-        def get_news():
-            feed = feedparser.parse(RSS_FEED_URL)
-            return feed.entries  # Liste der News-Artikel
-        nfl_entries = get_news()
-
+        nfl_entries = fetch_rss("https://www.rotowire.com/rss/news.php?sport=NFL", limit=10)
         for entry in nfl_entries:
             st.markdown(
                 f"""
                 <div class="news-card">
-                    <h4>{entry.title}</h4>
+                    <h5>{entry.title}</h5>
                     <p>🗓 {entry.published}</p>
                     <p>{entry.summary}</p>
                     <a href="{entry.link}" target="_blank">🔗 Zum Artikel</a>
