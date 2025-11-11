@@ -19,6 +19,28 @@ st.write("### Standings SLR 2025")
 select_week = st.selectbox("Woche wählen", options=sorted(rosters_df["week"].unique(), reverse=True))
 if select_week is not None:
     rosters_df = rosters_df[rosters_df["week"] == select_week]
+
+st.write("### SLR 2025 Gesamt")
+
+all_rosters = rosters_df[[
+    "display_name", "wins", "losses", "ties",
+    "fpts_for", "fpts_against", "ppts"
+]].rename(columns={
+    # "league_name": "Liga",
+    "display_name": "Manager",
+    "wins": "W",
+    "losses": "L",
+    "ties": "T",
+    "fpts_for": "FPTS for",
+    "fpts_against": "FPTS against",
+    "ppts": "max PF"
+})
+
+st.dataframe(
+    all_rosters.sort_values(by=["W", "FPTS for"], ascending=[False, False]),
+    hide_index=True,
+)
+
 for league_id, group in rosters_df.groupby("league_id"):
     st.write(f"#### {group['league_name'].iloc[0]}")
     standings = group[["display_name", "wins", "losses", "ties", "fpts_for", "fpts_against", "ppts"]]
