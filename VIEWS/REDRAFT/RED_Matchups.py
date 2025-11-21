@@ -54,28 +54,37 @@ def roster_name(league_id, roster_id, managers_df):
         return f"{display}"
 
 def player_box(player_id: str, points: float, starter=True, players_dict=None):
-    color = "#d1fae5" if starter else "#f3f4f6"
     if players_dict and player_id in players_dict:
         info = players_dict[player_id]
-        label = f"{info['name']} ({info['team']} - {info['position']})"
+        label = info['name']
+        team = info['team']
+        position = info['position']
+        if position == "DEF":
+            headshot_url = f"https://a.espncdn.com/i/teamlogos/nfl/500/{team}.png"
+        else:
+            headshot_url = f"https://sleepercdn.com/content/nfl/players/thumb/{player_id}.jpg"
     else:
         label = player_id
+        team = ""
+        position = "BENCH"
+        headshot_url = "https://via.placeholder.com/70"
+
+    card_class = f"{position} {'starter' if starter else 'bench'}"
+
     st.markdown(
         f"""
-        <div style="
-            background-color:{color};
-            border-radius:12px;
-            padding:10px;
-            margin:5px;
-            text-align:center;
-            box-shadow:0 2px 5px rgba(0,0,0,0.1);
-        ">
-            <strong>{label}</strong><br>
-            <span style="font-size:20px; font-weight:bold;">{points:.2f}</span>
+        <div class="playercard {card_class}">
+            <img src="{headshot_url}" class="playerimg">
+            <div class="playername">{label}</div>
+            <div class="playerteam">{team} - {position}</div>
+            <div class="playerpoints">{points:.2f} pts</div>
         </div>
         """,
         unsafe_allow_html=True
     )
+
+
+
 
 # ░░░ MATCHUP DARSTELLUNG ░░░
 def show_matchups(weekly_json: dict, league_id: str, managers_df: pd.DataFrame, players_dict: dict, roster_positions: list):
@@ -207,3 +216,63 @@ if st.button("Zeige Matchups"):
     players_dict = {str(row["player_id"]): row for _, row in players_df.iterrows()}
 
     show_matchups(weekly_json, league_id, managers_df, players_dict, roster_positions)
+
+st.markdown("""
+<style>
+.playercard {
+    border-radius: 16px;
+    padding: 12px;
+    margin: 6px;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #111;
+    position: relative;
+}
+.playercard:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.25);
+}
+
+/* Positionen */
+.playercard.QB { background: #f9a3a4; }
+.playercard.RB { background: #7bd4a2; }
+.playercard.WR { background: #72c5f4; color: #fff; }
+.playercard.TE { background: #e6b07c; color: #fff; }
+.playercard.K { background: #d7e878; }
+.playercard.DEF { background: #b085f7; color: #fff; }
+.playercard.FLEX { background: #70d2d8; color: #fff; }
+.playercard.BENCH { background: #e0e0e0; }
+
+/* Player Image */
+.playercard .playerimg {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 0px solid rgba(0,0,0,0.1);
+}
+
+/* Team Logo Overlay oben rechts */
+.playercard .teamlogo {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border-radius: 50%;
+    border: 0px solid rgba(0,0,0,0.2);
+    background: #fff;
+}
+
+/* Text */
+.playercard .playername { font-size: 20px; font-weight: 700; margin-bottom: 4px; }
+.playercard .playerteam { font-size: 14px; font-weight: 500; color: #4a4a4a; margin-bottom: 6px; }
+.playercard .playerpoints { font-size: 18px; font-weight: 800; color: #222; }
+</style>
+""", unsafe_allow_html=True)
