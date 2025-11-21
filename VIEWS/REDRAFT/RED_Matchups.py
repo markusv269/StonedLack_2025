@@ -241,11 +241,11 @@ st.markdown("""
 /* Positionen */
 .playercard.QB { background: #f9a3a4; }
 .playercard.RB { background: #7bd4a2; }
-.playercard.WR { background: #72c5f4; color: #fff; }
-.playercard.TE { background: #e6b07c; color: #fff; }
+.playercard.WR { background: #72c5f4; }
+.playercard.TE { background: #e6b07c; }
 .playercard.K { background: #d7e878; }
-.playercard.DEF { background: #b085f7; color: #fff; }
-.playercard.FLEX { background: #70d2d8; color: #fff; }
+.playercard.DEF { background: #b085f7; }
+.playercard.FLEX { background: #70d2d8; }
 .playercard.BENCH { background: #e0e0e0; }
 
 /* Player Image */
