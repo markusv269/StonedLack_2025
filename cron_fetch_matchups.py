@@ -13,6 +13,7 @@ try:
     state_resp = requests.get("https://api.sleeper.app/v1/state/nfl")
     state_resp.raise_for_status()
     current_week = state_resp.json().get("week")
+    current_week = 17
 
     if not current_week:
         raise ValueError("Woche konnte aus dem State-Response nicht gelesen werden.")
