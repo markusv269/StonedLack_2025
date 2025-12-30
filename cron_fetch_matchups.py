@@ -13,7 +13,6 @@ try:
     state_resp = requests.get("https://api.sleeper.app/v1/state/nfl")
     state_resp.raise_for_status()
     current_week = state_resp.json().get("week")
-    current_week = 17
 
     if not current_week:
         raise ValueError("Woche konnte aus dem State-Response nicht gelesen werden.")
@@ -29,7 +28,7 @@ league_ids = [l["league_id"] for l in leagues_response.data]
 
 SLEEPER_URL_TEMPLATE = "https://api.sleeper.app/v1/league/{league_id}/matchups/{week}"
 BATCH_SIZE = 500
-
+current_week = 17
 for league_id in league_ids:
     url = SLEEPER_URL_TEMPLATE.format(league_id=league_id, week=current_week)
     resp = requests.get(url)
