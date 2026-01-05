@@ -179,10 +179,14 @@ leagues = leagues.merge(
 players_df = load_players(list(DIV_ROUND_PRICES.keys()))
 players_df = players_df.sort_values(by=["position", "price"], ascending=[True, False])
 
-left, right = st.columns([2,6])
+left, right = st.columns([2,15],width="stretch")
 with left:
     st.image("Pictures/SL_logo.png", width=200)
 
+with right:
+    st.write("### 📝 Champ of Champs Tippspiel")
+             
+left, right = st.columns([2,15],width="stretch")
 with right:
     st.write('''
     ### 📝 Champ of Champs Tippspiel
