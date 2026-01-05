@@ -268,3 +268,99 @@ with right:
             st.success("✅ Lineup erfolgreich gespeichert!")
         else:
             st.error("❌ Fehler beim Speichern.")
+
+    st.markdown("---")
+    for key,_ in div_round_players.items():
+        url = f"https://api.sleeper.com/stats/nfl/player/{key}?season_type=regular&season=2025&grouping=week"
+        response = requests.get(url)
+        week_data = response.json()[str(DIV_ROUND_WEEK)]
+        if not week_data:
+            ppr_points = 0
+        else:
+            rushing_points = week_data.get("stats", {}).get("rush_yd", 0) / 10 + \
+                             week_data.get("stats", {}).get("rush_td", 0) * 6
+            receiving_points = week_data.get("stats", {}).get("rec_yd", 0) / 10 + \
+                               week_data.get("stats", {}).get("rec_td", 0) * 6 + \
+                               week_data.get("stats", {}).get("rec", 0) * 1
+            passing_points = week_data.get("stats", {}).get("pass_yd", 0) / 25 + \
+                             week_data.get("stats", {}).get("pass_td", 0) * 4 + \
+                             week_data.get("stats", {}).get("pass_int", 0) * -1
+            fumble_points = week_data.get("stats", {}).get("fum_lost", 0) * -2
+            kicking_points = 0
+            fg_made_0_39 = week_data.get("stats", {}).get("fgm_0_39", 0) * 3
+            fg_made_40_49 = week_data.get("stats", {}).get("fgm_40_49", 0) * 4
+            fg_made_50_plus = week_data.get("stats", {}).get("fgm_50_plus", 0) * 5
+            fg_missed = week_data.get("stats", {}).get("fgm_missed", 0) * -1
+            xp_made = week_data.get("stats", {}).get("xpm", 0) * 1
+            xp_missed = week_data.get("stats", {}).get("xpm_missed", 0) * -1
+            kicking_points = fg_made_0_39 + fg_made_40_49 + fg_made_50_plus + fg_missed + xp_made + xp_missed
+            ppr_points = rushing_points + receiving_points + passing_points + fumble_points + kicking_points
+
+        players_df.loc[
+            players_df["player_id"] == key, "ppr_points"
+        ] = ppr_points
+
+    lineup_data = pd.DataFrame(
+        supabase.table("latest_lineups_per_user")
+        .select("*")
+        .execute()
+        .data
+    )
+ 
+    lineup_data = lineup_data.merge(
+        players_df[["player_id", "name", "ppr_points"]],
+        left_on="qb_id",
+        right_on="player_id",
+        how="left"
+    ).rename(columns={"name": "QB", "ppr_points": "QB Punkte"}).drop(columns=["player_id"])
+    lineup_data = lineup_data.merge(
+        players_df[["player_id", "name", "ppr_points"]],
+        left_on="wr_id",
+        right_on="player_id",
+        how="left"
+    ).rename(columns={"name": "WR", "ppr_points": "WR Punkte"}).drop(columns=["player_id"])
+    lineup_data = lineup_data.merge(
+        players_df[["player_id", "name", "ppr_points"]],
+        left_on="rb_id",
+        right_on="player_id",
+        how="left"
+    ).rename(columns={"name": "RB", "ppr_points": "RB Punkte"}).drop(columns=["player_id"])
+    lineup_data = lineup_data.merge(
+        players_df[["player_id", "name", "ppr_points"]],
+        left_on="te_id",
+        right_on="player_id",
+        how="left"
+    ).rename(columns={"name": "TE", "ppr_points": "TE Punkte"}).drop(columns=["player_id"])
+    lineup_data["total_points"] = (
+        lineup_data["QB Punkte"].fillna(0) +
+        lineup_data["WR Punkte"].fillna(0) +
+        lineup_data["RB Punkte"].fillna(0) +
+        lineup_data["TE Punkte"].fillna(0)
+    )   
+    lineup_data = lineup_data.sort_values(
+        by=["total_points", "submission_time"],
+        ascending=[False, True]
+    ).reset_index(drop=True)
+    lineup_data.index += 1
+    coc_data = lineup_data[
+        lineup_data["sleeper_username"].str.lower().isin(
+            [c.lower() for c in leagues["champion"]]
+        )
+    ].reset_index(drop=True)
+    coc_data.index += 1
+    st.markdown("#### Champ of Champs Rangliste")
+    st.dataframe(coc_data[["total_points","sleeper_username", "QB", "QB Punkte","WR","WR Punkte",
+                 "RB","RB Punkte","TE","TE Punkte"]],
+                 column_config={
+                    "total_points": "Punkte",
+                    "sleeper_username": "Sleepername"
+                 })
+    st.markdown("#### Offene Runde")
+    st.dataframe(lineup_data[["total_points","sleeper_username", "QB", "QB Punkte","WR","WR Punkte",
+                 "RB","RB Punkte","TE","TE Punkte"]],
+                 column_config={
+                    "total_points": "Punkte",
+                    "sleeper_username": "Sleepername"
+                 })
+    st.markdown("---")
+    st.write("© 2026 Stoned Lack Army")
