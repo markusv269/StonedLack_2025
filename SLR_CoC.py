@@ -81,6 +81,56 @@ def load_players(player_ids):
     df["price"] = df["player_id"].map(DIV_ROUND_PRICES)
     return df
 
+@st.cache_data(ttl=300)
+def load_weekly_player_stats(week: int) -> dict:
+    stats = {}  # ← DAS fehlte
+
+    for pid in DIV_ROUND_PRICES.keys():
+        url = (
+            f"https://api.sleeper.com/stats/nfl/player/{pid}"
+            f"?season_type=regular&season=2025&grouping=week"
+        )
+
+        r = requests.get(url, timeout=10)
+        if r.status_code != 200:
+            stats[pid] = 0
+            continue
+
+        week_data = r.json().get(str(week))
+        if not week_data:
+            stats[pid] = 0
+            continue
+
+        s = week_data.get("stats", {})
+        stats[pid] = (
+            s.get("rush_yd", 0) / 10 +
+            s.get("rush_td", 0) * 6 +
+            s.get("rec_yd", 0) / 10 +
+            s.get("rec_td", 0) * 6 +
+            s.get("rec", 0) +
+            s.get("pass_yd", 0) / 25 +
+            s.get("pass_td", 0) * 4 -
+            s.get("pass_int", 0) -
+            s.get("fum_lost", 0) * 2 +
+            s.get("fgm_0_39", 0) * 3 +
+            s.get("fgm_40_49", 0) * 4 +
+            s.get("fgm_50_plus", 0) * 5 -
+            s.get("fgm_missed", 0) +
+            s.get("xpm", 0) -
+            s.get("xpm_missed", 0)
+        )
+
+    return stats
+
+
+@st.cache_data(ttl=120)
+def load_latest_lineups():
+    return pd.DataFrame(
+        supabase.table("latest_lineups_per_user")
+        .select("*")
+        .execute()
+        .data
+    )
 
 # --------------------------------------------------
 # HELPERS
@@ -229,7 +279,8 @@ with right:
 
     prices = players_df.set_index("player_id")["price"].to_dict()
     total_price = prices[qb] + prices[wr] + prices[rb] + prices[te]
-
+    stats = load_weekly_player_stats(DIV_ROUND_WEEK)
+    players_df["ppr_points"] = players_df["player_id"].map(stats).fillna(0)
     st.metric("💰 Budget", f"{total_price} $", delta=f"{BUDGET_LIMIT - total_price} $")
 
     if total_price > BUDGET_LIMIT:
@@ -237,6 +288,7 @@ with right:
 
     st.markdown("---")
     sleeper_username = st.text_input("Sleeper-Benutzername")
+    sleeper_user_id = validate_sleeper_user(sleeper_username)
 
     if st.button("Lineup absenden"):
         now_utc = datetime.now(timezone.utc)
@@ -245,9 +297,10 @@ with right:
             st.error("⏰ Die Eingabe ist nicht mehr möglich. Das erste Spiel hat bereits begonnen.")
             st.stop()
 
-        if not sleeper_username:
-            st.error("Bitte Sleeper-Benutzername eingeben.")
+        if not sleeper_user_id:
+            st.error("Sleeper-Benutzername existiert nicht.")
             st.stop()
+
 
         if not validate_sleeper_user(sleeper_username):
             st.error("Sleeper-Benutzername existiert nicht.")
@@ -263,7 +316,7 @@ with right:
         lineup = {
             "lineup_id": str(uuid.uuid4()),
             "sleeper_username": sleeper_username.lower(),
-            "sleeper_user_id": validate_sleeper_user(sleeper_username),
+            "sleeper_user_id": sleeper_user_id,
             "qb_id": qb,
             "wr_id": wr,
             "rb_id": rb,
@@ -281,42 +334,10 @@ with right:
             st.error("❌ Fehler beim Speichern.")
 
     st.markdown("---")
-    for key,_ in div_round_players.items():
-        url = f"https://api.sleeper.com/stats/nfl/player/{key}?season_type=regular&season=2025&grouping=week"
-        response = requests.get(url)
-        week_data = response.json()[str(DIV_ROUND_WEEK)]
-        if not week_data:
-            ppr_points = 0
-        else:
-            rushing_points = week_data.get("stats", {}).get("rush_yd", 0) / 10 + \
-                             week_data.get("stats", {}).get("rush_td", 0) * 6
-            receiving_points = week_data.get("stats", {}).get("rec_yd", 0) / 10 + \
-                               week_data.get("stats", {}).get("rec_td", 0) * 6 + \
-                               week_data.get("stats", {}).get("rec", 0) * 1
-            passing_points = week_data.get("stats", {}).get("pass_yd", 0) / 25 + \
-                             week_data.get("stats", {}).get("pass_td", 0) * 4 + \
-                             week_data.get("stats", {}).get("pass_int", 0) * -1
-            fumble_points = week_data.get("stats", {}).get("fum_lost", 0) * -2
-            kicking_points = 0
-            fg_made_0_39 = week_data.get("stats", {}).get("fgm_0_39", 0) * 3
-            fg_made_40_49 = week_data.get("stats", {}).get("fgm_40_49", 0) * 4
-            fg_made_50_plus = week_data.get("stats", {}).get("fgm_50_plus", 0) * 5
-            fg_missed = week_data.get("stats", {}).get("fgm_missed", 0) * -1
-            xp_made = week_data.get("stats", {}).get("xpm", 0) * 1
-            xp_missed = week_data.get("stats", {}).get("xpm_missed", 0) * -1
-            kicking_points = fg_made_0_39 + fg_made_40_49 + fg_made_50_plus + fg_missed + xp_made + xp_missed
-            ppr_points = rushing_points + receiving_points + passing_points + fumble_points + kicking_points
 
-        players_df.loc[
-            players_df["player_id"] == key, "ppr_points"
-        ] = ppr_points
+    players_df["ppr_points"] = players_df["player_id"].map(stats).fillna(0)
 
-    lineup_data = pd.DataFrame(
-        supabase.table("latest_lineups_per_user")
-        .select("*")
-        .execute()
-        .data
-    )
+    lineup_data = load_latest_lineups()
  
     lineup_data = lineup_data.merge(
         players_df[["player_id", "name", "ppr_points"]],
@@ -353,10 +374,10 @@ with right:
         ascending=[False, True]
     ).reset_index(drop=True)
     lineup_data.index += 1
+    champion_set = set(leagues["champion"].str.lower())
+
     coc_data = lineup_data[
-        lineup_data["sleeper_username"].str.lower().isin(
-            [c.lower() for c in leagues["champion"]]
-        )
+        lineup_data["sleeper_username"].str.lower().isin(champion_set)
     ].reset_index(drop=True)
     coc_data.index += 1
     st.markdown("#### Champ of Champs Rangliste")
