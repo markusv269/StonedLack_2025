@@ -1,6 +1,6 @@
 import streamlit as st
 from sleeper_wrapper import User
-from datetime import datetime
+from datetime import datetime, timezone
 from supabase import create_client, Client
 import pandas as pd
 import uuid
@@ -16,6 +16,11 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 DIV_ROUND_WEEK = 18
 ROUND_NAME = "Divisional"
 BUDGET_LIMIT = 9
+
+
+FIRST_GAME_KICKOFF = datetime(
+    2026, 1, 10, 21, 30, tzinfo=timezone.utc  # Beispiel!
+)
 
 DIV_ROUND_PRICES = {
     "4881": 5, "4866": 5, "6794": 5, "5012": 5,
@@ -234,6 +239,12 @@ with right:
     sleeper_username = st.text_input("Sleeper-Benutzername")
 
     if st.button("Lineup absenden"):
+        now_utc = datetime.now(timezone.utc)
+
+        if now_utc >= FIRST_GAME_KICKOFF:
+            st.error("⏰ Die Eingabe ist nicht mehr möglich. Das erste Spiel hat bereits begonnen.")
+            st.stop()
+
         if not sleeper_username:
             st.error("Bitte Sleeper-Benutzername eingeben.")
             st.stop()
