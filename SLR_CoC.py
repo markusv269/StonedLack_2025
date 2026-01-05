@@ -89,9 +89,9 @@ def validate_sleeper_user(username: str) -> str | None:
 
 def existing_submission(username: str) -> bool:
     res = (
-        supabase.table("coc_lineups")
+        supabase.table("lineups")
         .select("lineup_id")
-        .eq("sleeper_username", username)
+        .eq("sleeper_username", username.lower())
         .eq("round", ROUND_NAME)
         .execute()
     )
@@ -243,8 +243,7 @@ with right:
             st.stop()
 
         if existing_submission(sleeper_username):
-            st.error("Du hast bereits ein Lineup für diese Runde abgegeben.")
-            st.stop()
+            st.warning("Dein Lineup wurde erfolgreich aktualisiert.")
 
         if total_price > BUDGET_LIMIT:
             st.error("Budget überschritten.")
@@ -252,7 +251,8 @@ with right:
 
         lineup = {
             "lineup_id": str(uuid.uuid4()),
-            "sleeper_username": sleeper_username,
+            "sleeper_username": sleeper_username.lower(),
+            "sleeper_user_id": validate_sleeper_user(sleeper_username),
             "qb_id": qb,
             "wr_id": wr,
             "rb_id": rb,
@@ -260,10 +260,10 @@ with right:
             "total_price": total_price,
             "round": ROUND_NAME,
             "week": DIV_ROUND_WEEK,
-            "submission_time": datetime.utcnow().isoformat()
+            "submission_time": datetime.now().isoformat()
         }
 
-        res = supabase.table("coc_lineups").insert(lineup).execute()
+        res = supabase.table("lineups").insert(lineup).execute()
         if res.data:
             st.success("✅ Lineup erfolgreich gespeichert!")
         else:
