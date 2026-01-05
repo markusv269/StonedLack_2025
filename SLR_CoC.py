@@ -71,7 +71,7 @@ with left:
     st.image("Pictures/SL_logo.png", width=200)
 
 with right:
-    st.write("### Champ of Champs Tippspiel")
+    st.header("Champ of Champs Tippspiel")
              
 # left, right = st.columns([2,15],width="stretch")
 # with right:
@@ -90,7 +90,7 @@ Für die Champ-of-Champs-Krone zählen aber natürlich nur die Ergebnisse unter 
 *Für alle anderen gilt: Viel Spaß beim Mitmachen und mit den Champs messen!*''')
 st.divider()
 st.write('''
-### 🏆 So funktioniert's:
+#### 🏆 So funktioniert's:
 1. **Anmeldung:** Melde dich mit deinem Sleeper-Benutzernamen an.
 2. **Tipps abgeben:** Wähle in der aktuellen Tipprunde dein Lineup.
 3. **Punkte sammeln**: Sammle über die komplette Postseason Punkte basierend auf den Leistungen deiner getippten Spieler.
@@ -98,7 +98,7 @@ st.write('''
 ''')
 st.divider()
 st.write('''
-### 📅 Wichtige Daten:
+#### 📅 Wichtige Daten:
 - **Anmeldung & Tipps abgeben:** die Tippabgabe ist in der jeweiligen Woche bis zum Beginn der ersten Partie möglich.
 - **Postseason:** Die Postseason beginnt nach Abschluss der regulären Saison 2025.
 - **Gewinnerbekanntgabe:** Der Gewinner wird nach Abschluss der Postseason bekannt gegeben.
@@ -125,7 +125,7 @@ Folgendes Scoring wird angewendet:
 | Extra Points Made             | pro Extra Point                   | 1                |
 | Extra Points Missed           | pro Extra Point Missed                   | -1               |
 ''')
-st.subheader("Aktuelle Champions 2025")
+st.write("#### Aktuelle Champions 2025")
 champs = st.expander("🏆 Liste der SL-Champs 2025")
 champs.dataframe(
     leagues[["league_name", "champion"]], 
@@ -136,7 +136,9 @@ champs.dataframe(
         "champion": "Champion 2025"
     }
     )
+st.divider()
 st.subheader("Wildcard Round")
+
 st.image("Pictures/DIV_ROUND.webp", width="stretch")
 div_round_players = {
     "4881":5,
@@ -158,22 +160,23 @@ div_round_players = {
 }
 
 st.markdown("---")
-
-qb = build_player_select("Quarterback", players_df, "QB", "qb")
-rb = build_player_select("Running Back", players_df, "RB", "rb")
-wr = build_player_select("Wide Receiver", players_df, "WR", "wr")
-te = build_player_select("Tight End", players_df, "TE", "te")
+left, right = st.columns(2)
+with left:
+    qb = build_player_select("Quarterback", players_df, "QB", "qb")
+    wr = build_player_select("Wide Receiver", players_df, "WR", "wr")
+with right:
+    rb = build_player_select("Running Back", players_df, "RB", "rb")
+    te = build_player_select("Tight End", players_df, "TE", "te")
 
 prices = players_df.set_index("player_id")["price"].to_dict()
 total_price = prices[qb] + prices[wr] + prices[rb] + prices[te]
 stats = load_weekly_player_stats(DIV_ROUND_WEEK, DIV_ROUND_PRICES)
 players_df["ppr_points"] = players_df["player_id"].map(stats).fillna(0)
-st.metric("💰 Budget", f"{total_price} $", delta=f"{BUDGET_LIMIT - total_price} $")
+st.metric(label="Budget Auswahl",value=f"{total_price} $", delta=f"{total_price - BUDGET_LIMIT} $", border=True,delta_color="inverse")
 
 if total_price > BUDGET_LIMIT:
     st.warning("⚠️ Budget überschritten")
 
-st.markdown("---")
 sleeper_username = st.text_input("Sleeper-Benutzername")
 sleeper_user_id = validate_sleeper_user(sleeper_username)
 
