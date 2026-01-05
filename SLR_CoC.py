@@ -2,9 +2,22 @@ import streamlit as st
 from sleeper_wrapper import User
 from datetime import datetime, timezone
 from supabase import create_client, Client
+import supabase
 import pandas as pd
 import uuid
 import requests
+from CoC_methods import (
+    load_leagues,
+    load_managers,
+    load_players,
+    load_weekly_player_stats,
+    validate_sleeper_user,
+    existing_submission,
+    load_latest_lineups,
+    build_player_select
+)
+
+
 
 # --------------------------------------------------
 # CONFIG
@@ -17,154 +30,28 @@ DIV_ROUND_WEEK = 1
 ROUND_NAME = "Divisional"
 BUDGET_LIMIT = 9
 
+DIV_ROUND_PRICES = {
+    "4881": 5,
+    "4866": 5,
+    "6794": 5,
+    "5012": 5,
+    "11566": 3,
+    "8150": 3,
+    "9493": 3,
+    "7600": 3,
+    "11563": 1,
+    "11584": 1,
+    "5045": 1,
+    "9484": 1,
+    "6797": 0,
+    "4018": 0,
+    "11618": 0,
+    "10236": 0
+}
 
 FIRST_GAME_KICKOFF = datetime(
     2026, 1, 10, 21, 30, tzinfo=timezone.utc  # Beispiel!
 )
-
-DIV_ROUND_PRICES = {
-    "4881": 5, "4866": 5, "6794": 5, "5012": 5,
-    "11566": 3, "8150": 3, "9493": 3, "7600": 3,
-    "11563": 1, "11584": 1, "5045": 1, "9484": 1,
-    "6797": 0, "4018": 0, "11618": 0, "10236": 0
-}
-
-# --------------------------------------------------
-# DATA LOADERS
-# --------------------------------------------------
-@st.cache_data(ttl=600)
-def load_leagues():
-    df = pd.DataFrame(
-        supabase.table("leagues")
-        .select("*")
-        .execute()
-        .data
-    )
-    return df[df["league_type"] != "empty"] \
-        .sort_values(by=["league_type", "league_sort"]) \
-        .reset_index(drop=True)
-
-
-@st.cache_data(ttl=600)
-def load_managers(batch_size=1000):
-    all_rows = []
-    start = 0
-
-    while True:
-        res = (
-            supabase.table("managers")
-            .select("league_id, roster_id, display_name")
-            .range(start, start + batch_size - 1)
-            .execute()
-        )
-
-        data = res.data
-        if not data:
-            break
-
-        all_rows.extend(data)
-        start += batch_size
-
-    return pd.DataFrame(all_rows)
-
-
-
-@st.cache_data(ttl=600)
-def load_players(player_ids):
-    df = pd.DataFrame(
-        supabase.table("nfl_players")
-        .select("*")
-        .in_("player_id", player_ids)
-        .execute()
-        .data
-    )
-    df["price"] = df["player_id"].map(DIV_ROUND_PRICES)
-    return df
-
-@st.cache_data(ttl=300)
-def load_weekly_player_stats(week: int) -> dict:
-    stats = {}  # ← DAS fehlte
-
-    for pid in DIV_ROUND_PRICES.keys():
-        url = (
-            f"https://api.sleeper.com/stats/nfl/player/{pid}"
-            f"?season_type=post&season=2024&grouping=week"
-        )
-
-        r = requests.get(url, timeout=10)
-        if r.status_code != 200:
-            stats[pid] = 0
-            continue
-
-        week_data = r.json().get(str(week))
-        if not week_data:
-            stats[pid] = 0
-            continue
-
-        s = week_data.get("stats", {})
-        stats[pid] = (
-            s.get("rush_yd", 0) / 10 +
-            s.get("rush_td", 0) * 6 +
-            s.get("rec_yd", 0) / 10 +
-            s.get("rec_td", 0) * 6 +
-            s.get("rec", 0) +
-            s.get("pass_yd", 0) / 25 +
-            s.get("pass_td", 0) * 4 -
-            s.get("pass_int", 0) -
-            s.get("fum_lost", 0) * 2 +
-            s.get("fgm_0_39", 0) * 3 +
-            s.get("fgm_40_49", 0) * 4 +
-            s.get("fgm_50_plus", 0) * 5 -
-            s.get("fgm_missed", 0) +
-            s.get("xpm", 0) -
-            s.get("xpm_missed", 0)
-        )
-
-    return stats
-
-
-@st.cache_data(ttl=120)
-def load_latest_lineups():
-    return pd.DataFrame(
-        supabase.table("latest_lineups_per_user")
-        .select("*")
-        .execute()
-        .data
-    )
-
-# --------------------------------------------------
-# HELPERS
-# --------------------------------------------------
-def validate_sleeper_user(username: str) -> str | None:
-    try:
-        return User(username).get_user_id()
-    except Exception:
-        return None
-
-
-def existing_submission(username: str) -> bool:
-    res = (
-        supabase.table("lineups")
-        .select("lineup_id")
-        .eq("sleeper_username", username.lower())
-        .eq("round", ROUND_NAME)
-        .execute()
-    )
-    return bool(res.data)
-
-
-def build_player_select(label, df, position, key):
-    options = df[df["position"] == position]
-    return st.selectbox(
-        label,
-        options=options["player_id"],
-        format_func=lambda pid: (
-            f"{options.loc[options.player_id == pid, 'name'].iloc[0]}"
-            f" (${options.loc[options.player_id == pid, 'price'].iloc[0]})"
-        ),
-        key=key
-    )
-# --------------------------------------------------
 
 leagues = load_leagues()
 managers = load_managers()
@@ -176,7 +63,7 @@ leagues = leagues.merge(
     how="left"
 ).rename(columns={"display_name": "champion"})
 
-players_df = load_players(list(DIV_ROUND_PRICES.keys()))
+players_df = load_players(list(DIV_ROUND_PRICES.keys()), DIV_ROUND_PRICES)
 players_df = players_df.sort_values(by=["position", "price"], ascending=[True, False])
 
 left, right = st.columns([2,15],width="stretch", vertical_alignment="center")
@@ -279,7 +166,7 @@ te = build_player_select("Tight End", players_df, "TE", "te")
 
 prices = players_df.set_index("player_id")["price"].to_dict()
 total_price = prices[qb] + prices[wr] + prices[rb] + prices[te]
-stats = load_weekly_player_stats(DIV_ROUND_WEEK)
+stats = load_weekly_player_stats(DIV_ROUND_WEEK, DIV_ROUND_PRICES)
 players_df["ppr_points"] = players_df["player_id"].map(stats).fillna(0)
 st.metric("💰 Budget", f"{total_price} $", delta=f"{BUDGET_LIMIT - total_price} $")
 
@@ -338,6 +225,7 @@ st.markdown("---")
 players_df["ppr_points"] = players_df["player_id"].map(stats).fillna(0)
 
 lineup_data = load_latest_lineups()
+lineup_data = lineup_data[lineup_data["round"] == "Divisional"].copy()
 
 lineup_data = lineup_data.merge(
     players_df[["player_id", "name", "ppr_points"]],
@@ -374,21 +262,23 @@ lineup_data = lineup_data.sort_values(
     ascending=[False, True]
 ).reset_index(drop=True)
 lineup_data.index += 1
+lineup_data["To 1st"] = lineup_data["total_points"].max() - lineup_data["total_points"]
 champion_set = set(leagues["champion"].str.lower())
 
 coc_data = lineup_data[
     lineup_data["sleeper_username"].str.lower().isin(champion_set)
 ].reset_index(drop=True)
+
 coc_data.index += 1
 st.markdown("#### Champ of Champs Rangliste")
-st.dataframe(coc_data[["total_points","sleeper_username", "QB", "QB Punkte","WR","WR Punkte",
+st.dataframe(coc_data[["total_points","sleeper_username", "To 1st", "QB", "QB Punkte","WR","WR Punkte",
                 "RB","RB Punkte","TE","TE Punkte"]],
                 column_config={
                 "total_points": "Punkte",
                 "sleeper_username": "Sleepername"
                 })
 st.markdown("#### Offene Runde")
-st.dataframe(lineup_data[["total_points","sleeper_username", "QB", "QB Punkte","WR","WR Punkte",
+st.dataframe(lineup_data[["total_points","sleeper_username", "To 1st", "QB", "QB Punkte","WR","WR Punkte",
                 "RB","RB Punkte","TE","TE Punkte"]],
                 column_config={
                 "total_points": "Punkte",
