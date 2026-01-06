@@ -17,7 +17,7 @@ from CoC_methods import (
     build_player_select
 )
 
-st.set_page_config(layout="wide")
+# st.set_page_config(layout="wide")
 
 
 # --------------------------------------------------
