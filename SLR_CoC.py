@@ -127,15 +127,12 @@ Folgendes Scoring wird angewendet:
 ''')
 st.write("#### Aktuelle Champions 2025")
 champs = st.expander("🏆 Liste der SL-Champs 2025")
-champs.dataframe(
-    leagues[["league_name", "champion"]], 
-    hide_index=True,
-    column_config={
-        # "league_type": "Typ",
-        "league_name": "Liga",
-        "champion": "Champion 2025"
-    }
-    )
+left, right = champs.columns(2)
+left.write("**Liga**")
+right.write("**Champion**")
+for _, col in leagues[["league_name", "champion"]].iterrows():
+    left.write(f"**{col['league_name'].strip()}**:")
+    right.write(f"{col['champion']}")
 st.divider()
 st.subheader("Wildcard Round")
 
@@ -273,14 +270,14 @@ coc_data = lineup_data[
 ].reset_index(drop=True)
 
 coc_data.index += 1
-st.markdown("#### Champ of Champs Rangliste")
+st.markdown("#### 👑 Champ of Champs Rangliste")
 st.dataframe(coc_data[["total_points","sleeper_username", "To 1st", "QB", "QB Punkte","WR","WR Punkte",
                 "RB","RB Punkte","TE","TE Punkte"]],
                 column_config={
                 "total_points": "Punkte",
                 "sleeper_username": "Sleepername"
                 })
-st.markdown("#### Offene Runde")
+st.markdown("#### 🏅 Offene Runde")
 st.dataframe(lineup_data[["total_points","sleeper_username", "To 1st", "QB", "QB Punkte","WR","WR Punkte",
                 "RB","RB Punkte","TE","TE Punkte"]],
                 column_config={
