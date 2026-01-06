@@ -89,6 +89,7 @@ Für die Champ-of-Champs-Krone zählen aber natürlich nur die Ergebnisse unter 
 
 *Für alle anderen gilt: Viel Spaß beim Mitmachen und mit den Champs messen!*''')
 st.divider()
+st.header("Organisatorisches")
 st.write('''
 #### 🏆 So funktioniert's:
 1. **Anmeldung:** Melde dich mit deinem Sleeper-Benutzernamen an.
@@ -104,7 +105,7 @@ st.write('''
 - **Gewinnerbekanntgabe:** Der Gewinner wird nach Abschluss der Postseason bekannt gegeben.
 ''')
 # st.markdown("---")
-Scoring_info = st.expander("ℹ️ Wie werden die Punkte berechnet?")
+Scoring_info = st.expander("Wie werden die Punkte berechnet?")
 Scoring_info.markdown('''
 Es gelten die Statistiken der sleeper-App sowie das Standard-Scoring der Stoned Lack Ligen (1 PPR).
                     
@@ -125,8 +126,8 @@ Folgendes Scoring wird angewendet:
 | Extra Points Made             | pro Extra Point                   | 1                |
 | Extra Points Missed           | pro Extra Point Missed                   | -1               |
 ''')
-st.write("#### Aktuelle Champions 2025")
-champs = st.expander("🏆 Liste der SL-Champs 2025")
+st.write("#### 🏆 Aktuelle Champions 2025")
+champs = st.expander("Liste der SL-Champs 2025")
 left, right = champs.columns(2)
 left.write("**Liga**")
 right.write("**Champion**")
@@ -134,7 +135,7 @@ for _, col in leagues[["league_name", "champion"]].iterrows():
     left.write(f"**{col['league_name'].strip()}**:")
     right.write(f"{col['champion']}")
 st.divider()
-st.subheader("Wildcard Round")
+st.header("Wildcard Round")
 
 st.image("Pictures/DIV_ROUND.webp", width="stretch")
 div_round_players = {
@@ -221,7 +222,7 @@ if st.button("Lineup absenden"):
         st.error("❌ Fehler beim Speichern.")
 
 st.markdown("---")
-
+st.header("Ranglisten")
 players_df["ppr_points"] = players_df["player_id"].map(stats).fillna(0)
 
 lineup_data = load_latest_lineups()
