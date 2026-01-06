@@ -1,0 +1,26 @@
+# =====================
+# LIGHT THEME
+# =====================
+[theme.light]
+backgroundColor = "#c3c9c5"
+textColor = "#284e24"
+primaryColor = "#35bd28"
+secondaryBackgroundColor = "#e3e7e4"
+
+[theme.light.sidebar]
+backgroundColor = "#b5beb9"
+textColor = "#1f3d2b"
+
+
+# =====================
+# DARK THEME
+# =====================
+[theme.dark]
+backgroundColor = "#2b3831ff"
+textColor = "#ca8113ff"
+primaryColor = "#35bd28"
+secondaryBackgroundColor = "#1f3d2b"
+
+[theme.dark.sidebar]
+backgroundColor = "#1a3626"
+textColor = "#e6f2ea"
