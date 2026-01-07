@@ -110,7 +110,8 @@ Scoring_info = st.expander("Wie werden die Punkte berechnet?")
 Scoring_info.markdown('''
 Es gelten die Statistiken der sleeper-App sowie das Standard-Scoring der Stoned Lack Ligen (1 PPR).
                     
-Folgendes Scoring wird angewendet:             
+Folgendes Scoring wird angewendet:
+                      <center>        
 | Kategorie                     | Wert                              | Punkt/e                |
 |-------------------------------|-----------------------------------|-----------------------|
 | Rushing / Receiving Yards     | pro 10 Yards                              | 1              |
@@ -119,14 +120,15 @@ Folgendes Scoring wird angewendet:
 | Passing Yards                 | pro 25 Yards                              | 1           |
 | Passing Touchdowns            | pro Touchdown                     | 4               |
 | Interceptions                 | pro Interception                  | -2              |
-| Fumble Lost                  | pro Fumble Lost                        | -2              |
-| Field Goal Made               | 0–39 Yards                        | 3               |
-| Field Goal Made               | 40–49 Yards                       | 4               |
-| Field Goal Made               | 50+ Yards                         | 5               |
-| Field Goal Missed             | pro Field Goal Missed                    | -1               |
-| Extra Points Made             | pro Extra Point                   | 1                |
-| Extra Points Missed           | pro Extra Point Missed                   | -1               |
-''')
+| Fumble Lost                  | pro Fumble Lost                        | -2              |</center>
+                      ''', unsafe_allow_html=True)
+# | Field Goal Made               | 0–39 Yards                        | 3               |
+# | Field Goal Made               | 40–49 Yards                       | 4               |
+# | Field Goal Made               | 50+ Yards                         | 5               |
+# | Field Goal Missed             | pro Field Goal Missed                    | -1               |
+# | Extra Points Made             | pro Extra Point                   | 1                |
+# | Extra Points Missed           | pro Extra Point Missed                   | -1               |
+
 st.write("#### 🏆 Aktuelle Champions 2025")
 champs = st.expander("Liste der SL-Champs 2025")
 left, right = champs.columns(2)

@@ -11,7 +11,7 @@ ROUND_NAME = "Divisional"
 # --------------------------------------------------
 # DATA LOADERS
 # --------------------------------------------------
-@st.cache_data(ttl=600)
+@st.cache_data(ttl=6000)
 def load_leagues():
     df = pd.DataFrame(
         supabase.table("leagues")
@@ -24,7 +24,7 @@ def load_leagues():
         .reset_index(drop=True)
 
 
-@st.cache_data(ttl=600)
+@st.cache_data(ttl=6000)
 def load_managers(batch_size=1000):
     all_rows = []
     start = 0
@@ -48,7 +48,7 @@ def load_managers(batch_size=1000):
 
 
 
-@st.cache_data(ttl=600)
+@st.cache_data(ttl=6000)
 def load_players(player_ids, prices):
     df = pd.DataFrame(
         supabase.table("nfl_players")
@@ -60,7 +60,7 @@ def load_players(player_ids, prices):
     df["price"] = df["player_id"].map(prices)
     return df
 
-@st.cache_data(ttl=300)
+@st.cache_data(ttl=60)
 def load_weekly_player_stats(week: int, prices) -> dict:
     stats = {}  # ← DAS fehlte
 
@@ -102,7 +102,7 @@ def load_weekly_player_stats(week: int, prices) -> dict:
     return stats
 
 
-@st.cache_data(ttl=120)
+@st.cache_data(ttl=60)
 def load_latest_lineups():
     return pd.DataFrame(
         supabase.table("latest_lineups_per_user")
