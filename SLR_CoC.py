@@ -29,7 +29,7 @@ ROUND_NAME = "Wildcard"
 BUDGET_LIMIT = 9
 
 DIV_ROUND_PRICES = {
-    "4881": 5,
+    "4984": 5,
     "4866": 5,
     "6794": 5,
     "5012": 5,
