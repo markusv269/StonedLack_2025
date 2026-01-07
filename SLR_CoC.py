@@ -266,6 +266,8 @@ lineup_data = lineup_data.sort_values(
 ).reset_index(drop=True)
 lineup_data.index += 1
 lineup_data["To 1st"] = lineup_data["total_points"].max() - lineup_data["total_points"]
+if datetime.now(timezone.utc) < FIRST_GAME_KICKOFF:
+    lineup_data[["QB","WR","RB","TE"]] = "-"
 champion_set = set(leagues["champion"].str.lower())
 
 coc_data = lineup_data[
