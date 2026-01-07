@@ -7,7 +7,7 @@ SUPABASE_URL = st.secrets["supabase"]["url"]
 SUPABASE_KEY = st.secrets["supabase"]["key"]
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-ROUND_NAME = "Divisional"
+ROUND_NAME = "Wildcard"
 # --------------------------------------------------
 # DATA LOADERS
 # --------------------------------------------------
@@ -67,7 +67,7 @@ def load_weekly_player_stats(week: int, prices) -> dict:
     for pid in prices.keys():
         url = (
             f"https://api.sleeper.com/stats/nfl/player/{pid}"
-            f"?season_type=post&season=2024&grouping=week"
+            f"?season_type=post&season=2025&grouping=week"
         )
 
         r = requests.get(url, timeout=10)

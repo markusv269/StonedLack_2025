@@ -1,11 +1,8 @@
 import streamlit as st
-from sleeper_wrapper import User
 from datetime import datetime, timezone
 from supabase import create_client, Client
 import supabase
-import pandas as pd
 import uuid
-import requests
 from CoC_methods import (
     load_leagues,
     load_managers,
@@ -28,7 +25,7 @@ SUPABASE_KEY = st.secrets["supabase"]["key"]
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 DIV_ROUND_WEEK = 1
-ROUND_NAME = "Divisional"
+ROUND_NAME = "Wildcard"
 BUDGET_LIMIT = 9
 
 DIV_ROUND_PRICES = {
@@ -229,7 +226,7 @@ st.header("Ranglisten")
 players_df["ppr_points"] = players_df["player_id"].map(stats).fillna(0)
 
 lineup_data = load_latest_lineups()
-lineup_data = lineup_data[lineup_data["round"] == "Divisional"].copy()
+lineup_data = lineup_data[lineup_data["round"] == ROUND_NAME].copy()
 
 lineup_data = lineup_data.merge(
     players_df[["player_id", "name", "ppr_points"]],
