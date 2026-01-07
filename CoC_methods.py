@@ -89,7 +89,7 @@ def load_weekly_player_stats(week: int, prices) -> dict:
             s.get("rec", 0) +
             s.get("pass_yd", 0) / 25 +
             s.get("pass_td", 0) * 4 -
-            s.get("pass_int", 0) -
+            s.get("pass_int", 0) * 2 -
             s.get("fum_lost", 0) * 2 +
             s.get("fgm_0_39", 0) * 3 +
             s.get("fgm_40_49", 0) * 4 +

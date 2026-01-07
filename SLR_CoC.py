@@ -227,6 +227,8 @@ players_df["ppr_points"] = players_df["player_id"].map(stats).fillna(0)
 
 lineup_data = load_latest_lineups()
 lineup_data = lineup_data[lineup_data["round"] == ROUND_NAME].copy()
+if datetime.now(timezone.utc) < FIRST_GAME_KICKOFF:
+    lineup_data = lineup_data[lineup_data["submission_time"] <= FIRST_GAME_KICKOFF.isoformat()]
 
 lineup_data = lineup_data.merge(
     players_df[["player_id", "name", "ppr_points"]],
