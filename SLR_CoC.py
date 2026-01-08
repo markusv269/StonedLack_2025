@@ -137,6 +137,7 @@ right.write("**Champion**")
 for _, col in leagues[["league_name", "champion"]].iterrows():
     left.write(f"**{col['league_name'].strip()}**:")
     right.write(f"{col['champion']}")
+n_winner = len(leagues["champion"].unique())
 st.divider()
 st.header("Wildcard Round")
 
@@ -284,7 +285,9 @@ coc_data = lineup_data[
 ].reset_index(drop=True)
 
 coc_data.index += 1
+n_participants = len(coc_data)
 st.markdown("#### 👑 Champ of Champs Rangliste")
+st.write(f":blue[Aktuell nehmen {n_participants} von {n_winner} Champions am Tippspiel teil.]")
 st.dataframe(coc_data[["total_points","sleeper_username", "To 1st", "QB", "QB pts","WR","WR pts",
                 "RB","RB pts","TE","TE pts"]],
                 column_config={
@@ -292,6 +295,7 @@ st.dataframe(coc_data[["total_points","sleeper_username", "To 1st", "QB", "QB pt
                 "sleeper_username": "Sleeper"
                 })
 st.markdown("#### 🏅 Offene Runde")
+st.write(f":blue[Insgesamt wurden {len(lineup_data)} Lineups eingereicht.]")
 st.dataframe(lineup_data[["total_points","sleeper_username", "To 1st", "QB", "QB pts","WR","WR pts",
                 "RB","RB pts","TE","TE pts"]],
                 column_config={
