@@ -73,9 +73,7 @@ with left:
 
 with right:
     st.header("Champ of Champs Tippspiel")
-             
-# left, right = st.columns([2,15],width="stretch")
-# with right:
+
 st.write('''             
 Liebe Stoned Lack Army,
 das **Champ-of-Champs Tippspiel** kürt den ultimativen Champion der Stoned Lack Ligen in der Saison 2025!
@@ -93,7 +91,8 @@ st.divider()
 st.header("Organisatorisches")
 st.write('''
 #### 🏆 So funktioniert's:
-1. **Anmeldung:** Melde dich mit deinem Sleeper-Benutzernamen an.
+1. **Anmeldung:** Melde dich mit deinem Sleeper-Benutzernamen an.  
+          Jeder Champion kann nur einmalig teilnehmen, auch wenn er/sie in mehreren Ligen gewonnen hat.
 2. **Tipps abgeben:** Wähle in der aktuellen Tipprunde dein Lineup.
 3. **Punkte sammeln**: Sammle über die komplette Postseason Punkte basierend auf den Leistungen deiner getippten Spieler.
 4. **Gewinnen:** Der Champ mit den meisten Punkten am Ende der Postseason gewinnt die Champ-of-Champs-Krone!
@@ -138,6 +137,7 @@ for _, col in leagues[["league_name", "champion"]].iterrows():
     left.write(f"**{col['league_name'].strip()}**:")
     right.write(f"{col['champion']}")
 n_winner = len(leagues["champion"].unique())
+n_leagues = len(leagues["league_name"].unique())
 st.divider()
 st.header("Wildcard Round")
 
@@ -287,7 +287,7 @@ coc_data = lineup_data[
 coc_data.index += 1
 n_participants = len(coc_data)
 st.markdown("#### 👑 :yellow[Champ of Champs Rangliste]")
-st.write(f":blue[Aktuell nehmen {n_participants} von {n_winner} Champions am Tippspiel teil.]")
+st.write(f":blue[Aktuell nehmen {n_participants} von {n_winner} Champions aus {n_leagues} Ligen am Tippspiel teil.]")
 st.dataframe(coc_data[["total_points","sleeper_username", "To 1st", "QB", "QB pts","WR","WR pts",
                 "RB","RB pts","TE","TE pts"]],
                 column_config={
