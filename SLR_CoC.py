@@ -1,5 +1,6 @@
 import streamlit as st
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from supabase import create_client, Client
 import supabase
 import uuid
@@ -13,6 +14,7 @@ from CoC_methods import (
     load_latest_lineups,
     build_player_select
 )
+import pandas as pd
 
 # st.set_page_config(layout="wide")
 
@@ -24,7 +26,7 @@ SUPABASE_URL = st.secrets["supabase"]["url"]
 SUPABASE_KEY = st.secrets["supabase"]["key"]
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-DIV_ROUND_WEEK = 1
+POST_WEEK = 1
 ROUND_NAME = "Wildcard"
 BUDGET_LIMIT = 9
 
@@ -50,7 +52,8 @@ DIV_ROUND_PRICES = {
 FIRST_GAME_KICKOFF = datetime(
     2026, 1, 10, 21, 30, tzinfo=timezone.utc  # Beispiel!
 )
-
+FIRST_GAME_KICKOFF = FIRST_GAME_KICKOFF.replace(tzinfo=ZoneInfo("UTC"))
+berlin_time = FIRST_GAME_KICKOFF.astimezone(ZoneInfo("Europe/Berlin"))
 leagues = load_leagues()
 managers = load_managers()
 
@@ -96,10 +99,10 @@ st.write('''
 4. **Gewinnen:** Der Champ mit den meisten Punkten am Ende der Postseason gewinnt die Champ-of-Champs-Krone!
 ''')
 st.divider()
-st.write('''
+st.write(f'''
 #### 📅 Wichtige Daten:
 - **Anmeldung & Tipps abgeben:** die Tippabgabe ist in der jeweiligen Woche bis zum Beginn der ersten Partie möglich.
-- **Postseason:** Die Postseason beginnt nach Abschluss der regulären Saison 2025.
+- **Wildcard:** Die Wildcard-Runde kann bis zum {berlin_time.strftime("%d.%m.%Y um %H:%M Uhr")} getippt werden.
 - **Gewinnerbekanntgabe:** Der Gewinner wird nach Abschluss der Postseason bekannt gegeben.
 ''')
 # st.markdown("---")
@@ -156,70 +159,76 @@ div_round_players = {
     "11618":0,
     "10236":0
 }
-
-st.markdown("---")
-left, right = st.columns(2)
-with left:
-    qb = build_player_select("Quarterback", players_df, "QB", "qb")
-    wr = build_player_select("Wide Receiver", players_df, "WR", "wr")
-with right:
-    rb = build_player_select("Running Back", players_df, "RB", "rb")
-    te = build_player_select("Tight End", players_df, "TE", "te")
-
-prices = players_df.set_index("player_id")["price"].to_dict()
-total_price = prices[qb] + prices[wr] + prices[rb] + prices[te]
-stats = load_weekly_player_stats(DIV_ROUND_WEEK, DIV_ROUND_PRICES)
-players_df["ppr_points"] = players_df["player_id"].map(stats).fillna(0)
-st.metric(label="Budget Auswahl",value=f"{total_price} $", delta=f"{total_price - BUDGET_LIMIT} $", border=True,delta_color="inverse")
-
-if total_price > BUDGET_LIMIT:
-    st.warning("⚠️ Budget überschritten")
-
-sleeper_username = st.text_input("Sleeper-Benutzername")
-sleeper_user_id = validate_sleeper_user(sleeper_username)
-
-if st.button("Lineup absenden"):
-    now_utc = datetime.now(timezone.utc)
-
-    if now_utc >= FIRST_GAME_KICKOFF:
-        st.error("⏰ Die Eingabe ist nicht mehr möglich. Das erste Spiel hat bereits begonnen.")
-        st.stop()
-
-    if not sleeper_user_id:
-        st.error("Sleeper-Benutzername existiert nicht.")
-        st.stop()
-
-
-    if not validate_sleeper_user(sleeper_username):
-        st.error("Sleeper-Benutzername existiert nicht.")
-        st.stop()
-
-    if existing_submission(sleeper_username):
-        st.warning("Dein Lineup wurde erfolgreich aktualisiert.")
-
-    if total_price > BUDGET_LIMIT:
-        st.error("Budget überschritten.")
-        st.stop()
-
-    lineup = {
-        "lineup_id": str(uuid.uuid4()),
-        "sleeper_username": sleeper_username.lower(),
-        "sleeper_user_id": sleeper_user_id,
-        "qb_id": qb,
-        "wr_id": wr,
-        "rb_id": rb,
-        "te_id": te,
-        "total_price": total_price,
-        "round": ROUND_NAME,
-        "week": DIV_ROUND_WEEK,
-        "submission_time": datetime.now().isoformat()
-    }
-
-    res = supabase.table("lineups").insert(lineup).execute()
-    if res.data:
-        st.success("✅ Lineup erfolgreich gespeichert!")
+lineup_form = st.container()
+with lineup_form:
+    stats = load_weekly_player_stats(POST_WEEK, DIV_ROUND_PRICES)
+    players_df["ppr_points"] = players_df["player_id"].map(stats).fillna(0)
+    if datetime.now(timezone.utc) >= FIRST_GAME_KICKOFF:
+        st.error(f"⏰ Die Eingabe für die {ROUND_NAME} ist nicht mehr möglich. Das erste Spiel hat bereits begonnen.")
+        points_chart = st.container()
     else:
-        st.error("❌ Fehler beim Speichern.")
+        st.markdown("---")
+        left, right = st.columns(2)
+        with left:
+            qb = build_player_select("Quarterback", players_df, "QB", "qb")
+            wr = build_player_select("Wide Receiver", players_df, "WR", "wr")
+        with right:
+            rb = build_player_select("Running Back", players_df, "RB", "rb")
+            te = build_player_select("Tight End", players_df, "TE", "te")
+
+        prices = players_df.set_index("player_id")["price"].to_dict()
+        total_price = prices[qb] + prices[wr] + prices[rb] + prices[te]
+        
+        st.metric(label="Budget Auswahl",value=f"{total_price} $", delta=f"{total_price - BUDGET_LIMIT} $", border=True,delta_color="inverse")
+
+        if total_price > BUDGET_LIMIT:
+            st.warning("⚠️ Budget überschritten")
+
+        sleeper_username = st.text_input("Sleeper-Benutzername")
+        sleeper_user_id = validate_sleeper_user(sleeper_username)
+
+        if st.button("Lineup absenden"):
+            now_utc = datetime.now(timezone.utc)
+
+            if now_utc >= FIRST_GAME_KICKOFF:
+                st.error("⏰ Die Eingabe ist nicht mehr möglich. Das erste Spiel hat bereits begonnen.")
+                st.stop()
+
+            if not sleeper_user_id:
+                st.error("Sleeper-Benutzername existiert nicht.")
+                st.stop()
+
+
+            if not validate_sleeper_user(sleeper_username):
+                st.error("Sleeper-Benutzername existiert nicht.")
+                st.stop()
+
+            if existing_submission(sleeper_username):
+                st.warning("Dein Lineup wurde erfolgreich aktualisiert.")
+
+            if total_price > BUDGET_LIMIT:
+                st.error("Budget überschritten.")
+                st.stop()
+
+            lineup = {
+                "lineup_id": str(uuid.uuid4()),
+                "sleeper_username": sleeper_username.lower(),
+                "sleeper_user_id": sleeper_user_id,
+                "qb_id": qb,
+                "wr_id": wr,
+                "rb_id": rb,
+                "te_id": te,
+                "total_price": total_price,
+                "round": ROUND_NAME,
+                "week": POST_WEEK,
+                "submission_time": datetime.now().isoformat()
+            }
+
+            res = supabase.table("lineups").insert(lineup).execute()
+            if res.data:
+                st.success("✅ Lineup erfolgreich gespeichert!")
+            else:
+                st.error("❌ Fehler beim Speichern.")
 
 st.markdown("---")
 st.header("Ranglisten")
@@ -235,30 +244,30 @@ lineup_data = lineup_data.merge(
     left_on="qb_id",
     right_on="player_id",
     how="left"
-).rename(columns={"name": "QB", "ppr_points": "QB Punkte"}).drop(columns=["player_id"])
+).rename(columns={"name": "QB", "ppr_points": "QB pts"}).drop(columns=["player_id"])
 lineup_data = lineup_data.merge(
     players_df[["player_id", "name", "ppr_points"]],
     left_on="wr_id",
     right_on="player_id",
     how="left"
-).rename(columns={"name": "WR", "ppr_points": "WR Punkte"}).drop(columns=["player_id"])
+).rename(columns={"name": "WR", "ppr_points": "WR pts"}).drop(columns=["player_id"])
 lineup_data = lineup_data.merge(
     players_df[["player_id", "name", "ppr_points"]],
     left_on="rb_id",
     right_on="player_id",
     how="left"
-).rename(columns={"name": "RB", "ppr_points": "RB Punkte"}).drop(columns=["player_id"])
+).rename(columns={"name": "RB", "ppr_points": "RB pts"}).drop(columns=["player_id"])
 lineup_data = lineup_data.merge(
     players_df[["player_id", "name", "ppr_points"]],
     left_on="te_id",
     right_on="player_id",
     how="left"
-).rename(columns={"name": "TE", "ppr_points": "TE Punkte"}).drop(columns=["player_id"])
+).rename(columns={"name": "TE", "ppr_points": "TE pts"}).drop(columns=["player_id"])
 lineup_data["total_points"] = (
-    lineup_data["QB Punkte"].fillna(0) +
-    lineup_data["WR Punkte"].fillna(0) +
-    lineup_data["RB Punkte"].fillna(0) +
-    lineup_data["TE Punkte"].fillna(0)
+    lineup_data["QB pts"].fillna(0) +
+    lineup_data["WR pts"].fillna(0) +
+    lineup_data["RB pts"].fillna(0) +
+    lineup_data["TE pts"].fillna(0)
 )   
 lineup_data = lineup_data.sort_values(
     by=["total_points", "submission_time"],
@@ -276,18 +285,57 @@ coc_data = lineup_data[
 
 coc_data.index += 1
 st.markdown("#### 👑 Champ of Champs Rangliste")
-st.dataframe(coc_data[["total_points","sleeper_username", "To 1st", "QB", "QB Punkte","WR","WR Punkte",
-                "RB","RB Punkte","TE","TE Punkte"]],
+st.dataframe(coc_data[["total_points","sleeper_username", "To 1st", "QB", "QB pts","WR","WR pts",
+                "RB","RB pts","TE","TE pts"]],
                 column_config={
                 "total_points": "Punkte",
-                "sleeper_username": "Sleepername"
+                "sleeper_username": "Sleeper"
                 })
 st.markdown("#### 🏅 Offene Runde")
-st.dataframe(lineup_data[["total_points","sleeper_username", "To 1st", "QB", "QB Punkte","WR","WR Punkte",
-                "RB","RB Punkte","TE","TE Punkte"]],
+st.dataframe(lineup_data[["total_points","sleeper_username", "To 1st", "QB", "QB pts","WR","WR pts",
+                "RB","RB pts","TE","TE pts"]],
                 column_config={
                 "total_points": "Punkte",
-                "sleeper_username": "Sleepername"
+                "sleeper_username": "Sleeper"
                 })
+
+# player_chart = st.expander("Spielerpunkte Übersicht")
+rows = []
+
+for position in ["QB", "WR", "RB", "TE"]:
+    row = {"Position": position}
+
+    for price in [5, 3, 1, 0]:
+        pts = players_df[
+            (players_df["position"] == position) &
+            (players_df["price"] == price)
+        ]
+
+        if not pts.empty:
+            top = pts.loc[pts["ppr_points"].idxmax()]
+            row[f"${price}"] = (
+                f"<div style='text-align:center'>"
+                f"<strong>{top['name']}</strong><br>"
+                f"{pts['ppr_points'].sum():.2f}"
+                f"</div>"
+            )
+        else:
+            row[f"${price}"] = "–"
+
+    rows.append(row)
+
+df = pd.DataFrame(rows)
+html = df.to_html(
+    escape=False,
+    index=False
+)
+
+html = html.replace(
+    "<table",
+    "<table style='margin-left:auto;margin-right:auto;text-align:center'"
+)
+if datetime.now(timezone.utc) >= FIRST_GAME_KICKOFF:
+    points_chart.markdown(html, unsafe_allow_html=True)
+
 st.markdown("---")
 st.write("© 2026 Stoned Lack Army")
