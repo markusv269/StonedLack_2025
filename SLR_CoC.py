@@ -32,21 +32,21 @@ BUDGET_LIMIT = 9
 
 DIV_ROUND_PRICES = {
     "4984": 5,
-    "4866": 5,
-    "6794": 5,
-    "5012": 5,
-    "11566": 3,
-    "8150": 3,
-    "9493": 3,
-    "7600": 3,
-    "11563": 1,
-    "11584": 1,
-    "5045": 1,
-    "9484": 1,
+    "4034": 5,
+    "9493": 5,
+    "4217": 5,
+    "11564": 3,
+    "7543": 3,
+    "7569": 3,
+    "5022": 3,
+    "7523": 1,
+    "7567": 1,
+    "8167": 1,
+    "5001": 1,
     "6797": 0,
-    "4018": 0,
-    "11618": 0,
-    "10236": 0
+    "6790": 0,
+    "12526": 0,
+    "12517": 0
 }
 
 FIRST_GAME_KICKOFF = datetime(
@@ -141,25 +141,8 @@ n_leagues = len(leagues["league_name"].unique())
 st.divider()
 st.header("Wildcard Round")
 
-st.image("Pictures/DIV_ROUND.webp", width="stretch")
-div_round_players = {
-    "4881":5,
-    "4866":5,
-    "6794":5,
-    "5012":5,
-    "11566":3,
-    "8150":3,
-    "9493":3,
-    "7600":3,
-    "11563":1,
-    "11584":1,
-    "5045":1,
-    "9484":1,
-    "6797":0,
-    "4018":0,
-    "11618":0,
-    "10236":0
-}
+st.image("Pictures/IMG_5295.webp", width="stretch")
+
 lineup_form = st.container()
 with lineup_form:
     stats = load_weekly_player_stats(POST_WEEK, DIV_ROUND_PRICES)
