@@ -295,7 +295,7 @@ st.dataframe(coc_data[["total_points","sleeper_username", "To 1st", "QB", "QB pt
                 "sleeper_username": "Sleeper"
                 })
 st.markdown("#### 🏅 :red[Offene Runde]")
-st.write(f":blue[Insgesamt wurden {len(lineup_data)} Lineups eingereicht.]")
+st.write(f":blue[Insgesamt wurde{'' if len(lineup_data) == 1 else 'n'} {len(lineup_data)} Lineup{'' if len(lineup_data) == 1 else 's'} eingereicht.]")
 st.dataframe(lineup_data[["total_points","sleeper_username", "To 1st", "QB", "QB pts","WR","WR pts",
                 "RB","RB pts","TE","TE pts"]],
                 column_config={
