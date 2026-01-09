@@ -216,6 +216,11 @@ with lineup_form:
 
 st.markdown("---")
 st.header("Ranglisten")
+if st.button("🔄 Ranglisten neu laden", type="tertiary"):
+    load_latest_lineups.clear()
+    load_weekly_player_stats.clear()
+    # st.cache_resource.clear()
+    st.rerun()
 players_df["ppr_points"] = players_df["player_id"].map(stats).fillna(0)
 
 lineup_data = load_latest_lineups()
