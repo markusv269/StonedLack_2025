@@ -15,6 +15,7 @@ from CoC_methods import (
     build_player_select
 )
 import pandas as pd
+import itertools
 
 # st.set_page_config(layout="wide")
 
@@ -214,6 +215,45 @@ with lineup_form:
             else:
                 st.error("❌ Fehler beim Speichern.")
 
+lineups = []
+
+qb = players_df[players_df["position"] == "QB"]
+wr = players_df[players_df["position"] == "WR"]
+rb = players_df[players_df["position"] == "RB"]
+te = players_df[players_df["position"] == "TE"]
+
+for q, w, r, t in itertools.product(
+    qb.itertuples(index=False),
+    wr.itertuples(index=False),
+    rb.itertuples(index=False),
+    te.itertuples(index=False),
+):
+    total_cost = q.price + w.price + r.price + t.price
+
+    if total_cost <= 9:
+        total_points = q.ppr_points + w.ppr_points + r.ppr_points + t.ppr_points
+
+        lineups.append({
+            "QB": q.name,
+            "WR": w.name,
+            "RB": r.name,
+            "TE": t.name,
+            "cost": total_cost,
+            "points": round(total_points, 2)
+        })
+
+lineups_df = pd.DataFrame(lineups)
+
+best_lineup = lineups_df.loc[lineups_df["points"].idxmax()]
+worst_lineup = lineups_df.loc[lineups_df["points"].idxmin()]
+left, right = st.columns(2)
+for label, lineup, side in [("#### ⭐️ :green[Bestmögliches Lineup]", best_lineup, left), ("#### ⛔️ :red[Schlechtestes Lineup]", worst_lineup, right)]:
+    side.markdown(f"{label} (Kosten: {lineup['cost']} $, Punkte: {lineup['points']})")
+    side.write(f'''QB: {lineup['QB']}  
+        WR: {lineup['WR']}   
+        RB: {lineup['RB']}   
+        TE: {lineup['TE']}'''
+    )
 st.markdown("---")
 st.header("Ranglisten")
 if st.button("🔄 Ranglisten neu laden", type="tertiary"):
@@ -291,7 +331,6 @@ st.dataframe(lineup_data[["total_points","sleeper_username", "To 1st", "QB", "QB
                 "sleeper_username": "Sleeper"
                 })
 
-# player_chart = st.expander("Spielerpunkte Übersicht")
 rows = []
 
 for position in ["QB", "WR", "RB", "TE"]:
