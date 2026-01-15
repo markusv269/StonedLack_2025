@@ -7,7 +7,7 @@ SUPABASE_URL = st.secrets["supabase"]["url"]
 SUPABASE_KEY = st.secrets["supabase"]["key"]
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-ROUND_NAME = "Wildcard"
+ROUND_NAME = "Divisional"
 # --------------------------------------------------
 # DATA LOADERS
 # --------------------------------------------------
@@ -84,11 +84,14 @@ def load_weekly_player_stats(week: int, prices) -> dict:
         stats[pid] = (
             s.get("rush_yd", 0) / 10 +
             s.get("rush_td", 0) * 6 +
+            s.get("rush_2pt", 0) * 2 +
             s.get("rec_yd", 0) / 10 +
             s.get("rec_td", 0) * 6 +
             s.get("rec", 0) +
+            s.get("rec_2pt", 0) * 2 +
             s.get("pass_yd", 0) / 25 +
-            s.get("pass_td", 0) * 4 -
+            s.get("pass_td", 0) * 4 +
+            s.get("pass_2pt", 0) * 2 -
             s.get("pass_int", 0) * 2 -
             s.get("fum_lost", 0) * 2 +
             s.get("fgm_0_39", 0) * 3 +
