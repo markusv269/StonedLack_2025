@@ -33,7 +33,7 @@ ROUND_CONFIGS = {
     "Wildcard": {
         "week": 1,
         "budget": 9,
-        "kickoff_utc": datetime(2026, 1, 14, 21, 30, tzinfo=timezone.utc),
+        "kickoff_utc": datetime(2026, 1, 10, 21, 30, tzinfo=timezone.utc),
         "prices": {
             "4984": 5,
             "4034": 5,
