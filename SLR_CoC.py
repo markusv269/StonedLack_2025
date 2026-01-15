@@ -80,6 +80,24 @@ ROUND_CONFIGS = {
         },
         # "image": "Pictures/IMG_5295.webp",
     },
+    "Conference": {
+        "week": 3,
+        "budget": 9,
+        "kickoff_utc": datetime(2026, 1, 24, 21, 30, tzinfo=timezone.utc),
+        "prices": {
+            # Hier die echten Conference-IDs/Preise rein
+        },
+        # "image": "Pictures/IMG_5295.webp",
+    },
+    "Super Bowl": {
+        "week": 4,
+        "budget": 9,    
+        "kickoff_utc": datetime(2026, 2, 9, 23, 30, tzinfo=timezone.utc),
+        "prices": {
+            # Hier die echten Super Bowl-IDs/Preise rein
+        },
+        # "image": "Pictures/IMG_5295.webp",
+    },
 }
 
 berlin_time = ROUND_CONFIGS["Divisional"]["kickoff_utc"].astimezone(ZoneInfo("Europe/Berlin"))
@@ -554,13 +572,19 @@ n_leagues = len(leagues["league_name"].unique())
 st.divider()
 
 # Tabs
-tab_wc, tab_div, tab_total = st.tabs(["Wildcard", "Divisional", "Gesamt"])
+tab_wc, tab_div, tab_conf, tab_sb, tab_total = st.tabs(["Wildcard", "Divisional", "Conference", "Super Bowl", "Gesamtwertung"])
 
 with tab_wc:
     render_round("Wildcard", ROUND_CONFIGS["Wildcard"], leagues)
 
 with tab_div:
     render_round("Divisional", ROUND_CONFIGS["Divisional"], leagues)
+
+with tab_conf:
+    render_round("Conference", ROUND_CONFIGS["Conference"], leagues)
+
+with tab_sb:
+    render_round("Super Bowl", ROUND_CONFIGS["Super Bowl"], leagues)
 
 with tab_total:
     render_total(leagues)
