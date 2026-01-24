@@ -83,11 +83,27 @@ ROUND_CONFIGS = {
     "Conference": {
         "week": 3,
         "budget": 9,
-        "kickoff_utc": datetime(2026, 1, 24, 21, 30, tzinfo=timezone.utc),
+        "kickoff_utc": datetime(2026, 1, 25, 20, 0, tzinfo=timezone.utc),
         "prices": {
-            # Hier die echten Conference-IDs/Preise rein
+            "11564": 5,
+            "8150": 5,
+            "9488": 5,
+            "3214": 5,
+            "421": 3,
+            "8151": 3,
+            "2133": 3,
+            "4066": 3,
+            "4943": 1,
+            "12489": 1,
+            "9494": 1,
+            "6865": 1,
+            "6136": 0,
+            "7611": 0,
+            "9504": 0,
+            "11603": 0,
+            
         },
-        # "image": "Pictures/IMG_5295.webp",
+        "image": "Pictures/Cheers_2.webp",
     },
     "Super Bowl": {
         "week": 4,
