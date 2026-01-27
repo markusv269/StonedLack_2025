@@ -588,7 +588,7 @@ n_leagues = len(leagues["league_name"].unique())
 st.divider()
 
 # Tabs
-tab_wc, tab_div, tab_conf, tab_sb, tab_total = st.tabs(["Wildcard", "Divisional", "Conference", "Super Bowl", "Gesamtwertung"], default="Divisional")
+tab_wc, tab_div, tab_conf, tab_sb, tab_total = st.tabs(["Wildcard", "Divisional", "Conference", "Super Bowl", "Gesamtwertung"], default="Conference")
 
 with tab_wc:
     render_round("Wildcard", ROUND_CONFIGS["Wildcard"], leagues)
