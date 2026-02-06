@@ -78,13 +78,20 @@ ROUND_CONFIGS = {
 
         # ✅ feste Multiplikatoren pro Spieler-ID (wie vorher Preise)
         "prices": {
-            # "4984": 5,   # Spieler A ist x5
-            # "4034": 5,   # Spieler B ist x5
-            # "9493": 3,   # Spieler C ist x3
-            # "4217": 1,   # Spieler D ist x1
-            # ...
+            "11564": 1,   # Maye
+            "4943": 1,   # Darnold
+            "9488": 1,   # JSN
+            "3214": 1,   # Henry
+            "8151": 3, # Walker
+            "7611": 3, # Stevenson
+            "2449": 3, # Diggs
+            "4039":3, # Kupp
+            "9504": 5,# Boutte
+            "12713": 5, # Kicker
+            "2747":5 , # Kicker
+            "11603":5, # AJ Barner
         },
-        # "image": "Pictures/Cheers_2.webp",
+        "image": "Pictures/SB.png"
 },
 }
 
@@ -776,7 +783,7 @@ n_leagues = len(leagues["league_name"].unique())
 st.divider()
 
 # Tabs
-tab_wc, tab_div, tab_conf, tab_sb, tab_total = st.tabs(["Wildcard", "Divisional", "Conference", "Super Bowl", "Gesamtwertung"], default="Gesamtwertung")
+tab_wc, tab_div, tab_conf, tab_sb, tab_total = st.tabs(["Wildcard", "Divisional", "Conference", "Super Bowl", "Gesamtwertung"], default="Super Bowl")
 
 with tab_wc:
     render_round("Wildcard", ROUND_CONFIGS["Wildcard"], leagues)
