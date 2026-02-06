@@ -326,7 +326,10 @@ def render_super_bowl_fixed_multipliers(round_name: str, cfg: dict, players_df: 
 
     # Picks verstecken solange Runde offen
     if datetime.now(timezone.utc) < kickoff_utc:
-        lineup_data[["P1", "P2", "P3"]] = "-"
+        lineup_data[["P1", "P2", "P3", "P1 mult", "P2 mult", "P3 mult"]] = "-"
+    
+    # if datetime.now(timezone.utc) < kickoff_utc:
+    #     lineup_data[["P1", "P2", "P3"]] = "-"
 
     champion_set = set(leagues["champion"].dropna().str.lower())
     coc_data = lineup_data[lineup_data["sleeper_username"].str.lower().isin(champion_set)].copy().reset_index(drop=True)
