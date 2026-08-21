@@ -11,7 +11,7 @@ supabase: Client = create_client(url, key)
 BATCH_SIZE = 1000  # Batch-Größe für Upserts
 
 # --- Alle Drafts abrufen ---
-drafts = supabase.table("drafts").select("draft_id").execute().neq("previous_status", "complete").execute()
+drafts = supabase.table("drafts").select("draft_id").neq("previous_status", "complete").execute()
 draft_ids = [d["draft_id"] for d in drafts.data]
 
 # --- Picks für jeden Draft abrufen ---
