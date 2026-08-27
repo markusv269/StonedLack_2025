@@ -59,7 +59,7 @@ for league_id in league_ids:
         "is_dynasty": is_dynasty,
         "is_bestball": is_bestball,
         "is_idp": is_idp,
-        "is_idponly": is_idponly
+        "is_idponly": is_idponly,
         "status": league.get("status", "")
       })
         
