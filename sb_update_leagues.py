@@ -1,5 +1,6 @@
 from supabase import create_client, Client 
-import requests import os 
+import requests 
+import os 
 
 # Supabase Credentials aus Environment Variables 
 supabase_url: str = os.environ["SUPABASE_URL"] 
