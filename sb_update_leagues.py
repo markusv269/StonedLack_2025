@@ -47,7 +47,7 @@ for league_id in league_ids:
     roster = league.get("roster_positions", []) 
     is_idp = any( 
         position in roster 
-        for position in ("IDP", "CB", "DT", "DE")
+        for position in ("IDP_FLEX", "LB", "DL", "DB")
     ) 
     if is_idp:
         leaguetype_sb.append("idp")
