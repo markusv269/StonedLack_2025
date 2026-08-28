@@ -34,7 +34,8 @@ for league_id in league_ids:
     elif league_type == 2: 
         is_redraft, is_dynasty = False, True 
         leaguetype_sb.append("dynasty")
-    else: is_redraft = is_dynasty = None
+    else: 
+        is_redraft = is_dynasty = False
         leaguetype_sb.append("unknown")
 
     # Best Ball 
