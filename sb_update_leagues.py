@@ -65,8 +65,8 @@ for league_id in league_ids:
     })
 
     if len(batch) >= BATCH_SIZE: 
-        supabase.table("leagues").upsert(batch).execute() 
+        supabase.table("leagues").upsert(batch, on_conflict="league_id").execute() 
         batch = []
     
 if batch:
-    supabase.table("leagues").upsert(batch).execute()
+    supabase.table("leagues").upsert(batch, on_conflict="league_id").execute()
